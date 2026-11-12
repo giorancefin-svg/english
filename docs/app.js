@@ -230,10 +230,11 @@
   function runRound(mode, pool) {
     const words = chooseWords(pool, settings.round);
     let i = 0, score = 0;
+    const firstCount = words.length;
     const missed = [];
     screen(TITLES[mode]);
     const next = () => {
-      if (i >= words.length) return results(mode, score, words.length, missed, pool);
+      if (i >= words.length) return results(mode, score, firstCount, missed, pool);
       const w = words[i];
       let type = mode;
       if (mode === 'smart') {
@@ -244,7 +245,12 @@
       view.innerHTML = `<div class="progress"><i style="width:${(i / words.length) * 100}%"></i></div><div id="q"></div>`;
       EX[type]($('#q'), w, ok => {
         grade(w.id, ok);
-        if (ok) score++; else missed.push(w);
+        const first = i < firstCount;
+        if (ok && first) score++;
+        if (!ok && first) {
+          missed.push(w);
+          words.push(w); // ask it again at the end of this round
+        }
         i++;
       }, next);
       syncToggles();
@@ -318,10 +324,12 @@
   function choiceQuestion(el, w, record, next, cfg) {
     // cfg: {prompt, head, options:[{label, word}], correctWord, after}
     el.innerHTML = `<div class="card">${cfg.head}</div><div class="options">${cfg.options.map((o, i) =>
-      `<button class="opt ${o.cls || ''}" data-i="${i}">${o.label}</button>`).join('')}</div><div id="fb"></div>`;
-    el.querySelectorAll('.opt').forEach(b => b.onclick = () => {
-      const o = cfg.options[+b.dataset.i];
-      const ok = o.word === cfg.correctWord;
+      `<button class="opt ${o.cls || ''}" data-i="${i}">${o.label}</button>`).join('')}</div>
+      <button class="btn secondary" id="idk">🤷 לא יודע — הראה לי</button><div id="fb"></div>`;
+    const answer = b => {
+      const idk = !b;
+      const ok = !idk && cfg.options[+b.dataset.i].word === cfg.correctWord;
+      $('#idk', el).remove();
       el.querySelectorAll('.opt').forEach(x => {
         x.disabled = true;
         const ow = cfg.options[+x.dataset.i].word;
@@ -331,17 +339,20 @@
           ? `<div class="note en" style="text-align:center">${esc(ow.en)}</div>`
           : `<div class="note he">${esc(ow.he)}</div>`);
       });
-      if (!ok) b.classList.add('bad');
+      if (!ok && !idk) b.classList.add('bad');
       record(ok);
       if (cfg.after) cfg.after(ok);
       const fb = $('#fb', el);
-      fb.innerHTML = feedback(ok, w);
+      fb.innerHTML = feedback(ok, w, '', idk);
       el.querySelectorAll('[data-auto]').forEach(x => { x.dataset.open = 1; x.classList.remove('hidden'); });
       nextBtn(fb, next);
-    });
+    };
+    el.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(b));
+    $('#idk', el).onclick = () => answer(null);
   }
-  function feedback(ok, w, extra = '') {
-    return `<div class="feedback ${ok ? 'ok' : 'bad'}">${ok ? 'נכון! ✓' : 'לא נכון ✗'} ${extra}
+  function feedback(ok, w, extra = '', idk = false) {
+    const head = ok ? 'נכון! ✓' : idk ? 'לא נורא — הנה התשובה. נתרגל את המילה הזאת שוב 💪' : 'לא נכון ✗ — נתרגל את המילה הזאת שוב';
+    return `<div class="feedback ${ok ? 'ok' : 'bad'}">${head} ${extra}
       <div class="row" style="margin-top:6px"><span class="en" style="font-weight:700">${esc(w.en)}</span>
       <span class="ph en">${esc(w.ph)}</span><span class="spacer"></span>
       <button class="speak small" data-say="${esc(w.en)}">🔊</button></div>
@@ -393,8 +404,8 @@
         ${helperBar({ he: true })}`,
       options: opts.map(x => ({ label: `<span class="en">${esc(x.a)}</span>${autoPh(esc(x.o.ph), 'ph note')}`, word: x.o })),
       correctWord: w,
-      after: () => {
-        const b = $('.blank', el); b.textContent = ans; b.classList.add('ok');
+      after: ok => {
+        const b = $('.blank', el); b.textContent = ans; b.classList.add(ok ? 'ok' : 'bad');
         replayButtons(el, s.en);
       }
     });
@@ -410,7 +421,7 @@
     const inp = $('#inp', el);
     setTimeout(() => inp.focus(), 50);
     let done = false;
-    const finish = (ok, extra) => {
+    const finish = (ok, extra, idk) => {
       if (done) return; done = true;
       record(ok);
       inp.classList.add(ok ? 'ok' : 'bad'); inp.disabled = true;
@@ -418,7 +429,7 @@
       el.querySelectorAll('[data-auto]').forEach(x => { x.dataset.open = 1; x.classList.remove('hidden'); });
       if (cfg.onDone) cfg.onDone(ok);
       const fb = $('#fb', el);
-      fb.innerHTML = feedback(ok, w, extra);
+      fb.innerHTML = feedback(ok, w, extra, idk);
       nextBtn(fb, next);
     };
     const check = () => {
@@ -434,7 +445,7 @@
     };
     $('#check', el).onclick = check;
     inp.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); done ? next() : check(); } });
-    $('#idk', el).onclick = () => finish(false, `<div class="note">התשובה: <b class="en">${esc(cfg.shown)}</b></div>`);
+    $('#idk', el).onclick = () => finish(false, `<div class="note">התשובה: <b class="en">${esc(cfg.shown)}</b></div>`, true);
   }
 
   EX.sentenceType = (el, w, record, next) => {
