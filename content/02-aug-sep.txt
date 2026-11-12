@@ -1,0 +1,311 @@
+## shout
+EN: Please don't [shout], the baby is sleeping.
+HE: בבקשה אל תצעק, התינוק ישן.
+EN: I heard a [shout] from the street.
+HE: שמעתי צעקה מהרחוב.
+
+## scream
+EN: She [screamed] when she saw the spider.
+HE: היא צרחה כשראתה את העכביש.
+EN: We heard a loud [scream] in the night.
+HE: שמענו צרחה חזקה בלילה.
+
+## excavation
+EN: The [excavation] for the new building started today.
+HE: החפירה לבניין החדש התחילה היום.
+EN: Archaeologists found old coins during the [excavation].
+HE: ארכיאולוגים מצאו מטבעות עתיקים במהלך החפירה.
+
+## provident-fund
+EN: I check my [provident fund] balance once a year.
+HE: אני בודק את היתרה בקופת הגמל שלי פעם בשנה.
+EN: My employer pays into my [provident fund] every month.
+HE: המעסיק שלי מפריש לקופת הגמל שלי כל חודש.
+
+## compensation-severance-fund
+EN: When he left the job, he withdrew money from his [severance fund].
+HE: כשהוא עזב את העבודה, הוא משך כסף מקרן הפיצויים שלו.
+EN: Part of my salary goes to a [compensation fund].
+HE: חלק מהמשכורת שלי הולך לקרן פיצויים.
+
+## lesson 29-09-2026
+EN: The neighbours started an [excavation] for a new building, and the noise was terrible. One worker had to [shout] to the others all day. In the evening I sat quietly and checked my [provident fund] and my [severance fund] online.
+HE: השכנים התחילו חפירה לבניין חדש, והרעש היה נוראי. אחד הפועלים היה צריך לצעוק לאחרים כל היום. בערב ישבתי בשקט ובדקתי באינטרנט את קופת הגמל ואת קרן הפיצויים שלי.
+
+## punctual
+EN: Please be [punctual]; the meeting starts at nine sharp.
+HE: בבקשה תהיה דייקן; הפגישה מתחילה בתשע בדיוק.
+EN: German trains are famous for being [punctual].
+HE: הרכבות בגרמניה מפורסמות בכך שהן דייקניות.
+
+## aversion
+EN: I have an [aversion] to crowded places.
+HE: יש לי רתיעה ממקומות צפופים.
+EN: Many investors have an [aversion] to risk.
+HE: למשקיעים רבים יש רתיעה מסיכון.
+
+## checkout-counter
+EN: Please pay at the [checkout counter].
+HE: בבקשה שלם בקופה.
+EN: There was a long line at the [checkout counter] in the supermarket.
+HE: היה תור ארוך בקופה בסופרמרקט.
+
+## fees
+EN: The bank charges high [fees] for every transfer.
+HE: הבנק גובה עמלות גבוהות על כל העברה.
+EN: University [fees] go up every year.
+HE: שכר הלימוד באוניברסיטה עולה כל שנה.
+
+## lesson 24-09-2026
+EN: I am always [punctual], so I arrived at the bank at nine. I have an [aversion] to banks because of the high [fees]. Later I went to the supermarket and waited ten minutes at the [checkout counter].
+HE: אני תמיד דייקן, אז הגעתי לבנק בתשע. יש לי רתיעה מבנקים בגלל העמלות הגבוהות. אחר כך הלכתי לסופרמרקט וחיכיתי עשר דקות בקופה.
+
+## powerful
+EN: This car has a very [powerful] engine.
+HE: לרכב הזה יש מנוע חזק מאוד.
+EN: She is one of the most [powerful] women in the country.
+HE: היא אחת הנשים המשפיעות ביותר במדינה.
+
+## ownership
+EN: The [ownership] of the apartment was transferred to my son.
+HE: הבעלות על הדירה הועברה לבן שלי.
+EN: Home [ownership] is a big goal for many young families.
+HE: בעלות על בית היא מטרה גדולה למשפחות צעירות רבות.
+
+## fade
+EN: The colors of my shirt [faded] after many washes.
+HE: הצבעים של החולצה שלי דהו אחרי הרבה כביסות.
+EN: Over time, the memory began to [fade].
+HE: עם הזמן, הזיכרון התחיל להתעמעם.
+
+## quad-bike
+EN: We rode a [quad bike] in the desert.
+HE: נסענו על טרקטורון במדבר.
+EN: You need a helmet to ride a [quad bike].
+HE: צריך קסדה כדי לנסוע על טרקטורון.
+
+## km-h
+EN: The speed limit here is 90 [km/h].
+HE: המהירות המותרת כאן היא 90 קמ"ש.
+EN: He was driving at 130 [km/h] on the highway.
+HE: הוא נסע ב-130 קמ"ש בכביש המהיר.
+
+## corrupt
+EN: The [corrupt] politician took money from businessmen.
+HE: הפוליטיקאי המושחת לקח כסף מאנשי עסקים.
+EN: People are tired of [corrupt] leaders.
+HE: אנשים עייפים ממנהיגים מושחתים.
+
+## pickup-truck
+EN: He loaded the furniture onto his [pickup truck].
+HE: הוא העמיס את הרהיטים על הטנדר שלו.
+EN: Farmers often drive a [pickup truck].
+HE: חקלאים נוהגים לעתים קרובות בטנדר.
+
+## moonwalk
+EN: Michael Jackson was famous for the [moonwalk].
+HE: מייקל ג'קסון היה מפורסם בזכות ריקוד ה"מונווק".
+EN: My son tried to do the [moonwalk] at the wedding.
+HE: הבן שלי ניסה לעשות "מונווק" בחתונה.
+
+## evacuate
+EN: The police told us to [evacuate] the building.
+HE: המשטרה אמרה לנו לפנות את הבניין.
+EN: Thousands of people had to [evacuate] their homes because of the fire.
+HE: אלפי אנשים נאלצו להתפנות מבתיהם בגלל השריפה.
+
+## elections
+EN: The [elections] will take place in November.
+HE: הבחירות יתקיימו בנובמבר.
+EN: Did you vote in the last [elections]?
+HE: הצבעת בבחירות האחרונות?
+
+## rigged
+EN: Some people believe the game was [rigged].
+HE: יש אנשים שמאמינים שהמשחק היה מכור.
+EN: The opposition said the elections were [rigged].
+HE: האופוזיציה אמרה שהבחירות זויפו.
+
+## intimidation
+EN: The workers complained about [intimidation] by their manager.
+HE: העובדים התלוננו על הפחדה מצד המנהל שלהם.
+EN: [Intimidation] of voters is against the law.
+HE: הפחדת מצביעים היא נגד החוק.
+
+## depression
+EN: After losing his job, he suffered from [depression].
+HE: אחרי שאיבד את עבודתו, הוא סבל מדיכאון.
+EN: The Great [Depression] started in 1929.
+HE: המשבר הכלכלי הגדול (השפל הגדול) התחיל ב-1929.
+
+## disability
+EN: The building has a ramp for people with a [disability].
+HE: בבניין יש רמפה לאנשים עם מוגבלות.
+EN: He receives a [disability] pension from the state.
+HE: הוא מקבל קצבת נכות מהמדינה.
+
+## special-needs
+EN: The school has a class for children with [special needs].
+HE: בבית הספר יש כיתה לילדים עם צרכים מיוחדים.
+EN: She works as a teacher for kids with [special needs].
+HE: היא עובדת כמורה לילדים עם צרכים מיוחדים.
+
+## lesson 15-09-2026
+EN: Before the [elections], the news was full of stories about a [corrupt] mayor. Some people said the vote was [rigged], and others complained about [intimidation]. I got tired of it, so I drove my [pickup truck] to the desert and rode a [quad bike] at 40 [km/h].
+HE: לפני הבחירות, החדשות היו מלאות בסיפורים על ראש עיר מושחת. יש שאמרו שההצבעה הייתה מזויפת, ואחרים התלוננו על הפחדה. נמאס לי מזה, אז נסעתי עם הטנדר שלי למדבר ורכבתי על טרקטורון במהירות של 40 קמ"ש.
+
+## infrastructure
+EN: The country needs to invest more in [infrastructure].
+HE: המדינה צריכה להשקיע יותר בתשתיות.
+EN: Roads and bridges are part of the [infrastructure].
+HE: כבישים וגשרים הם חלק מהתשתית.
+
+## canned-goods
+EN: We keep [canned goods] in the shelter for emergencies.
+HE: אנחנו שומרים שימורים במקלט למקרי חירום.
+EN: [Canned goods] can last for years.
+HE: שימורים יכולים להחזיק שנים.
+
+## coal
+EN: Many power stations still burn [coal].
+HE: תחנות כוח רבות עדיין שורפות פחם.
+EN: We grilled the meat over hot [coal].
+HE: צלינו את הבשר על גחלי פחם לוהטות.
+
+## flight-attendant
+EN: The [flight attendant] brought us coffee.
+HE: הדיילת הביאה לנו קפה.
+EN: My cousin works as a [flight attendant] for El Al.
+HE: בן הדוד שלי עובד כדייל באל על.
+
+## electric-electricity-company
+EN: I called the [electricity company] about the high bill.
+HE: התקשרתי לחברת החשמל בגלל החשבון הגבוה.
+EN: The [electric company] fixed the power line this morning.
+HE: חברת החשמל תיקנה את קו החשמל הבוקר.
+
+## lesson 08-09-2026
+EN: During the storm, the power went out. The [electricity company] said the [infrastructure] was old. We lit a fire with [coal] and opened some [canned goods] for dinner. My sister, a [flight attendant], was stuck at the airport.
+HE: במהלך הסערה החשמל נפל. חברת החשמל אמרה שהתשתית ישנה. הדלקנו אש עם פחם ופתחנו כמה שימורים לארוחת ערב. אחותי, דיילת, נתקעה בשדה התעופה.
+
+## nausea
+EN: The medicine can cause [nausea].
+HE: התרופה יכולה לגרום לבחילה.
+EN: I felt [nausea] on the boat.
+HE: הרגשתי בחילה בסירה.
+
+## cough
+EN: I have had a bad [cough] for a week.
+HE: יש לי שיעול חזק כבר שבוע.
+EN: The smoke made everyone [cough].
+HE: העשן גרם לכולם להשתעל.
+
+## industry-field
+EN: He has worked in the insurance [industry] for twenty years.
+HE: הוא עובד בענף הביטוח כבר עשרים שנה.
+EN: What [field] do you work in?
+HE: באיזה תחום אתה עובד?
+
+## stock-market
+EN: The [stock market] went up today.
+HE: הבורסה עלתה היום.
+EN: I invest some of my savings in the [stock market].
+HE: אני משקיע חלק מהחסכונות שלי בבורסה.
+
+## blow-up-explode
+EN: The old gas tank could [explode] at any moment.
+HE: מיכל הגז הישן יכול להתפוצץ בכל רגע.
+EN: The kids [blew up] balloons for the party.
+HE: הילדים ניפחו בלונים למסיבה.
+
+## criticism-criticise
+EN: He doesn't take [criticism] well.
+HE: הוא לא מקבל ביקורת טוב.
+EN: It is easy to [criticise] others.
+HE: קל לבקר אחרים.
+
+## constructive-criticism
+EN: My manager always gives [constructive criticism].
+HE: המנהל שלי תמיד נותן ביקורת בונה.
+EN: [Constructive criticism] helps you improve.
+HE: ביקורת בונה עוזרת לך להשתפר.
+
+## subdivide
+EN: The owner wants to [subdivide] the land into five plots.
+HE: הבעלים רוצה לחלק את הקרקע לחמש חלקות.
+EN: We can [subdivide] the big task into smaller steps.
+HE: אנחנו יכולים לפצל את המשימה הגדולה לשלבים קטנים יותר.
+
+## lesson 31-08-2026
+EN: My friend works in the finance [industry] and follows the [stock market] every day. Last week he had a bad [cough] and felt [nausea], but he still went to work. His boss gave him [constructive criticism] about his report, and he accepted the [criticism] calmly.
+HE: החבר שלי עובד בענף הפיננסים ועוקב אחרי הבורסה כל יום. בשבוע שעבר היה לו שיעול חזק והוא הרגיש בחילה, אבל הוא בכל זאת הלך לעבודה. הבוס שלו נתן לו ביקורת בונה על הדוח שלו, והוא קיבל את הביקורת בשלווה.
+
+## diligent
+EN: She is a [diligent] student who never misses a class.
+HE: היא תלמידה חרוצה שאף פעם לא מפספסת שיעור.
+EN: You have to be [diligent] to learn a new language.
+HE: צריך להיות שקדן כדי ללמוד שפה חדשה.
+
+## fracture
+EN: The X-ray showed a small [fracture] in his arm.
+HE: צילום הרנטגן הראה שבר קטן בזרוע שלו.
+EN: She [fractured] her leg while skiing.
+HE: היא שברה את הרגל בזמן סקי.
+
+## injure
+EN: Be careful not to [injure] yourself at the gym.
+HE: תיזהר לא להיפצע בחדר הכושר.
+EN: Two people were [injured] in the accident.
+HE: שני אנשים נפצעו בתאונה.
+
+## injury
+EN: The player is out because of a knee [injury].
+HE: השחקן לא משחק בגלל פציעה בברך.
+EN: Warming up helps prevent [injury].
+HE: חימום עוזר למנוע פציעה.
+
+## stabilise-stabilize
+EN: The government is trying to [stabilise] prices.
+HE: הממשלה מנסה לייצב את המחירים.
+EN: The doctors managed to [stabilize] the patient.
+HE: הרופאים הצליחו לייצב את המטופל.
+
+## chew
+EN: [Chew] your food slowly.
+HE: תלעס את האוכל לאט.
+EN: The dog likes to [chew] on old shoes.
+HE: הכלב אוהב ללעוס נעליים ישנות.
+
+## dates
+EN: Medjool [dates] are sweet and soft.
+HE: תמרי מג'הול מתוקים ורכים.
+EN: I eat two [dates] before my morning run.
+HE: אני אוכל שני תמרים לפני ריצת הבוקר שלי.
+
+## laundry-room
+EN: The washing machine is in the [laundry room].
+HE: מכונת הכביסה נמצאת בחדר הכביסה.
+EN: Our new house has a small [laundry room] next to the kitchen.
+HE: בבית החדש שלנו יש חדר כביסה קטן ליד המטבח.
+
+## laundry
+EN: I do the [laundry] every Sunday.
+HE: אני עושה כביסה כל יום ראשון.
+EN: Please hang the [laundry] outside to dry.
+HE: בבקשה תתלה את הכביסה בחוץ לייבוש.
+
+## damp-proofing
+EN: The basement needs [damp proofing] before winter.
+HE: המרתף צריך איטום נגד רטיבות לפני החורף.
+EN: Good [damp proofing] protects the walls from mold.
+HE: איטום טוב נגד רטיבות מגן על הקירות מפני עובש.
+
+## concrete-brick
+EN: The walls are made of [concrete].
+HE: הקירות עשויים מבטון.
+EN: He built the garden wall [brick] by brick.
+HE: הוא בנה את קיר הגינה לבנה אחר לבנה.
+
+## lesson 25-08-2026
+EN: My neighbour is a [diligent] builder. He uses [concrete] for the walls and adds [damp proofing] so the house stays dry. Last month he fell and had a [fracture] in his wrist. After the [injury] he rested at home, ate [dates], and did the [laundry].
+HE: השכן שלי הוא קבלן חרוץ. הוא משתמש בבטון לקירות ומוסיף איטום נגד רטיבות כדי שהבית יישאר יבש. בחודש שעבר הוא נפל והיה לו שבר בשורש כף היד. אחרי הפציעה הוא נח בבית, אכל תמרים ועשה כביסה.

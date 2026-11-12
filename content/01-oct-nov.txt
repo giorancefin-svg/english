@@ -1,0 +1,361 @@
+#! Example sentences. Format:
+#!   ## <word-id>          (id as printed by tools/build.py)
+#!   EN: sentence with the [target] in square brackets
+#!   HE: Hebrew translation
+#!   ## lesson <dd-mm-yyyy>  -> a short paragraph using several words of that lesson
+
+## anomaly
+EN: The sudden drop in sales last month was an [anomaly], not a trend.
+HE: הירידה הפתאומית במכירות בחודש שעבר הייתה חריגה, לא מגמה.
+EN: The doctor noticed a small [anomaly] in the X-ray.
+HE: הרופא הבחין בחריגה קטנה בצילום הרנטגן.
+
+## anatomy
+EN: My trainer knows a lot about human [anatomy].
+HE: המאמן שלי יודע הרבה על האנטומיה של גוף האדם.
+EN: Medical students study [anatomy] in their first year.
+HE: סטודנטים לרפואה לומדים אנטומיה בשנה הראשונה.
+
+## hiccup
+EN: I had the [hiccups] for ten minutes after lunch.
+HE: היה לי שיהוק במשך עשר דקות אחרי ארוחת הצהריים.
+EN: There was a small [hiccup] with the payment, but we fixed it.
+HE: הייתה תקלה קטנה בתשלום, אבל תיקנו אותה.
+
+## pullup
+EN: I can do ten [pullups] in a row now.
+HE: אני יכול לעשות עכשיו עשר עליות מתח ברצף.
+EN: [Pullups] are great for building back muscles.
+HE: עליות מתח מצוינות לבניית שרירי הגב.
+
+## incline
+EN: The treadmill is set to a steep [incline].
+HE: ההליכון מכוון לשיפוע תלול.
+EN: I [incline] to agree with you, but let me think about it.
+HE: אני נוטה להסכים איתך, אבל תן לי לחשוב על זה.
+
+## weights
+EN: I lift [weights] three times a week at the gym.
+HE: אני מרים משקולות שלוש פעמים בשבוע בחדר הכושר.
+EN: Please put the [weights] back on the rack when you finish.
+HE: בבקשה תחזיר את המשקולות למתקן כשאתה מסיים.
+
+## lean
+EN: I always buy [lean] meat because it has less fat.
+HE: אני תמיד קונה בשר רזה כי יש בו פחות שומן.
+EN: Don't [lean] against the wall, the paint is still wet.
+HE: אל תישען על הקיר, הצבע עדיין רטוב.
+
+## strict
+EN: My first English teacher was very [strict] about homework.
+HE: המורה הראשונה שלי לאנגלית הייתה מאוד קפדנית לגבי שיעורי בית.
+EN: I am on a [strict] diet until the summer.
+HE: אני בדיאטה נוקשה עד הקיץ.
+
+## knot
+EN: The massage therapist found a [knot] in my shoulder.
+HE: המעסה מצא קשר בשריר בכתף שלי.
+EN: After long hours at the computer I get a painful [knot] in my neck.
+HE: אחרי שעות ארוכות מול המחשב יש לי קשר כואב בשריר בצוואר.
+
+## residential
+EN: We live in a quiet [residential] area near the park.
+HE: אנחנו גרים באזור מגורים שקט ליד הפארק.
+EN: This street is [residential], so no shops are allowed here.
+HE: הרחוב הזה מיועד למגורים, ולכן אסור לפתוח כאן חנויות.
+
+## quantity
+EN: The restaurant cares about quality more than [quantity].
+HE: המסעדה מקפידה על איכות יותר מאשר על כמות.
+EN: We ordered a large [quantity] of paper for the office.
+HE: הזמנו כמות גדולה של נייר למשרד.
+
+## turnover
+EN: The company's annual [turnover] reached ten million shekels.
+HE: המחזור השנתי של החברה הגיע לעשרה מיליון שקלים.
+EN: High staff [turnover] is a problem for many restaurants.
+HE: תחלופת עובדים גבוהה היא בעיה למסעדות רבות.
+
+## headache
+EN: I woke up with a terrible [headache] this morning.
+HE: התעוררתי הבוקר עם כאב ראש נוראי.
+EN: Fixing the old car was a real [headache].
+HE: תיקון המכונית הישנה היה כאב ראש אמיתי.
+
+## lesson 10-11-2026
+EN: At the gym today my trainer was very [strict]. First I did ten [pullups], then I walked on the treadmill with a high [incline]. After lifting heavy [weights], I felt a painful [knot] in my shoulder. In the evening I had a bad [headache], so I went to sleep early.
+HE: היום בחדר הכושר המאמן שלי היה מאוד קפדן. קודם עשיתי עשר עליות מתח, ואז הלכתי על ההליכון בשיפוע גבוה. אחרי שהרמתי משקולות כבדות הרגשתי קשר כואב בשריר בכתף. בערב היה לי כאב ראש חזק, אז הלכתי לישון מוקדם.
+
+## deceive
+EN: The salesman tried to [deceive] us about the price.
+HE: המוכר ניסה לרמות אותנו לגבי המחיר.
+EN: Don't let nice words [deceive] you.
+HE: אל תיתן למילים יפות להטעות אותך.
+
+## impersonate
+EN: The scammer tried to [impersonate] a bank employee on the phone.
+HE: הנוכל ניסה להתחזות לעובד בנק בטלפון.
+EN: It is a crime to [impersonate] a police officer.
+HE: זו עבירה להתחזות לשוטר.
+
+## subscription
+EN: I cancelled my Netflix [subscription] last month.
+HE: ביטלתי את המנוי שלי לנטפליקס בחודש שעבר.
+EN: The gym [subscription] costs 200 shekels a month.
+HE: המנוי לחדר הכושר עולה 200 שקלים לחודש.
+
+## interrupted
+EN: Our meeting was [interrupted] by a fire alarm.
+HE: הפגישה שלנו נקטעה בגלל אזעקת אש.
+EN: The movie was [interrupted] by a power cut.
+HE: הסרט נקטע בגלל הפסקת חשמל.
+
+## interrupt
+EN: Please don't [interrupt] me while I'm talking.
+HE: בבקשה אל תפריע לי בזמן שאני מדבר.
+EN: Sorry to [interrupt], but your taxi is here.
+HE: סליחה שאני מפריע, אבל המונית שלך כאן.
+
+## hire
+EN: We need to [hire] two new employees this year.
+HE: אנחנו צריכים להעסיק שני עובדים חדשים השנה.
+EN: We decided to [hire] a car for the trip.
+HE: החלטנו לשכור רכב לטיול.
+
+## stable
+EN: After the surgery, his condition is [stable].
+HE: אחרי הניתוח, מצבו יציב.
+EN: Make sure the ladder is [stable] before you climb it.
+HE: תוודא שהסולם יציב לפני שאתה מטפס עליו.
+EN: The horses sleep in the [stable] at night.
+HE: הסוסים ישנים באורווה בלילה.
+
+## protest
+EN: Thousands of people joined the [protest] in the city center.
+HE: אלפי אנשים הצטרפו להפגנה במרכז העיר.
+EN: The workers [protest] against the new rules.
+HE: העובדים מוחים נגד הכללים החדשים.
+
+## rude
+EN: It is [rude] to look at your phone during dinner.
+HE: זה לא מנומס להסתכל בטלפון בזמן ארוחת ערב.
+EN: The waiter was very [rude] to us.
+HE: המלצר היה מאוד חצוף אלינו.
+
+## lesson 02-11-2026
+EN: Yesterday someone called me and tried to [impersonate] a bank clerk. He said my [subscription] would be cancelled unless I paid now. I tried to ask questions, but he kept trying to [interrupt] me. He was quite [rude], and I understood that he wanted to [deceive] me, so I hung up.
+HE: אתמול מישהו התקשר אליי וניסה להתחזות לפקיד בנק. הוא אמר שהמנוי שלי יבוטל אם לא אשלם עכשיו. ניסיתי לשאול שאלות, אבל הוא כל הזמן ניסה להפריע לי. הוא היה די חצוף, והבנתי שהוא רוצה לרמות אותי, אז ניתקתי.
+
+## survey
+EN: The company sent us a short [survey] about our experience.
+HE: החברה שלחה לנו סקר קצר על החוויה שלנו.
+EN: A recent [survey] shows that most people work from home once a week.
+HE: סקר שנערך לאחרונה מראה שרוב האנשים עובדים מהבית פעם בשבוע.
+
+## drone
+EN: My son flew his new [drone] over the beach.
+HE: הבן שלי הטיס את הרחפן החדש שלו מעל החוף.
+EN: They used a [drone] to film the wedding from above.
+HE: הם השתמשו ברחפן כדי לצלם את החתונה מלמעלה.
+
+## atone
+EN: On Yom Kippur people try to [atone] for their sins.
+HE: ביום כיפור אנשים מנסים לכפר על חטאיהם.
+EN: He bought her flowers to [atone] for forgetting her birthday.
+HE: הוא קנה לה פרחים כדי לכפר על כך ששכח את יום ההולדת שלה.
+
+## faith
+EN: She has strong [faith] in God.
+HE: יש לה אמונה חזקה באלוהים.
+EN: I have [faith] in my team; they will finish on time.
+HE: יש לי אמון בצוות שלי; הם יסיימו בזמן.
+
+## star-sign
+EN: What is your [star sign]? I'm a Leo.
+HE: מה המזל שלך? אני אריה.
+EN: She reads about her [star sign] every morning.
+HE: היא קוראת על המזל שלה כל בוקר.
+
+## ram
+EN: A [ram] has big curved horns.
+HE: לאיל יש קרניים גדולות ומעוקלות.
+EN: My birthday is in April, so my sign is the [Ram] — Aries.
+HE: יום ההולדת שלי באפריל, אז המזל שלי הוא טלה (איל).
+
+## ankle
+EN: I twisted my [ankle] while running.
+HE: נקעתי את הקרסול בזמן ריצה.
+EN: These shoes give good support to the [ankle].
+HE: הנעליים האלה נותנות תמיכה טובה לקרסול.
+
+## stubborn
+EN: My father is too [stubborn] to ask for directions.
+HE: אבא שלי עקשן מדי בשביל לבקש הוראות דרך.
+EN: This [stubborn] stain won't come out of my shirt.
+HE: הכתם העקשן הזה לא יוצא מהחולצה שלי.
+
+## lesson 27-10-2026
+EN: Before Yom Kippur, my [stubborn] uncle finally decided to [atone] and call his brother. He said his [faith] helps him to forgive. Later that day my son flew his [drone] in the park, fell, and hurt his [ankle].
+HE: לפני יום כיפור, הדוד העקשן שלי החליט סוף סוף לכפר ולהתקשר לאחיו. הוא אמר שהאמונה שלו עוזרת לו לסלוח. מאוחר יותר באותו יום הבן שלי הטיס את הרחפן שלו בפארק, נפל ונפגע בקרסול.
+
+## turn
+EN: My daughter will [turn] ten next week.
+HE: הבת שלי תהיה בת עשר בשבוע הבא.
+EN: He [turned] fifty and threw a big party.
+HE: הוא מלא חמישים ועשה מסיבה גדולה.
+
+## theme
+EN: The [theme] of the party was the 80s.
+HE: הנושא של המסיבה היה שנות ה-80.
+EN: Love is the main [theme] of the book.
+HE: אהבה היא הנושא המרכזי של הספר.
+
+## advertisement-ad
+EN: I saw an [ad] for this apartment on Facebook.
+HE: ראיתי מודעה על הדירה הזאת בפייסבוק.
+EN: The company paid a lot for a TV [advertisement].
+HE: החברה שילמה הרבה על פרסומת בטלוויזיה.
+
+## awareness
+EN: The campaign raises [awareness] about healthy eating.
+HE: הקמפיין מעלה את המודעות לתזונה בריאה.
+EN: There is growing [awareness] of mental health.
+HE: יש מודעות הולכת וגוברת לבריאות הנפש.
+
+## aware
+EN: Are you [aware] that the shop closes early today?
+HE: אתה מודע לכך שהחנות נסגרת מוקדם היום?
+EN: I wasn't [aware] of the problem until you told me.
+HE: לא הייתי מודע לבעיה עד שסיפרת לי.
+
+## paper-lantern
+EN: We hung a [paper lantern] above the table.
+HE: תלינו פנס נייר מעל השולחן.
+EN: Every [paper lantern] in the garden was a different color.
+HE: כל פנס נייר בגינה היה בצבע אחר.
+
+## statue
+EN: There is a famous [statue] in the middle of the square.
+HE: יש פסל מפורסם באמצע הכיכר.
+EN: The [Statue] of Liberty is in New York.
+HE: פסל החירות נמצא בניו יורק.
+
+## tablecloth
+EN: Please put a clean [tablecloth] on the table for dinner.
+HE: בבקשה שים מפה נקייה על השולחן לארוחת הערב.
+EN: The kids spilled juice on the white [tablecloth].
+HE: הילדים שפכו מיץ על המפה הלבנה.
+
+## trail
+EN: We walked along a beautiful [trail] in the Galilee.
+HE: הלכנו לאורך שביל יפהפה בגליל.
+EN: Stay on the marked [trail] so you don't get lost.
+HE: תישאר על השביל המסומן כדי שלא תלך לאיבוד.
+
+## equal
+EN: Men and women should get [equal] pay for the same work.
+HE: גברים ונשים צריכים לקבל שכר שווה על אותה עבודה.
+EN: Cut the cake into eight [equal] pieces.
+HE: תחתוך את העוגה לשמונה חתיכות שוות.
+
+## worth-it
+EN: The hike was long, but the view was [worth it].
+HE: הטיול היה ארוך, אבל הנוף היה שווה את זה.
+EN: Is the expensive phone really [worth it]?
+HE: הטלפון היקר באמת שווה את זה?
+
+## kidneys
+EN: Drinking enough water is good for your [kidneys].
+HE: שתיית מספיק מים טובה לכליות שלך.
+EN: The doctor checked how well his [kidneys] were working.
+HE: הרופא בדק עד כמה הכליות שלו מתפקדות.
+
+## deprivation
+EN: Sleep [deprivation] makes it hard to concentrate.
+HE: מחסור בשינה מקשה להתרכז.
+EN: Many children grew up in [deprivation] after the war.
+HE: ילדים רבים גדלו במחסור אחרי המלחמה.
+
+## deprive
+EN: Don't [deprive] yourself of sleep before an exam.
+HE: אל תמנע מעצמך שינה לפני מבחן.
+EN: The new law would [deprive] workers of their rights.
+HE: החוק החדש ישלול מהעובדים את זכויותיהם.
+
+## collaboration
+EN: The project was a [collaboration] between two companies.
+HE: הפרויקט היה שיתוף פעולה בין שתי חברות.
+EN: Good [collaboration] makes the team stronger.
+HE: שיתוף פעולה טוב מחזק את הצוות.
+
+## slavery
+EN: [Slavery] was abolished in the USA in 1865.
+HE: העבדות בוטלה בארצות הברית ב-1865.
+EN: The museum tells the story of [slavery] in America.
+HE: המוזיאון מספר את סיפור העבדות באמריקה.
+
+## lesson 20-10-2026
+EN: Last week my wife [turned] fifty. The [theme] of the party was Japan, so we hung a [paper lantern] over every table and put a red [tablecloth] on each one. It was a lot of work, but everyone said it was [worth it].
+HE: בשבוע שעבר אשתי מלאו לה חמישים. הנושא של המסיבה היה יפן, אז תלינו פנס נייר מעל כל שולחן ושמנו מפה אדומה על כל אחד. זה היה הרבה עבודה, אבל כולם אמרו שזה היה שווה את זה.
+
+## auto-detail-detailing
+EN: I took my car for a full [detailing] before selling it.
+HE: לקחתי את הרכב שלי לדיטיילינג מלא לפני שמכרתי אותו.
+EN: The [auto detail] shop made my old car look new.
+HE: מכון הדיטיילינג גרם לרכב הישן שלי להיראות חדש.
+
+## mince-meat-minced-meat
+EN: I need half a kilo of [minced meat] for the meatballs.
+HE: אני צריך חצי קילו בשר טחון לקציצות.
+EN: She made a lasagna with [minced meat] and cheese.
+HE: היא הכינה לזניה עם בשר טחון וגבינה.
+
+## profound
+EN: The book had a [profound] effect on me.
+HE: לספר הייתה השפעה עמוקה עליי.
+EN: He said something very [profound] about life.
+HE: הוא אמר משהו מאוד עמוק על החיים.
+
+## candid
+EN: Can I be [candid] with you? I don't like this plan.
+HE: אני יכול להיות כן איתך? אני לא אוהב את התוכנית הזאת.
+EN: The photographer took [candid] photos of the guests.
+HE: הצלם צילם תמונות טבעיות (לא מבוימות) של האורחים.
+
+## lesson 13-10-2026
+EN: My friend is always [candid] with me. When I asked about my old car, he said: "Take it for [detailing] before you sell it." Then we cooked pasta with [minced meat] and talked about [profound] things until midnight.
+HE: החבר שלי תמיד כן איתי. כששאלתי על הרכב הישן שלי, הוא אמר: "קח אותו לדיטיילינג לפני שאתה מוכר אותו." אחר כך בישלנו פסטה עם בשר טחון ודיברנו על דברים עמוקים עד חצות.
+
+## lenient
+EN: The teacher was [lenient] and gave us more time.
+HE: המורה הייתה מקלה ונתנה לנו עוד זמן.
+EN: Some parents are too [lenient] with their kids.
+HE: יש הורים שמקלים מדי עם הילדים שלהם.
+
+## submit
+EN: Please [submit] your report by Friday.
+HE: בבקשה הגש את הדוח שלך עד יום שישי.
+EN: I [submitted] my tax forms online.
+HE: הגשתי את טופסי המס שלי באינטרנט.
+
+## evaluate-assess
+EN: The bank will [assess] the value of the house.
+HE: הבנק יעריך את שווי הבית.
+EN: We need to [evaluate] the results before we decide.
+HE: אנחנו צריכים להעריך את התוצאות לפני שנחליט.
+
+## excuse
+EN: He always has an [excuse] for being late.
+HE: תמיד יש לו תירוץ לאיחור.
+EN: [Excuse] me, where is the train station?
+HE: סליחה, איפה תחנת הרכבת?
+
+## miserable
+EN: I felt [miserable] when I had the flu.
+HE: הרגשתי אומלל כשהייתה לי שפעת.
+EN: The weather was cold and [miserable] all week.
+HE: מזג האוויר היה קר ומדכא כל השבוע.
+
+## lesson 08-10-2026
+EN: I had to [submit] my project on Sunday, but I was sick and felt [miserable]. I didn't want to give an [excuse], so I wrote to my teacher and told the truth. She was [lenient] and said she would [assess] it next week.
+HE: הייתי צריך להגיש את הפרויקט שלי ביום ראשון, אבל הייתי חולה והרגשתי אומלל. לא רציתי לתת תירוץ, אז כתבתי למורה שלי ואמרתי את האמת. היא הייתה מקלה ואמרה שהיא תעריך אותו בשבוע הבא.

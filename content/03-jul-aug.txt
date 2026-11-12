@@ -1,0 +1,331 @@
+## commodity
+EN: Oil is the world's most traded [commodity].
+HE: נפט הוא הסחורה הנסחרת ביותר בעולם.
+EN: Water is becoming a precious [commodity].
+HE: מים הופכים למצרך יקר ערך.
+
+## admin-fee
+EN: There is a 50 shekel [admin fee] for changing the booking.
+HE: יש דמי טיפול של 50 שקלים על שינוי ההזמנה.
+EN: The fund charges a yearly [admin fee].
+HE: הקרן גובה דמי ניהול שנתיים.
+
+## service-fee
+EN: The restaurant adds a 10% [service fee] to the bill.
+HE: המסעדה מוסיפה 10% דמי שירות לחשבון.
+EN: Is the [service fee] included in the price?
+HE: דמי השירות כלולים במחיר?
+
+## amenity
+EN: The pool is the best [amenity] in the building.
+HE: הבריכה היא המתקן הטוב ביותר בבניין.
+EN: The hotel has every [amenity] you need: a gym, a spa and free parking.
+HE: במלון יש כל שירות שאתה צריך: חדר כושר, ספא וחניה חינם.
+
+## non-refundable
+EN: The ticket is [non-refundable], so you can't get your money back.
+HE: הכרטיס לא ניתן להחזר, אז אי אפשר לקבל את הכסף בחזרה.
+EN: We paid a [non-refundable] deposit for the hall.
+HE: שילמנו מקדמה שאינה ניתנת להחזר על האולם.
+
+## property-tax
+EN: We pay [property tax] to the city every two months.
+HE: אנחנו משלמים ארנונה לעירייה כל חודשיים.
+EN: The [property tax] in Tel Aviv is quite high.
+HE: הארנונה בתל אביב די גבוהה.
+
+## compensation
+EN: The airline paid us [compensation] for the delayed flight.
+HE: חברת התעופה שילמה לנו פיצוי על הטיסה שהתעכבה.
+EN: He asked for [compensation] after the accident.
+HE: הוא ביקש פיצוי אחרי התאונה.
+
+## homeowner-association
+EN: The [homeowner association] decided to paint the building.
+HE: ועד הבית החליט לצבוע את הבניין.
+EN: I am the head of our [HOA] this year.
+HE: אני ראש ועד הבית שלנו השנה.
+
+## governing-body
+EN: FIFA is the [governing body] of world football.
+HE: פיפ"א הוא הגוף המנהל של הכדורגל העולמי.
+EN: The school's [governing body] meets once a month.
+HE: הגוף המנהל של בית הספר נפגש פעם בחודש.
+
+## building-maintenance-fee
+EN: Our [building maintenance fee] is 300 shekels a month.
+HE: דמי ועד הבית שלנו הם 300 שקלים לחודש.
+EN: The [building maintenance fee] pays for cleaning and the elevator.
+HE: דמי התחזוקה של הבניין משלמים על הניקיון והמעלית.
+
+## disposable-income
+EN: After rent and bills, we don't have much [disposable income].
+HE: אחרי שכר הדירה והחשבונות, לא נשארת לנו הרבה הכנסה פנויה.
+EN: Young people spend their [disposable income] on travel.
+HE: צעירים מוציאים את ההכנסה הפנויה שלהם על טיולים.
+
+## burnt
+EN: The toast is [burnt]; let's make another one.
+HE: הטוסט שרוף; בוא נכין עוד אחד.
+EN: The [burnt] smell came from the kitchen.
+HE: הריח השרוף הגיע מהמטבח.
+
+## fire-damage
+EN: The insurance covered the [fire damage] in the kitchen.
+HE: הביטוח כיסה את נזקי האש במטבח.
+EN: The [fire damage] was worse than we thought.
+HE: נזקי השריפה היו גרועים ממה שחשבנו.
+
+## arrears
+EN: He is three months in [arrears] with his rent.
+HE: הוא בפיגור של שלושה חודשים בתשלום שכר הדירה.
+EN: The bank called about the mortgage [arrears].
+HE: הבנק התקשר בקשר לפיגורים במשכנתא.
+
+## rehabilitation
+EN: After the operation he spent a month in [rehabilitation].
+HE: אחרי הניתוח הוא היה חודש בשיקום.
+EN: The city started a [rehabilitation] project for old buildings.
+HE: העירייה התחילה פרויקט שיקום לבניינים ישנים.
+
+## appropriate-suitable
+EN: Jeans are not [appropriate] for a job interview.
+HE: ג'ינס לא מתאים לראיון עבודה.
+EN: This apartment is [suitable] for a family with kids.
+HE: הדירה הזאת מתאימה למשפחה עם ילדים.
+
+## cause
+EN: The police don't know the [cause] of the accident yet.
+HE: המשטרה עדיין לא יודעת מה הסיבה לתאונה.
+EN: Too much sugar can [cause] health problems.
+HE: יותר מדי סוכר יכול לגרום לבעיות בריאות.
+
+## lesson 19-08-2026
+EN: Last month there was a fire in our building. The [cause] was an old heater. The [fire damage] was big and the kitchen walls were [burnt]. The [homeowner association] asked the insurance for [compensation], but they also raised the [building maintenance fee], so now we have less [disposable income].
+HE: בחודש שעבר הייתה שריפה בבניין שלנו. הסיבה הייתה תנור חימום ישן. נזקי האש היו גדולים וקירות המטבח נשרפו. ועד הבית ביקש פיצוי מהביטוח, אבל הם גם העלו את דמי ועד הבית, אז עכשיו יש לנו פחות הכנסה פנויה.
+
+## oatmeal-oats
+EN: I eat [oatmeal] with honey every morning.
+HE: אני אוכל דייסת שיבולת שועל עם דבש כל בוקר.
+EN: [Oats] are healthy and cheap.
+HE: שיבולת שועל בריאה וזולה.
+
+## medical-engineer
+EN: My daughter is studying to become a [medical engineer].
+HE: הבת שלי לומדת להיות מהנדסת רפואית.
+EN: A [medical engineer] designs machines for hospitals.
+HE: מהנדס רפואי מתכנן מכשירים לבתי חולים.
+
+## humidity-moisture
+EN: The [humidity] in Tel Aviv in August is very high.
+HE: הלחות בתל אביב באוגוסט גבוהה מאוד.
+EN: [Moisture] in the walls can cause mold.
+HE: לחות בקירות יכולה לגרום לעובש.
+
+## humid
+EN: It is so hot and [humid] today.
+HE: כל כך חם ולח היום.
+EN: Bread goes bad quickly in a [humid] kitchen.
+HE: לחם מתקלקל מהר במטבח לח.
+
+## lesson 14-08-2026
+EN: My niece is a [medical engineer] in Haifa. Every morning she eats [oatmeal] and goes for a walk, even when the weather is [humid]. She says the [humidity] near the sea makes her hair crazy.
+HE: האחיינית שלי היא מהנדסת רפואית בחיפה. כל בוקר היא אוכלת דייסת שיבולת שועל ויוצאת להליכה, גם כשמזג האוויר לח. היא אומרת שהלחות ליד הים משגעת לה את השיער.
+
+## french-drain
+EN: We installed a [french drain] to keep water away from the house.
+HE: התקנו נקזור כדי להרחיק מים מהבית.
+EN: Without a [french drain], the garden floods every winter.
+HE: בלי תעלת ניקוז, הגינה מוצפת כל חורף.
+
+## municipality
+EN: The [municipality] is fixing the road outside our house.
+HE: העירייה מתקנת את הכביש מחוץ לבית שלנו.
+EN: You need a permit from the [municipality] to build a pergola.
+HE: צריך היתר מהעירייה כדי לבנות פרגולה.
+
+## informed
+EN: Please keep me [informed] about any changes.
+HE: בבקשה תעדכן אותי בכל שינוי.
+EN: It's important to make an [informed] decision.
+HE: חשוב לקבל החלטה מושכלת (מתוך ידיעה).
+
+## equity-fairness
+EN: The new law is about [equity] in education for all children.
+HE: החוק החדש עוסק בהוגנות בחינוך לכל הילדים.
+EN: Social [equity] means everyone gets a fair chance.
+HE: צדק חברתי פירושו שכל אחד מקבל הזדמנות הוגנת.
+
+## equity-financial-housing
+EN: You need 25% [equity] to get a mortgage.
+HE: צריך 25% הון עצמי כדי לקבל משכנתא.
+EN: As house prices rise, our home [equity] grows.
+HE: כשמחירי הדירות עולים, ההון העצמי שלנו בבית גדל.
+
+## lesson 07-08-2026
+EN: We want to buy a house, so we checked how much [equity] we have. Before we decide, we want to be well [informed]. The [municipality] told us that the garden floods in winter, so we will need a [french drain].
+HE: אנחנו רוצים לקנות בית, אז בדקנו כמה הון עצמי יש לנו. לפני שנחליט, אנחנו רוצים להיות מעודכנים היטב. העירייה אמרה לנו שהגינה מוצפת בחורף, אז נצטרך נקזור.
+
+## accompany
+EN: Can you [accompany] me to the doctor tomorrow?
+HE: אתה יכול ללוות אותי לרופא מחר?
+EN: Children under 12 must be [accompanied] by an adult.
+HE: ילדים מתחת לגיל 12 חייבים להיות מלווים במבוגר.
+
+## transport
+EN: The company will [transport] the furniture to our new home.
+HE: החברה תוביל את הרהיטים לבית החדש שלנו.
+EN: Trucks [transport] goods from the port to the city.
+HE: משאיות מובילות סחורה מהנמל לעיר.
+
+## fracture-break
+EN: The doctor said it's a [fracture], not just a bruise.
+HE: הרופא אמר שזה שבר, לא רק חבלה.
+EN: It was a clean [break], so it will heal quickly.
+HE: זה היה שבר נקי, אז הוא יחלים מהר.
+
+## wrist
+EN: I wear my watch on my left [wrist].
+HE: אני עונד את השעון על שורש כף היד השמאלית.
+EN: Typing all day hurts my [wrist].
+HE: הקלדה כל היום מכאיבה לי בשורש כף היד.
+
+## wrist-straps
+EN: I use [wrist straps] when I lift heavy weights.
+HE: אני משתמש ברצועות לשורש כף היד כשאני מרים משקולות כבדות.
+EN: [Wrist straps] help you hold the bar longer.
+HE: רצועות לשורש כף היד עוזרות להחזיק את המוט יותר זמן.
+
+## discipline
+EN: Learning English every day takes [discipline].
+HE: ללמוד אנגלית כל יום דורש משמעת.
+EN: The army is known for strict [discipline].
+HE: הצבא ידוע במשמעת נוקשה.
+
+## committed
+EN: I am [committed] to finishing this course.
+HE: אני מחויב לסיים את הקורס הזה.
+EN: She is a [committed] and loyal employee.
+HE: היא עובדת מחויבת ונאמנה.
+
+## commitment
+EN: Buying a dog is a long-term [commitment].
+HE: לקנות כלב זו מחויבות לטווח ארוך.
+EN: Thank you for your [commitment] to the team.
+HE: תודה על המחויבות שלך לצוות.
+
+## recover
+EN: It took me two weeks to [recover] from the flu.
+HE: לקח לי שבועיים להחלים מהשפעת.
+EN: The economy is starting to [recover].
+HE: הכלכלה מתחילה להתאושש.
+
+## recovery
+EN: We wish you a fast [recovery].
+HE: אנחנו מאחלים לך החלמה מהירה.
+EN: The [recovery] after knee surgery can take months.
+HE: ההחלמה אחרי ניתוח ברך יכולה לקחת חודשים.
+
+## gullible
+EN: He is so [gullible] that he believes everything he reads online.
+HE: הוא כל כך פתי שהוא מאמין לכל מה שהוא קורא ברשת.
+EN: Scammers look for [gullible] people.
+HE: נוכלים מחפשים אנשים פתיים.
+
+## regret
+EN: I [regret] not studying English when I was young.
+HE: אני מתחרט שלא למדתי אנגלית כשהייתי צעיר.
+EN: I have no [regrets] about moving to a new city.
+HE: אין לי שום חרטה על המעבר לעיר חדשה.
+
+## lesson 30-07-2026
+EN: Last month I had a [fracture] in my [wrist] at the gym. My wife had to [accompany] me to the hospital. The doctor said the [recovery] would take six weeks. Now I am [committed] to training with more [discipline], and I always use [wrist straps]. I don't want to [regret] it again.
+HE: בחודש שעבר היה לי שבר בשורש כף היד בחדר הכושר. אשתי הייתה צריכה ללוות אותי לבית החולים. הרופא אמר שההחלמה תיקח שישה שבועות. עכשיו אני מחויב להתאמן עם יותר משמעת, ואני תמיד משתמש ברצועות לשורש כף היד. אני לא רוצה להתחרט על זה שוב.
+
+## saving
+EN: I put my [savings] in a fund for my children.
+HE: שמתי את החסכונות שלי בקרן לילדים שלי.
+EN: Cooking at home is a big [saving] every month.
+HE: בישול בבית הוא חיסכון גדול כל חודש.
+
+## debt-loan
+EN: He took a [debt loan] to pay off his credit cards.
+HE: הוא לקח הלוואה כדי לפרוע את חובות כרטיסי האשראי שלו.
+EN: The [debt loan] has a lower interest rate.
+HE: להלוואת החוב יש ריבית נמוכה יותר.
+
+## credit-status
+EN: The bank checked my [credit status] before approving the loan.
+HE: הבנק בדק את מצב האשראי שלי לפני שאישר את ההלוואה.
+EN: Paying bills on time improves your [credit status].
+HE: תשלום חשבונות בזמן משפר את מצב האשראי שלך.
+
+## leverage
+EN: Buying a house with a mortgage is a kind of [leverage].
+HE: קניית בית עם משכנתא היא סוג של מינוף.
+EN: We can [leverage] our experience to win new clients.
+HE: אנחנו יכולים למנף את הניסיון שלנו כדי לזכות בלקוחות חדשים.
+
+## negotiate
+EN: I tried to [negotiate] a lower price for the car.
+HE: ניסיתי לנהל משא ומתן על מחיר נמוך יותר לרכב.
+EN: The union will [negotiate] with the management.
+HE: הוועד ינהל משא ומתן עם ההנהלה.
+
+## negotiation
+EN: After a long [negotiation], they agreed on the price.
+HE: אחרי משא ומתן ארוך, הם הסכימו על המחיר.
+EN: [Negotiation] is an important skill in business.
+HE: משא ומתן הוא מיומנות חשובה בעסקים.
+
+## broker-agent
+EN: The [broker] showed us three apartments.
+HE: המתווך הראה לנו שלוש דירות.
+EN: My insurance [agent] answered all my questions.
+HE: סוכן הביטוח שלי ענה על כל השאלות שלי.
+
+## mature
+EN: She is very [mature] for her age.
+HE: היא מאוד בוגרת לגילה.
+EN: The investment will [mature] in five years.
+HE: ההשקעה תגיע למועד הפירעון שלה בעוד חמש שנים.
+
+## immature
+EN: Throwing food at people is [immature].
+HE: לזרוק אוכל על אנשים זה ילדותי.
+EN: He is too [immature] to manage a team.
+HE: הוא לא בוגר מספיק כדי לנהל צוות.
+
+## external
+EN: The company hired an [external] consultant.
+HE: החברה שכרה יועץ חיצוני.
+EN: The [external] walls need new paint.
+HE: הקירות החיצוניים צריכים צבע חדש.
+
+## internal
+EN: This is an [internal] email; don't send it to clients.
+HE: זה מייל פנימי; אל תשלח אותו ללקוחות.
+EN: The doctor checked for [internal] bleeding.
+HE: הרופא בדק אם יש דימום פנימי.
+
+## capital-market-authorities
+EN: The [capital market authorities] supervise pension funds.
+HE: רשויות שוק ההון מפקחות על קרנות הפנסיה.
+EN: The new rules were published by the [capital market authorities].
+HE: הכללים החדשים פורסמו על ידי רשויות שוק ההון.
+
+## agency
+EN: We booked the trip through a travel [agency].
+HE: הזמנו את הטיול דרך סוכנות נסיעות.
+EN: She works for a big advertising [agency].
+HE: היא עובדת בסוכנות פרסום גדולה.
+
+## priority
+EN: My family is my top [priority].
+HE: המשפחה שלי היא העדיפות העליונה שלי.
+EN: Safety is our first [priority].
+HE: הבטיחות היא העדיפות הראשונה שלנו.
+
+## lesson 20-07-2026
+EN: My client was three months in [arrears], so his [credit status] was bad. My first [priority] was to help him. I helped him [negotiate] with the bank, and after a short [negotiation] he got a [debt loan] with a lower interest rate. Now he puts a little into [savings] every month.
+HE: הלקוח שלי היה בפיגור של שלושה חודשים, אז מצב האשראי שלו היה גרוע. העדיפות הראשונה שלי הייתה לעזור לו. עזרתי לו לנהל משא ומתן עם הבנק, ואחרי משא ומתן קצר הוא קיבל הלוואה בריבית נמוכה יותר. עכשיו הוא מכניס קצת לחיסכון כל חודש.
