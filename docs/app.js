@@ -317,7 +317,12 @@
       const ok = o.word === cfg.correctWord;
       el.querySelectorAll('.opt').forEach(x => {
         x.disabled = true;
-        if (cfg.options[+x.dataset.i].word === cfg.correctWord) x.classList.add('ok');
+        const ow = cfg.options[+x.dataset.i].word;
+        if (ow === cfg.correctWord) x.classList.add('ok');
+        // after answering, show the translation of every option (not only the right one)
+        x.insertAdjacentHTML('beforeend', cfg.revealEn
+          ? `<div class="note en" style="text-align:center">${esc(ow.en)}</div>`
+          : `<div class="note he">${esc(ow.he)}</div>`);
       });
       if (!ok) b.classList.add('bad');
       record(ok);
@@ -341,7 +346,8 @@
     choiceQuestion(el, w, record, next, {
       head: `<div class="prompt">מה הפירוש של המילה?</div>${wordHead(w)}${autoPh(esc(w.ph))}${w.note ? `<div class="note en">${esc(w.note)}</div>` : ''}${helperBar({ ph: true })}`,
       options: opts.map(o => ({ label: `<span class="he">${esc(o.he)}</span>`, word: o })),
-      correctWord: w
+      correctWord: w,
+      revealEn: true
     });
     speak(w.en);
   };
