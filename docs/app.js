@@ -279,6 +279,13 @@
     return esc(s).replace(/\[([^\]]+)\]/g, `<span class="${cls}">&nbsp;</span>`);
   }
 
+  // after a sentence is completed: play it once and add buttons to hear it again (normal / slow)
+  function replayButtons(el, text) {
+    const card = $('.card', el);
+    card.insertAdjacentHTML('beforeend', `<div class="helpers"><button class="help" data-say="${esc(text)}">🔊 השמע את המשפט שוב</button><button class="help" data-say="${esc(text)}" data-slow>🐢 לאט</button></div>`);
+    speak(text);
+  }
+
   const EX = {};
 
   EX.flash = (el, w, record, next) => {
@@ -388,7 +395,7 @@
       correctWord: w,
       after: () => {
         const b = $('.blank', el); b.textContent = ans; b.classList.add('ok');
-        speak(s.en);
+        replayButtons(el, s.en);
       }
     });
   };
@@ -442,7 +449,7 @@
         ${helperBar({ he: true })}
         <div class="helpers"><button class="help" data-open="hint">💡 רמז</button></div>`,
       answers: [ans], loose: forms(w), shown: ans,
-      onDone: ok => { const b = $('.blank', el); b.textContent = ans; b.classList.add(ok ? 'ok' : 'bad'); speak(s.en); }
+      onDone: ok => { const b = $('.blank', el); b.textContent = ans; b.classList.add(ok ? 'ok' : 'bad'); replayButtons(el, s.en); }
     });
     el.querySelectorAll('[data-auto="hint"]').forEach(x => x.classList.add('hidden'));
   };
