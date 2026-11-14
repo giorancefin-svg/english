@@ -195,6 +195,7 @@
     { id: 'listen', ico: '🎧', name: 'שמע וכתוב', desc: 'הקשב ואיית את המילה' },
     { id: 'match', ico: '🔗', name: 'התאמה', desc: 'חבר מילה לתרגום' },
     { id: 'list', ico: '📚', name: 'רשימת המילים', desc: 'כל המילים לפי שיעור' },
+    { id: 'reminder', ico: '🔔', name: 'תזכורת יומית', desc: 'הודעה מעודדת כל ערב' },
     { id: 'settings', ico: '⚙️', name: 'הגדרות', desc: 'מהירות דיבור, אורך סבב' }
   ];
   function home() {
@@ -246,6 +247,7 @@
   function start(mode) {
     if (mode === 'list') return listScreen();
     if (mode === 'settings') return settingsScreen();
+    if (mode === 'reminder') return reminderScreen();
     if (settings.scope === 'custom' && !settings.lessons.length) { toast('סמן לפחות שיעור אחד'); return; }
     if (mode === 'paragraph') return paragraphScreen();
     let pool = scopeWords();
@@ -274,7 +276,11 @@
         const choices = b < 1 ? ['en2he', 'he2en', 'sentence', 'flash'] : b < 3 ? ['sentence', 'he2en', 'en2he', 'listen', 'sentenceType'] : ['sentenceType', 'listen', 'sentence', 'he2en'];
         type = pick(choices);
       }
-      view.innerHTML = `<div class="progress"><i style="width:${(i / words.length) * 100}%"></i></div><div id="q"></div>`;
+      const counter = i < firstCount
+        ? `שאלה <b>${i + 1}</b> מתוך <b>${firstCount}</b>`
+        : `חזרה על מילים שפספסת: <b>${i - firstCount + 1}</b> מתוך <b>${words.length - firstCount}</b>`;
+      view.innerHTML = `<div class="counter"><span>${counter}</span><span class="spacer"></span><span>✓ ${score}</span></div>
+        <div class="progress"><i style="width:${(i / words.length) * 100}%"></i></div><div id="q"></div>`;
       EX[type]($('#q'), w, ok => {
         grade(w.id, ok);
         const first = i < firstCount;
@@ -657,6 +663,82 @@
         ${(w.s || []).map(s => `<div class="en" style="margin-top:8px">${esc(plain(s.en))} <button class="speak small" data-say="${esc(s.en)}">🔊</button></div><div class="note he">${esc(s.he)}</div>`).join('')}
         <div class="note">${p ? `תשובות נכונות: ${p.ok} · טעויות: ${p.bad}` : 'עוד לא תרגלת את המילה הזאת'}</div>`;
       more.classList.remove('hidden');
+    };
+  }
+
+  // ---------- daily reminder (iPhone Shortcuts automation) ----------
+  const REMINDERS = [
+    'תרגלת כבר אנגלית היום? 5 דקות זה כל מה שצריך 💪',
+    'Ready for some English, Giora? 🇬🇧',
+    'המילים מהשיעור האחרון מחכות לך 📚',
+    'עוד יום ברצף? אל תשבור את השרשרת 🔥',
+    'מילה אחת ביום — 365 מילים בשנה 🌱',
+    'The best time to practice is now ⏰',
+    'סבב אחד של חזרה חכמה לפני השינה? 🧠',
+    'Practice makes progress, not perfect ✨',
+    'המורה תשמח לשמוע שתרגלת השבוע 😉',
+    'עשר שאלות. חמש דקות. יאללה! 🚀',
+    'Small steps every day = big results 👣',
+    'מה שלא מתרגלים — שוכחים. בוא נחזור על כמה מילים 🔁',
+    'Your English is getting better every day 💙',
+    'איך אומרים "תרגלתי היום" באנגלית? I practiced today ✅',
+    'מוכן לאתגר? נסה את "שמע וכתוב" היום 🎧',
+    'Don’t break the streak! 🔥',
+    'כמה מילים אתה זוכר מהשיעור האחרון? בוא נבדוק 🤔',
+    'Five minutes of English beats zero minutes 😄',
+    'הזמן הכי טוב ללמוד היה אתמול. השני הכי טוב — עכשיו ⏳',
+    'You’ve got this, Giora! 💪',
+    'פסקה אחת קצרה עם מילים חדשות? 📄',
+    'כל תרגול מקרב אותך לשיחה באנגלית בלי לחשוב פעמיים 🗣',
+    'Learning a language is a marathon, not a sprint 🏃',
+    'בוא נוודא שהמילים של השבוע נכנסו לראש 🧩',
+    'Keep calm and practice English ☕',
+    'יש מילים שטעית בהן? זה הזמן לתקן אותן 🎯',
+    'One more round before bed? 🌙',
+    'כמה דקות של אנגלית — ומחר יהיה קל יותר 🌟',
+    'Every word you learn opens a new door 🚪',
+    'גיורא, האנגלית מחכה לך 😊'
+  ];
+  function reminderScreen() {
+    screen('תזכורת יומית');
+    const text = REMINDERS.join(String.fromCharCode(10));
+    view.innerHTML = `
+      <div class="card">
+        <b>מה זה עושה?</b>
+        <div class="muted" style="margin-top:6px">כל ערב ב-20:30 תקבל באייפון הודעה מעודדת — כל יום הודעה אחרת (${REMINDERS.length} הודעות מתחלפות). ההגדרה נעשית פעם אחת באפליקציית <b>קיצורים</b> <bdi dir="ltr">(Shortcuts)</bdi> של אפל.</div>
+      </div>
+      <div class="card">
+        <b>שלב 1 — העתק את ההודעות</b>
+        <button class="btn" id="copyMsgs">📋 העתק את ${REMINDERS.length} ההודעות</button>
+      </div>
+      <div class="card">
+        <b>שלב 2 — צור אוטומציה באפליקציית קיצורים</b>
+        <ol class="steps">
+          <li>פתח את האפליקציה <b>קיצורים</b> <bdi dir="ltr">(Shortcuts)</bdi> ועבור ללשונית <b>אוטומציה</b> <bdi dir="ltr">(Automation)</bdi> בתחתית.</li>
+          <li>לחץ <b>+</b> (או "אוטומציה חדשה" <bdi dir="ltr">New Automation</bdi>) ובחר <b>שעה ביום</b> <bdi dir="ltr">(Time of Day)</bdi>.</li>
+          <li>קבע <b>20:30</b>, סמן <b>כל יום</b> <bdi dir="ltr">(Daily)</bdi>, ובחר <b>הפעל מיד</b> <bdi dir="ltr">(Run Immediately)</bdi>. לחץ <b>הבא</b>.</li>
+          <li>לחץ <b>אוטומציה ריקה חדשה</b> <bdi dir="ltr">(New Blank Automation)</bdi>.</li>
+          <li>הוסף פעולה <b>טקסט</b> <bdi dir="ltr">(Text)</bdi>, לחץ בתוכה והדבק <bdi dir="ltr">(Paste)</bdi> את ההודעות שהעתקת.</li>
+          <li>הוסף פעולה <b>פצל טקסט</b> <bdi dir="ltr">(Split Text)</bdi> — וודא שכתוב "לפי <b>שורות חדשות</b>" <bdi dir="ltr">(New Lines)</bdi>.</li>
+          <li>הוסף פעולה <b>קבל פריט מהרשימה</b> <bdi dir="ltr">(Get Item from List)</bdi> ושנה את "הפריט הראשון" ל-<b>פריט אקראי</b> <bdi dir="ltr">(Random Item)</bdi>.</li>
+          <li>הוסף פעולה <b>הצג הודעה</b> <bdi dir="ltr">(Show Notification)</bdi>. במקום הטקסט <bdi dir="ltr">Hello World</bdi> בחר את המשתנה <b>פריט מהרשימה</b> <bdi dir="ltr">(Item from List)</bdi>.</li>
+          <li>לחץ <b>סיום</b> <bdi dir="ltr">(Done)</bdi>. זהו! 🎉</li>
+        </ol>
+        <div class="muted">השמות המדויקים של הכפתורים יכולים להיות קצת שונים לפי גרסת ה-iOS ושפת הטלפון.</div>
+      </div>
+      <div class="card">
+        <b>שלב 3 — בדיקה</b>
+        <div class="muted" style="margin-top:6px">בתוך האוטומציה לחץ על כפתור ההפעלה ▶ בתחתית — אמורה להופיע הודעה. אם קיצורים מבקשת אישור להצגת התראות, אשר.</div>
+      </div>
+      <div class="card"><b>דוגמאות להודעות:</b>${REMINDERS.slice(0, 6).map(m => `<div class="note" style="font-size:15px;color:var(--ink)">• ${esc(m)}</div>`).join('')}</div>`;
+    $('#copyMsgs').onclick = async () => {
+      try { await navigator.clipboard.writeText(text); toast('ההודעות הועתקו ✓'); }
+      catch (e) {
+        const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta);
+        ta.select(); ta.setSelectionRange(0, text.length);
+        const ok = document.execCommand('copy'); ta.remove();
+        toast(ok ? 'ההודעות הועתקו ✓' : 'ההעתקה נכשלה');
+      }
     };
   }
 

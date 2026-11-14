@@ -146,3 +146,10 @@ main { padding: 14px; max-width: 640px; margin: 0 auto; }
 .lesson-item { display: flex; align-items: center; gap: 10px; padding: 11px 0; border-bottom: 1px solid var(--line); }
 .lesson-item:last-child { border-bottom: 0; }
 .lesson-item input { width: 22px; height: 22px; flex: none; }
+
+.counter { display: flex; align-items: center; font-size: 15px; color: var(--muted); margin: 0 2px 6px; }
+.counter b { color: var(--ink); }
+
+.steps { padding-inline-start: 22px; margin: 10px 0; line-height: 1.55; }
+.steps li { margin-bottom: 8px; }
+.steps bdi { white-space: nowrap; color: var(--muted); font-size: 14px; }
