@@ -16,7 +16,7 @@
     get(k, d) { try { const v = localStorage.getItem('ge_' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
     set(k, v) { try { localStorage.setItem('ge_' + k, JSON.stringify(v)); } catch (e) {} }
   };
-  const settings = Object.assign({ showHe: false, showPh: false, scope: 'all', round: 10, rate: 0.85, streak: 0, lastDay: '' },
+  const settings = Object.assign({ showHe: false, showPh: false, autoSay: false, scope: 'all', round: 10, rate: 0.85, streak: 0, lastDay: '' },
     LS.get('settings', {}));
   const prog = LS.get('progress', {});
   const saveSettings = () => LS.set('settings', settings);
@@ -87,6 +87,8 @@
     u.rate = slow ? Math.max(0.45, settings.rate - 0.35) : settings.rate;
     speechSynthesis.speak(u);
   }
+  // automatic speech (when a question opens / an answer is shown) only if the 🔊 toggle is on
+  function autoSpeak(text) { if (settings.autoSay) speak(text); }
   // delegate all speak buttons
   document.addEventListener('click', e => {
     const b = e.target.closest('[data-say]');
@@ -94,10 +96,12 @@
   });
 
   // ---------- top bar ----------
-  const tglHe = $('#tglHe'), tglPh = $('#tglPh'), backBtn = $('#backBtn'), title = $('#title');
+  const tglHe = $('#tglHe'), tglPh = $('#tglPh'), tglSay = $('#tglSay'), backBtn = $('#backBtn'), title = $('#title');
   function syncToggles() {
     tglHe.classList.toggle('on', settings.showHe);
     tglPh.classList.toggle('on', settings.showPh);
+    tglSay.classList.toggle('on', settings.autoSay);
+    tglSay.textContent = settings.autoSay ? '🔊' : '🔇';
     document.body.classList.toggle('show-he', settings.showHe);
     document.body.classList.toggle('show-ph', settings.showPh);
     document.querySelectorAll('[data-auto="he"]').forEach(el => el.classList.toggle('hidden', !settings.showHe && !el.dataset.open));
@@ -105,6 +109,11 @@
   }
   tglHe.onclick = () => { settings.showHe = !settings.showHe; saveSettings(); syncToggles(); toast(settings.showHe ? 'תרגום לעברית מוצג' : 'תרגום לעברית מוסתר'); };
   tglPh.onclick = () => { settings.showPh = !settings.showPh; saveSettings(); syncToggles(); toast(settings.showPh ? 'הגייה מוצגת' : 'הגייה מוסתרת'); };
+  tglSay.onclick = () => {
+    settings.autoSay = !settings.autoSay; saveSettings(); syncToggles();
+    if (!settings.autoSay && 'speechSynthesis' in window) speechSynthesis.cancel();
+    toast(settings.autoSay ? 'השמעה אוטומטית פועלת' : 'השמעה אוטומטית כבויה (אפשר ללחוץ 🔊 ליד כל מילה)');
+  };
   backBtn.onclick = () => home();
   function screen(name, isHome) {
     title.textContent = name;
@@ -327,7 +336,7 @@
   function replayButtons(el, text) {
     const card = $('.card', el);
     card.insertAdjacentHTML('beforeend', `<div class="helpers"><button class="help" data-say="${esc(text)}">🔊 השמע את המשפט שוב</button><button class="help" data-say="${esc(text)}" data-slow>🐢 לאט</button></div>`);
-    speak(text);
+    autoSpeak(text);
   }
 
   const EX = {};
@@ -347,7 +356,7 @@
         <div class="muted" id="tapHint" style="margin-top:14px">לחץ על הכרטיס כדי לראות את התרגום</div>
       </div>
       <div id="act"></div>`;
-    speak(w.en);
+    autoSpeak(w.en);
     $('#fc', el).onclick = () => {
       if (!$('#back', el).classList.contains('hidden')) return;
       $('#back', el).classList.remove('hidden');
@@ -405,7 +414,7 @@
       correctWord: w,
       revealEn: true
     });
-    speak(w.en);
+    autoSpeak(w.en);
   };
 
   EX.he2en = (el, w, record, next) => {
@@ -414,7 +423,7 @@
       head: `<div class="prompt">איך אומרים באנגלית?</div><div class="big he" style="text-align:center">${esc(w.he)}</div>`,
       options: opts.map(o => ({ label: `<span class="en">${esc(o.en)}</span>${autoPh(esc(o.ph), 'ph note')}`, word: o })),
       correctWord: w,
-      after: () => speak(w.en)
+      after: () => autoSpeak(w.en)
     });
   };
 
@@ -515,7 +524,7 @@
         ${helperBar({ he: true, ph: true })}`,
       answers: forms(w).concat([w.en]), shown: w.en
     });
-    setTimeout(() => speak(w.en), 250);
+    setTimeout(() => autoSpeak(w.en), 250);
   };
 
   // ---------- matching ----------
@@ -532,7 +541,7 @@
     syncToggles();
     view.querySelectorAll('.tile').forEach(b => b.onclick = () => {
       const t = (b.dataset.s === 'en' ? enT : heT)[+b.dataset.i];
-      if (b.dataset.s === 'en') speak(t.w.en);
+      if (b.dataset.s === 'en') autoSpeak(t.w.en);
       if (!sel || sel.t.side === t.side) {
         if (sel) sel.b.classList.remove('sel');
         sel = { b, t }; b.classList.add('sel'); return;
@@ -751,6 +760,7 @@
     view.innerHTML = `<div class="card settings">
         <label><input type="checkbox" id="sHe" ${settings.showHe ? 'checked' : ''}> הצג תמיד תרגום לעברית (כמו כפתור "עב" למעלה)</label>
         <label><input type="checkbox" id="sPh" ${settings.showPh ? 'checked' : ''}> הצג תמיד הגייה (כמו כפתור 🗣 למעלה)</label>
+        <label><input type="checkbox" id="sSay" ${settings.autoSay ? 'checked' : ''}> השמע אוטומטית מילים ומשפטים (כמו כפתור 🔊 למעלה)</label>
         <label>מספר שאלות בסבב <span class="spacer"></span><select class="select" id="sRound" style="width:auto">${[5, 10, 15, 20].map(n => `<option ${n === settings.round ? 'selected' : ''}>${n}</option>`).join('')}</select></label>
         <label>מהירות דיבור <span class="spacer"></span><select class="select" id="sRate" style="width:auto">${[[0.6, 'איטי'], [0.75, 'רגוע'], [0.85, 'רגיל'], [1, 'מהיר']].map(([v, t]) => `<option value="${v}" ${v === settings.rate ? 'selected' : ''}>${t}</option>`).join('')}</select></label>
         <label><button class="help" data-say="Hello Giora, let's practice English together!">🔊 בדיקת קול</button></label>
@@ -759,6 +769,7 @@
       <button class="btn secondary" id="reset">איפוס ההתקדמות</button>`;
     $('#sHe').onchange = e => { settings.showHe = e.target.checked; saveSettings(); syncToggles(); };
     $('#sPh').onchange = e => { settings.showPh = e.target.checked; saveSettings(); syncToggles(); };
+    $('#sSay').onchange = e => { settings.autoSay = e.target.checked; saveSettings(); syncToggles(); };
     $('#sRound').onchange = e => { settings.round = +e.target.value; saveSettings(); };
     $('#sRate').onchange = e => { settings.rate = +e.target.value; saveSettings(); };
     $('#reset').onclick = () => {
