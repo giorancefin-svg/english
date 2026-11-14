@@ -20,6 +20,8 @@
     LS.get('settings', {}));
   const prog = LS.get('progress', {});
   const saveSettings = () => LS.set('settings', settings);
+  if (!Array.isArray(settings.lessons)) settings.lessons = [];
+  if (/^\d/.test(settings.scope)) { settings.lessons = [settings.scope]; settings.scope = 'custom'; }
   const saveProg = () => LS.set('progress', prog);
 
   const DAY = 86400000;
@@ -137,9 +139,14 @@
     else if (s === 'newest') words = (LESSONS[0] || { words: [] }).words;
     else if (s === 'last3') { words = []; LESSONS.slice(0, 3).forEach(l => words.push(...l.words)); }
     else if (s === 'weak') words = ALL.filter(w => prog[w.id] && (prog[w.id].bad > 0 && prog[w.id].b < 3));
-    else words = ((LESSONS.find(l => l.date === s)) || { words: [] }).words;
+    else { words = []; chosenLessons().forEach(l => words.push(...l.words)); }
     const seen = {}; words = words.filter(w => !seen[w.id] && (seen[w.id] = 1)).map(w => BY_ID[w.id]);
     return words;
+  }
+  // lessons ticked in "choose lessons" (falls back to the newest lesson if none ticked)
+  function chosenLessons() {
+    const ls = LESSONS.filter(l => settings.lessons.indexOf(l.date) >= 0);
+    return ls.length ? ls : LESSONS.slice(0, 1);
   }
   function scopeLabel() {
     const s = settings.scope;
@@ -147,7 +154,7 @@
     if (s === 'newest') return 'השיעור האחרון';
     if (s === 'last3') return '3 השיעורים האחרונים';
     if (s === 'weak') return 'מילים שטעיתי בהן';
-    return 'שיעור ' + s;
+    return 'שיעורים נבחרים';
   }
   // choose words for a round: due first, then new / weak, a bit of randomness
   function chooseWords(pool, n) {
@@ -195,8 +202,7 @@
     const total = ALL.length;
     const learned = ALL.filter(w => box(w) >= 3).length;
     const due = ALL.filter(isDue).length;
-    const opts = [['all', 'כל המילים'], ['newest', 'השיעור האחרון'], ['last3', '3 השיעורים האחרונים'], ['weak', 'מילים שטעיתי בהן']]
-      .concat(LESSONS.map(l => [l.date, `שיעור ${l.date} (${l.words.length} מילים)`]));
+    const opts = [['all', 'כל המילים'], ['newest', 'השיעור האחרון'], ['last3', '3 השיעורים האחרונים'], ['weak', 'מילים שטעיתי בהן'], ['custom', 'בחירת שיעורים (כמה שאני רוצה)']];
     view.innerHTML = `
       <div class="card stats">
         <div class="stat"><b>${learned}/${total}</b><span>מילים שלמדתי</span></div>
@@ -206,15 +212,41 @@
       <div class="card">
         <div class="muted" style="margin-bottom:6px">על אילו מילים לתרגל?</div>
         <select class="select" id="scope">${opts.map(([v, t]) => `<option value="${esc(v)}" ${v === settings.scope ? 'selected' : ''}>${esc(t)}</option>`).join('')}</select>
+        <div id="lessonPick" class="${settings.scope === 'custom' ? '' : 'hidden'}">
+          <div class="row" style="margin:10px 0 4px"><span class="muted" id="pickCount"></span><span class="spacer"></span>
+            <button class="help" id="pickAll">סמן הכל</button><button class="help" id="pickNone">נקה</button></div>
+          <div class="lesson-list">${LESSONS.map(l => `<label class="lesson-item"><input type="checkbox" value="${esc(l.date)}" ${settings.lessons.indexOf(l.date) >= 0 ? 'checked' : ''}>
+            <span>שיעור ${esc(l.date)}</span><span class="spacer"></span><span class="muted">${l.words.length} מילים</span></label>`).join('')}</div>
+        </div>
       </div>
       <div class="modes">${MODES.map(m => `<button class="mode ${m.wide ? 'wide' : ''}" data-mode="${m.id}"><span class="ico">${m.ico}</span><b>${m.name}</b><small>${m.desc}</small></button>`).join('')}</div>`;
-    $('#scope').onchange = e => { settings.scope = e.target.value; saveSettings(); };
+    const pickBox = $('#lessonPick');
+    const updateCount = () => {
+      const n = settings.lessons.length;
+      const words = scopeWordsCount();
+      $('#pickCount').textContent = n ? `נבחרו ${n} שיעורים · ${words} מילים` : 'לא נבחר שיעור — סמן שיעור אחד או יותר';
+    };
+    const scopeWordsCount = () => { const ids = {}; chosenLessons().forEach(l => l.words.forEach(w => ids[w.id] = 1)); return settings.lessons.length ? Object.keys(ids).length : 0; };
+    $('#scope').onchange = e => {
+      settings.scope = e.target.value; saveSettings();
+      pickBox.classList.toggle('hidden', settings.scope !== 'custom');
+      updateCount();
+    };
+    const readChecks = () => {
+      settings.lessons = [...pickBox.querySelectorAll('input:checked')].map(c => c.value);
+      saveSettings(); updateCount();
+    };
+    pickBox.querySelectorAll('input').forEach(c => c.onchange = readChecks);
+    $('#pickAll').onclick = () => { pickBox.querySelectorAll('input').forEach(c => c.checked = true); readChecks(); };
+    $('#pickNone').onclick = () => { pickBox.querySelectorAll('input').forEach(c => c.checked = false); readChecks(); };
+    updateCount();
     view.querySelectorAll('[data-mode]').forEach(b => b.onclick = () => start(b.dataset.mode));
   }
 
   function start(mode) {
     if (mode === 'list') return listScreen();
     if (mode === 'settings') return settingsScreen();
+    if (settings.scope === 'custom' && !settings.lessons.length) { toast('סמן לפחות שיעור אחד'); return; }
     if (mode === 'paragraph') return paragraphScreen();
     let pool = scopeWords();
     if (pool.length < 4) {
@@ -523,7 +555,8 @@
     screen('השלם פסקה');
     let lessons = LESSONS.filter(l => l.p && l.p.length);
     const s = settings.scope;
-    const inScope = lessons.filter(l => s === l.date || (s === 'newest' && l === LESSONS[0]) || (s === 'last3' && LESSONS.indexOf(l) < 3));
+    const chosen = chosenLessons();
+    const inScope = lessons.filter(l => (s === 'custom' && chosen.indexOf(l) >= 0) || (s === 'newest' && l === LESSONS[0]) || (s === 'last3' && LESSONS.indexOf(l) < 3));
     let lesson = lessonDate ? lessons.find(l => l.date === lessonDate) : pick(inScope.length ? inScope : lessons);
     if (!lesson) { view.innerHTML = '<div class="card">אין עדיין פסקאות.</div>'; return; }
     const para = pick(lesson.p);

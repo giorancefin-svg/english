@@ -141,3 +141,8 @@ main { padding: 14px; max-width: 640px; margin: 0 auto; }
 .settings label { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }
 .settings label:last-child { border-bottom: 0; }
 .settings input[type=checkbox] { width: 22px; height: 22px; }
+
+.lesson-list { max-height: 300px; overflow-y: auto; border: 1px solid var(--line); border-radius: 12px; padding: 0 12px; }
+.lesson-item { display: flex; align-items: center; gap: 10px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+.lesson-item:last-child { border-bottom: 0; }
+.lesson-item input { width: 22px; height: 22px; flex: none; }
