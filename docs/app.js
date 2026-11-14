@@ -712,23 +712,26 @@
         <button class="btn" id="copyMsgs">📋 העתק את ${REMINDERS.length} ההודעות</button>
       </div>
       <div class="card">
-        <b>שלב 2 — צור אוטומציה באפליקציית קיצורים</b>
+        <b>שלב 2 — צור קיצור בשם "תזכורת אנגלית"</b>
         <ol class="steps">
-          <li>פתח את האפליקציה <b>קיצורים</b> <bdi dir="ltr">(Shortcuts)</bdi> ועבור ללשונית <b>אוטומציה</b> <bdi dir="ltr">(Automation)</bdi> בתחתית.</li>
-          <li>לחץ <b>+</b> (או "אוטומציה חדשה" <bdi dir="ltr">New Automation</bdi>) ובחר <b>שעה ביום</b> <bdi dir="ltr">(Time of Day)</bdi>.</li>
-          <li>קבע <b>20:30</b>, סמן <b>כל יום</b> <bdi dir="ltr">(Daily)</bdi>, ובחר <b>הפעל מיד</b> <bdi dir="ltr">(Run Immediately)</bdi>. לחץ <b>הבא</b>.</li>
-          <li>לחץ <b>אוטומציה ריקה חדשה</b> <bdi dir="ltr">(New Blank Automation)</bdi>.</li>
-          <li>הוסף פעולה <b>טקסט</b> <bdi dir="ltr">(Text)</bdi>, לחץ בתוכה והדבק <bdi dir="ltr">(Paste)</bdi> את ההודעות שהעתקת.</li>
-          <li>הוסף פעולה <b>פצל טקסט</b> <bdi dir="ltr">(Split Text)</bdi> — וודא שכתוב "לפי <b>שורות חדשות</b>" <bdi dir="ltr">(New Lines)</bdi>.</li>
-          <li>הוסף פעולה <b>קבל פריט מהרשימה</b> <bdi dir="ltr">(Get Item from List)</bdi> ושנה את "הפריט הראשון" ל-<b>פריט אקראי</b> <bdi dir="ltr">(Random Item)</bdi>.</li>
-          <li>הוסף פעולה <b>הצג הודעה</b> <bdi dir="ltr">(Show Notification)</bdi>. במקום הטקסט <bdi dir="ltr">Hello World</bdi> בחר את המשתנה <b>פריט מהרשימה</b> <bdi dir="ltr">(Item from List)</bdi>.</li>
-          <li>לחץ <b>סיום</b> <bdi dir="ltr">(Done)</bdi>. זהו! 🎉</li>
+          <li>פתח את האפליקציה <b>קיצורים</b> <bdi dir="ltr">(Shortcuts)</bdi> ועבור ללשונית <b>קיצורים</b> <bdi dir="ltr">(Shortcuts)</bdi> בתחתית (לא "אוטומציה").</li>
+          <li>לחץ <b>+</b> למעלה כדי ליצור קיצור חדש.</li>
+          <li>בשורת החיפוש של הפעולות כתוב <b>טקסט</b> <bdi dir="ltr">(Text)</bdi> והוסף אותה. לחץ בתוכה והדבק <bdi dir="ltr">(Paste)</bdi> את ההודעות שהעתקת.</li>
+          <li>חפש והוסף <b>פצל טקסט</b> <bdi dir="ltr">(Split Text)</bdi> — וודא שכתוב "לפי <b>שורות חדשות</b>" <bdi dir="ltr">(New Lines)</bdi>.</li>
+          <li>חפש והוסף <b>קבל פריט מהרשימה</b> <bdi dir="ltr">(Get Item from List)</bdi> ושנה את "הפריט הראשון" ל-<b>פריט אקראי</b> <bdi dir="ltr">(Random Item)</bdi>.</li>
+          <li>חפש והוסף <b>הצג הודעה</b> <bdi dir="ltr">(Show Notification)</bdi>. לחץ על הטקסט <bdi dir="ltr">Hello World</bdi>, מחק אותו, ובחר מעל המקלדת את המשתנה <b>פריט מהרשימה</b> <bdi dir="ltr">(Item from List)</bdi>.</li>
+          <li>למעלה, לחץ על שם הקיצור ושנה אותו ל-<b>תזכורת אנגלית</b>.</li>
+          <li>לחץ ▶ בתחתית לבדיקה — אמורה להופיע הודעה. אם מבקשים אישור להתראות, אשר. לחץ <b>סיום</b> <bdi dir="ltr">(Done)</bdi>.</li>
         </ol>
-        <div class="muted">השמות המדויקים של הכפתורים יכולים להיות קצת שונים לפי גרסת ה-iOS ושפת הטלפון.</div>
       </div>
       <div class="card">
-        <b>שלב 3 — בדיקה</b>
-        <div class="muted" style="margin-top:6px">בתוך האוטומציה לחץ על כפתור ההפעלה ▶ בתחתית — אמורה להופיע הודעה. אם קיצורים מבקשת אישור להצגת התראות, אשר.</div>
+        <b>שלב 3 — הפעל אותו כל ערב ב-20:30</b>
+        <ol class="steps">
+          <li>עבור ללשונית <b>אוטומציה</b> <bdi dir="ltr">(Automation)</bdi> בתחתית ולחץ <b>+</b>.</li>
+          <li>בחר <b>שעה ביום</b> <bdi dir="ltr">(Time of Day)</bdi>, קבע <b>20:30</b>, סמן <b>כל יום</b> <bdi dir="ltr">(Daily)</bdi> ו-<b>הפעל מיד</b> <bdi dir="ltr">(Run Immediately)</bdi>. לחץ <b>הבא</b>.</li>
+          <li>תופיע רשימת "הקיצורים שלי" <bdi dir="ltr">(My Shortcuts)</bdi> — בחר את <b>תזכורת אנגלית</b>. זהו! 🎉</li>
+        </ol>
+        <div class="muted">השמות המדויקים של הכפתורים יכולים להיות קצת שונים לפי גרסת ה-iOS ושפת הטלפון.</div>
       </div>
       <div class="card"><b>דוגמאות להודעות:</b>${REMINDERS.slice(0, 6).map(m => `<div class="note" style="font-size:15px;color:var(--ink)">• ${esc(m)}</div>`).join('')}</div>`;
     $('#copyMsgs').onclick = async () => {
