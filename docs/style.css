@@ -54,7 +54,7 @@ main { padding: 14px; max-width: 640px; margin: 0 auto; }
 .select { width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line);
   background: var(--card); color: var(--ink); font: inherit; }
 .modes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.mode { background: var(--card); border: 0; border-radius: var(--radius); padding: 16px 12px; text-align: right;
+.mode { background: var(--card); border: 0; border-radius: var(--radius); padding: 16px 12px; text-align: start;
   box-shadow: 0 1px 3px rgba(0,0,0,.06); min-height: 92px; }
 .mode .ico { font-size: 26px; display: block; margin-bottom: 4px; }
 .mode b { display: block; font-size: 16px; }
