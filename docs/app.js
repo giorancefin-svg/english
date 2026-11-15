@@ -16,7 +16,7 @@
     get(k, d) { try { const v = localStorage.getItem('ge_' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
     set(k, v) { try { localStorage.setItem('ge_' + k, JSON.stringify(v)); } catch (e) {} }
   };
-  const settings = Object.assign({ showHe: false, showPh: false, autoSay: false, lang: 'he', scope: 'all', round: 10, rate: 0.85, streak: 0, lastDay: '' },
+  const settings = Object.assign({ showHe: false, showPh: false, autoSay: false, lang: 'he', tab: 'vocab', scope: 'all', round: 10, rate: 0.85, streak: 0, lastDay: '' },
     LS.get('settings', {}));
   const prog = LS.get('progress', {});
   const saveSettings = () => LS.set('settings', settings);
@@ -125,6 +125,7 @@
   backBtn.onclick = () => home();
   function screen(name, isHome) {
     title.textContent = name;
+    title.classList.toggle('long', String(name).length > 20);
     backBtn.classList.toggle('hidden', !!isHome);
     if ('speechSynthesis' in window) speechSynthesis.cancel();
     window.scrollTo(0, 0);
@@ -217,11 +218,12 @@
   ];
   function home() {
     screen(L('English עם גיורא', 'English with Giora'), true);
+    if (settings.tab === 'grammar') return grammarHome();
     const total = ALL.length;
     const learned = ALL.filter(w => box(w) >= 3).length;
     const due = ALL.filter(isDue).length;
     const opts = [['all', L('כל המילים', 'All words')], ['newest', L('השיעור האחרון', 'Latest lesson')], ['last3', L('3 השיעורים האחרונים', 'Last 3 lessons')], ['weak', L('מילים שטעיתי בהן', 'Words I got wrong')], ['custom', L('בחירת שיעורים (כמה שאני רוצה)', 'Choose lessons (as many as I want)')]];
-    view.innerHTML = `
+    view.innerHTML = tabsHtml() + `
       <div class="card stats">
         <div class="stat"><b>${learned}/${total}</b><span>${L('מילים שלמדתי', 'words learned')}</span></div>
         <div class="stat"><b>${due}</b><span>${L('לחזרה עכשיו', 'due for review')}</span></div>
@@ -258,7 +260,7 @@
     $('#pickAll').onclick = () => { pickBox.querySelectorAll('input').forEach(c => c.checked = true); readChecks(); };
     $('#pickNone').onclick = () => { pickBox.querySelectorAll('input').forEach(c => c.checked = false); readChecks(); };
     updateCount();
-    $('#langBtn').onclick = () => setLang(settings.lang === 'en' ? 'he' : 'en');
+    bindTabs();
     view.querySelectorAll('[data-mode]').forEach(b => b.onclick = () => start(b.dataset.mode));
   }
 
@@ -761,6 +763,134 @@
         toast(ok ? L('ההודעות הועתקו ✓', 'Messages copied ✓') : L('ההעתקה נכשלה', 'Copy failed'));
       }
     };
+  }
+
+  // ---------- grammar & tips (the tutor's other Word files) ----------
+  const GRAMMAR = (window.VOCAB && window.VOCAB.grammar) || [];
+  const gprog = LS.get('gprog', {}); // topic id -> {score, total, last}
+  const tabsHtml = () => `<div class="tabs">
+      <button class="tab ${settings.tab !== 'grammar' ? 'on' : ''}" data-tab="vocab">📚 ${L('אוצר מילים', 'Vocabulary')}</button>
+      <button class="tab ${settings.tab === 'grammar' ? 'on' : ''}" data-tab="grammar">🧩 ${L('דקדוק וטיפים', 'Grammar & tips')}</button></div>`;
+  function bindTabs() {
+    view.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => { settings.tab = b.dataset.tab; saveSettings(); home(); });
+    const lb = $('#langBtn'); if (lb) lb.onclick = () => setLang(settings.lang === 'en' ? 'he' : 'en');
+  }
+  const langBtnHtml = () => `<button class="help" id="langBtn">${settings.lang === 'en' ? '🌐 עברית' : '🌐 English'}</button>`;
+
+  function grammarHome() {
+    view.innerHTML = tabsHtml() + `
+      <div class="card"><div class="row"><span class="muted">${L('כללים וטיפים מהמורה — הסבר קצר ותרגול לכל נושא', 'Rules and tips from the tutor — a short explanation and practice for each topic')}</span><span class="spacer"></span>${langBtnHtml()}</div></div>
+      ${GRAMMAR.length ? GRAMMAR.map((g, k) => { const p = gprog[g.id]; return `
+        <div class="card topic">
+          <div class="topic-h"><span class="num">${k + 1}</span><div class="txt"><div class="t"><bdi>${esc(g.title)}</bdi></div>${g.he ? `<div class="muted">${esc(g.he)}</div>` : ''}</div></div>
+          <div class="muted topic-meta">${g.qs.length} ${L('שאלות תרגול', 'practice questions')}${p ? ` · ${L('תוצאה אחרונה', 'last score')}: <b>${p.score}/${p.total}</b>` : ''}</div>
+          <div class="btn-row"><button class="btn secondary" data-learn="${k}">📖 ${L('הסבר', 'Explanation')}</button>
+            ${g.qs.length ? `<button class="btn" data-gq="${k}">✏️ ${L('תרגול', 'Practice')}</button>` : ''}</div>
+        </div>`; }).join('') + (GRAMMAR.length > 1 ? `<button class="btn" id="gAll">🔀 ${L('תרגול מעורב מכל הנושאים', 'Mixed practice from all topics')}</button>` : '')
+      : `<div class="card muted">${L('אין עדיין נושאים.', 'No topics yet.')}</div>`}`;
+    bindTabs();
+    view.querySelectorAll('[data-learn]').forEach(b => b.onclick = () => topicScreen(GRAMMAR[+b.dataset.learn]));
+    view.querySelectorAll('[data-gq]').forEach(b => b.onclick = () => grammarRound([GRAMMAR[+b.dataset.gq]]));
+    const ga = $('#gAll'); if (ga) ga.onclick = () => grammarRound(GRAMMAR);
+  }
+
+  // the tutor's tables, shown as one card per row (readable on a phone)
+  const hasHe = t => /[֐-׿]/.test(t);
+  // Hebrew text with English pieces inside: isolate each English run so punctuation stays in place
+  const heMix = t => String(t).split(/([A-Za-z][A-Za-z0-9 '’.,!?+\/-]*[A-Za-z0-9'’?!])/).map((p, i) => i % 2 ? `<bdi dir="ltr">${esc(p)}</bdi>` : esc(p)).join('');
+  const cellHtml = t => esc(t).replace(/\n/g, '<br>');
+  const isBadH = h => /incorrect|❌|wrong/i.test(h || '');
+  const isOkH = h => !isBadH(h) && /correct|✅|✔/i.test(h || '');
+  function tableHtml(b) {
+    let html = '', open = false;
+    b.rows.forEach(r => {
+      if (r[0] || !open) {
+        if (open) html += '</div>';
+        html += `<div class="rcard" dir="ltr">${r[0] ? `<span class="lbl">${cellHtml(b.head[0] || '')}</span><div class="rh">${cellHtml(r[0])}</div>` : ''}`;
+        open = true;
+      } else html += '<div class="sep"></div>';
+      html += r.slice(1).map((c, j) => {
+        const h = b.head[j + 1] || '';
+        if (!c) return '';
+        return `<div class="fld ${isBadH(h) ? 'bad' : isOkH(h) ? 'ok' : ''}"><span class="lbl">${cellHtml(h)}</span><div class="val" ${hasHe(c) ? 'dir="rtl"' : ''}>${cellHtml(c)}</div></div>`;
+      }).join('');
+    });
+    return html + (open ? '</div>' : '');
+  }
+  function topicScreen(g) {
+    screen(g.title);
+    view.innerHTML = `
+      ${g.he || g.tips.length ? `<div class="card tips">
+        ${g.he ? `<div class="he tips-h">${heMix(g.he)}</div>` : ''}
+        ${g.tips.length ? `<div class="muted" style="margin-top:8px">💡 ${L('בקצרה', 'In short (Hebrew)')}</div><ul class="he">${g.tips.map(t => `<li>${heMix(t)}</li>`).join('')}</ul>` : ''}
+      </div>` : ''}
+      <div class="lesson-h">📄 ${L('מהקובץ של המורה', "From the tutor's file")}</div>
+      ${g.blocks.map(b => b.h ? `<div class="sec-h"><bdi>${esc(b.h)}</bdi></div>` : tableHtml(b)).join('')}
+      ${g.qs.length ? `<button class="btn" id="gPractice">✏️ ${L('תרגל את הנושא', 'Practice this topic')} (${g.qs.length})</button>` : ''}`;
+    const gp = $('#gPractice'); if (gp) gp.onclick = () => grammarRound([g]);
+  }
+
+  function grammarRound(topics) {
+    const all = [];
+    topics.forEach(g => g.qs.forEach(q => all.push({ g, q })));
+    const items = shuffle(all).slice(0, topics.length > 1 ? Math.max(settings.round, 10) : all.length);
+    const first = items.length, per = {};
+    let i = 0, score = 0;
+    screen(topics.length > 1 ? L('תרגול מעורב', 'Mixed practice') : topics[0].title);
+    const next = () => {
+      if (i >= items.length) return grammarResults(topics, score, first, per);
+      const { g, q } = items[i];
+      const correct = q.a[0];
+      const opts = shuffle(q.a);
+      const counter = i < first
+        ? L(`שאלה <b>${i + 1}</b> מתוך <b>${first}</b>`, `Question <b>${i + 1}</b> of <b>${first}</b>`)
+        : L(`חזרה על שאלות שפספסת: <b>${i - first + 1}</b> מתוך <b>${items.length - first}</b>`, `Reviewing missed questions: <b>${i - first + 1}</b> of <b>${items.length - first}</b>`);
+      const head = q.q
+        ? `<div class="prompt">${L('בחר מה מתאים למקום הריק:', 'Choose what fits the blank:')}</div><div class="sentence en">${esc(q.q).replace('___', '<span class="blank">&nbsp;</span>')}</div>`
+        : `<div class="prompt">${L('איזה משפט נכון?', 'Which sentence is correct?')}</div>`;
+      view.innerHTML = `<div class="counter"><span>${counter}</span><span class="spacer"></span><span>✓ ${score}</span></div>
+        <div class="progress"><i style="width:${(i / items.length) * 100}%"></i></div>
+        <div class="card">${topics.length > 1 ? `<div class="muted" style="margin-bottom:6px"><bdi>${esc(g.title)}</bdi></div>` : ''}${head}</div>
+        <div class="options">${opts.map((o, k) => `<button class="opt" data-k="${k}"><span class="en" style="text-align:center;display:block">${esc(o)}</span></button>`).join('')}</div>
+        <button class="btn secondary" id="idk">🤷 ${L('לא יודע — הראה לי', "I don't know — show me")}</button><div id="fb"></div>`;
+      const answer = b => {
+        const idk = !b, ok = !idk && opts[+b.dataset.k] === correct;
+        $('#idk').remove();
+        view.querySelectorAll('.opt').forEach(x => { x.disabled = true; if (opts[+x.dataset.k] === correct) x.classList.add('ok'); });
+        if (b && !ok) b.classList.add('bad');
+        const full = q.q ? q.q.replace('___', correct) : correct;
+        if (q.q) { const bl = $('.blank', view); bl.textContent = correct; bl.classList.add(ok ? 'ok' : 'bad'); }
+        if (i < first) {
+          const pt = per[g.id] || (per[g.id] = { score: 0, total: 0 });
+          pt.total++;
+          if (ok) { score++; pt.score++; } else items.push(items[i]); // missed: ask again at the end
+        }
+        touchStreak();
+        const fb = $('#fb');
+        fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'bad'}">${ok ? L('נכון! ✓', 'Correct! ✓') : idk ? L('לא נורא — הנה התשובה 💪', "No problem — here's the answer 💪") : L('לא נכון ✗ — השאלה תחזור בסוף הסבב', 'Not quite ✗ — this question will come back at the end')}
+          ${q.why ? `<div class="he" style="color:var(--ink);margin-top:6px">${heMix(q.why)}</div>` : ''}
+          <div class="row" style="margin-top:8px"><span class="en" style="color:var(--ink);font-weight:600;flex:1">${esc(full)}</span><button class="speak small" data-say="${esc(full)}">🔊</button></div></div>`;
+        autoSpeak(full);
+        i++;
+        nextBtn(fb, next);
+      };
+      view.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(b));
+      $('#idk').onclick = () => answer(null);
+    };
+    next();
+  }
+  function grammarResults(topics, score, total, per) {
+    Object.keys(per).forEach(id => { gprog[id] = { score: per[id].score, total: per[id].total, last: Date.now() }; });
+    LS.set('gprog', gprog);
+    const pct = total ? Math.round(score / total * 100) : 0;
+    const msg = pct === 100 ? L('מושלם! 🏆', 'Perfect! 🏆') : pct >= 80 ? L('כל הכבוד! 👏', 'Well done! 👏') : pct >= 50 ? L('יפה, ממשיכים להתאמן 💪', 'Nice, keep practicing 💪') : L('כדאי לקרוא שוב את ההסבר ולנסות שוב 🙂', 'Read the explanation again and try once more 🙂');
+    view.innerHTML = `<div class="card result"><div class="score">${score}/${total}</div><div style="font-size:20px">${msg}</div></div>
+      ${topics.length === 1 ? `<button class="btn secondary" id="gLearn">📖 ${L('חזרה להסבר', 'Back to the explanation')}</button>` : ''}
+      <button class="btn" id="again">${L('סבב נוסף', 'Another round')}</button>
+      <button class="btn secondary" id="toHome">${L('לתפריט הראשי', 'Main menu')}</button>`;
+    const gl = $('#gLearn'); if (gl) gl.onclick = () => topicScreen(topics[0]);
+    $('#again').onclick = () => grammarRound(topics);
+    $('#toHome').onclick = home;
   }
 
   function reminderEn() {

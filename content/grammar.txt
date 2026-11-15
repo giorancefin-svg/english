@@ -1,0 +1,177 @@
+#! Grammar / tips topics. One "## file <docx name without .docx>" block per tutor file (not "Giora Bar").
+#! TITLE: English title · HE: Hebrew title · TIP: short Hebrew key point (shown above the tutor's tables)
+#! Exercises: Q: sentence with ___ for the blank (leave Q: out for "choose the correct sentence")
+#!            A: options separated by " | " — the FIRST one is correct (the app shuffles them)
+#!            WHY: short Hebrew explanation shown after answering
+
+## file present simple & progresive
+TITLE: Present Simple & Present Progressive
+HE: הווה פשוט והווה מתמשך
+TIP: הווה פשוט (Present Simple) – לעובדות, הרגלים ושגרה. מילים שמרמזות: always, usually, every day.
+TIP: הווה מתמשך (Present Progressive) – למה שקורה עכשיו או למצב זמני. מילים שמרמזות: now, at the moment, this week.
+TIP: עם he / she / it מוסיפים s לפועל: he works, she eats. בשלילה: doesn't + פועל בלי s.
+TIP: פעלי מצב (know, like, believe, own) כמעט אף פעם לא באים עם ing.
+
+Q: I ___ to the gym three times a week.
+A: go | am going | goes
+WHY: שגרה (three times a week) ← הווה פשוט. עם I לא מוסיפים s.
+
+Q: Sorry, I can't talk now — I ___ a client.
+A: am meeting | meet | meets
+WHY: קורה עכשיו (now) ← הווה מתמשך: am + פועל עם ing.
+
+Q: She ___ in the pension department.
+A: works | is work | work
+WHY: עובדה קבועה ← הווה פשוט, ועם she מוסיפים s.
+
+Q: We ___ the insurance policies this week.
+A: are reviewing | reviews | is reviewing
+WHY: משהו זמני (this week) ← הווה מתמשך. עם we משתמשים ב-are.
+
+Q: My son ___ to school every morning.
+A: goes | is going | go
+WHY: הרגל (every morning) ← הווה פשוט, ועם he/she/it מוסיפים s (go ← goes).
+
+Q: I ___ the answer.
+A: know | am knowing | knows
+WHY: know הוא פועל מצב – לא אומרים am knowing.
+
+Q: He ___ like coffee.
+A: doesn't | don't | isn't
+WHY: שלילה עם he/she/it ← doesn't, ואחריו פועל בלי s.
+
+Q: ___ you work on Fridays?
+A: Do | Are | Does
+WHY: שאלה על שגרה ← Do + you + פועל.
+
+Q: ___ you watching the game right now?
+A: Are | Do | Does
+WHY: right now ← הווה מתמשך, השאלה מתחילה ב-Are.
+
+Q: Interest rates ___ these days.
+A: are rising | rise | rises
+WHY: מגמה ושינוי (these days) ← הווה מתמשך.
+
+A: I own two apartments. | I am owning two apartments.
+WHY: own הוא פועל מצב – אומרים I own, בלי ing.
+
+A: He usually drinks tea in the morning. | He usually drink tea in the morning. | He is usually drink tea in the morning.
+WHY: הרגל (usually) ← הווה פשוט, ועם he מוסיפים s: drinks.
+
+A: I manage the sales team. | I am managing the sales team every year.
+WHY: תפקיד קבוע ← הווה פשוט. הווה מתמשך לא מתאים לדבר שקורה כל שנה.
+
+## file 1
+TITLE: didn't + base verb
+HE: עבר בשלילה: didn't + פועל בצורת בסיס
+TIP: בשלילה בעבר משתמשים ב-didn't, והוא כבר "מסמן" שזה עבר.
+TIP: לכן אחרי didn't הפועל חוזר לצורת הבסיס: didn't go ולא didn't went, didn't know ולא didn't knew.
+TIP: אותו כלל בשאלה: Did you call? ולא Did you called?
+TIP: במשפט חיובי בעבר משתמשים בצורת העבר הרגילה: I went, I knew, I called.
+
+Q: I didn't ___ the email yesterday.
+A: send | sent | sends
+WHY: אחרי didn't – צורת בסיס: send.
+
+Q: She didn't ___ to the meeting.
+A: come | came | comes
+WHY: אחרי didn't – צורת בסיס: come (לא came).
+
+Q: We didn't ___ the contract.
+A: sign | signed | signs
+WHY: אחרי didn't לא מוסיפים ed: didn't sign.
+
+Q: Did he ___ the new policy?
+A: buy | bought | buys
+WHY: בשאלה עם Did – צורת בסיס: buy (לא bought).
+
+Q: My wife didn't ___ the news.
+A: hear | heard | hears
+WHY: אחרי didn't – צורת בסיס: hear.
+
+Q: Yesterday I ___ to the gym.
+A: went | go | didn't went
+WHY: משפט חיובי בעבר ← went. רק אחרי didn't חוזרים ל-go.
+
+Q: ___ you call the client yesterday?
+A: Did | Do | Were
+WHY: שאלה בעבר (yesterday) ← Did + you + צורת בסיס.
+
+A: They didn't pay the premium. | They didn't paid the premium.
+WHY: אחרי didn't – צורת בסיס: pay, ולא paid.
+
+A: I didn't go to the gym on Monday. | I didn't went to the gym on Monday.
+WHY: אחרי didn't – go, ולא went.
+
+A: He didn't understand the question. | He didn't understood the question.
+WHY: אחרי didn't – understand, ולא understood.
+
+## file 2
+TITLE: all vs whole
+HE: all או whole
+TIP: all – הרבה דברים או אנשים יחד: all the houses, all my clients.
+TIP: whole – דבר אחד שלם, מההתחלה עד הסוף: the whole day, the whole building.
+TIP: שימו לב לסדר: all + the + ...  לעומת  the + whole + ...
+
+Q: ___ my clients renewed their policies.
+A: All | The whole | Whole
+WHY: הרבה לקוחות (רבים) ← All.
+
+Q: I read the ___ report last night.
+A: whole | all | all of
+WHY: דוח אחד, מההתחלה עד הסוף ← the whole report.
+
+Q: We spent the ___ weekend at my parents' house.
+A: whole | all | all the
+WHY: סוף שבוע אחד שלם ← the whole weekend.
+
+Q: ___ the apartments in the building are sold.
+A: All | Whole | The whole
+WHY: הרבה דירות (רבים) ← All the apartments.
+
+Q: He ate the ___ pizza by himself.
+A: whole | all | all of
+WHY: פיצה אחת שלמה ← the whole pizza.
+
+Q: ___ the kids are at school today.
+A: All | Whole | The whole
+WHY: כמה ילדים יחד ← All the kids.
+
+Q: The ___ family came to my birthday.
+A: whole | all | all of
+WHY: משפחה אחת שלמה ← the whole family.
+
+A: All my files are on the computer. | Whole my files are on the computer.
+WHY: הרבה קבצים ← All my files.
+
+## file 3
+TITLE: very vs really
+HE: very או really
+TIP: very = מאוד. בא רק לפני תואר או תואר הפועל: very tired, very quickly.
+TIP: really = ממש / באמת. אפשר לשים אותו גם לפני פועל: I really like it.
+TIP: לפני פועל – רק really: I really enjoy it ✓  /  I very enjoy it ✗.
+
+Q: I ___ like my new job.
+A: really | very | very much
+WHY: לפני פועל (like) ← רק really.
+
+Q: I ___ want to improve my English.
+A: really | very | much
+WHY: לפני פועל (want) ← really.
+
+Q: He ___ understands the pension market.
+A: really | very | much
+WHY: לפני פועל (understands) ← really.
+
+Q: Thank you ___ much!
+A: very | really | so very
+WHY: Thank you very much – ביטוי קבוע.
+
+A: She really enjoys the class. | She very enjoys the class.
+WHY: very לא בא לפני פועל ← really enjoys.
+
+A: I really need a vacation. | I very need a vacation.
+WHY: need הוא פועל ← really need.
+
+A: We really appreciate your help. | We very appreciate your help.
+WHY: appreciate הוא פועל ← really appreciate.

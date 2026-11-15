@@ -4335,5 +4335,643 @@ window.VOCAB = {
 }
 ]
 }
+],
+"grammar": [
+{
+"id": "present-simple-progresive",
+"file": "present simple & progresive",
+"title": "Present Simple & Present Progressive",
+"he": "הווה פשוט והווה מתמשך",
+"tips": [
+"הווה פשוט (Present Simple) – לעובדות, הרגלים ושגרה. מילים שמרמזות: always, usually, every day.",
+"הווה מתמשך (Present Progressive) – למה שקורה עכשיו או למצב זמני. מילים שמרמזות: now, at the moment, this week.",
+"עם he / she / it מוסיפים s לפועל: he works, she eats. בשלילה: doesn't + פועל בלי s.",
+"פעלי מצב (know, like, believe, own) כמעט אף פעם לא באים עם ing."
+],
+"qs": [
+{
+"q": "I ___ to the gym three times a week.",
+"a": [
+"go",
+"am going",
+"goes"
+],
+"why": "שגרה (three times a week) ← הווה פשוט. עם I לא מוסיפים s."
+},
+{
+"q": "Sorry, I can't talk now — I ___ a client.",
+"a": [
+"am meeting",
+"meet",
+"meets"
+],
+"why": "קורה עכשיו (now) ← הווה מתמשך: am + פועל עם ing."
+},
+{
+"q": "She ___ in the pension department.",
+"a": [
+"works",
+"is work",
+"work"
+],
+"why": "עובדה קבועה ← הווה פשוט, ועם she מוסיפים s."
+},
+{
+"q": "We ___ the insurance policies this week.",
+"a": [
+"are reviewing",
+"reviews",
+"is reviewing"
+],
+"why": "משהו זמני (this week) ← הווה מתמשך. עם we משתמשים ב-are."
+},
+{
+"q": "My son ___ to school every morning.",
+"a": [
+"goes",
+"is going",
+"go"
+],
+"why": "הרגל (every morning) ← הווה פשוט, ועם he/she/it מוסיפים s (go ← goes)."
+},
+{
+"q": "I ___ the answer.",
+"a": [
+"know",
+"am knowing",
+"knows"
+],
+"why": "know הוא פועל מצב – לא אומרים am knowing."
+},
+{
+"q": "He ___ like coffee.",
+"a": [
+"doesn't",
+"don't",
+"isn't"
+],
+"why": "שלילה עם he/she/it ← doesn't, ואחריו פועל בלי s."
+},
+{
+"q": "___ you work on Fridays?",
+"a": [
+"Do",
+"Are",
+"Does"
+],
+"why": "שאלה על שגרה ← Do + you + פועל."
+},
+{
+"q": "___ you watching the game right now?",
+"a": [
+"Are",
+"Do",
+"Does"
+],
+"why": "right now ← הווה מתמשך, השאלה מתחילה ב-Are."
+},
+{
+"q": "Interest rates ___ these days.",
+"a": [
+"are rising",
+"rise",
+"rises"
+],
+"why": "מגמה ושינוי (these days) ← הווה מתמשך."
+},
+{
+"q": "",
+"a": [
+"I own two apartments.",
+"I am owning two apartments."
+],
+"why": "own הוא פועל מצב – אומרים I own, בלי ing."
+},
+{
+"q": "",
+"a": [
+"He usually drinks tea in the morning.",
+"He usually drink tea in the morning.",
+"He is usually drink tea in the morning."
+],
+"why": "הרגל (usually) ← הווה פשוט, ועם he מוסיפים s: drinks."
+},
+{
+"q": "",
+"a": [
+"I manage the sales team.",
+"I am managing the sales team every year."
+],
+"why": "תפקיד קבוע ← הווה פשוט. הווה מתמשך לא מתאים לדבר שקורה כל שנה."
+}
+],
+"blocks": [
+{
+"h": "Subject + Verb breakdown"
+},
+{
+"head": [
+"Subject",
+"Present Simple (Verb Form)",
+"Be (Present)",
+"Be (Past)",
+"Negative (Present)",
+"Notes"
+],
+"rows": [
+[
+"He / She / It",
+"verb + s\nWorks\neats",
+"is/has",
+"was",
+"doesn’t",
+"🔹 Always add -s in present simple"
+],
+[
+"You / We / They",
+"base verb",
+"are/have",
+"were",
+"don’t",
+"🔹 No “s” added"
+],
+[
+"I",
+"base verb",
+"am",
+"was",
+"don’t",
+"🔹 Uses “am”"
+]
+]
+},
+{
+"h": "Present Simple & Progressive"
+},
+{
+"head": [
+"Aspect",
+"Present Simple",
+"Present Progressive (Continuous)"
+],
+"rows": [
+[
+"Main use",
+"Facts, routines, habits",
+"Actions happening now,"
+],
+[
+"Time focus",
+"Always / usually / often / every day",
+"Now / at the moment / currently / these days"
+],
+[
+"Formula",
+"Subject + verb + object\n(SVO)\nHelping verbs: am/is/are",
+"Subject + am/is/are + verb-ing + object\n(S+HV+ING-V+ O)"
+],
+[
+"Example (general)",
+"I always drink coffee.\nHe is a student.",
+"I am drinking coffee.\nHe is learning."
+],
+[
+"Routine / habit",
+"I attend weekly leadership meetings.",
+"❌ (not used for habits)"
+],
+[
+"Action happening now",
+"❌",
+"I’m attending a leadership meeting right now."
+],
+[
+"Temporary situation",
+"❌",
+"I’m managing a new team this month."
+],
+[
+"Permanent role / fact",
+"I manage the QA department.",
+"❌"
+],
+[
+"Trends / changes",
+"❌",
+"Leadership styles are changing."
+],
+[
+"Annoying repeated actions",
+"❌",
+"He’s always interrupting meetings."
+],
+[
+"State verbs (know, believe, own)",
+"I know the process well.",
+"❌ (usually not used in -ing)"
+],
+[
+"Business example",
+"We review KPIs every quarter.",
+"We’re reviewing KPIs this week."
+],
+[
+"Common mistake",
+"Using it for temporary actions",
+"Using it for permanent roles"
+],
+[
+"Question form",
+"Do you like cake?",
+"Are you getting cake for dessert?"
+]
+]
+}
+]
+},
+{
+"id": "1",
+"file": "1",
+"title": "didn't + base verb",
+"he": "עבר בשלילה: didn't + פועל בצורת בסיס",
+"tips": [
+"בשלילה בעבר משתמשים ב-didn't, והוא כבר \"מסמן\" שזה עבר.",
+"לכן אחרי didn't הפועל חוזר לצורת הבסיס: didn't go ולא didn't went, didn't know ולא didn't knew.",
+"אותו כלל בשאלה: Did you call? ולא Did you called?",
+"במשפט חיובי בעבר משתמשים בצורת העבר הרגילה: I went, I knew, I called."
+],
+"qs": [
+{
+"q": "I didn't ___ the email yesterday.",
+"a": [
+"send",
+"sent",
+"sends"
+],
+"why": "אחרי didn't – צורת בסיס: send."
+},
+{
+"q": "She didn't ___ to the meeting.",
+"a": [
+"come",
+"came",
+"comes"
+],
+"why": "אחרי didn't – צורת בסיס: come (לא came)."
+},
+{
+"q": "We didn't ___ the contract.",
+"a": [
+"sign",
+"signed",
+"signs"
+],
+"why": "אחרי didn't לא מוסיפים ed: didn't sign."
+},
+{
+"q": "Did he ___ the new policy?",
+"a": [
+"buy",
+"bought",
+"buys"
+],
+"why": "בשאלה עם Did – צורת בסיס: buy (לא bought)."
+},
+{
+"q": "My wife didn't ___ the news.",
+"a": [
+"hear",
+"heard",
+"hears"
+],
+"why": "אחרי didn't – צורת בסיס: hear."
+},
+{
+"q": "Yesterday I ___ to the gym.",
+"a": [
+"went",
+"go",
+"didn't went"
+],
+"why": "משפט חיובי בעבר ← went. רק אחרי didn't חוזרים ל-go."
+},
+{
+"q": "___ you call the client yesterday?",
+"a": [
+"Did",
+"Do",
+"Were"
+],
+"why": "שאלה בעבר (yesterday) ← Did + you + צורת בסיס."
+},
+{
+"q": "",
+"a": [
+"They didn't pay the premium.",
+"They didn't paid the premium."
+],
+"why": "אחרי didn't – צורת בסיס: pay, ולא paid."
+},
+{
+"q": "",
+"a": [
+"I didn't go to the gym on Monday.",
+"I didn't went to the gym on Monday."
+],
+"why": "אחרי didn't – go, ולא went."
+},
+{
+"q": "",
+"a": [
+"He didn't understand the question.",
+"He didn't understood the question."
+],
+"why": "אחרי didn't – understand, ולא understood."
+}
+],
+"blocks": [
+{
+"h": "We cannot put ‘didn’t + ed/v2’"
+},
+{
+"head": [
+"Rule",
+"Correct ✅",
+"Incorrect ❌"
+],
+"rows": [
+[
+"didn't + base verb",
+"I didn't know.",
+"I didn't knew."
+],
+[
+"",
+"She didn't go to work.",
+"She didn't went to work."
+],
+[
+"",
+"We didn't close the deal.",
+"We didn't closed the deal."
+],
+[
+"",
+"He didn't understand the client.",
+"He didn't understood the client."
+],
+[
+"",
+"They didn't buy the property.",
+"They didn't bought the property."
+]
+]
+}
+]
+},
+{
+"id": "2",
+"file": "2",
+"title": "all vs whole",
+"he": "all או whole",
+"tips": [
+"all – הרבה דברים או אנשים יחד: all the houses, all my clients.",
+"whole – דבר אחד שלם, מההתחלה עד הסוף: the whole day, the whole building.",
+"שימו לב לסדר: all + the + ...  לעומת  the + whole + ..."
+],
+"qs": [
+{
+"q": "___ my clients renewed their policies.",
+"a": [
+"All",
+"The whole",
+"Whole"
+],
+"why": "הרבה לקוחות (רבים) ← All."
+},
+{
+"q": "I read the ___ report last night.",
+"a": [
+"whole",
+"all",
+"all of"
+],
+"why": "דוח אחד, מההתחלה עד הסוף ← the whole report."
+},
+{
+"q": "We spent the ___ weekend at my parents' house.",
+"a": [
+"whole",
+"all",
+"all the"
+],
+"why": "סוף שבוע אחד שלם ← the whole weekend."
+},
+{
+"q": "___ the apartments in the building are sold.",
+"a": [
+"All",
+"Whole",
+"The whole"
+],
+"why": "הרבה דירות (רבים) ← All the apartments."
+},
+{
+"q": "He ate the ___ pizza by himself.",
+"a": [
+"whole",
+"all",
+"all of"
+],
+"why": "פיצה אחת שלמה ← the whole pizza."
+},
+{
+"q": "___ the kids are at school today.",
+"a": [
+"All",
+"Whole",
+"The whole"
+],
+"why": "כמה ילדים יחד ← All the kids."
+},
+{
+"q": "The ___ family came to my birthday.",
+"a": [
+"whole",
+"all",
+"all of"
+],
+"why": "משפחה אחת שלמה ← the whole family."
+},
+{
+"q": "",
+"a": [
+"All my files are on the computer.",
+"Whole my files are on the computer."
+],
+"why": "הרבה קבצים ← All my files."
+}
+],
+"blocks": [
+{
+"h": "All vs Whole"
+},
+{
+"head": [
+"Word/Phrase",
+"Simple Explanation",
+"Example"
+],
+"rows": [
+[
+"all",
+"many individual things or people together",
+"All the houses are sold. / All my clients called today."
+],
+[
+"whole",
+"everything of one thing; one complete thing",
+"I worked the whole day. / He bought the whole building."
+]
+]
+}
+]
+},
+{
+"id": "3",
+"file": "3",
+"title": "very vs really",
+"he": "very או really",
+"tips": [
+"very = מאוד. בא רק לפני תואר או תואר הפועל: very tired, very quickly.",
+"really = ממש / באמת. אפשר לשים אותו גם לפני פועל: I really like it.",
+"לפני פועל – רק really: I really enjoy it ✓  /  I very enjoy it ✗."
+],
+"qs": [
+{
+"q": "I ___ like my new job.",
+"a": [
+"really",
+"very",
+"very much"
+],
+"why": "לפני פועל (like) ← רק really."
+},
+{
+"q": "I ___ want to improve my English.",
+"a": [
+"really",
+"very",
+"much"
+],
+"why": "לפני פועל (want) ← really."
+},
+{
+"q": "He ___ understands the pension market.",
+"a": [
+"really",
+"very",
+"much"
+],
+"why": "לפני פועל (understands) ← really."
+},
+{
+"q": "Thank you ___ much!",
+"a": [
+"very",
+"really",
+"so very"
+],
+"why": "Thank you very much – ביטוי קבוע."
+},
+{
+"q": "",
+"a": [
+"She really enjoys the class.",
+"She very enjoys the class."
+],
+"why": "very לא בא לפני פועל ← really enjoys."
+},
+{
+"q": "",
+"a": [
+"I really need a vacation.",
+"I very need a vacation."
+],
+"why": "need הוא פועל ← really need."
+},
+{
+"q": "",
+"a": [
+"We really appreciate your help.",
+"We very appreciate your help."
+],
+"why": "appreciate הוא פועל ← really appreciate."
+}
+],
+"blocks": [
+{
+"h": "Very vs Really – Explanation Table"
+},
+{
+"head": [
+"Word",
+"Meaning",
+"Use Before Adjectives?",
+"Use Before Adverbs?",
+"Use Before Verbs?",
+"Examples",
+"Hebrew Note"
+],
+"rows": [
+[
+"very",
+"a high degree, “a lot”",
+"✔️ Yes",
+"✔️ Yes",
+"❌ No",
+"She is very tired. / It is very cold.",
+"“מאוד” – משתמשים רק לפני שמות תואר או תיאורי אופן, לא לפני פועל"
+],
+[
+"really",
+"truly / very much (stronger, more natural in speech)",
+"✔️ Yes",
+"✔️ Yes",
+"✔️ Yes",
+"She is really tired. / I really like it.",
+"“באמת / ממש” – אפשר להשתמש גם לפני פועל"
+]
+]
+},
+{
+"h": "❌ Incorrect vs ✔️ Correct Examples"
+},
+{
+"head": [
+"Incorrect Sentence",
+"Why Incorrect",
+"Correct Version"
+],
+"rows": [
+[
+"I very like this.",
+"“Very” cannot go before a verb.",
+"I really like this."
+],
+[
+"She very enjoys the class.",
+"“Very” cannot modify a verb.",
+"She really enjoys the class."
+],
+[
+"I really love this show.",
+"✔️ OK — “really” can go before a verb.",
+"—"
+]
+]
+}
+]
+}
 ]
 };

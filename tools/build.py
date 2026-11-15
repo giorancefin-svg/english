@@ -15,7 +15,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCX = ROOT / "Giora Bar.docx"
-CONTENT = ROOT / "content"  # every *.txt here holds sentences
+CONTENT = ROOT / "content"  # every *.txt here holds sentences (except grammar.txt)
+GRAMMAR = CONTENT / "grammar.txt"  # titles, Hebrew tips and exercises for the grammar/tips files
 OUT = ROOT / "docs" / "data.js"
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -24,6 +25,12 @@ sys.stdout.reconfigure(encoding="utf-8")
 def cell_text(xml):
     parts = re.findall(r"<w:t[^>]*>([^<]*)</w:t>", xml)
     return unescape("".join(parts)).strip()
+
+
+def cell_lines(xml):
+    """Cell text keeping its paragraphs as separate lines."""
+    lines = [cell_text(p) for p in re.findall(r"<w:p[ >].*?</w:p>", xml, re.S)]
+    return "\n".join(l for l in lines if l)
 
 
 def slug(s):
@@ -114,6 +121,8 @@ def read_sentences():
     key, kind = None, None
     lines = []
     for f in sorted(CONTENT.glob("*.txt")):
+        if f == GRAMMAR:
+            continue
         lines += f.read_text(encoding="utf8").splitlines()
     for line in lines:
         line = line.strip()
@@ -136,6 +145,75 @@ def read_sentences():
     return words, paragraphs
 
 
+def read_grammar_docx(path):
+    """Every other .docx = a grammar/tips topic: headings + tables, in order."""
+    xml = zipfile.ZipFile(path).read("word/document.xml").decode("utf8")
+    body = re.search(r"<w:body>(.*)</w:body>", xml, re.S).group(1)
+    blocks = []
+    for m in re.finditer(r"<w:tbl>.*?</w:tbl>|<w:p[ >].*?</w:p>", body, re.S):
+        b = m.group(0)
+        if b.startswith("<w:tbl>"):
+            rows = [[cell_lines(c) for c in re.findall(r"<w:tc>.*?</w:tc>", r, re.S)]
+                    for r in re.findall(r"<w:tr[ >].*?</w:tr>", b, re.S)]
+            rows = [r for r in rows if any(r)]
+            if rows:
+                blocks.append({"head": rows[0], "rows": rows[1:]})
+        else:
+            t = cell_text(b).strip(" *:")
+            if t:
+                blocks.append({"h": t})
+    return blocks
+
+
+def read_grammar_txt():
+    topics, cur, q = {}, None, None
+    if not GRAMMAR.exists():
+        return topics
+    for line in GRAMMAR.read_text(encoding="utf8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#!"):
+            continue
+        if line.startswith("## file "):
+            cur = topics.setdefault(line[8:].strip(), {"title": "", "he": "", "tips": [], "qs": []})
+            q = None
+        elif cur is None:
+            continue
+        elif line.startswith("TITLE:"):
+            cur["title"] = line[6:].strip()
+        elif line.startswith("HE:"):
+            cur["he"] = line[3:].strip()
+        elif line.startswith("TIP:"):
+            cur["tips"].append(line[4:].strip())
+        elif line.startswith("Q:"):
+            q = {"q": line[2:].strip(), "a": [], "why": ""}
+            cur["qs"].append(q)
+        elif line.startswith("A:"):
+            if q is None or q["a"]:
+                q = {"q": "", "a": [], "why": ""}
+                cur["qs"].append(q)
+            q["a"] = [x.strip() for x in line[2:].split(" | ") if x.strip()]
+        elif line.startswith("WHY:") and q is not None:
+            q["why"] = line[4:].strip()
+            q = None
+    return topics
+
+
+def read_grammar():
+    info = read_grammar_txt()
+    order = list(info)  # topics appear in the order of content/grammar.txt; new files at the end
+    files = sorted((f for f in ROOT.glob("*.docx") if f != DOCX and not f.name.startswith("~$")),
+                   key=lambda f: (order.index(f.stem) if f.stem in order else len(order), f.stem))
+    out, missing = [], []
+    for f in files:
+        t = info.get(f.stem)
+        if not t or not t["qs"]:
+            missing.append(f.stem)
+        t = t or {"title": f.stem, "he": "", "tips": [], "qs": []}
+        out.append({"id": slug(f.stem) or "topic", "file": f.stem, "title": t["title"] or f.stem,
+                    "he": t["he"], "tips": t["tips"], "qs": t["qs"], "blocks": read_grammar_docx(f)})
+    return out, missing
+
+
 def main():
     lessons = read_docx()
     sent, paras = read_sentences()
@@ -148,7 +226,8 @@ def main():
                 missing.append(w["id"])
             seen.add(w["id"])
         lesson["p"] = paras.get(lesson["date"], [])
-    data = {"lessons": lessons}
+    grammar, g_missing = read_grammar()
+    data = {"lessons": lessons, "grammar": grammar}
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text("window.VOCAB = " + json.dumps(data, ensure_ascii=False, indent=0) + ";\n",
                    encoding="utf8")
@@ -158,6 +237,8 @@ def main():
     for m in missing:
         print("  ", m)
     print(f"Lessons without paragraph ({len(no_para)}): {', '.join(no_para)}")
+    print(f"Grammar topics: {len(grammar)}  (" + ", ".join(g["title"] for g in grammar) + ")")
+    print(f"Grammar files without title/exercises in content/grammar.txt ({len(g_missing)}): {', '.join(g_missing)}")
     unknown = [k for k in sent if k not in seen]
     if unknown:
         print("Sentence ids not found in the Word file:", ", ".join(unknown))
