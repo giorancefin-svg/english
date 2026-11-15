@@ -159,9 +159,21 @@ def read_grammar_docx(path):
             if rows:
                 blocks.append({"head": rows[0], "rows": rows[1:]})
         else:
-            t = cell_text(b).strip(" *:")
-            if t:
-                blocks.append({"h": t})
+            t = cell_text(b).strip()
+            if not t:
+                continue
+            runs = [r for r in re.findall(r"<w:r[ >].*?</w:r>", b, re.S) if re.search(r"<w:t[ >]", r)]
+            all_bold = runs and all(re.search(r'<w:b/>|<w:b w:val="(1|true)"/>', r) for r in runs)
+            if re.search(r'<w:pStyle w:val="Heading', b) or all_bold:
+                blocks.append({"h": t.strip(" *:")})          # heading
+            elif t.startswith("•") or "<w:numPr>" in b:
+                blocks.append({"li": t.lstrip("•· ").strip()})  # bullet (often a practice / speaking question)
+            else:
+                blocks.append({"p": t})                      # plain paragraph
+    # a short plain line right above a table is that table's title
+    for i, blk in enumerate(blocks[:-1]):
+        if "p" in blk and "head" in blocks[i + 1] and len(blk["p"]) < 80:
+            blocks[i] = {"h": blk["p"].strip(" *:")}
     return blocks
 
 

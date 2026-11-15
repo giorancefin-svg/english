@@ -175,3 +175,220 @@ WHY: need הוא פועל ← really need.
 
 A: We really appreciate your help. | We very appreciate your help.
 WHY: appreciate הוא פועל ← really appreciate.
+
+## file 4
+TITLE: No "to" after modal verbs
+HE: בלי to אחרי can / should / must ודומיהם
+TIP: הפעלים can, could, should, must, will, would, may, might נקראים פעלים מודאליים.
+TIP: אחריהם בא פועל בצורת בסיס – בלי to: I can help ✓  /  I can to help ✗.
+TIP: גם עם he / she לא מוסיפים s: She can swim ✓  /  She cans swim ✗.
+
+Q: I can ___ you with the claim.
+A: help | to help | helping
+WHY: אחרי can – פועל בצורת בסיס, בלי to.
+
+Q: You should ___ the client today.
+A: call | to call | calls
+WHY: אחרי should – בלי to: should call.
+
+Q: You must ___ the premium on time.
+A: pay | to pay | paying
+WHY: אחרי must – צורת בסיס: must pay.
+
+Q: We could ___ a better price.
+A: negotiate | to negotiate | negotiated
+WHY: אחרי could – צורת בסיס, בלי to.
+
+Q: He might ___ a new apartment.
+A: buy | to buy | buys
+WHY: אחרי might – צורת בסיס: might buy.
+
+Q: She ___ speak three languages.
+A: can | cans | can to
+WHY: can לא משתנה עם she, ואחריו לא בא to.
+
+Q: I would ___ the offer.
+A: accept | to accept | accepting
+WHY: אחרי would – צורת בסיס: would accept.
+
+A: We may need more time. | We may to need more time.
+WHY: אחרי may – בלי to.
+
+A: I want to go to the gym. | I want go to the gym.
+WHY: want הוא לא פועל מודאלי – אחריו כן צריך to: want to go.
+
+## file 5
+TITLE: Adjectives vs Adverbs
+HE: שם תואר (Adjective) או תואר הפועל (Adverb)
+TIP: Adjective מתאר שם עצם (אדם, דבר, מקום): a happy child, a big house.
+TIP: Adverb מתאר פועל (איך עושים משהו), ולרוב נגמר ב-ly: she sings beautifully, he drives carefully.
+TIP: יוצאי דופן: good ← well, ו-fast / hard / early / late נשארים בלי ly.
+TIP: יש מילים שנגמרות ב-ly והן דווקא שמות תואר: friendly, lovely, costly, daily.
+
+Q: She is a ___ driver.
+A: careful | carefully | carefuly
+WHY: מתאר את driver (שם עצם) ← Adjective: careful.
+
+Q: She drives ___.
+A: carefully | careful | carefull
+WHY: מתאר איך היא נוהגת (פועל) ← Adverb: carefully.
+
+Q: He speaks English very ___.
+A: well | good | goodly
+WHY: מתאר את הפועל speaks ← well (ה-Adverb של good).
+
+Q: My advisor gave me a ___ answer.
+A: quick | quickly | quicker
+WHY: מתאר את answer (שם עצם) ← quick.
+
+Q: I finished the report ___.
+A: quickly | quick | quickness
+WHY: מתאר איך סיימתי (פועל) ← quickly.
+
+Q: He works very ___.
+A: hard | hardly | hardy
+WHY: hard הוא גם Adverb, בלי ly. (hardly = כמעט לא – משמעות אחרת!)
+
+Q: I came home ___ yesterday.
+A: late | lately | latly
+WHY: late בלי ly הוא ה-Adverb. (lately = לאחרונה – משמעות אחרת.)
+
+Q: The new manager is very ___.
+A: friendly | friendlily | friend
+WHY: friendly נגמר ב-ly אבל הוא Adjective – מתאר את המנהל.
+
+Q: She is a ___ singer.
+A: good | well | goodly
+WHY: מתאר את singer (שם עצם) ← good.
+
+A: He runs fast. | He runs fastly.
+WHY: fast לא מקבל ly – he runs fast.
+
+## file 6
+TITLE: do / does and have / has
+HE: do / does ו-have / has
+TIP: בשאלות ובשלילה בהווה פשוט משתמשים ב-do, ועם he / she / it ב-does.
+TIP: אחרי does הפועל בלי s: Does she play? ✓  /  Does she plays? ✗.
+TIP: have = יש לי (I / you / we / they). עם he / she / it אומרים has.
+TIP: אבל אחרי does / doesn't חוזרים ל-have: Does he have a car? ✓.
+
+Q: ___ you like coffee?
+A: Do | Does | Are
+WHY: you ← Do.
+
+Q: ___ your wife work in finance?
+A: Does | Do | Is
+WHY: your wife = she ← Does.
+
+Q: Does she ___ tennis?
+A: play | plays | playing
+WHY: אחרי does – הפועל בלי s.
+
+Q: He ___ eat meat.
+A: doesn't | don't | isn't
+WHY: שלילה עם he ← doesn't.
+
+Q: We ___ a car and a motorcycle.
+A: have | has | haves
+WHY: we ← have.
+
+Q: My son ___ two cats.
+A: has | have | haves
+WHY: my son = he ← has.
+
+Q: Does your house ___ a balcony?
+A: have | has | having
+WHY: אחרי does חוזרים ל-have.
+
+Q: I usually ___ lunch at noon.
+A: have | has | do
+WHY: have lunch – ביטוי קבוע. עם I ← have.
+
+Q: She ___ yoga every morning.
+A: does | do | makes
+WHY: do yoga = לעשות יוגה. עם she ← does.
+
+A: Does he have a pension plan? | Does he has a pension plan?
+WHY: אחרי does – have, ולא has.
+
+## file Giora Bar (7)
+TITLE: will + verb (no "to")
+HE: אחרי will – פועל בלי to
+TIP: עתיד עם will: Subject + will + verb: I will go.
+TIP: אחרי will לא שמים to: I will call you ✓  /  I will to call you ✗.
+TIP: עם פעלים אחרים כמו want / need כן צריך to: I want to go, I need to work.
+
+Q: I will ___ you tomorrow.
+A: call | to call | calling
+WHY: אחרי will – פועל בלי to.
+
+Q: They will ___ next week.
+A: arrive | to arrive | arrives
+WHY: will + צורת בסיס: will arrive.
+
+Q: She will ___ the contract on Monday.
+A: sign | to sign | signs
+WHY: אחרי will – בלי to ובלי s.
+
+Q: I need ___ to the bank.
+A: to go | go | going
+WHY: need הוא לא will – אחריו כן צריך to.
+
+Q: We ___ study English together.
+A: will | will to | wills
+WHY: will + verb, בלי to.
+
+A: He will help us. | He will to help us.
+WHY: אחרי will – בלי to.
+
+A: I want to travel this summer. | I want travel this summer.
+WHY: want – כן צריך to: want to travel.
+
+A: My wife will cook dinner tonight. | My wife will to cook dinner tonight.
+WHY: will + verb, בלי to.
+
+## file Giora Bar (8)
+TITLE: Past Simple & Past Progressive
+HE: עבר פשוט ועבר מתמשך
+TIP: עבר פשוט (Past Simple) – משהו שקרה בעבר או הרגל מהעבר: I worked yesterday.
+TIP: עבר מתמשך (Past Progressive) – was / were + פועל עם ing: I was working.
+TIP: אסור לשים was וגם פועל בעבר יחד: I was wanted ✗  ←  I wanted ✓.
+TIP: פעולה ארוכה שנקטעה: was + ing ואחריו when + עבר פשוט: I was eating when my mom called.
+
+Q: I ___ yesterday.
+A: worked | was worked | was work
+WHY: עבר פשוט – פועל אחד בעבר, בלי was.
+
+Q: I ___ to go to the beach.
+A: wanted | was wanted | was want
+WHY: אסור was + פועל בעבר יחד ← I wanted.
+
+Q: I ___ breakfast when my mom phoned me.
+A: was eating | ate | was eat
+WHY: פעולה ארוכה שנקטעה ← was + ing.
+
+Q: I was training when my phone ___.
+A: rang | was ring | ringing
+WHY: הפעולה הקצרה שקטעה ← עבר פשוט.
+
+Q: They ___ at home last night.
+A: were | was | are
+WHY: they בעבר ← were.
+
+Q: She ___ a student ten years ago.
+A: was | were | is
+WHY: she בעבר ← was.
+
+Q: What ___ you doing at 7 p.m. yesterday?
+A: were | was | did
+WHY: you + עבר מתמשך ← were ... doing.
+
+Q: Last weekend I ___ my friends.
+A: met | was meet | meeted
+WHY: עבר פשוט של meet ← met.
+
+A: I was a trainer. | I was trained a trainer.
+WHY: was כאן הוא הפועל היחיד – אין פועל נוסף.
+
+A: We were watching TV when the lights went out. | We watched TV when the lights were going out.
+WHY: הפעולה הארוכה ← were watching, הפעולה שקטעה ← went out.

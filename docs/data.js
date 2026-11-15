@@ -4972,6 +4972,1317 @@ window.VOCAB = {
 ]
 }
 ]
+},
+{
+"id": "4",
+"file": "4",
+"title": "No \"to\" after modal verbs",
+"he": "בלי to אחרי can / should / must ודומיהם",
+"tips": [
+"הפעלים can, could, should, must, will, would, may, might נקראים פעלים מודאליים.",
+"אחריהם בא פועל בצורת בסיס – בלי to: I can help ✓  /  I can to help ✗.",
+"גם עם he / she לא מוסיפים s: She can swim ✓  /  She cans swim ✗."
+],
+"qs": [
+{
+"q": "I can ___ you with the claim.",
+"a": [
+"help",
+"to help",
+"helping"
+],
+"why": "אחרי can – פועל בצורת בסיס, בלי to."
+},
+{
+"q": "You should ___ the client today.",
+"a": [
+"call",
+"to call",
+"calls"
+],
+"why": "אחרי should – בלי to: should call."
+},
+{
+"q": "You must ___ the premium on time.",
+"a": [
+"pay",
+"to pay",
+"paying"
+],
+"why": "אחרי must – צורת בסיס: must pay."
+},
+{
+"q": "We could ___ a better price.",
+"a": [
+"negotiate",
+"to negotiate",
+"negotiated"
+],
+"why": "אחרי could – צורת בסיס, בלי to."
+},
+{
+"q": "He might ___ a new apartment.",
+"a": [
+"buy",
+"to buy",
+"buys"
+],
+"why": "אחרי might – צורת בסיס: might buy."
+},
+{
+"q": "She ___ speak three languages.",
+"a": [
+"can",
+"cans",
+"can to"
+],
+"why": "can לא משתנה עם she, ואחריו לא בא to."
+},
+{
+"q": "I would ___ the offer.",
+"a": [
+"accept",
+"to accept",
+"accepting"
+],
+"why": "אחרי would – צורת בסיס: would accept."
+},
+{
+"q": "",
+"a": [
+"We may need more time.",
+"We may to need more time."
+],
+"why": "אחרי may – בלי to."
+},
+{
+"q": "",
+"a": [
+"I want to go to the gym.",
+"I want go to the gym."
+],
+"why": "want הוא לא פועל מודאלי – אחריו כן צריך to: want to go."
+}
+],
+"blocks": [
+{
+"h": "We cannot put ‘to’ before these"
+},
+{
+"head": [
+"Modal Verb",
+"Correct ✅",
+"Incorrect ❌"
+],
+"rows": [
+[
+"can",
+"I can help you.",
+"I can to help you."
+],
+[
+"could",
+"We could negotiate.",
+"We could to negotiate."
+],
+[
+"should",
+"You should call the client.",
+"You should to call the client."
+],
+[
+"must",
+"You must pay on time.",
+"You must to pay on time."
+],
+[
+"will",
+"I will contact him.",
+"I will to contact him."
+],
+[
+"would",
+"I would accept the offer.",
+"I would to accept the offer."
+],
+[
+"may",
+"We may need more time.",
+"We may to need more time."
+],
+[
+"might",
+"He might buy the property.",
+"He might to buy the property."
+]
+]
+}
+]
+},
+{
+"id": "5",
+"file": "5",
+"title": "Adjectives vs Adverbs",
+"he": "שם תואר (Adjective) או תואר הפועל (Adverb)",
+"tips": [
+"Adjective מתאר שם עצם (אדם, דבר, מקום): a happy child, a big house.",
+"Adverb מתאר פועל (איך עושים משהו), ולרוב נגמר ב-ly: she sings beautifully, he drives carefully.",
+"יוצאי דופן: good ← well, ו-fast / hard / early / late נשארים בלי ly.",
+"יש מילים שנגמרות ב-ly והן דווקא שמות תואר: friendly, lovely, costly, daily."
+],
+"qs": [
+{
+"q": "She is a ___ driver.",
+"a": [
+"careful",
+"carefully",
+"carefuly"
+],
+"why": "מתאר את driver (שם עצם) ← Adjective: careful."
+},
+{
+"q": "She drives ___.",
+"a": [
+"carefully",
+"careful",
+"carefull"
+],
+"why": "מתאר איך היא נוהגת (פועל) ← Adverb: carefully."
+},
+{
+"q": "He speaks English very ___.",
+"a": [
+"well",
+"good",
+"goodly"
+],
+"why": "מתאר את הפועל speaks ← well (ה-Adverb של good)."
+},
+{
+"q": "My advisor gave me a ___ answer.",
+"a": [
+"quick",
+"quickly",
+"quicker"
+],
+"why": "מתאר את answer (שם עצם) ← quick."
+},
+{
+"q": "I finished the report ___.",
+"a": [
+"quickly",
+"quick",
+"quickness"
+],
+"why": "מתאר איך סיימתי (פועל) ← quickly."
+},
+{
+"q": "He works very ___.",
+"a": [
+"hard",
+"hardly",
+"hardy"
+],
+"why": "hard הוא גם Adverb, בלי ly. (hardly = כמעט לא – משמעות אחרת!)"
+},
+{
+"q": "I came home ___ yesterday.",
+"a": [
+"late",
+"lately",
+"latly"
+],
+"why": "late בלי ly הוא ה-Adverb. (lately = לאחרונה – משמעות אחרת.)"
+},
+{
+"q": "The new manager is very ___.",
+"a": [
+"friendly",
+"friendlily",
+"friend"
+],
+"why": "friendly נגמר ב-ly אבל הוא Adjective – מתאר את המנהל."
+},
+{
+"q": "She is a ___ singer.",
+"a": [
+"good",
+"well",
+"goodly"
+],
+"why": "מתאר את singer (שם עצם) ← good."
+},
+{
+"q": "",
+"a": [
+"He runs fast.",
+"He runs fastly."
+],
+"why": "fast לא מקבל ly – he runs fast."
+}
+],
+"blocks": [
+{
+"head": [
+"Part of Speech",
+"What it Describes",
+"Form",
+"Examples in a Sentence",
+"Notes"
+],
+"rows": [
+[
+"Adjective",
+"Describes a noun or pronoun (person, place, thing)",
+"Usually a base word, sometimes ending in -y, -ous, -ful, -able, etc.",
+"She is a happy child.\nThis is a beautiful house.",
+"Answers What kind? Which one? How many?"
+],
+[
+"Adverb",
+"Describes a verb, adjective, or another adverb",
+"Often ends in -ly (but not always)\nExcluding:\nfast/hard/early/late\nGood = Well",
+"She sings beautifully.\nHe runs quickly.\nIt’s very hot.",
+"Answers How? When? Where? To what extent?"
+]
+]
+},
+{
+"h": "Quick tip for learners"
+},
+{
+"li": "Adjectives → tell us more about things/people. (beautiful person/big house)"
+},
+{
+"li": "Adverbs → tell us more about actions or qualities. (talk well/run quickly)"
+},
+{
+"h": "Adjectives that end with ly"
+},
+{
+"head": [
+"Adjective",
+"Simple Pronunciation",
+"Meaning",
+"Hebrew"
+],
+"rows": [
+[
+"friendly",
+"fren-dli",
+"kind, nice",
+"ידידותי"
+],
+[
+"lovely",
+"luv-li",
+"very nice / beautiful",
+"מקסים"
+],
+[
+"lonely",
+"lone-li",
+"feeling alone",
+"בודד"
+],
+[
+"ugly",
+"ug-li",
+"not beautiful",
+"מכוער"
+],
+[
+"silly",
+"si-li",
+"a little stupid / funny",
+"טיפשי"
+],
+[
+"lively",
+"laiv-li",
+"full of energy",
+"תוסס"
+],
+[
+"deadly",
+"ded-li",
+"causing death",
+"קטלני"
+],
+[
+"costly",
+"kost-li",
+"expensive",
+"יקר"
+],
+[
+"likely",
+"laik-li",
+"probable",
+"סביר / כנראה"
+],
+[
+"unlikely",
+"un-laik-li",
+"not probable",
+"לא סביר"
+],
+[
+"friendly",
+"fren-dli",
+"pleasant, kind",
+"נחמד"
+],
+[
+"manly",
+"man-li",
+"masculine",
+"גברי"
+],
+[
+"womanly",
+"wu-man-li",
+"feminine",
+"נשי"
+],
+[
+"cowardly",
+"kau-erd-li",
+"not brave",
+"פחדן"
+],
+[
+"scholarly",
+"sko-lər-li",
+"academic",
+"אקדמי"
+],
+[
+"elderly",
+"el-der-li",
+"old (people)",
+"קשיש"
+],
+[
+"daily",
+"dei-li",
+"happening every day",
+"יומי"
+],
+[
+"weekly",
+"wee-kli",
+"happening every week",
+"שבועי"
+],
+[
+"monthly",
+"munth-li",
+"happening every month",
+"חודשי"
+],
+[
+"yearly",
+"yir-li",
+"happening every year",
+"שנתי"
+]
+]
+},
+{
+"h": "Irregular Adverbs"
+},
+{
+"head": [
+"Adverb",
+"Simple Pronunciation",
+"Meaning",
+"Hebrew"
+],
+"rows": [
+[
+"well",
+"wel",
+"in a good way",
+"טוב"
+],
+[
+"fast",
+"fast",
+"quickly",
+"מהר"
+],
+[
+"hard",
+"hard",
+"with effort",
+"קשה / חזק"
+],
+[
+"late",
+"leit",
+"after the time",
+"מאוחר"
+],
+[
+"early",
+"er-li",
+"before the time",
+"מוקדם"
+]
+]
+}
+]
+},
+{
+"id": "6",
+"file": "6",
+"title": "do / does and have / has",
+"he": "do / does ו-have / has",
+"tips": [
+"בשאלות ובשלילה בהווה פשוט משתמשים ב-do, ועם he / she / it ב-does.",
+"אחרי does הפועל בלי s: Does she play? ✓  /  Does she plays? ✗.",
+"have = יש לי (I / you / we / they). עם he / she / it אומרים has.",
+"אבל אחרי does / doesn't חוזרים ל-have: Does he have a car? ✓."
+],
+"qs": [
+{
+"q": "___ you like coffee?",
+"a": [
+"Do",
+"Does",
+"Are"
+],
+"why": "you ← Do."
+},
+{
+"q": "___ your wife work in finance?",
+"a": [
+"Does",
+"Do",
+"Is"
+],
+"why": "your wife = she ← Does."
+},
+{
+"q": "Does she ___ tennis?",
+"a": [
+"play",
+"plays",
+"playing"
+],
+"why": "אחרי does – הפועל בלי s."
+},
+{
+"q": "He ___ eat meat.",
+"a": [
+"doesn't",
+"don't",
+"isn't"
+],
+"why": "שלילה עם he ← doesn't."
+},
+{
+"q": "We ___ a car and a motorcycle.",
+"a": [
+"have",
+"has",
+"haves"
+],
+"why": "we ← have."
+},
+{
+"q": "My son ___ two cats.",
+"a": [
+"has",
+"have",
+"haves"
+],
+"why": "my son = he ← has."
+},
+{
+"q": "Does your house ___ a balcony?",
+"a": [
+"have",
+"has",
+"having"
+],
+"why": "אחרי does חוזרים ל-have."
+},
+{
+"q": "I usually ___ lunch at noon.",
+"a": [
+"have",
+"has",
+"do"
+],
+"why": "have lunch – ביטוי קבוע. עם I ← have."
+},
+{
+"q": "She ___ yoga every morning.",
+"a": [
+"does",
+"do",
+"makes"
+],
+"why": "do yoga = לעשות יוגה. עם she ← does."
+},
+{
+"q": "",
+"a": [
+"Does he have a pension plan?",
+"Does he has a pension plan?"
+],
+"why": "אחרי does – have, ולא has."
+}
+],
+"blocks": [
+{
+"head": [
+"Subject",
+"Helping Verb",
+"Use",
+"Example",
+"Explanation"
+],
+"rows": [
+[
+"I / You / We / They",
+"do",
+"Question with verbs  before the noun",
+"Do you like coffee?",
+"Use “do” to form questions in present simple."
+],
+[
+"He / She / It",
+"does",
+"Question with verbs  before the noun",
+"Does she play tennis?",
+"Use “does” with he/she/it in questions."
+],
+[
+"I / You / We / They",
+"do",
+"Negative with verbs",
+"I don’t (do not) watch TV.",
+"“Do” helps form negative sentences in present simple."
+],
+[
+"He / She / It",
+"does",
+"Negative with verbs",
+"He doesn’t (does not) eat meat.",
+"“Does” helps form negative sentences for he/she/it."
+],
+[
+"All subjects",
+"do/does",
+"Main verb/ before activities",
+"I do yoga. / She does her homework.",
+"“Do” and “does” can be the main verb meaning to perform an action."
+]
+]
+},
+{
+"h": "🟦 Practice Questions with \"Do / Does\""
+},
+{
+"p": "(Use these to focus on habits, routines, and present simple)"
+},
+{
+"h": "✅ General Present Habits"
+},
+{
+"li": "Do you drink coffee every day?"
+},
+{
+"li": "What do you usually do after work or school?"
+},
+{
+"li": "Do you like watching movies or series?"
+},
+{
+"li": "Do your friends speak English?"
+},
+{
+"li": "Where do you usually go on the weekend?"
+},
+{
+"h": "✅ 3rd Person (He/She/It)"
+},
+{
+"li": "Does your best friend play any sports?"
+},
+{
+"li": "What time does your teacher start class?"
+},
+{
+"li": "Does your pet sleep in your room?"
+},
+{
+"li": "What kind of music does your brother/sister like?"
+},
+{
+"li": "Does it rain a lot in your city?"
+},
+{
+"h": "✅ Yes/No + Follow-Up"
+},
+{
+"li": "Do you cook at home? What do you usually make?"
+},
+{
+"li": "Does your family live nearby? Who do you live with?"
+},
+{
+"head": [
+"Subject",
+"Verb",
+"Use",
+"Example",
+"Explanation"
+],
+"rows": [
+[
+"I / You / We / They",
+"have",
+"Possession/\nThings (nouns)",
+"We have a car.",
+"Shows possession or things you own."
+],
+[
+"He / She / It",
+"has",
+"Possession/\nThings (nouns)",
+"She has two cats.",
+"3rd person singular takes “has” for possession."
+],
+[
+"I / You / We / They",
+"have",
+"Experience",
+"I have been to London.",
+"Used in the present perfect tense."
+],
+[
+"He / She / It",
+"has",
+"Experience",
+"He has seen that movie.",
+"“Has” is used with he/she/it in present perfect."
+],
+[
+"All subjects",
+"have/has",
+"Actions (fixed phrases)",
+"I have lunch at noon. / She has a shower.",
+"“Have” is used for actions in expressions (e.g., meals, showers)."
+]
+]
+},
+{
+"h": "🟨 Practice Questions with \"Have / Has\""
+},
+{
+"p": "(Use these to talk about possession, experiences, and present perfect)"
+},
+{
+"h": "✅ Possession"
+},
+{
+"li": "Do you have a smartphone? What apps do you use most?"
+},
+{
+"li": "How many siblings do you have?"
+},
+{
+"li": "Does your friend have a car or a bicycle?"
+},
+{
+"li": "What kind of pets do you have (or want to have)?"
+},
+{
+"li": "Does your house have a garden or a balcony?"
+},
+{
+"h": "✅ Experiences (Present Perfect)"
+},
+{
+"li": "Have you ever been to another country?"
+},
+{
+"li": "Have you tried any new food this year?"
+},
+{
+"li": "Have you ever visited New Zealand or Australia?"
+},
+{
+"li": "Have you seen that new movie on Netflix?"
+},
+{
+"li": "How long have you had your current phone?"
+},
+{
+"h": "✅ Routines with \"Have\""
+},
+{
+"li": "What time do you usually have breakfast?"
+},
+{
+"li": "Does your family have dinner together?"
+}
+]
+},
+{
+"id": "giora-bar-7",
+"file": "Giora Bar (7)",
+"title": "will + verb (no \"to\")",
+"he": "אחרי will – פועל בלי to",
+"tips": [
+"עתיד עם will: Subject + will + verb: I will go.",
+"אחרי will לא שמים to: I will call you ✓  /  I will to call you ✗.",
+"עם פעלים אחרים כמו want / need כן צריך to: I want to go, I need to work."
+],
+"qs": [
+{
+"q": "I will ___ you tomorrow.",
+"a": [
+"call",
+"to call",
+"calling"
+],
+"why": "אחרי will – פועל בלי to."
+},
+{
+"q": "They will ___ next week.",
+"a": [
+"arrive",
+"to arrive",
+"arrives"
+],
+"why": "will + צורת בסיס: will arrive."
+},
+{
+"q": "She will ___ the contract on Monday.",
+"a": [
+"sign",
+"to sign",
+"signs"
+],
+"why": "אחרי will – בלי to ובלי s."
+},
+{
+"q": "I need ___ to the bank.",
+"a": [
+"to go",
+"go",
+"going"
+],
+"why": "need הוא לא will – אחריו כן צריך to."
+},
+{
+"q": "We ___ study English together.",
+"a": [
+"will",
+"will to",
+"wills"
+],
+"why": "will + verb, בלי to."
+},
+{
+"q": "",
+"a": [
+"He will help us.",
+"He will to help us."
+],
+"why": "אחרי will – בלי to."
+},
+{
+"q": "",
+"a": [
+"I want to travel this summer.",
+"I want travel this summer."
+],
+"why": "want – כן צריך to: want to travel."
+},
+{
+"q": "",
+"a": [
+"My wife will cook dinner tonight.",
+"My wife will to cook dinner tonight."
+],
+"why": "will + verb, בלי to."
+}
+],
+"blocks": [
+{
+"h": "Grammar Rule: We Don’t Use “To” After “Will”"
+},
+{
+"h": "Rule: After will, use the verb in its base form (the infinitive without to)."
+},
+{
+"head": [
+"❌ Incorrect",
+"✅ Correct"
+],
+"rows": [
+[
+"I will to go home.",
+"I will go home."
+],
+[
+"She will to call you.",
+"She will call you."
+],
+[
+"They will to arrive tomorrow.",
+"They will arrive tomorrow."
+],
+[
+"He will to help us.",
+"He will help us."
+],
+[
+"We will to study English.",
+"We will study English."
+]
+]
+},
+{
+"h": "The Formula"
+},
+{
+"p": "Subject + will + Verb"
+},
+{
+"p": "I + will + go"
+},
+{
+"p": "Remember: Will + verb, NOT will + to + verb."
+},
+{
+"li": "I will eat. ✅"
+},
+{
+"li": "She will work. ✅"
+},
+{
+"li": "They will travel. ✅"
+},
+{
+"p": "Important: We use to with many other verbs, but not after will."
+},
+{
+"li": "I want to go. ✅"
+},
+{
+"li": "I need to work. ✅"
+},
+{
+"li": "I will go. ✅"
+}
+]
+},
+{
+"id": "giora-bar-8",
+"file": "Giora Bar (8)",
+"title": "Past Simple & Past Progressive",
+"he": "עבר פשוט ועבר מתמשך",
+"tips": [
+"עבר פשוט (Past Simple) – משהו שקרה בעבר או הרגל מהעבר: I worked yesterday.",
+"עבר מתמשך (Past Progressive) – was / were + פועל עם ing: I was working.",
+"אסור לשים was וגם פועל בעבר יחד: I was wanted ✗  ←  I wanted ✓.",
+"פעולה ארוכה שנקטעה: was + ing ואחריו when + עבר פשוט: I was eating when my mom called."
+],
+"qs": [
+{
+"q": "I ___ yesterday.",
+"a": [
+"worked",
+"was worked",
+"was work"
+],
+"why": "עבר פשוט – פועל אחד בעבר, בלי was."
+},
+{
+"q": "I ___ to go to the beach.",
+"a": [
+"wanted",
+"was wanted",
+"was want"
+],
+"why": "אסור was + פועל בעבר יחד ← I wanted."
+},
+{
+"q": "I ___ breakfast when my mom phoned me.",
+"a": [
+"was eating",
+"ate",
+"was eat"
+],
+"why": "פעולה ארוכה שנקטעה ← was + ing."
+},
+{
+"q": "I was training when my phone ___.",
+"a": [
+"rang",
+"was ring",
+"ringing"
+],
+"why": "הפעולה הקצרה שקטעה ← עבר פשוט."
+},
+{
+"q": "They ___ at home last night.",
+"a": [
+"were",
+"was",
+"are"
+],
+"why": "they בעבר ← were."
+},
+{
+"q": "She ___ a student ten years ago.",
+"a": [
+"was",
+"were",
+"is"
+],
+"why": "she בעבר ← was."
+},
+{
+"q": "What ___ you doing at 7 p.m. yesterday?",
+"a": [
+"were",
+"was",
+"did"
+],
+"why": "you + עבר מתמשך ← were ... doing."
+},
+{
+"q": "Last weekend I ___ my friends.",
+"a": [
+"met",
+"was meet",
+"meeted"
+],
+"why": "עבר פשוט של meet ← met."
+},
+{
+"q": "",
+"a": [
+"I was a trainer.",
+"I was trained a trainer."
+],
+"why": "was כאן הוא הפועל היחיד – אין פועל נוסף."
+},
+{
+"q": "",
+"a": [
+"We were watching TV when the lights went out.",
+"We watched TV when the lights were going out."
+],
+"why": "הפעולה הארוכה ← were watching, הפעולה שקטעה ← went out."
+}
+],
+"blocks": [
+{
+"h": "Past Simple & Progressive"
+},
+{
+"p": "SVO- subject + verb + object"
+},
+{
+"h": "1. Basic Structure & Helping Verbs"
+},
+{
+"head": [
+"Topic",
+"Structure / Explanation"
+],
+"rows": [
+[
+"Past Simple",
+"Subject + verb + object"
+],
+[
+"Past Helping Verbs",
+"Am → was"
+],
+[
+"",
+"Is → was"
+],
+[
+"",
+"Are → were"
+]
+]
+},
+{
+"h": "2. Subject Pronouns"
+},
+{
+"head": [
+"Singular",
+"Plural"
+],
+"rows": [
+[
+"I",
+"We"
+],
+[
+"She",
+"You"
+],
+[
+"He",
+"They"
+],
+[
+"It",
+""
+]
+]
+},
+{
+"h": "3. Past Simple vs Past Progressive (General Idea)"
+},
+{
+"head": [
+"Tense",
+"Meaning"
+],
+"rows": [
+[
+"Past simple",
+"simple"
+],
+[
+"Past progressive",
+"more feeling"
+]
+]
+},
+{
+"h": "4. Usage"
+},
+{
+"head": [
+"Past Simple",
+"Past Progressive"
+],
+"rows": [
+[
+"Something that happened in the past",
+"Something that happened in the past, but adds more feeling/emphasis"
+],
+[
+"Habits from the past",
+"To tell longer stories"
+]
+]
+},
+{
+"h": "5. Sentence Structure Examples"
+},
+{
+"head": [
+"Tense",
+"Structure",
+"Example"
+],
+"rows": [
+[
+"Past simple",
+"Subject + verb",
+"I worked yesterday"
+],
+[
+"Past simple (with noun)",
+"Subject + helping verb + object",
+"I was a student"
+],
+[
+"Past progressive",
+"Subject + helping verb (was/were) + verb+ing",
+"I was working yesterday"
+]
+]
+},
+{
+"h": "6. Important Rule (Past Simple)"
+},
+{
+"head": [
+"Rule",
+"Example"
+],
+"rows": [
+[
+"We cannot use a helping verb AND a verb in past simple",
+"❌ I was wanted to go to the beach"
+],
+[
+"Correct forms",
+"✅ I wanted to go to the beach"
+],
+[
+"",
+"✅ I was a trainer"
+]
+]
+},
+{
+"h": "7. Important Rule (Past Progressive)"
+},
+{
+"head": [
+"Rule",
+"Example"
+],
+"rows": [
+[
+"Must use helping verb + verb+ing",
+"I was eating breakfast"
+],
+[
+"Both are always needed",
+"I was training"
+]
+]
+},
+{
+"h": "8. Interrupted Actions (Past Progressive + Past Simple)"
+},
+{
+"head": [
+"Rule",
+"Example"
+],
+"rows": [
+[
+"Use past progressive + past simple for connected actions",
+"I was eating breakfast when my mom phoned me"
+],
+[
+"Used for interrupted actions",
+"I was training when my mom phoned me"
+]
+]
+},
+{
+"h": "9. Separate Events (No Connection)"
+},
+{
+"head": [
+"Structure",
+"Meaning"
+],
+"rows": [
+[
+"I was eating breakfast. My mom was phoning me.",
+"Two separate events"
+],
+[
+"I ate breakfast. My mom phoned me.",
+"Two separate events"
+]
+]
+},
+{
+"h": "10. Order Rule"
+},
+{
+"head": [
+"Rule",
+"Explanation"
+],
+"rows": [
+[
+"First action",
+"Past progressive"
+],
+[
+"Second action",
+"Past simple"
+]
+]
+},
+{
+"p": "Summary-"
+},
+{
+"li": "Past simple= Subject + 1 past verb (past habits, something in the past)"
+},
+{
+"li": "Past progressive= subject + past helping verb + ing-verb (long stories about the past)"
+},
+{
+"p": "A1–A2 (Beginner)"
+},
+{
+"p": "Focus: Simple past actions and basic “while/when” sentences."
+},
+{
+"li": "What did you do yesterday after school/work? Yesterday, after work I ate dinner."
+},
+{
+"li": "Where did you go last weekend? Last weekend, I met my friends."
+},
+{
+"li": "Did you watch TV last night? What did you watch?"
+},
+{
+"li": "While you were eating breakfast this morning, what was your family doing?"
+},
+{
+"li": "When you were a child, what games did you play?"
+},
+{
+"p": "B1 (Intermediate)"
+},
+{
+"p": "Focus: Combining Past Simple and Past Progressive in one answer."
+},
+{
+"li": "What were you doing yesterday at 7 p.m.?"
+},
+{
+"li": "Tell me about a time when something surprising happened while you were doing something else. I was learning English when my friend called me."
+},
+{
+"li": "What were you doing when you heard some important news?"
+},
+{
+"li": "Think of a holiday — what were you doing at midnight on New Year’s Eve?"
+},
+{
+"li": "Tell me about a time when you were studying and someone interrupted you."
+},
+{
+"p": "B2–C1 (Upper-Intermediate to Advanced)"
+},
+{
+"p": "Focus: Longer, more descriptive answers with time sequencing."
+},
+{
+"li": "Describe a time when you were travelling and something unexpected happened."
+},
+{
+"li": "Tell me about a situation where two things were happening at the same time in the past."
+},
+{
+"li": "What were you doing during an important historical event?"
+},
+{
+"li": "Tell me about the last time you got bad news — what were you doing, and how did you react?"
+},
+{
+"li": "Share a funny story that happened while you were doing something ordinary."
+}
+]
 }
 ]
 };

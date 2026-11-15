@@ -181,3 +181,8 @@ main { padding: 14px; max-width: 640px; margin: 0 auto; }
 .fld.ok .val { color: var(--ok); font-weight: 600; }
 .fld.bad .val { color: var(--bad); text-decoration: line-through; }
 .rcard .sep { height: 6px; border-bottom: 2px dashed var(--line); margin-bottom: 6px; }
+.gtext .gp { padding: 4px 0; line-height: 1.5; }
+.gtext .gp[dir=rtl], .gtext .gli[dir=rtl] { text-align: right; }
+.gtext .gli { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-top: 1px solid var(--line); line-height: 1.45; }
+.gtext .gli .dot { color: var(--brand); font-weight: 800; }
+.gtext .gli .t { flex: 1; }

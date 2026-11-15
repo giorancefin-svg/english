@@ -817,6 +817,24 @@
     });
     return html + (open ? '</div>' : '');
   }
+  // headings, tables, and runs of paragraphs / bullets (bullets get a 🔊 — often speaking questions)
+  function blocksHtml(blocks) {
+    let html = '', box = null;
+    const flush = () => { if (box) { html += `<div class="rcard gtext" dir="ltr">${box}</div>`; box = null; } };
+    blocks.forEach(b => {
+      if (b.p != null || b.li != null) {
+        const t = b.p != null ? b.p : b.li, he = hasHe(t);
+        box = (box || '') + (b.p != null
+          ? `<div class="gp" ${he ? 'dir="rtl"' : ''}>${cellHtml(t)}</div>`
+          : `<div class="gli" ${he ? 'dir="rtl"' : ''}><span class="dot">•</span><span class="t">${cellHtml(t)}</span>${he ? '' : `<button class="speak small" data-say="${esc(t.replace(/[✅❌✔️]/g, ''))}">🔊</button>`}</div>`);
+        return;
+      }
+      flush();
+      html += b.h != null ? `<div class="sec-h"><bdi>${esc(b.h)}</bdi></div>` : tableHtml(b);
+    });
+    flush();
+    return html;
+  }
   function topicScreen(g) {
     screen(g.title);
     view.innerHTML = `
@@ -825,7 +843,7 @@
         ${g.tips.length ? `<div class="muted" style="margin-top:8px">💡 ${L('בקצרה', 'In short (Hebrew)')}</div><ul class="he">${g.tips.map(t => `<li>${heMix(t)}</li>`).join('')}</ul>` : ''}
       </div>` : ''}
       <div class="lesson-h">📄 ${L('מהקובץ של המורה', "From the tutor's file")}</div>
-      ${g.blocks.map(b => b.h ? `<div class="sec-h"><bdi>${esc(b.h)}</bdi></div>` : tableHtml(b)).join('')}
+      ${blocksHtml(g.blocks)}
       ${g.qs.length ? `<button class="btn" id="gPractice">✏️ ${L('תרגל את הנושא', 'Practice this topic')} (${g.qs.length})</button>` : ''}`;
     const gp = $('#gPractice'); if (gp) gp.onclick = () => grammarRound([g]);
   }
