@@ -1,0 +1,125 @@
+#! Claude lesson 17-11-2026 — words about experience and progress (fits Present Perfect).
+
+## experience
+EN: I have ten years of [experience] in insurance.
+HE: יש לי עשר שנים של ניסיון בביטוח.
+EN: Moving abroad was an amazing [experience] for our family.
+HE: המעבר לחו"ל היה חוויה מדהימה למשפחה שלנו.
+EN: Do you have any [experience] with pension plans?
+HE: יש לך ניסיון כלשהו עם תוכניות פנסיה?
+EN: You learn a lot from [experience], not only from books.
+HE: לומדים הרבה מניסיון, לא רק מספרים.
+
+## achieve
+EN: I want to [achieve] my sales goal this month.
+HE: אני רוצה להשיג את יעד המכירות שלי החודש.
+EN: She has [achieved] a lot in a short time.
+HE: היא השיגה הרבה בזמן קצר.
+EN: You can [achieve] anything if you practice every day.
+HE: אפשר להשיג כל דבר אם מתאמנים כל יום.
+EN: What did you [achieve] at the gym this year?
+HE: מה השגת בחדר הכושר השנה?
+
+## improve
+EN: My English has [improved] a lot this year.
+HE: האנגלית שלי השתפרה הרבה השנה.
+EN: I want to [improve] my speaking.
+HE: אני רוצה לשפר את הדיבור שלי.
+EN: Sleeping well helps [improve] your training.
+HE: שינה טובה עוזרת לשפר את האימונים.
+EN: How can we [improve] our service to clients?
+HE: איך אנחנו יכולים לשפר את השירות שלנו ללקוחות?
+
+## so-far
+EN: [So far], everything is going well with the new client.
+HE: עד עכשיו, הכל הולך טוב עם הלקוח החדש.
+EN: I have read two chapters [so far].
+HE: קראתי שני פרקים עד עכשיו.
+EN: How many words have you learned [so far]?
+HE: כמה מילים למדת עד עכשיו?
+EN: [So far] this year, we have saved ten thousand shekels.
+HE: עד עכשיו השנה, חסכנו עשרת אלפים שקל.
+
+## recently
+EN: I have [recently] started a new diet.
+HE: לאחרונה התחלתי דיאטה חדשה.
+EN: Have you seen any good movies [recently]?
+HE: ראית סרטים טובים לאחרונה?
+EN: Prices have gone up a lot [recently].
+HE: המחירים עלו הרבה לאחרונה.
+EN: My son [recently] got his driver's license.
+HE: הבן שלי קיבל לאחרונה רישיון נהיגה.
+
+## already
+EN: I have [already] sent you the documents.
+HE: כבר שלחתי לך את המסמכים.
+EN: Are you [already] at the office?
+HE: אתה כבר במשרד?
+EN: We have [already] paid this month's rent.
+HE: כבר שילמנו את שכר הדירה של החודש.
+EN: It's only nine and I'm [already] hungry.
+HE: השעה רק תשע ואני כבר רעב.
+
+## yet
+EN: I haven't finished the report [yet].
+HE: עדיין לא סיימתי את הדוח.
+EN: Have you called the client [yet]?
+HE: כבר התקשרת ללקוח?
+EN: The insurance company hasn't answered [yet].
+HE: חברת הביטוח עדיין לא ענתה.
+EN: Don't go [yet]; dinner is almost ready.
+HE: אל תלך עדיין; ארוחת הערב כמעט מוכנה.
+
+## ever
+EN: Have you [ever] been to New York?
+HE: היית אי פעם בניו יורק?
+EN: This is the best pizza I have [ever] eaten.
+HE: זו הפיצה הכי טובה שאכלתי אי פעם.
+EN: Have you [ever] made an insurance claim?
+HE: הגשת אי פעם תביעת ביטוח?
+EN: Nothing [ever] changes in this office.
+HE: אף פעם שום דבר לא משתנה במשרד הזה.
+
+## never
+EN: I have [never] tried sushi.
+HE: אף פעם לא ניסיתי סושי.
+EN: My wife [never] forgets a birthday.
+HE: אשתי אף פעם לא שוכחת יום הולדת.
+EN: It's [never] too late to learn a new language.
+HE: אף פעם לא מאוחר מדי ללמוד שפה חדשה.
+EN: I have [never] missed a payment.
+HE: אף פעם לא פספסתי תשלום.
+
+## figure-out
+EN: I can't [figure out] how this app works.
+HE: אני לא מצליח להבין איך האפליקציה הזאת עובדת.
+EN: We need to [figure out] how much we can save each month.
+HE: אנחנו צריכים להבין כמה אנחנו יכולים לחסוך כל חודש.
+EN: Don't worry, we'll [figure out] a solution together.
+HE: אל תדאג, נמצא פתרון ביחד.
+EN: Have you [figured out] the problem with the car?
+HE: הבנת מה הבעיה עם הרכב?
+
+## confident
+EN: I feel more [confident] when I speak English now.
+HE: אני מרגיש יותר בטוח בעצמי כשאני מדבר אנגלית עכשיו.
+EN: She is [confident] that the deal will close this week.
+HE: היא בטוחה שהעסקה תיסגר השבוע.
+EN: Practice makes you [confident].
+HE: תרגול הופך אותך לבטוח בעצמך.
+EN: He gave a [confident] presentation to the clients.
+HE: הוא נתן מצגת בטוחה בעצמה ללקוחות.
+
+## fluent
+EN: My goal is to be [fluent] in English.
+HE: המטרה שלי היא להיות שוטף באנגלית.
+EN: My daughter is [fluent] in three languages.
+HE: הבת שלי שולטת באופן שוטף בשלוש שפות.
+EN: You don't need to be [fluent] to have a good conversation.
+HE: לא צריך להיות שוטף כדי לנהל שיחה טובה.
+EN: After a year abroad, he became [fluent].
+HE: אחרי שנה בחו"ל, הוא נהיה שוטף.
+
+## lesson 17-11-2026
+EN: I have studied English for a few years. [So far], I have learned more than two hundred words, and my grammar has [improved] a lot. I have [never] felt so [confident] before. I haven't become [fluent] [yet], but I have [already] started to speak more at work. [Recently], I have had a lot of meetings with clients, and it was a great [experience]. Sometimes I can't [figure out] the right word, but I don't give up. Have you [ever] learned a new language as an adult? It is hard, but you can [achieve] it.
+HE: אני לומד אנגלית כבר כמה שנים. עד עכשיו למדתי יותר ממאתיים מילים, והדקדוק שלי השתפר הרבה. אף פעם לא הרגשתי כל כך בטוח בעצמי. עדיין לא נהייתי שוטף, אבל כבר התחלתי לדבר יותר בעבודה. לאחרונה היו לי הרבה פגישות עם לקוחות, וזו הייתה חוויה מעולה. לפעמים אני לא מצליח למצוא את המילה הנכונה, אבל אני לא מוותר. למדת אי פעם שפה חדשה כמבוגר? זה קשה, אבל אפשר להשיג את זה.

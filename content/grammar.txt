@@ -843,3 +843,124 @@ WHY: לא שמים was וגם פועל בעבר.
 
 A: They were at home. | They was at home.
 WHY: they ← were.
+
+
+#! ---------------- topics written by Claude (no Word file) ----------------
+
+## file present perfect
+SOURCE: claude
+TITLE: Present Perfect
+HE: הווה מושלם – have / has + V3
+TIP: המבנה: have / has + צורה שלישית של הפועל (V3): I have finished, she has called.
+TIP: משתמשים כשהזמן לא חשוב או לא ידוע, וכשמשהו מהעבר קשור לעכשיו: I have been to London.
+TIP: עם זמן מדויק בעבר (yesterday, last year, in 2020) – רק Past Simple: I went to London last year.
+TIP: מילים שבאות הרבה עם Present Perfect: ever, never, already, yet, just, so far, since, for.
+H: The form
+T: Subject | Present Perfect | Example
+T: I / You / We / They | have + V3 | I have finished the report.
+T: He / She / It | has + V3 | She has called the client.
+T: Negative | haven't / hasn't + V3 | We haven't signed the contract yet.
+T: Question | Have / Has + subject + V3? | Have you ever been to London?
+H: When do we use it?
+T: Use | Example
+T: Life experience (no exact time) | I have visited Paris twice.
+T: Started in the past and still true now | I have worked here since 2015.
+T: Something happened and the result is now | I have lost my keys. (I can't get in now)
+T: With already / yet / just / ever / never | I have already paid. / Have you eaten yet?
+H: Present Perfect or Past Simple?
+T: Present Perfect | Past Simple
+T: No exact time: I have been to Rome. | Exact time: I went to Rome last summer.
+T: Still true now: I have lived here for 10 years. | Finished: I lived there for 10 years (now I don't).
+T: Have you seen my phone? | Did you see the game last night?
+H: Common V3 forms
+T: Verb | Past Simple | V3 (Present Perfect)
+T: be | was / were | been
+T: go | went | gone
+T: do | did | done
+T: see | saw | seen
+T: make | made | made
+T: take | took | taken
+T: write | wrote | written
+T: buy | bought | bought
+T: eat | ate | eaten
+T: work | worked | worked
+
+Q: I have ___ this movie three times.
+A: seen | saw | see
+WHY: have + V3 ← seen (לא saw).
+
+Q: She ___ to Paris twice.
+A: has been | have been | was been
+WHY: she ← has, ו-be ב-V3 ← been.
+
+Q: We ___ here since 2015.
+A: have lived | lived | are living
+WHY: since + עד היום ← Present Perfect.
+
+Q: I ___ to London last year.
+A: went | have gone | have been
+WHY: זמן מדויק בעבר (last year) ← Past Simple.
+
+Q: Have you ___ been to New York?
+A: ever | never | yet
+WHY: בשאלה על ניסיון בחיים ← ever.
+
+Q: I haven't finished the report ___.
+A: yet | already | ever
+WHY: בשלילה בסוף המשפט ← yet.
+
+Q: I have ___ paid the bill. You don't need to pay.
+A: already | yet | ever
+WHY: כבר עשיתי ← already.
+
+Q: He ___ his keys. He can't open the door.
+A: has lost | lost | have lost
+WHY: התוצאה עכשיו (לא יכול לפתוח) ← has lost.
+
+Q: ___ you eaten yet?
+A: Have | Did | Are
+WHY: עם yet ← Present Perfect: Have you eaten?
+
+Q: My son ___ his homework. Now he can play.
+A: has done | has did | have done
+WHY: he ← has, ו-do ב-V3 ← done.
+
+Q: I have ___ tried sushi. Is it good?
+A: never | ever | yet
+WHY: אף פעם ← never.
+
+Q: How long ___ you worked in insurance?
+A: have | did | are
+WHY: How long + עד היום ← have you worked.
+
+Q: I have worked here ___ ten years.
+A: for | since | from
+WHY: משך זמן ← for. (since – מנקודת זמן.)
+
+Q: I have worked here ___ 2015.
+A: since | for | from
+WHY: מנקודת זמן ← since.
+
+Q: ___ you see the game last night?
+A: Did | Have | Has
+WHY: זמן מדויק (last night) ← Past Simple: Did you see.
+
+Q: The price of gold ___ a lot this year.
+A: has gone up | has went up | goes up
+WHY: this year – עדיין נמשך ← Present Perfect. go ב-V3 ← gone.
+
+Q: They ___ the contract yet.
+A: haven't signed | didn't signed | haven't sign
+WHY: שלילה + yet ← haven't + V3.
+
+A: I have known him for many years. | I know him for many years.
+WHY: מעבר עד עכשיו (for many years) ← Present Perfect.
+
+A: I saw that movie yesterday. | I have seen that movie yesterday.
+WHY: yesterday ← זמן מדויק ← Past Simple.
+
+A: She has written three books. | She has wrote three books.
+WHY: V3 של write ← written.
+
+A: Have you ever been to Eilat? | Did you ever been to Eilat?
+WHY: ניסיון בחיים ← Have you ever + V3.

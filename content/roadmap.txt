@@ -1,0 +1,139 @@
+#! Learning path ("המסלול שלי"). ITEM key = a grammar topic key (Word file name, or "## file <key>" in grammar.txt).
+#! A topic that does not exist yet is shown as "coming next". When Giora asks for "שיעור חדש", write the next one.
+#! Level test: Q/A/WHY like grammar.txt (first option is correct). Levels: A2, B1, B2.
+
+## stage 1 | A2–B1 | Foundations | יסודות – מה שלמדת עם המורה
+ITEM: present simple & progresive | Present Simple & Progressive | הווה פשוט ומתמשך
+ITEM: 6 | do / does and have / has | do / does ו-have / has
+ITEM: Giora Bar (8) | Past Simple & Progressive | עבר פשוט ומתמשך
+ITEM: 1 | didn't + base verb | עבר בשלילה
+ITEM: 4 | No "to" after modal verbs | בלי to אחרי can / should
+ITEM: Giora Bar (7) | will + verb | עתיד עם will
+ITEM: 5 | Adjectives vs Adverbs | שם תואר ותואר הפועל
+ITEM: 3 | very vs really | very או really
+ITEM: 2 | all vs whole | all או whole
+
+## stage 2 | B1 | Everyday confidence | ביטחון ביומיום
+ITEM: present perfect | Present Perfect (I have done) | הווה מושלם – have + V3
+ITEM: future forms | will or going to | עתיד: will או going to
+ITEM: comparatives | Comparatives & superlatives | השוואות: bigger / the biggest
+ITEM: much many | much / many / a lot of | הרבה: much, many, a lot of
+ITEM: in on at | in / on / at | מילות יחס: in, on, at
+ITEM: used to | used to | נהגתי ל... – used to
+ITEM: first conditional | First conditional | משפט תנאי: if + will
+
+## stage 3 | B1+ | Talking about work and life | לדבר על עבודה וחיים
+ITEM: present perfect continuous | Present Perfect Continuous | have been + ing
+ITEM: gerund infinitive | -ing or to? | enjoy doing או want to do
+ITEM: questions | Asking questions correctly | איך שואלים נכון
+ITEM: second conditional | Second conditional | תנאי דמיוני: if I had… I would…
+ITEM: passive | Passive voice | סביל: is done / was made
+ITEM: past perfect | Past Perfect | עבר מושלם: had + V3
+ITEM: phrasal verbs work | Phrasal verbs for work | פעלים עם מילת יחס – לעבודה
+
+## stage 4 | B2 | Speaking freely | לדבר בחופשיות
+ITEM: reported speech | Reported speech | דיבור עקיף: he said that…
+ITEM: relative clauses | who / which / that | משפטי זיקה
+ITEM: third conditional | Third conditional | תנאי בעבר: if I had known…
+ITEM: modals of deduction | must be / might be / can't be | הסקת מסקנות
+ITEM: linking words | Linking words | מילות קישור: however, although
+ITEM: meetings phone | Phrases for meetings and calls | ביטויים לפגישות ושיחות
+
+## test A2
+Q: She ___ in Tel Aviv.
+A: lives | live | living
+WHY: הווה פשוט עם she ← מוסיפים s.
+
+Q: ___ you like coffee?
+A: Do | Does | Are
+WHY: שאלה בהווה פשוט עם you ← Do.
+
+Q: Yesterday I ___ to the bank.
+A: went | go | goes
+WHY: yesterday ← עבר פשוט: went.
+
+Q: I didn't ___ the email.
+A: see | saw | seen
+WHY: אחרי didn't – צורת בסיס.
+
+Q: They ___ watching TV right now.
+A: are | is | do
+WHY: הווה מתמשך עם they ← are + ing.
+
+Q: He can ___ English very well.
+A: speak | to speak | speaks
+WHY: אחרי can – בלי to ובלי s.
+
+Q: There ___ two cars in the parking lot.
+A: are | is | be
+WHY: שני דברים (רבים) ← there are.
+
+Q: My apartment is ___ than yours.
+A: bigger | more big | biggest
+WHY: השוואה של מילה קצרה ← big + ger.
+
+## test B1
+Q: I ___ in this company since 2015.
+A: have worked | work | am working
+WHY: since + עד היום ← Present Perfect.
+
+Q: Have you ever ___ to London?
+A: been | went | go
+WHY: Have you ever + V3 ← been.
+
+Q: If it rains tomorrow, we ___ at home.
+A: will stay | stay | would stay
+WHY: תנאי אמיתי לעתיד ← if + הווה, will + פועל.
+
+Q: I ___ play football when I was a kid.
+A: used to | use to | was used to
+WHY: הרגל בעבר שכבר לא קיים ← used to.
+
+Q: How ___ money do you need?
+A: much | many | lots
+WHY: money לא נספר ← much.
+
+Q: The meeting is ___ Monday.
+A: on | in | at
+WHY: לפני יום ← on.
+
+Q: I enjoy ___ to music.
+A: listening | to listen | listen
+WHY: אחרי enjoy ← פועל עם ing.
+
+Q: I was cooking when the phone ___.
+A: rang | was ringing | rings
+WHY: פעולה קצרה שקטעה ← עבר פשוט.
+
+## test B2
+Q: If I ___ more time, I would learn Spanish.
+A: had | have | will have
+WHY: תנאי דמיוני ← if + עבר, would + פועל.
+
+Q: The report ___ by the manager yesterday.
+A: was written | wrote | is writing
+WHY: סביל בעבר ← was + V3.
+
+Q: When I arrived, the meeting ___ already started.
+A: had | has | was
+WHY: משהו שקרה לפני פעולה אחרת בעבר ← had + V3.
+
+Q: He told me that he ___ the contract the week before.
+A: had signed | signs | has signed
+WHY: דיבור עקיף על עבר ← had + V3.
+
+Q: I've been waiting ___ two hours.
+A: for | since | from
+WHY: משך זמן ← for. (since – מנקודת זמן.)
+
+Q: He ___ be at home — his car is outside.
+A: must | can't | should to
+WHY: מסקנה כמעט בטוחה ← must be.
+
+Q: ___ it was raining, we went for a walk.
+A: Although | Because | Despite
+WHY: ניגוד בין שני חלקים ← Although (Despite בא עם שם עצם, לא עם משפט).
+
+Q: If I had known, I ___ you.
+A: would have told | would tell | will tell
+WHY: תנאי על העבר ← would have + V3.

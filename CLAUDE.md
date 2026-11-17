@@ -14,6 +14,11 @@ Hosted free on GitHub Pages from the `docs/` folder. UI is Hebrew (RTL); content
   as-is into the "דקדוק וטיפים" tab. `content/grammar.txt` holds, per file (`## file <name without .docx>`): TITLE,
   HE title, TIP lines (short Hebrew key points) and exercises (Q: with ___ / A: options, first is correct / WHY: Hebrew).
   The app's interface can be Hebrew or English (`L(he, en)` in app.js) — new UI text needs both.
+- `content/claude-lessons.txt` — weekly lessons written by Claude (the private lessons ended 11-2026):
+  `## new lesson dd-mm-yyyy`, `TOPIC:` grammar key, `WORD: en | he | pronunciation`. Marked 🤖 in the app.
+  Grammar topics without a Word file live in grammar.txt with `SOURCE: claude` and `H:/P:/LI:/T:` lines (T: = table row).
+- `content/roadmap.txt` — the learning path (stages A2→B2, ITEM = grammar topic key) and the level test (A2/B1/B2).
+- App tabs: 📚 words · 🧩 grammar · 🗣 speaking (in-app speech drills + copyable tutor prompt for the Claude app) · 🧭 path.
 - `docs/` — the app: `index.html`, `app.js` (all logic, vanilla JS), `style.css`, `sw.js`, `manifest.json`, `icons/`.
 - Preview locally: `.claude/launch.json` → `english-app` (python http.server on port 8765).
 
@@ -26,3 +31,12 @@ Hosted free on GitHub Pages from the `docs/` folder. UI is Hebrew (RTL); content
 4. Run build.py again until nothing is missing.
 5. Commit and push (`git add -A && git commit && git push`). GitHub Pages updates in ~1 minute;
    the iPhone app picks up the new words next time it is opened online.
+
+## New lesson ("שיעור חדש") — no tutor anymore
+1. `python tools/build.py` → "next topics not written yet" shows the next roadmap item.
+2. Add `## new lesson <today dd-mm-yyyy>` to `content/claude-lessons.txt`: TOPIC = that item's key, 10–12 useful words
+   (B1–B2, prefer words that fit the grammar topic and his life), each `WORD: en | he with niqqud | pronunciation`.
+3. New `content/NN-claude-<dd-mm>.txt`: 4 sentences per word + a `## lesson <date>` paragraph using most of the words.
+4. Grammar topic in `content/grammar.txt`: `## file <key>`, `SOURCE: claude`, TITLE, HE, 3–4 TIPs, explanation
+   (H:/T:/P: lines, tables with examples), ~20 exercises with WHY. Mix in earlier topics' traps sometimes.
+5. Build until nothing is missing, check in the preview, commit and push.

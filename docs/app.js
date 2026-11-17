@@ -236,7 +236,9 @@
   ];
   function home() {
     screen(L('English עם גיורא', 'English with Giora'), true);
-    if (settings.tab === 'grammar') return grammarHome();
+    if (curTab() === 'grammar') return grammarHome();
+    if (curTab() === 'speak') return speakHome();
+    if (curTab() === 'path') return pathHome();
     const total = ALL.length;
     const learned = ALL.filter(w => box(w) >= 3).length;
     const due = ALL.filter(isDue).length;
@@ -254,7 +256,7 @@
           <div class="row" style="margin:10px 0 4px"><span class="muted" id="pickCount"></span><span class="spacer"></span>
             <button class="help" id="pickAll">${L('סמן הכל', 'Select all')}</button><button class="help" id="pickNone">${L('נקה', 'Clear')}</button></div>
           <div class="lesson-list">${LESSONS.map(l => `<label class="lesson-item"><input type="checkbox" value="${esc(l.date)}" ${settings.lessons.indexOf(l.date) >= 0 ? 'checked' : ''}>
-            <span>${L('שיעור', 'Lesson')} ${esc(l.date)}</span><span class="spacer"></span><span class="muted">${l.words.length} ${L('מילים', 'words')}</span></label>`).join('')}</div>
+            <span>${L('שיעור', 'Lesson')} ${esc(l.date)}${l.src === 'claude' ? ' 🤖' : ''}</span><span class="spacer"></span><span class="muted">${l.words.length} ${L('מילים', 'words')}</span></label>`).join('')}</div>
         </div>
       </div>
       <div class="modes">${MODES().map(m => `<button class="mode ${m.wide ? 'wide' : ''}" data-mode="${m.id}"><span class="ico">${m.ico}</span><b>${m.name}</b><small>${m.desc}</small></button>`).join('')}</div>`;
@@ -294,11 +296,12 @@
       pool = pool.length ? pool.concat(chooseWords(ALL.filter(w => pool.indexOf(w) < 0), 8)) : ALL;
     }
     if (mode === 'match') return matchScreen(pool);
+    if (mode === 'speakT' || mode === 'speakR') { const ws = pool.filter(w => w.s && w.s.length); pool = ws.length >= 4 ? ws : ALL.filter(w => w.s && w.s.length); }
     runRound(mode, pool);
   }
 
   // ---------- round runner ----------
-  const TITLES = () => Object.fromEntries(MODES().map(m => [m.id, m.name]));
+  const TITLES = () => Object.fromEntries(MODES().concat(SPEAK_MODES()).map(m => [m.id, m.name]));
   function runRound(mode, pool) {
     const words = chooseWords(pool, settings.round);
     let i = 0, score = 0;
@@ -688,7 +691,7 @@
       $('#list').innerHTML = LESSONS.map(l => {
         const ws = l.words.filter(w => !q || w.en.toLowerCase().includes(q) || stripNiqqud(w.heFull).includes(q));
         if (!ws.length) return '';
-        return `<div class="lesson-h">${L('שיעור', 'Lesson')} ${esc(l.date)} · ${ws.length} ${L('מילים', 'words')}</div><div class="card" style="padding:4px 12px">${ws.map(wordRow).join('')}</div>`;
+        return `<div class="lesson-h">${L('שיעור', 'Lesson')} ${esc(l.date)}${l.src === 'claude' ? ' 🤖' : ''} · ${ws.length} ${L('מילים', 'words')}</div><div class="card" style="padding:4px 12px">${ws.map(wordRow).join('')}</div>`;
       }).join('') || `<div class="card muted">${L('לא נמצאו מילים', 'No words found')}</div>`;
     };
     $('#q').oninput = render;
@@ -788,9 +791,10 @@
   // ---------- grammar & tips (the tutor's other Word files) ----------
   const GRAMMAR = (window.VOCAB && window.VOCAB.grammar) || [];
   const gprog = LS.get('gprog', {}); // topic id -> {score, total, last}
-  const tabsHtml = () => `<div class="tabs">
-      <button class="tab ${settings.tab !== 'grammar' ? 'on' : ''}" data-tab="vocab">📚 ${L('אוצר מילים', 'Vocabulary')}</button>
-      <button class="tab ${settings.tab === 'grammar' ? 'on' : ''}" data-tab="grammar">🧩 ${L('דקדוק וטיפים', 'Grammar & tips')}</button></div>`;
+  const TABS = () => [['vocab', '📚', L('מילים', 'Words')], ['grammar', '🧩', L('דקדוק', 'Grammar')], ['speak', '🗣', L('דיבור', 'Speaking')], ['path', '🧭', L('המסלול', 'My path')]];
+  const curTab = () => (TABS().some(t => t[0] === settings.tab) ? settings.tab : 'vocab');
+  const tabsHtml = () => `<div class="tabs">${TABS().map(([id, ico, name]) =>
+      `<button class="tab ${curTab() === id ? 'on' : ''}" data-tab="${id}"><span class="ti">${ico}</span>${name}</button>`).join('')}</div>`;
   function bindTabs() {
     view.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => { settings.tab = b.dataset.tab; saveSettings(); home(); });
     const lb = $('#langBtn'); if (lb) lb.onclick = () => setLang(settings.lang === 'en' ? 'he' : 'en');
@@ -932,6 +936,284 @@
     const gl = $('#gLearn'); if (gl) gl.onclick = () => topicScreen(topics[0]);
     $('#again').onclick = () => grammarRound(topics);
     $('#toHome').onclick = home;
+  }
+
+  // ---------- shared: copy text to the clipboard ----------
+  async function copyText(text, okMsg) {
+    try { await navigator.clipboard.writeText(text); toast(okMsg); }
+    catch (e) {
+      const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta);
+      ta.select(); ta.setSelectionRange(0, text.length);
+      const ok = document.execCommand('copy'); ta.remove();
+      toast(ok ? okMsg : L('ההעתקה נכשלה', 'Copy failed'));
+    }
+  }
+
+  // ---------- speaking tab ----------
+  const SPEAK_MODES = () => [
+    { id: 'speakT', ico: '🎤', name: L('תרגם ואמור', 'Translate and say'), desc: L('משפט בעברית ← אתה אומר אותו באנגלית', 'Hebrew sentence → you say it in English') },
+    { id: 'speakR', ico: '🔁', name: L('חזור אחריי', 'Repeat after me'), desc: L('שומעים משפט באנגלית וחוזרים עליו', 'Hear an English sentence and repeat it') }
+  ];
+  const TALK_TOPICS = [
+    ['💬', 'שיחה חופשית', 'Free conversation', 'anything — start by asking me about my day'],
+    ['📅', 'היום שלי', 'My day', 'my day: what I did today and what I am doing tomorrow'],
+    ['💼', 'העבודה שלי', 'My job', 'my job in insurance, pensions and finance — ask me to explain what I do'],
+    ['🤝', 'פגישה עם לקוח', 'Client meeting', 'a role play: I am an insurance and pension agent, you are a new client who wants a pension plan. Ask real client questions'],
+    ['📞', 'שיחת טלפון', 'Phone call', 'a role play phone call: you are a client calling about a problem with an insurance claim'],
+    ['💰', 'משא ומתן', 'Negotiation', 'a role play: we negotiate a price (a car or an apartment). Be a tough but fair seller'],
+    ['🏋️', 'חדר כושר ובריאות', 'Gym and health', 'the gym, training, food and health'],
+    ['👨‍👩‍👧', 'משפחה', 'Family', 'my family, kids and weekends'],
+    ['🏠', 'בית ושיפוצים', 'Home', 'my home, renovations, neighbours and the building'],
+    ['✈️', 'טיול בחו"ל', 'Travel abroad', 'a role play abroad: airport check-in, hotel reception and asking for directions'],
+    ['🍽️', 'מסעדה', 'Restaurant', 'a role play: you are a waiter, I order food and have a small problem with the bill'],
+    ['📈', 'כסף וחיסכון', 'Money and saving', 'money, saving and investing — I explain ideas in simple words'],
+    ['🕰️', 'סיפור מהעבר', 'A story from my past', 'a story from my past — help me practice past simple and past progressive'],
+    ['🔮', 'תוכניות לעתיד', 'Future plans', 'my plans for the future — help me practice will and going to'],
+    ['🗣', 'להביע דעה', 'Giving opinions', 'giving my opinion, agreeing and disagreeing politely on everyday topics'],
+    ['📰', 'חדשות', 'News', 'simple news and current events']
+  ];
+  function tutorPrompt(topic) {
+    const weak = GRAMMAR.map(g => g.title).join('; ');
+    const how = settings.explainHe === false ? 'in simple English' : 'in Hebrew (one or two short sentences)';
+    return [
+      'You are my private English teacher. My name is Giora. I am Israeli (Hebrew is my first language). I work in insurance, pensions and finance, I go to the gym, and I have a family. My level is about B1. My goal is to feel comfortable speaking and understanding English.',
+      '',
+      'Let\'s have a spoken conversation. Topic: ' + topic + '.',
+      '',
+      'Rules:',
+      '1. Use simple, natural English. Keep your turns short (2–3 sentences) and always end with a question, so I talk more than you.',
+      '2. When I make a mistake (grammar, wrong word, word order), say the correct sentence, then explain why ' + how + '. Then continue the conversation.',
+      '3. Correct only the 1–2 most important mistakes each time, so the conversation keeps flowing.',
+      '4. Pay special attention to the grammar I am learning: ' + weak + '.',
+      '5. Sometimes use a word I may not know and check that I understood it.',
+      '6. If I say "slower", use easier words. If I say "Hebrew", explain the last thing in Hebrew.',
+      '7. When I say "summary" (or after about 15 minutes), give me: my 3 most common mistakes with the correct form, 5 useful words or phrases from our talk, and one tip for next time.',
+      '',
+      'Start now with a short greeting and your first question.'
+    ].join(String.fromCharCode(10));
+  }
+  function speakHome() {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    view.innerHTML = tabsHtml() + `
+      <div class="card">
+        <b>🎤 ${L('תרגילי דיבור באפליקציה', 'Speaking drills in the app')}</b>
+        <div class="muted" style="margin-top:4px">${L('על המילים שבחרת בלשונית "מילים". לוחצים על המיקרופון, מדברים, והאפליקציה מראה מה היה נכון.', 'On the words chosen in the "Words" tab. Tap the mic, speak, and the app shows what was right.')}</div>
+        ${SR ? '' : `<div class="note" style="color:var(--bad)">${L('זיהוי דיבור לא זמין בדפדפן הזה — אפשר להקליד במקום.', 'Speech recognition is not available here — you can type instead.')}</div>`}
+      </div>
+      <div class="modes">${SPEAK_MODES().map(m => `<button class="mode" data-mode="${m.id}"><span class="ico">${m.ico}</span><b>${m.name}</b><small>${m.desc}</small></button>`).join('')}</div>
+      <div class="card" style="margin-top:12px">
+        <b>🤖 ${L('שיחה עם מורה – אפליקציית Claude', 'Conversation with a tutor – the Claude app')}</b>
+        <ol class="steps">
+          <li>${L('בחר נושא למטה – ההוראות למורה מועתקות.', 'Pick a topic below – the tutor instructions are copied.')}</li>
+          <li>${L('פתח את אפליקציית Claude ← שיחה חדשה ← הדבק ושלח.', 'Open the Claude app → new chat → paste and send.')}</li>
+          <li>${L('לחץ על כפתור מצב הקול (ליד שורת ההקלדה) ודבר. הוא יתקן אותך ויסביר.', 'Tap the voice-mode button (next to the input) and talk. It will correct you and explain.')}</li>
+          <li>${L('בסוף תגיד "summary" – תקבל סיכום של הטעויות והמילים החדשות.', 'At the end say "summary" – you get your mistakes and new words.')}</li>
+        </ol>
+        <label class="lesson-item" style="border:0"><input type="checkbox" id="exHe" ${settings.explainHe === false ? '' : 'checked'}> ${L('הסברים לטעויות בעברית (בלי סימון: באנגלית פשוטה)', 'Explain mistakes in Hebrew (unticked: simple English)')}</label>
+      </div>
+      <div class="topics">${TALK_TOPICS.map((t, k) => `<button class="topic-btn" data-talk="${k}"><span class="ico">${t[0]}</span><span>${L(t[1], t[2])}</span></button>`).join('')}</div>`;
+    bindTabs();
+    view.querySelectorAll('[data-mode]').forEach(b => b.onclick = () => start(b.dataset.mode));
+    $('#exHe').onchange = e => { settings.explainHe = e.target.checked; saveSettings(); };
+    view.querySelectorAll('[data-talk]').forEach(b => b.onclick = () => {
+      const t = TALK_TOPICS[+b.dataset.talk];
+      copyText(tutorPrompt(t[3]), L('ההוראות הועתקו ✓ עכשיו פתח את Claude והדבק', 'Copied ✓ Now open Claude and paste'));
+    });
+  }
+
+  // ---------- speaking drill (speech recognition) ----------
+  const CONTR = { "i'm": 'i am', "you're": 'you are', "we're": 'we are', "they're": 'they are', "he's": 'he is', "she's": 'she is', "it's": 'it is', "that's": 'that is', "there's": 'there is', "what's": 'what is', "i've": 'i have', "you've": 'you have', "we've": 'we have', "they've": 'they have', "i'll": 'i will', "you'll": 'you will', "we'll": 'we will', "they'll": 'they will', "he'll": 'he will', "she'll": 'she will', "i'd": 'i would', "don't": 'do not', "doesn't": 'does not', "didn't": 'did not', "can't": 'cannot', "won't": 'will not', "isn't": 'is not', "aren't": 'are not', "wasn't": 'was not', "weren't": 'were not', "haven't": 'have not', "hasn't": 'has not', "let's": 'let us', "shouldn't": 'should not', "couldn't": 'could not', "wouldn't": 'would not' };
+  const NUMS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+  function words(text) {
+    const out = [];
+    String(text).toLowerCase().replace(/[’‘`]/g, "'").replace(/%/g, ' percent').split(/[^a-z0-9']+/).forEach(t => {
+      t = t.replace(/^'+|'+$/g, '');
+      if (!t) return;
+      if (CONTR[t]) out.push(...CONTR[t].split(' '));
+      else if (/^\d+$/.test(t) && +t <= 20) out.push(NUMS[+t]);
+      else out.push(t);
+    });
+    return out;
+  }
+  // which words of the target sentence appear (in order) in what was said
+  function matchWords(target, said) {
+    const a = words(target), b = words(said);
+    const dp = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
+    for (let i = a.length - 1; i >= 0; i--) for (let j = b.length - 1; j >= 0; j--)
+      dp[i][j] = a[i] === b[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+    const hit = new Array(a.length).fill(false);
+    for (let i = 0, j = 0; i < a.length && j < b.length;) {
+      if (a[i] === b[j]) { hit[i] = true; i++; j++; } else if (dp[i + 1][j] >= dp[i][j + 1]) i++; else j++;
+    }
+    return { a, hit, ratio: a.length ? hit.filter(Boolean).length / a.length : 0 };
+  }
+  // show the correct sentence word by word: green = you said it, red = missing / different
+  function markSentence(target, m) {
+    let k = 0;
+    return String(target).split(/(\s+)/).map(tok => {
+      if (/^\s+$/.test(tok) || !tok) return tok;
+      const n = words(tok).length;
+      const ok = n === 0 || m.hit.slice(k, k + n).every(Boolean);
+      k += n;
+      return `<span class="${ok ? 'w-ok' : 'w-bad'}">${esc(tok)}</span>`;
+    }).join('');
+  }
+  let recog = null;
+  function listen(onText, onEnd) {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) { onEnd('', 'unsupported'); return; }
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    const r = new SR();
+    r.lang = 'en-US'; r.interimResults = true; r.continuous = false; r.maxAlternatives = 1;
+    let text = '', done = false;
+    const end = err => { if (done) return; done = true; recog = null; onEnd(text, err); };
+    r.onresult = e => { text = [...e.results].map(x => x[0].transcript).join(' '); onText(text); };
+    r.onerror = e => end(e.error || 'error');
+    r.onend = () => end();
+    try { r.start(); recog = r; } catch (e) { end('error'); }
+  }
+  function speakDrill(el, w, record, next, repeat) {
+    const s = pickSentence(w);
+    const target = plain(s.en);
+    const key = answerOf(s);
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    el.innerHTML = `<div class="card">
+        ${repeat
+          ? `<div class="prompt">${L('הקשב וחזור על המשפט בקול:', 'Listen and repeat the sentence aloud:')}</div>
+             <div class="row" style="justify-content:center;gap:14px;margin:8px 0"><button class="speak" style="width:60px;height:60px;font-size:28px" data-say="${esc(target)}">🔊</button><button class="speak" style="width:60px;height:60px;font-size:28px" data-say="${esc(target)}" data-slow>🐢</button></div>
+             <div class="sentence en hidden" id="tgt">${esc(target)}</div>
+             <div class="helpers"><button class="help" id="showT">👁 ${L('הצג את המשפט', 'Show the sentence')}</button></div>`
+          : `<div class="prompt">${L('אמור את המשפט באנגלית:', 'Say this sentence in English:')}</div>
+             <div class="big he" style="font-size:22px;line-height:1.5">${esc(s.he)}</div>
+             <div class="he-line he hidden" id="hint">${L('מילת המפתח', 'Key word')}: <b class="en">${esc(key)}</b></div>
+             <div class="helpers"><button class="help" id="showH">💡 ${L('רמז', 'Hint')}</button></div>`}
+      </div>
+      <div class="said hidden" id="said"></div>
+      ${SR ? `<button class="mic" id="mic">🎤<span>${L('לחץ ודבר', 'Tap and speak')}</span></button>` : ''}
+      <div class="row" style="gap:8px;margin-top:10px">
+        <input class="input" id="typed" placeholder="${L('או הקלד כאן…', 'or type here…')}" autocomplete="off" autocorrect="off" spellcheck="false" style="font-size:17px">
+        <button class="help" id="typedGo" style="padding:12px 14px">✓</button>
+      </div>
+      <button class="btn secondary" id="idk">🤷 ${L('לא יודע — הראה לי', "I don't know — show me")}</button>
+      <div id="fb"></div>`;
+    if (repeat) { setTimeout(() => speak(target), 300); $('#showT', el).onclick = () => $('#tgt', el).classList.remove('hidden'); }
+    else $('#showH', el).onclick = () => $('#hint', el).classList.remove('hidden');
+    let graded = false;
+    const evaluate = (said, idk) => {
+      const m = matchWords(target, said);
+      const keyOk = words(key).every(k => words(said).indexOf(k) >= 0);
+      const ok = !idk && m.ratio >= (repeat ? 0.8 : 0.7) && keyOk;
+      if (!graded) { graded = true; record(ok); }
+      const pct = Math.round(m.ratio * 100);
+      const fb = $('#fb', el);
+      fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'bad'}">
+          ${idk ? L('הנה המשפט 💪', "Here's the sentence 💪") : ok ? L(`מצוין! ✓ ${pct}% מהמילים נכונות`, `Great! ✓ ${pct}% of the words`) : L(`${pct}% מהמילים נכונות — נסה שוב`, `${pct}% of the words — try again`)}
+          ${said && !idk ? `<div class="note">${L('אמרת', 'You said')}: <span class="en">${esc(said)}</span></div>` : ''}
+          <div class="sentence en" style="font-size:19px;margin-top:8px">${markSentence(target, m)}</div>
+          ${!repeat ? `<div class="note he">${esc(s.he)}</div>` : ''}
+          ${!ok && !idk ? `<div class="note">${L('ירוק = אמרת נכון · אדום = חסר או שונה. אפשר לומר את זה גם אחרת – זו רק השוואה למשפט אחד נכון.', 'Green = you said it · red = missing or different. There may be other correct ways – this compares to one correct sentence.')}</div>` : ''}
+          <div class="helpers"><button class="help" data-say="${esc(target)}">🔊 ${L('שמע', 'Play')}</button><button class="help" data-say="${esc(target)}" data-slow>🐢 ${L('לאט', 'Slow')}</button></div>
+        </div>`;
+      if (!fb.querySelector('.btn')) nextBtn(fb, next);
+      const idkB = $('#idk', el); if (idkB) idkB.remove();
+      if (SR && $('#mic', el)) $('#mic span', el).textContent = L('נסה שוב', 'Try again');
+    };
+    if (SR) $('#mic', el).onclick = () => {
+      const mic = $('#mic', el), box = $('#said', el);
+      if (recog) { recog.stop(); return; }
+      mic.classList.add('on'); $('span', mic).textContent = L('מקשיב… (לחץ לסיום)', 'Listening… (tap to stop)');
+      box.classList.remove('hidden'); box.textContent = '…';
+      listen(t => { box.textContent = t; }, (t, err) => {
+        mic.classList.remove('on'); $('span', mic).textContent = L('לחץ ודבר', 'Tap and speak');
+        if (err && !t) {
+          box.textContent = err === 'not-allowed' || err === 'service-not-allowed'
+            ? L('אין הרשאה למיקרופון. אפשר לאשר בהגדרות האייפון, או להקליד.', 'No microphone permission. Allow it in iPhone settings, or type.')
+            : L('לא שמעתי. נסה שוב, או הקלד.', "I didn't hear you. Try again, or type.");
+          return;
+        }
+        if (t) evaluate(t);
+      });
+    };
+    const typed = () => { const v = $('#typed', el).value.trim(); if (v) evaluate(v); };
+    $('#typedGo', el).onclick = typed;
+    $('#typed', el).addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); typed(); } });
+    $('#idk', el).onclick = () => evaluate('', true);
+  }
+  EX.speakT = (el, w, record, next) => speakDrill(el, w, record, next, false);
+  EX.speakR = (el, w, record, next) => speakDrill(el, w, record, next, true);
+
+  // ---------- learning path + level test ----------
+  const ROAD = (window.VOCAB && window.VOCAB.roadmap) || { stages: [], test: [] };
+  function topicByKey(key) { return GRAMMAR.find(g => g.file === key); }
+  function pathHome() {
+    const lv = LS.get('level', null);
+    let nextShown = false;
+    view.innerHTML = tabsHtml() + `
+      <div class="card">
+        <b>🎯 ${L('המטרה: להרגיש בנוח לדבר ולהבין אנגלית', 'Goal: feel comfortable speaking and understanding English')}</b>
+        <div class="muted" style="margin-top:6px">${L('המסלול מתקדם שלב אחרי שלב. כל שבוע: שיעור חדש (מילים + נושא דקדוק), תרגול כאן, ושיחה עם המורה ב-Claude.', 'The path goes step by step. Every week: a new lesson (words + a grammar topic), practice here, and a talk with the Claude tutor.')}</div>
+      </div>
+      <div class="card">
+        <div class="row"><b>📝 ${L('מבחן רמה', 'Level test')}</b><span class="spacer"></span>${lv ? `<span class="level-badge">${esc(lv.level)}</span>` : ''}</div>
+        <div class="muted" style="margin-top:4px">${lv
+          ? L(`תוצאה אחרונה: ${lv.level} (${new Date(lv.date).toLocaleDateString('he-IL')}). כדאי לחזור על המבחן כל חודש-חודשיים.`, `Last result: ${lv.level} (${new Date(lv.date).toLocaleDateString('en-GB')}). Retake it every month or two.`)
+          : L(`${ROAD.test.length} שאלות, בערך 5 דקות. המבחן יראה מאיזה שלב להתחיל.`, `${ROAD.test.length} questions, about 5 minutes. It shows which stage to start from.`)}</div>
+        <button class="btn" id="lvTest">${lv ? L('עשה שוב את המבחן', 'Take the test again') : L('התחל מבחן רמה', 'Start the level test')}</button>
+      </div>
+      ${ROAD.stages.map(st => `
+        <div class="lesson-h">${L('שלב', 'Stage')} ${esc(st.n)} · ${esc(st.level)} · ${esc(L(st.he, st.title))}</div>
+        <div class="card" style="padding:4px 12px">${st.items.map(it => {
+          const g = topicByKey(it.key), p = g && gprog[g.id];
+          let cls = 'soon', badge = '🔒';
+          if (g && p && p.total && p.score / p.total >= 0.7) { cls = 'done'; badge = '✅'; }
+          else if (g) { cls = 'open'; badge = '📖'; }
+          else if (!nextShown) { cls = 'next'; badge = '⭐'; nextShown = true; }
+          return `<div class="road-item ${cls}" ${g ? `data-topic="${esc(g.id)}"` : ''}>
+            <span class="badge">${badge}</span>
+            <div class="txt"><div><bdi>${esc(it.title)}</bdi></div><div class="muted">${heMix(it.he)}${p ? ` · ${p.score}/${p.total}` : ''}</div>
+            ${cls === 'next' ? `<div class="note">${L('הבא בתור – כתוב ל-Claude במחשב "שיעור חדש"', 'Next – ask Claude on the computer for a "new lesson"')}</div>` : ''}</div>
+            ${g ? '<span class="muted">›</span>' : ''}</div>`;
+        }).join('')}</div>`).join('')}
+      <div class="card muted">✅ ${L('תרגלת (70% ומעלה)', 'Practiced (70%+)')} · 📖 ${L('זמין לתרגול', 'Ready to practice')} · ⭐ ${L('הבא בתור', 'Next')} · 🔒 ${L('בהמשך', 'Later')}</div>`;
+    bindTabs();
+    $('#lvTest').onclick = levelTest;
+    view.querySelectorAll('[data-topic]').forEach(b => b.onclick = () => topicScreen(GRAMMAR.find(g => g.id === b.dataset.topic)));
+  }
+  function levelTest() {
+    const items = ROAD.test.slice();
+    let i = 0;
+    const res = {};
+    screen(L('מבחן רמה', 'Level test'));
+    const next = () => {
+      if (i >= items.length) return levelResult(res);
+      const q = items[i], correct = q.a[0], opts = shuffle(q.a);
+      view.innerHTML = `<div class="counter"><span>${L(`שאלה <b>${i + 1}</b> מתוך <b>${items.length}</b>`, `Question <b>${i + 1}</b> of <b>${items.length}</b>`)}</span></div>
+        <div class="progress"><i style="width:${(i / items.length) * 100}%"></i></div>
+        <div class="card"><div class="prompt">${L('בחר מה מתאים למקום הריק:', 'Choose what fits the blank:')}</div><div class="sentence en">${esc(q.q).replace('___', '<span class="blank">&nbsp;</span>')}</div></div>
+        <div class="options">${opts.map((o, k) => `<button class="opt" data-k="${k}"><span class="en" style="text-align:center;display:block">${esc(o)}</span></button>`).join('')}</div>
+        <button class="btn secondary" id="idk">🤷 ${L('לא יודע', "I don't know")}</button>`;
+      const answer = b => {
+        const r = res[q.level] || (res[q.level] = { ok: 0, total: 0 });
+        r.total++;
+        if (b && opts[+b.dataset.k] === correct) r.ok++;
+        i++; next(); // no feedback during the test – results at the end
+      };
+      view.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(b));
+      $('#idk').onclick = () => answer(null);
+    };
+    next();
+  }
+  function levelResult(res) {
+    const pass = lv => res[lv] && res[lv].ok / res[lv].total >= 0.6;
+    const level = !pass('A2') ? 'A1–A2' : !pass('B1') ? 'A2' : !pass('B2') ? 'B1' : 'B2';
+    const stage = { 'A1–A2': 1, A2: 1, B1: 2, B2: 3 }[level];
+    LS.set('level', { level, date: Date.now(), res });
+    view.innerHTML = `<div class="card result"><div class="muted">${L('הרמה שלך כרגע', 'Your level now')}</div><div class="score">${level}</div>
+        <div style="font-size:17px">${L(`מומלץ להתמקד בשלב ${stage} במסלול`, `Focus on stage ${stage} of the path`)}</div></div>
+      <div class="card">${['A2', 'B1', 'B2'].map(lv => res[lv] ? `<div class="row" style="padding:6px 0"><b>${lv}</b><span class="spacer"></span>${res[lv].ok}/${res[lv].total}</div>` : '').join('')}</div>
+      <div class="card muted">${L('A2 = בסיסי · B1 = מסתדר בשיחה יומיומית · B2 = מדבר בחופשיות על רוב הנושאים. המבחן קצר – הוא נותן כיוון, לא ציון מדויק.', 'A2 = basic · B1 = everyday conversation · B2 = speaks freely on most topics. A short test – a direction, not an exact grade.')}</div>
+      <button class="btn" id="toPath">🧭 ${L('למסלול שלי', 'To my path')}</button>`;
+    $('#toPath').onclick = home;
   }
 
   function reminderEn() {

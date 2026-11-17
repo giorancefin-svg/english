@@ -1,6 +1,343 @@
 window.VOCAB = {
 "lessons": [
 {
+"date": "17-11-2026",
+"words": [
+{
+"id": "experience",
+"en": "experience",
+"note": "",
+"full": "experience",
+"he": "נִסָּיוֹן",
+"heFull": "נִסָּיוֹן",
+"ph": "ik-speer-ee-uhns",
+"s": [
+{
+"en": "I have ten years of [experience] in insurance.",
+"he": "יש לי עשר שנים של ניסיון בביטוח."
+},
+{
+"en": "Moving abroad was an amazing [experience] for our family.",
+"he": "המעבר לחו\"ל היה חוויה מדהימה למשפחה שלנו."
+},
+{
+"en": "Do you have any [experience] with pension plans?",
+"he": "יש לך ניסיון כלשהו עם תוכניות פנסיה?"
+},
+{
+"en": "You learn a lot from [experience], not only from books.",
+"he": "לומדים הרבה מניסיון, לא רק מספרים."
+}
+]
+},
+{
+"id": "achieve",
+"en": "achieve",
+"note": "",
+"full": "achieve",
+"he": "לְהַשִּׂיג",
+"heFull": "לְהַשִּׂיג",
+"ph": "uh-cheev",
+"s": [
+{
+"en": "I want to [achieve] my sales goal this month.",
+"he": "אני רוצה להשיג את יעד המכירות שלי החודש."
+},
+{
+"en": "She has [achieved] a lot in a short time.",
+"he": "היא השיגה הרבה בזמן קצר."
+},
+{
+"en": "You can [achieve] anything if you practice every day.",
+"he": "אפשר להשיג כל דבר אם מתאמנים כל יום."
+},
+{
+"en": "What did you [achieve] at the gym this year?",
+"he": "מה השגת בחדר הכושר השנה?"
+}
+]
+},
+{
+"id": "improve",
+"en": "improve",
+"note": "",
+"full": "improve",
+"he": "לְשַׁפֵּר",
+"heFull": "לְשַׁפֵּר / לְהִשְׁתַּפֵּר",
+"ph": "im-proov",
+"s": [
+{
+"en": "My English has [improved] a lot this year.",
+"he": "האנגלית שלי השתפרה הרבה השנה."
+},
+{
+"en": "I want to [improve] my speaking.",
+"he": "אני רוצה לשפר את הדיבור שלי."
+},
+{
+"en": "Sleeping well helps [improve] your training.",
+"he": "שינה טובה עוזרת לשפר את האימונים."
+},
+{
+"en": "How can we [improve] our service to clients?",
+"he": "איך אנחנו יכולים לשפר את השירות שלנו ללקוחות?"
+}
+]
+},
+{
+"id": "so-far",
+"en": "so far",
+"note": "",
+"full": "so far",
+"he": "עַד עַכְשָׁיו",
+"heFull": "עַד עַכְשָׁיו",
+"ph": "soh far",
+"s": [
+{
+"en": "[So far], everything is going well with the new client.",
+"he": "עד עכשיו, הכל הולך טוב עם הלקוח החדש."
+},
+{
+"en": "I have read two chapters [so far].",
+"he": "קראתי שני פרקים עד עכשיו."
+},
+{
+"en": "How many words have you learned [so far]?",
+"he": "כמה מילים למדת עד עכשיו?"
+},
+{
+"en": "[So far] this year, we have saved ten thousand shekels.",
+"he": "עד עכשיו השנה, חסכנו עשרת אלפים שקל."
+}
+]
+},
+{
+"id": "recently",
+"en": "recently",
+"note": "",
+"full": "recently",
+"he": "לָאַחֲרוֹנָה",
+"heFull": "לָאַחֲרוֹנָה",
+"ph": "ree-suhnt-lee",
+"s": [
+{
+"en": "I have [recently] started a new diet.",
+"he": "לאחרונה התחלתי דיאטה חדשה."
+},
+{
+"en": "Have you seen any good movies [recently]?",
+"he": "ראית סרטים טובים לאחרונה?"
+},
+{
+"en": "Prices have gone up a lot [recently].",
+"he": "המחירים עלו הרבה לאחרונה."
+},
+{
+"en": "My son [recently] got his driver's license.",
+"he": "הבן שלי קיבל לאחרונה רישיון נהיגה."
+}
+]
+},
+{
+"id": "already",
+"en": "already",
+"note": "",
+"full": "already",
+"he": "כְּבָר",
+"heFull": "כְּבָר",
+"ph": "awl-red-ee",
+"s": [
+{
+"en": "I have [already] sent you the documents.",
+"he": "כבר שלחתי לך את המסמכים."
+},
+{
+"en": "Are you [already] at the office?",
+"he": "אתה כבר במשרד?"
+},
+{
+"en": "We have [already] paid this month's rent.",
+"he": "כבר שילמנו את שכר הדירה של החודש."
+},
+{
+"en": "It's only nine and I'm [already] hungry.",
+"he": "השעה רק תשע ואני כבר רעב."
+}
+]
+},
+{
+"id": "yet",
+"en": "yet",
+"note": "",
+"full": "yet",
+"he": "עֲדַיִן",
+"heFull": "עֲדַיִן (בִּשְׁלִילָה) / כְּבָר (בִּשְׁאֵלָה)",
+"ph": "yet",
+"s": [
+{
+"en": "I haven't finished the report [yet].",
+"he": "עדיין לא סיימתי את הדוח."
+},
+{
+"en": "Have you called the client [yet]?",
+"he": "כבר התקשרת ללקוח?"
+},
+{
+"en": "The insurance company hasn't answered [yet].",
+"he": "חברת הביטוח עדיין לא ענתה."
+},
+{
+"en": "Don't go [yet]; dinner is almost ready.",
+"he": "אל תלך עדיין; ארוחת הערב כמעט מוכנה."
+}
+]
+},
+{
+"id": "ever",
+"en": "ever",
+"note": "",
+"full": "ever",
+"he": "אֵי פַּעַם",
+"heFull": "אֵי פַּעַם",
+"ph": "ev-er",
+"s": [
+{
+"en": "Have you [ever] been to New York?",
+"he": "היית אי פעם בניו יורק?"
+},
+{
+"en": "This is the best pizza I have [ever] eaten.",
+"he": "זו הפיצה הכי טובה שאכלתי אי פעם."
+},
+{
+"en": "Have you [ever] made an insurance claim?",
+"he": "הגשת אי פעם תביעת ביטוח?"
+},
+{
+"en": "Nothing [ever] changes in this office.",
+"he": "אף פעם שום דבר לא משתנה במשרד הזה."
+}
+]
+},
+{
+"id": "never",
+"en": "never",
+"note": "",
+"full": "never",
+"he": "אַף פַּעַם",
+"heFull": "אַף פַּעַם",
+"ph": "nev-er",
+"s": [
+{
+"en": "I have [never] tried sushi.",
+"he": "אף פעם לא ניסיתי סושי."
+},
+{
+"en": "My wife [never] forgets a birthday.",
+"he": "אשתי אף פעם לא שוכחת יום הולדת."
+},
+{
+"en": "It's [never] too late to learn a new language.",
+"he": "אף פעם לא מאוחר מדי ללמוד שפה חדשה."
+},
+{
+"en": "I have [never] missed a payment.",
+"he": "אף פעם לא פספסתי תשלום."
+}
+]
+},
+{
+"id": "figure-out",
+"en": "figure out",
+"note": "",
+"full": "figure out",
+"he": "לְהָבִין",
+"heFull": "לְהָבִין / לִמְצֹא פִּתְרוֹן",
+"ph": "fig-yer owt",
+"s": [
+{
+"en": "I can't [figure out] how this app works.",
+"he": "אני לא מצליח להבין איך האפליקציה הזאת עובדת."
+},
+{
+"en": "We need to [figure out] how much we can save each month.",
+"he": "אנחנו צריכים להבין כמה אנחנו יכולים לחסוך כל חודש."
+},
+{
+"en": "Don't worry, we'll [figure out] a solution together.",
+"he": "אל תדאג, נמצא פתרון ביחד."
+},
+{
+"en": "Have you [figured out] the problem with the car?",
+"he": "הבנת מה הבעיה עם הרכב?"
+}
+]
+},
+{
+"id": "confident",
+"en": "confident",
+"note": "",
+"full": "confident",
+"he": "בָּטוּחַ בְּעַצְמוֹ",
+"heFull": "בָּטוּחַ בְּעַצְמוֹ",
+"ph": "kon-fi-duhnt",
+"s": [
+{
+"en": "I feel more [confident] when I speak English now.",
+"he": "אני מרגיש יותר בטוח בעצמי כשאני מדבר אנגלית עכשיו."
+},
+{
+"en": "She is [confident] that the deal will close this week.",
+"he": "היא בטוחה שהעסקה תיסגר השבוע."
+},
+{
+"en": "Practice makes you [confident].",
+"he": "תרגול הופך אותך לבטוח בעצמך."
+},
+{
+"en": "He gave a [confident] presentation to the clients.",
+"he": "הוא נתן מצגת בטוחה בעצמה ללקוחות."
+}
+]
+},
+{
+"id": "fluent",
+"en": "fluent",
+"note": "",
+"full": "fluent",
+"he": "שׁוֹטֵף",
+"heFull": "שׁוֹטֵף (בְּשָׂפָה)",
+"ph": "floo-uhnt",
+"s": [
+{
+"en": "My goal is to be [fluent] in English.",
+"he": "המטרה שלי היא להיות שוטף באנגלית."
+},
+{
+"en": "My daughter is [fluent] in three languages.",
+"he": "הבת שלי שולטת באופן שוטף בשלוש שפות."
+},
+{
+"en": "You don't need to be [fluent] to have a good conversation.",
+"he": "לא צריך להיות שוטף כדי לנהל שיחה טובה."
+},
+{
+"en": "After a year abroad, he became [fluent].",
+"he": "אחרי שנה בחו\"ל, הוא נהיה שוטף."
+}
+]
+}
+],
+"src": "claude",
+"topic": "present perfect",
+"p": [
+{
+"en": "I have studied English for a few years. [So far], I have learned more than two hundred words, and my grammar has [improved] a lot. I have [never] felt so [confident] before. I haven't become [fluent] [yet], but I have [already] started to speak more at work. [Recently], I have had a lot of meetings with clients, and it was a great [experience]. Sometimes I can't [figure out] the right word, but I don't give up. Have you [ever] learned a new language as an adult? It is hard, but you can [achieve] it.",
+"he": "אני לומד אנגלית כבר כמה שנים. עד עכשיו למדתי יותר ממאתיים מילים, והדקדוק שלי השתפר הרבה. אף פעם לא הרגשתי כל כך בטוח בעצמי. עדיין לא נהייתי שוטף, אבל כבר התחלתי לדבר יותר בעבודה. לאחרונה היו לי הרבה פגישות עם לקוחות, וזו הייתה חוויה מעולה. לפעמים אני לא מצליח למצוא את המילה הנכונה, אבל אני לא מוותר. למדת אי פעם שפה חדשה כמבוגר? זה קשה, אבל אפשר להשיג את זה."
+}
+]
+},
+{
 "date": "10-11-2026",
 "words": [
 {
@@ -9023,6 +9360,775 @@ window.VOCAB = {
 "li": "Share a funny story that happened while you were doing something ordinary."
 }
 ]
+},
+{
+"id": "present-perfect",
+"file": "present perfect",
+"title": "Present Perfect",
+"he": "הווה מושלם – have / has + V3",
+"tips": [
+"המבנה: have / has + צורה שלישית של הפועל (V3): I have finished, she has called.",
+"משתמשים כשהזמן לא חשוב או לא ידוע, וכשמשהו מהעבר קשור לעכשיו: I have been to London.",
+"עם זמן מדויק בעבר (yesterday, last year, in 2020) – רק Past Simple: I went to London last year.",
+"מילים שבאות הרבה עם Present Perfect: ever, never, already, yet, just, so far, since, for."
+],
+"qs": [
+{
+"q": "I have ___ this movie three times.",
+"a": [
+"seen",
+"saw",
+"see"
+],
+"why": "have + V3 ← seen (לא saw)."
+},
+{
+"q": "She ___ to Paris twice.",
+"a": [
+"has been",
+"have been",
+"was been"
+],
+"why": "she ← has, ו-be ב-V3 ← been."
+},
+{
+"q": "We ___ here since 2015.",
+"a": [
+"have lived",
+"lived",
+"are living"
+],
+"why": "since + עד היום ← Present Perfect."
+},
+{
+"q": "I ___ to London last year.",
+"a": [
+"went",
+"have gone",
+"have been"
+],
+"why": "זמן מדויק בעבר (last year) ← Past Simple."
+},
+{
+"q": "Have you ___ been to New York?",
+"a": [
+"ever",
+"never",
+"yet"
+],
+"why": "בשאלה על ניסיון בחיים ← ever."
+},
+{
+"q": "I haven't finished the report ___.",
+"a": [
+"yet",
+"already",
+"ever"
+],
+"why": "בשלילה בסוף המשפט ← yet."
+},
+{
+"q": "I have ___ paid the bill. You don't need to pay.",
+"a": [
+"already",
+"yet",
+"ever"
+],
+"why": "כבר עשיתי ← already."
+},
+{
+"q": "He ___ his keys. He can't open the door.",
+"a": [
+"has lost",
+"lost",
+"have lost"
+],
+"why": "התוצאה עכשיו (לא יכול לפתוח) ← has lost."
+},
+{
+"q": "___ you eaten yet?",
+"a": [
+"Have",
+"Did",
+"Are"
+],
+"why": "עם yet ← Present Perfect: Have you eaten?"
+},
+{
+"q": "My son ___ his homework. Now he can play.",
+"a": [
+"has done",
+"has did",
+"have done"
+],
+"why": "he ← has, ו-do ב-V3 ← done."
+},
+{
+"q": "I have ___ tried sushi. Is it good?",
+"a": [
+"never",
+"ever",
+"yet"
+],
+"why": "אף פעם ← never."
+},
+{
+"q": "How long ___ you worked in insurance?",
+"a": [
+"have",
+"did",
+"are"
+],
+"why": "How long + עד היום ← have you worked."
+},
+{
+"q": "I have worked here ___ ten years.",
+"a": [
+"for",
+"since",
+"from"
+],
+"why": "משך זמן ← for. (since – מנקודת זמן.)"
+},
+{
+"q": "I have worked here ___ 2015.",
+"a": [
+"since",
+"for",
+"from"
+],
+"why": "מנקודת זמן ← since."
+},
+{
+"q": "___ you see the game last night?",
+"a": [
+"Did",
+"Have",
+"Has"
+],
+"why": "זמן מדויק (last night) ← Past Simple: Did you see."
+},
+{
+"q": "The price of gold ___ a lot this year.",
+"a": [
+"has gone up",
+"has went up",
+"goes up"
+],
+"why": "this year – עדיין נמשך ← Present Perfect. go ב-V3 ← gone."
+},
+{
+"q": "They ___ the contract yet.",
+"a": [
+"haven't signed",
+"didn't signed",
+"haven't sign"
+],
+"why": "שלילה + yet ← haven't + V3."
+},
+{
+"q": "",
+"a": [
+"I have known him for many years.",
+"I know him for many years."
+],
+"why": "מעבר עד עכשיו (for many years) ← Present Perfect."
+},
+{
+"q": "",
+"a": [
+"I saw that movie yesterday.",
+"I have seen that movie yesterday."
+],
+"why": "yesterday ← זמן מדויק ← Past Simple."
+},
+{
+"q": "",
+"a": [
+"She has written three books.",
+"She has wrote three books."
+],
+"why": "V3 של write ← written."
+},
+{
+"q": "",
+"a": [
+"Have you ever been to Eilat?",
+"Did you ever been to Eilat?"
+],
+"why": "ניסיון בחיים ← Have you ever + V3."
+}
+],
+"blocks": [
+{
+"h": "The form"
+},
+{
+"head": [
+"Subject",
+"Present Perfect",
+"Example"
+],
+"rows": [
+[
+"I / You / We / They",
+"have + V3",
+"I have finished the report."
+],
+[
+"He / She / It",
+"has + V3",
+"She has called the client."
+],
+[
+"Negative",
+"haven't / hasn't + V3",
+"We haven't signed the contract yet."
+],
+[
+"Question",
+"Have / Has + subject + V3?",
+"Have you ever been to London?"
+]
+]
+},
+{
+"h": "When do we use it?"
+},
+{
+"head": [
+"Use",
+"Example"
+],
+"rows": [
+[
+"Life experience (no exact time)",
+"I have visited Paris twice."
+],
+[
+"Started in the past and still true now",
+"I have worked here since 2015."
+],
+[
+"Something happened and the result is now",
+"I have lost my keys. (I can't get in now)"
+],
+[
+"With already / yet / just / ever / never",
+"I have already paid. / Have you eaten yet?"
+]
+]
+},
+{
+"h": "Present Perfect or Past Simple?"
+},
+{
+"head": [
+"Present Perfect",
+"Past Simple"
+],
+"rows": [
+[
+"No exact time: I have been to Rome.",
+"Exact time: I went to Rome last summer."
+],
+[
+"Still true now: I have lived here for 10 years.",
+"Finished: I lived there for 10 years (now I don't)."
+],
+[
+"Have you seen my phone?",
+"Did you see the game last night?"
+]
+]
+},
+{
+"h": "Common V3 forms"
+},
+{
+"head": [
+"Verb",
+"Past Simple",
+"V3 (Present Perfect)"
+],
+"rows": [
+[
+"be",
+"was / were",
+"been"
+],
+[
+"go",
+"went",
+"gone"
+],
+[
+"do",
+"did",
+"done"
+],
+[
+"see",
+"saw",
+"seen"
+],
+[
+"make",
+"made",
+"made"
+],
+[
+"take",
+"took",
+"taken"
+],
+[
+"write",
+"wrote",
+"written"
+],
+[
+"buy",
+"bought",
+"bought"
+],
+[
+"eat",
+"ate",
+"eaten"
+],
+[
+"work",
+"worked",
+"worked"
+]
+]
+}
+],
+"src": "claude"
+}
+],
+"roadmap": {
+"stages": [
+{
+"n": "1",
+"level": "A2–B1",
+"title": "Foundations",
+"he": "יסודות – מה שלמדת עם המורה",
+"items": [
+{
+"key": "present simple & progresive",
+"title": "Present Simple & Progressive",
+"he": "הווה פשוט ומתמשך"
+},
+{
+"key": "6",
+"title": "do / does and have / has",
+"he": "do / does ו-have / has"
+},
+{
+"key": "Giora Bar (8)",
+"title": "Past Simple & Progressive",
+"he": "עבר פשוט ומתמשך"
+},
+{
+"key": "1",
+"title": "didn't + base verb",
+"he": "עבר בשלילה"
+},
+{
+"key": "4",
+"title": "No \"to\" after modal verbs",
+"he": "בלי to אחרי can / should"
+},
+{
+"key": "Giora Bar (7)",
+"title": "will + verb",
+"he": "עתיד עם will"
+},
+{
+"key": "5",
+"title": "Adjectives vs Adverbs",
+"he": "שם תואר ותואר הפועל"
+},
+{
+"key": "3",
+"title": "very vs really",
+"he": "very או really"
+},
+{
+"key": "2",
+"title": "all vs whole",
+"he": "all או whole"
 }
 ]
+},
+{
+"n": "2",
+"level": "B1",
+"title": "Everyday confidence",
+"he": "ביטחון ביומיום",
+"items": [
+{
+"key": "present perfect",
+"title": "Present Perfect (I have done)",
+"he": "הווה מושלם – have + V3"
+},
+{
+"key": "future forms",
+"title": "will or going to",
+"he": "עתיד: will או going to"
+},
+{
+"key": "comparatives",
+"title": "Comparatives & superlatives",
+"he": "השוואות: bigger / the biggest"
+},
+{
+"key": "much many",
+"title": "much / many / a lot of",
+"he": "הרבה: much, many, a lot of"
+},
+{
+"key": "in on at",
+"title": "in / on / at",
+"he": "מילות יחס: in, on, at"
+},
+{
+"key": "used to",
+"title": "used to",
+"he": "נהגתי ל... – used to"
+},
+{
+"key": "first conditional",
+"title": "First conditional",
+"he": "משפט תנאי: if + will"
+}
+]
+},
+{
+"n": "3",
+"level": "B1+",
+"title": "Talking about work and life",
+"he": "לדבר על עבודה וחיים",
+"items": [
+{
+"key": "present perfect continuous",
+"title": "Present Perfect Continuous",
+"he": "have been + ing"
+},
+{
+"key": "gerund infinitive",
+"title": "-ing or to?",
+"he": "enjoy doing או want to do"
+},
+{
+"key": "questions",
+"title": "Asking questions correctly",
+"he": "איך שואלים נכון"
+},
+{
+"key": "second conditional",
+"title": "Second conditional",
+"he": "תנאי דמיוני: if I had… I would…"
+},
+{
+"key": "passive",
+"title": "Passive voice",
+"he": "סביל: is done / was made"
+},
+{
+"key": "past perfect",
+"title": "Past Perfect",
+"he": "עבר מושלם: had + V3"
+},
+{
+"key": "phrasal verbs work",
+"title": "Phrasal verbs for work",
+"he": "פעלים עם מילת יחס – לעבודה"
+}
+]
+},
+{
+"n": "4",
+"level": "B2",
+"title": "Speaking freely",
+"he": "לדבר בחופשיות",
+"items": [
+{
+"key": "reported speech",
+"title": "Reported speech",
+"he": "דיבור עקיף: he said that…"
+},
+{
+"key": "relative clauses",
+"title": "who / which / that",
+"he": "משפטי זיקה"
+},
+{
+"key": "third conditional",
+"title": "Third conditional",
+"he": "תנאי בעבר: if I had known…"
+},
+{
+"key": "modals of deduction",
+"title": "must be / might be / can't be",
+"he": "הסקת מסקנות"
+},
+{
+"key": "linking words",
+"title": "Linking words",
+"he": "מילות קישור: however, although"
+},
+{
+"key": "meetings phone",
+"title": "Phrases for meetings and calls",
+"he": "ביטויים לפגישות ושיחות"
+}
+]
+}
+],
+"test": [
+{
+"level": "A2",
+"q": "She ___ in Tel Aviv.",
+"a": [
+"lives",
+"live",
+"living"
+],
+"why": "הווה פשוט עם she ← מוסיפים s."
+},
+{
+"level": "A2",
+"q": "___ you like coffee?",
+"a": [
+"Do",
+"Does",
+"Are"
+],
+"why": "שאלה בהווה פשוט עם you ← Do."
+},
+{
+"level": "A2",
+"q": "Yesterday I ___ to the bank.",
+"a": [
+"went",
+"go",
+"goes"
+],
+"why": "yesterday ← עבר פשוט: went."
+},
+{
+"level": "A2",
+"q": "I didn't ___ the email.",
+"a": [
+"see",
+"saw",
+"seen"
+],
+"why": "אחרי didn't – צורת בסיס."
+},
+{
+"level": "A2",
+"q": "They ___ watching TV right now.",
+"a": [
+"are",
+"is",
+"do"
+],
+"why": "הווה מתמשך עם they ← are + ing."
+},
+{
+"level": "A2",
+"q": "He can ___ English very well.",
+"a": [
+"speak",
+"to speak",
+"speaks"
+],
+"why": "אחרי can – בלי to ובלי s."
+},
+{
+"level": "A2",
+"q": "There ___ two cars in the parking lot.",
+"a": [
+"are",
+"is",
+"be"
+],
+"why": "שני דברים (רבים) ← there are."
+},
+{
+"level": "A2",
+"q": "My apartment is ___ than yours.",
+"a": [
+"bigger",
+"more big",
+"biggest"
+],
+"why": "השוואה של מילה קצרה ← big + ger."
+},
+{
+"level": "B1",
+"q": "I ___ in this company since 2015.",
+"a": [
+"have worked",
+"work",
+"am working"
+],
+"why": "since + עד היום ← Present Perfect."
+},
+{
+"level": "B1",
+"q": "Have you ever ___ to London?",
+"a": [
+"been",
+"went",
+"go"
+],
+"why": "Have you ever + V3 ← been."
+},
+{
+"level": "B1",
+"q": "If it rains tomorrow, we ___ at home.",
+"a": [
+"will stay",
+"stay",
+"would stay"
+],
+"why": "תנאי אמיתי לעתיד ← if + הווה, will + פועל."
+},
+{
+"level": "B1",
+"q": "I ___ play football when I was a kid.",
+"a": [
+"used to",
+"use to",
+"was used to"
+],
+"why": "הרגל בעבר שכבר לא קיים ← used to."
+},
+{
+"level": "B1",
+"q": "How ___ money do you need?",
+"a": [
+"much",
+"many",
+"lots"
+],
+"why": "money לא נספר ← much."
+},
+{
+"level": "B1",
+"q": "The meeting is ___ Monday.",
+"a": [
+"on",
+"in",
+"at"
+],
+"why": "לפני יום ← on."
+},
+{
+"level": "B1",
+"q": "I enjoy ___ to music.",
+"a": [
+"listening",
+"to listen",
+"listen"
+],
+"why": "אחרי enjoy ← פועל עם ing."
+},
+{
+"level": "B1",
+"q": "I was cooking when the phone ___.",
+"a": [
+"rang",
+"was ringing",
+"rings"
+],
+"why": "פעולה קצרה שקטעה ← עבר פשוט."
+},
+{
+"level": "B2",
+"q": "If I ___ more time, I would learn Spanish.",
+"a": [
+"had",
+"have",
+"will have"
+],
+"why": "תנאי דמיוני ← if + עבר, would + פועל."
+},
+{
+"level": "B2",
+"q": "The report ___ by the manager yesterday.",
+"a": [
+"was written",
+"wrote",
+"is writing"
+],
+"why": "סביל בעבר ← was + V3."
+},
+{
+"level": "B2",
+"q": "When I arrived, the meeting ___ already started.",
+"a": [
+"had",
+"has",
+"was"
+],
+"why": "משהו שקרה לפני פעולה אחרת בעבר ← had + V3."
+},
+{
+"level": "B2",
+"q": "He told me that he ___ the contract the week before.",
+"a": [
+"had signed",
+"signs",
+"has signed"
+],
+"why": "דיבור עקיף על עבר ← had + V3."
+},
+{
+"level": "B2",
+"q": "I've been waiting ___ two hours.",
+"a": [
+"for",
+"since",
+"from"
+],
+"why": "משך זמן ← for. (since – מנקודת זמן.)"
+},
+{
+"level": "B2",
+"q": "He ___ be at home — his car is outside.",
+"a": [
+"must",
+"can't",
+"should to"
+],
+"why": "מסקנה כמעט בטוחה ← must be."
+},
+{
+"level": "B2",
+"q": "___ it was raining, we went for a walk.",
+"a": [
+"Although",
+"Because",
+"Despite"
+],
+"why": "ניגוד בין שני חלקים ← Although (Despite בא עם שם עצם, לא עם משפט)."
+},
+{
+"level": "B2",
+"q": "If I had known, I ___ you.",
+"a": [
+"would have told",
+"would tell",
+"will tell"
+],
+"why": "תנאי על העבר ← would have + V3."
+}
+]
+}
 };

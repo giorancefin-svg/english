@@ -17,6 +17,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCX = ROOT / "Giora Bar.docx"
 CONTENT = ROOT / "content"  # every *.txt here holds sentences (except grammar.txt)
 GRAMMAR = CONTENT / "grammar.txt"  # titles, Hebrew tips and exercises for the grammar/tips files
+CLAUDE_LESSONS = CONTENT / "claude-lessons.txt"  # weekly lessons written by Claude (no tutor)
+ROADMAP = CONTENT / "roadmap.txt"  # learning path stages + level test
 OUT = ROOT / "docs" / "data.js"
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -76,19 +78,50 @@ def read_docx():
             en, he, ph = cells[0], cells[1], cells[2]
             if not en:
                 continue
-            head, note = split_english(en)
-            if head[:1].isupper() and not head[:2].isupper():
-                head = head[0].lower() + head[1:]
-            words.append({
-                "id": slug(en),
-                "en": head,
-                "note": note,
-                "full": en,
-                "he": short_hebrew(he),
-                "heFull": he,
-                "ph": ph,
-            })
+            words.append(make_word(en, he, ph))
         lessons.append({"date": current_date or "?", "words": words})
+    return lessons
+
+
+def make_word(en, he, ph):
+    head, note = split_english(en)
+    if head[:1].isupper() and not head[:2].isupper():
+        head = head[0].lower() + head[1:]
+    return {"id": slug(en), "en": head, "note": note, "full": en,
+            "he": short_hebrew(he), "heFull": he, "ph": ph}
+
+
+def read_claude_lessons():
+    """content/claude-lessons.txt:
+    ## new lesson dd-mm-yyyy
+    TOPIC: <grammar topic key>   (optional)
+    WORD: english | hebrew | pronunciation
+    """
+    lessons, cur = [], None
+    if not CLAUDE_LESSONS.exists():
+        return lessons
+    for line in CLAUDE_LESSONS.read_text(encoding="utf8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#!"):
+            continue
+        if line.startswith("## new lesson "):
+            cur = {"date": line[14:].strip(), "words": [], "src": "claude"}
+            lessons.append(cur)
+        elif cur and line.startswith("TOPIC:"):
+            cur["topic"] = line[6:].strip()
+        elif cur and line.startswith("WORD:"):
+            parts = [x.strip() for x in line[5:].split("|")]
+            if len(parts) >= 3:
+                cur["words"].append(make_word(parts[0], parts[1], parts[2]))
+    return lessons
+
+
+def date_key(d):
+    m = re.fullmatch(r"(\d{1,2})-(\d{1,2})-(\d{4})", d or "")
+    return (int(m.group(3)), int(m.group(2)), int(m.group(1))) if m else (0, 0, 0)
+
+
+def assign_ids(lessons):
     # ids: headword slug; same headword with a different meaning gets its qualifier
     # (e.g. "equity-fairness" / "equity-financial-housing", "step-n" / "step-v")
     groups = {}
@@ -121,7 +154,7 @@ def read_sentences():
     key, kind = None, None
     lines = []
     for f in sorted(CONTENT.glob("*.txt")):
-        if f == GRAMMAR:
+        if f in (GRAMMAR, CLAUDE_LESSONS, ROADMAP):
             continue
         lines += f.read_text(encoding="utf8").splitlines()
     for line in lines:
@@ -186,7 +219,7 @@ def read_grammar_txt():
         if not line or line.startswith("#!"):
             continue
         if line.startswith("## file "):
-            cur = topics.setdefault(line[8:].strip(), {"title": "", "he": "", "tips": [], "qs": []})
+            cur = topics.setdefault(line[8:].strip(), {"title": "", "he": "", "tips": [], "qs": [], "blocks": [], "src": ""})
             q = None
         elif cur is None:
             continue
@@ -196,6 +229,21 @@ def read_grammar_txt():
             cur["he"] = line[3:].strip()
         elif line.startswith("TIP:"):
             cur["tips"].append(line[4:].strip())
+        elif line.startswith("SOURCE:"):
+            cur["src"] = line[7:].strip()
+        elif line.startswith("H:"):
+            cur["blocks"].append({"h": line[2:].strip()})
+        elif line.startswith("P:"):
+            cur["blocks"].append({"p": line[2:].strip()})
+        elif line.startswith("LI:"):
+            cur["blocks"].append({"li": line[3:].strip()})
+        elif line.startswith("T:"):
+            cells = [c.strip().replace("\\n", "\n") for c in line[2:].split(" | ")]
+            last = cur["blocks"][-1] if cur["blocks"] else None
+            if last is not None and "head" in last:
+                last["rows"].append(cells)
+            else:
+                cur["blocks"].append({"head": cells, "rows": []})
         elif line.startswith("Q:"):
             q = {"q": line[2:].strip(), "a": [], "why": ""}
             cur["qs"].append(q)
@@ -223,11 +271,58 @@ def read_grammar():
         t = t or {"title": f.stem, "he": "", "tips": [], "qs": []}
         out.append({"id": slug(f.stem) or "topic", "file": f.stem, "title": t["title"] or f.stem,
                     "he": t["he"], "tips": t["tips"], "qs": t["qs"], "blocks": read_grammar_docx(f)})
+    # topics written by Claude (no Word file): explanation comes from grammar.txt itself
+    for key, t in info.items():
+        if t.get("src") == "claude" and t.get("blocks"):
+            out.append({"id": slug(key), "file": key, "title": t["title"] or key, "he": t["he"],
+                        "tips": t["tips"], "qs": t["qs"], "blocks": t["blocks"], "src": "claude"})
     return out, missing
 
 
+def read_roadmap():
+    """content/roadmap.txt:
+    ## stage <n> | <level> | <english title> | <hebrew title>
+    ITEM: <grammar topic key> | <english title> | <hebrew title>
+    ## test <level>
+    Q: / A: / WHY:   (same as grammar.txt, first option is correct)
+    """
+    stages, test, cur, q = [], [], None, None
+    if not ROADMAP.exists():
+        return {"stages": stages, "test": test}
+    for line in ROADMAP.read_text(encoding="utf8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#!"):
+            continue
+        if line.startswith("## stage "):
+            parts = [x.strip() for x in line[9:].split("|")]
+            cur = {"n": parts[0], "level": parts[1], "title": parts[2], "he": parts[3], "items": []}
+            stages.append(cur)
+            q = None
+        elif line.startswith("## test "):
+            cur = {"test": line[8:].strip()}
+            q = None
+        elif line.startswith("ITEM:") and cur and "items" in cur:
+            parts = [x.strip() for x in line[5:].split("|")]
+            cur["items"].append({"key": parts[0], "title": parts[1], "he": parts[2] if len(parts) > 2 else ""})
+        elif cur and "test" in cur:
+            if line.startswith("Q:"):
+                q = {"level": cur["test"], "q": line[2:].strip(), "a": [], "why": ""}
+                test.append(q)
+            elif line.startswith("A:"):
+                if q is None or q["a"]:
+                    q = {"level": cur["test"], "q": "", "a": [], "why": ""}
+                    test.append(q)
+                q["a"] = [x.strip() for x in line[2:].split(" | ") if x.strip()]
+            elif line.startswith("WHY:") and q is not None:
+                q["why"] = line[4:].strip()
+                q = None
+    return {"stages": stages, "test": test}
+
+
 def main():
-    lessons = read_docx()
+    lessons = read_docx() + read_claude_lessons()
+    lessons.sort(key=lambda l: date_key(l["date"]), reverse=True)  # newest first (stable)
+    assign_ids(lessons)
     sent, paras = read_sentences()
     seen, missing, total = set(), [], 0
     for lesson in lessons:
@@ -239,7 +334,8 @@ def main():
             seen.add(w["id"])
         lesson["p"] = paras.get(lesson["date"], [])
     grammar, g_missing = read_grammar()
-    data = {"lessons": lessons, "grammar": grammar}
+    roadmap = read_roadmap()
+    data = {"lessons": lessons, "grammar": grammar, "roadmap": roadmap}
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text("window.VOCAB = " + json.dumps(data, ensure_ascii=False, indent=0) + ";\n",
                    encoding="utf8")
@@ -251,6 +347,10 @@ def main():
     print(f"Lessons without paragraph ({len(no_para)}): {', '.join(no_para)}")
     print(f"Grammar topics: {len(grammar)}  (" + ", ".join(g["title"] for g in grammar) + ")")
     print(f"Grammar files without title/exercises in content/grammar.txt ({len(g_missing)}): {', '.join(g_missing)}")
+    keys = {g["file"] for g in grammar}
+    upcoming = [i["key"] for st in roadmap["stages"] for i in st["items"] if i["key"] not in keys]
+    print(f"Roadmap: {len(roadmap['stages'])} stages, level test {len(roadmap['test'])} questions; "
+          f"next topics not written yet: {', '.join(upcoming[:3])}")
     unknown = [k for k in sent if k not in seen]
     if unknown:
         print("Sentence ids not found in the Word file:", ", ".join(unknown))

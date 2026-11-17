@@ -1,0 +1,18 @@
+#! Weekly lessons written by Claude (after the private lessons ended).
+#! "## new lesson dd-mm-yyyy", optional TOPIC: <grammar topic key>, then WORD: english | hebrew | pronunciation
+#! Sentences (4 per word) and the lesson paragraph go in a content/NN-*.txt file as usual.
+
+## new lesson 17-11-2026
+TOPIC: present perfect
+WORD: experience | נִסָּיוֹן | ik-speer-ee-uhns
+WORD: achieve | לְהַשִּׂיג | uh-cheev
+WORD: improve | לְשַׁפֵּר / לְהִשְׁתַּפֵּר | im-proov
+WORD: so far | עַד עַכְשָׁיו | soh far
+WORD: recently | לָאַחֲרוֹנָה | ree-suhnt-lee
+WORD: already | כְּבָר | awl-red-ee
+WORD: yet | עֲדַיִן (בִּשְׁלִילָה) / כְּבָר (בִּשְׁאֵלָה) | yet
+WORD: ever | אֵי פַּעַם | ev-er
+WORD: never | אַף פַּעַם | nev-er
+WORD: figure out | לְהָבִין / לִמְצֹא פִּתְרוֹן | fig-yer owt
+WORD: confident | בָּטוּחַ בְּעַצְמוֹ | kon-fi-duhnt
+WORD: fluent | שׁוֹטֵף (בְּשָׂפָה) | floo-uhnt
