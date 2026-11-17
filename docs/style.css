@@ -186,3 +186,7 @@ main { padding: 14px; max-width: 640px; margin: 0 auto; }
 .gtext .gli { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-top: 1px solid var(--line); line-height: 1.45; }
 .gtext .gli .dot { color: var(--brand); font-weight: 800; }
 .gtext .gli .t { flex: 1; }
+
+.opt-row { display: flex; align-items: center; gap: 8px; }
+.opt-row .opt { flex: 1; min-width: 0; }
+.opt-say { flex: none; }

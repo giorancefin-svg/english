@@ -397,10 +397,11 @@
     };
   };
 
+  const optSay = t => `<button class="speak small opt-say" data-say="${esc(t)}" aria-label="play">🔊</button>`;
   function choiceQuestion(el, w, record, next, cfg) {
     // cfg: {prompt, head, options:[{label, word}], correctWord, after}
     el.innerHTML = `<div class="card">${cfg.head}</div><div class="options">${cfg.options.map((o, i) =>
-      `<button class="opt ${o.cls || ''}" data-i="${i}">${o.label}</button>`).join('')}</div>
+      `<div class="opt-row"><button class="opt ${o.cls || ''}" data-i="${i}">${o.label}</button>${o.say && !cfg.revealEn ? optSay(o.say) : ''}</div>`).join('')}</div>
       <button class="btn secondary" id="idk">🤷 ${L('לא יודע — הראה לי', 'I don\'t know — show me')}</button><div id="fb"></div>`;
     const answer = b => {
       const idk = !b;
@@ -411,6 +412,7 @@
         const ow = cfg.options[+x.dataset.i].word;
         if (ow === cfg.correctWord) x.classList.add('ok');
         // after answering, show the translation of every option (not only the right one)
+        if (cfg.revealEn) x.insertAdjacentHTML('afterend', optSay(ow.en));
         x.insertAdjacentHTML('beforeend', cfg.revealEn
           ? `<div class="note en" style="text-align:center">${esc(ow.en)}</div>`
           : `<div class="note he">${esc(ow.he)}</div>`);
@@ -450,7 +452,7 @@
     const opts = shuffle([w].concat(distractors(w, 3, x => x.en)));
     choiceQuestion(el, w, record, next, {
       head: `<div class="prompt">${L('איך אומרים באנגלית?', 'How do you say it in English?')}</div><div class="big he" style="text-align:center">${esc(w.he)}</div>`,
-      options: opts.map(o => ({ label: `<span class="en">${esc(o.en)}</span>${autoPh(esc(o.ph), 'ph note')}`, word: o })),
+      options: opts.map(o => ({ label: `<span class="en">${esc(o.en)}</span>${autoPh(esc(o.ph), 'ph note')}`, word: o, say: o.en })),
       correctWord: w,
       after: () => autoSpeak(w.en)
     });
@@ -478,7 +480,7 @@
         <div class="sentence en">${sentenceHtml(s.en)}</div>
         ${autoHe(esc(s.he))}
         ${helperBar({ he: true })}`,
-      options: opts.map(x => ({ label: `<span class="en">${esc(x.a)}</span>${autoPh(esc(x.o.ph), 'ph note')}`, word: x.o })),
+      options: opts.map(x => ({ label: `<span class="en">${esc(x.a)}</span>${autoPh(esc(x.o.ph), 'ph note')}`, word: x.o, say: x.a })),
       correctWord: w,
       after: ok => {
         const b = $('.blank', el); b.textContent = ans; b.classList.add(ok ? 'ok' : 'bad');
@@ -890,7 +892,7 @@
       view.innerHTML = `<div class="counter"><span>${counter}</span><span class="spacer"></span><span>✓ ${score}</span></div>
         <div class="progress"><i style="width:${(i / items.length) * 100}%"></i></div>
         <div class="card">${topics.length > 1 ? `<div class="muted" style="margin-bottom:6px"><bdi>${esc(g.title)}</bdi></div>` : ''}${head}</div>
-        <div class="options">${opts.map((o, k) => `<button class="opt" data-k="${k}"><span class="en" style="text-align:center;display:block">${esc(o)}</span></button>`).join('')}</div>
+        <div class="options">${opts.map((o, k) => `<div class="opt-row"><button class="opt" data-k="${k}"><span class="en" style="text-align:center;display:block">${esc(o)}</span></button>${optSay(q.q ? q.q.replace('___', o) : o)}</div>`).join('')}</div>
         <button class="btn secondary" id="idk">🤷 ${L('לא יודע — הראה לי', "I don't know — show me")}</button><div id="fb"></div>`;
       const answer = b => {
         const idk = !b, ok = !idk && opts[+b.dataset.k] === correct;
