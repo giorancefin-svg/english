@@ -9,7 +9,7 @@ Hosted free on GitHub Pages from the `docs/` folder. UI is Hebrew (RTL); content
 - `tools/build.py` — reads the docx + `content/*.txt`, writes `docs/data.js`, bumps the cache VERSION in `docs/sw.js`,
   and prints words that have no sentences and lessons with no paragraph.
 - `content/*.txt` — example sentences written by Claude (EN with the target in `[brackets]` + HE translation),
-  2 per word, plus one `## lesson dd-mm-yyyy` paragraph per lesson. Ids are printed by build.py.
+  4 per word (for variety), plus one `## lesson dd-mm-yyyy` paragraph per lesson. Ids are printed by build.py.
 - Any other `*.docx` in the root = a grammar/tips topic from the tutor (headings + tables). build.py copies its tables
   as-is into the "דקדוק וטיפים" tab. `content/grammar.txt` holds, per file (`## file <name without .docx>`): TITLE,
   HE title, TIP lines (short Hebrew key points) and exercises (Q: with ___ / A: options, first is correct / WHY: Hebrew).
@@ -19,10 +19,10 @@ Hosted free on GitHub Pages from the `docs/` folder. UI is Hebrew (RTL); content
 
 ## Weekly update ("עדכן" / "הוספתי מילים")
 1. `python tools/build.py` → note the ids listed under "Words without sentences" and lessons without a paragraph.
-2. Write sentences for them in a new file `content/NN-<month>.txt` (same format; simple, everyday English,
+2. Write 4 sentences for each of them in a new file `content/NN-<month>.txt` (same format; simple, everyday English,
    prefer topics from his life: insurance/pensions/finance work, gym, home, family). Hebrew translation for each.
 3. New grammar/tips Word file? build.py lists it under "Grammar files without title/exercises" — add a
-   `## file <name>` block to `content/grammar.txt` (title, Hebrew title, 3–4 TIPs, ~8–12 exercises with WHY).
+   `## file <name>` block to `content/grammar.txt` (title, Hebrew title, 3–4 TIPs, ~20 exercises with WHY — a round shows 10, least recently seen first).
 4. Run build.py again until nothing is missing.
 5. Commit and push (`git add -A && git commit && git push`). GitHub Pages updates in ~1 minute;
    the iPhone app picks up the new words next time it is opened online.
