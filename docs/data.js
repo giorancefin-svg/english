@@ -19,6 +19,14 @@ window.VOCAB = {
 {
 "en": "The doctor noticed a small [anomaly] in the X-ray.",
 "he": "הרופא הבחין בחריגה קטנה בצילום הרנטגן."
+},
+{
+"en": "The system flagged an [anomaly] in the client's pension report.",
+"he": "המערכת סימנה חריגה בדוח הפנסיה של הלקוח."
+},
+{
+"en": "One cold day in August is just an [anomaly].",
+"he": "יום קר אחד באוגוסט הוא סתם חריגה."
 }
 ]
 },
@@ -38,6 +46,14 @@ window.VOCAB = {
 {
 "en": "Medical students study [anatomy] in their first year.",
 "he": "סטודנטים לרפואה לומדים אנטומיה בשנה הראשונה."
+},
+{
+"en": "Knowing basic [anatomy] helps you train without injuries.",
+"he": "הכרת אנטומיה בסיסית עוזרת להתאמן בלי פציעות."
+},
+{
+"en": "My daughter has an [anatomy] test tomorrow.",
+"he": "לבת שלי יש מחר מבחן באנטומיה."
 }
 ]
 },
@@ -57,6 +73,14 @@ window.VOCAB = {
 {
 "en": "There was a small [hiccup] with the payment, but we fixed it.",
 "he": "הייתה תקלה קטנה בתשלום, אבל תיקנו אותה."
+},
+{
+"en": "Drink some water to stop the [hiccups].",
+"he": "שתה קצת מים כדי לעצור את השיהוקים."
+},
+{
+"en": "Apart from one [hiccup] with the flight, the trip was perfect.",
+"he": "חוץ משיהוק קטן עם הטיסה, הטיול היה מושלם."
 }
 ]
 },
@@ -76,6 +100,14 @@ window.VOCAB = {
 {
 "en": "[Pullups] are great for building back muscles.",
 "he": "עליות מתח מצוינות לבניית שרירי הגב."
+},
+{
+"en": "My goal is to do twenty [pullups] by the summer.",
+"he": "המטרה שלי היא לעשות עשרים עליות מתח עד הקיץ."
+},
+{
+"en": "There is a [pullup] bar in the park near our house.",
+"he": "יש מתח בפארק ליד הבית שלנו."
 }
 ]
 },
@@ -95,6 +127,14 @@ window.VOCAB = {
 {
 "en": "I [incline] to agree with you, but let me think about it.",
 "he": "אני נוטה להסכים איתך, אבל תן לי לחשוב על זה."
+},
+{
+"en": "Walking on an [incline] burns more calories.",
+"he": "הליכה בשיפוע שורפת יותר קלוריות."
+},
+{
+"en": "The road has a sharp [incline] before the village.",
+"he": "לכביש יש שיפוע חד לפני הכפר."
 }
 ]
 },
@@ -114,6 +154,14 @@ window.VOCAB = {
 {
 "en": "Please put the [weights] back on the rack when you finish.",
 "he": "בבקשה תחזיר את המשקולות למתקן כשאתה מסיים."
+},
+{
+"en": "My trainer told me to use lighter [weights] at first.",
+"he": "המאמן שלי אמר לי להשתמש קודם במשקולות קלות יותר."
+},
+{
+"en": "We keep a few [weights] at home for quick workouts.",
+"he": "אנחנו מחזיקים כמה משקולות בבית לאימונים קצרים."
 }
 ]
 },
@@ -133,6 +181,14 @@ window.VOCAB = {
 {
 "en": "Don't [lean] against the wall, the paint is still wet.",
 "he": "אל תישען על הקיר, הצבע עדיין רטוב."
+},
+{
+"en": "Chicken breast is a [lean] source of protein.",
+"he": "חזה עוף הוא מקור רזה לחלבון."
+},
+{
+"en": "You can [lean] on me when things are hard.",
+"he": "אתה יכול להישען עליי כשקשה."
 }
 ]
 },
@@ -152,6 +208,14 @@ window.VOCAB = {
 {
 "en": "I am on a [strict] diet until the summer.",
 "he": "אני בדיאטה נוקשה עד הקיץ."
+},
+{
+"en": "The bank has [strict] rules about loans.",
+"he": "לבנק יש כללים קפדניים לגבי הלוואות."
+},
+{
+"en": "My parents were [strict] about bedtime.",
+"he": "ההורים שלי היו קפדנים לגבי שעת השינה."
 }
 ]
 },
@@ -171,6 +235,14 @@ window.VOCAB = {
 {
 "en": "After long hours at the computer I get a painful [knot] in my neck.",
 "he": "אחרי שעות ארוכות מול המחשב יש לי קשר כואב בשריר בצוואר."
+},
+{
+"en": "Stretching after the gym helps prevent a [knot] in the muscle.",
+"he": "מתיחות אחרי חדר הכושר עוזרות למנוע קשר בשריר."
+},
+{
+"en": "I woke up with a [knot] in my lower back.",
+"he": "התעוררתי עם קשר בשריר בגב התחתון."
 }
 ]
 },
@@ -190,6 +262,14 @@ window.VOCAB = {
 {
 "en": "This street is [residential], so no shops are allowed here.",
 "he": "הרחוב הזה מיועד למגורים, ולכן אסור לפתוח כאן חנויות."
+},
+{
+"en": "Most of the new buildings in our city are [residential].",
+"he": "רוב הבניינים החדשים בעיר שלנו הם למגורים."
+},
+{
+"en": "The insurance for a [residential] property is cheaper than for an office.",
+"he": "הביטוח לנכס למגורים זול יותר מאשר למשרד."
 }
 ]
 },
@@ -209,6 +289,14 @@ window.VOCAB = {
 {
 "en": "We ordered a large [quantity] of paper for the office.",
 "he": "הזמנו כמות גדולה של נייר למשרד."
+},
+{
+"en": "Check the [quantity] before you sign the delivery form.",
+"he": "בדוק את הכמות לפני שאתה חותם על טופס המשלוח."
+},
+{
+"en": "My wife always cooks a huge [quantity] of food on Fridays.",
+"he": "אשתי תמיד מבשלת כמות ענקית של אוכל בימי שישי."
 }
 ]
 },
@@ -228,6 +316,14 @@ window.VOCAB = {
 {
 "en": "High staff [turnover] is a problem for many restaurants.",
 "he": "תחלופת עובדים גבוהה היא בעיה למסעדות רבות."
+},
+{
+"en": "Our agency's [turnover] grew by 15 percent this year.",
+"he": "המחזור של הסוכנות שלנו גדל ב-15 אחוז השנה."
+},
+{
+"en": "The shop has a fast [turnover] of products.",
+"he": "לחנות יש מחזור מהיר של מוצרים."
 }
 ]
 },
@@ -247,6 +343,14 @@ window.VOCAB = {
 {
 "en": "Fixing the old car was a real [headache].",
 "he": "תיקון המכונית הישנה היה כאב ראש אמיתי."
+},
+{
+"en": "Too much coffee gives me a [headache].",
+"he": "יותר מדי קפה עושה לי כאב ראש."
+},
+{
+"en": "Changing pension funds can be a [headache] without good advice.",
+"he": "מעבר בין קרנות פנסיה יכול להיות כאב ראש בלי ייעוץ טוב."
 }
 ]
 }
@@ -277,6 +381,14 @@ window.VOCAB = {
 {
 "en": "Don't let nice words [deceive] you.",
 "he": "אל תיתן למילים יפות להטעות אותך."
+},
+{
+"en": "The fake website was built to [deceive] customers.",
+"he": "האתר המזויף נבנה כדי לרמות לקוחות."
+},
+{
+"en": "He [deceived] his partner about the money.",
+"he": "הוא רימה את השותף שלו לגבי הכסף."
 }
 ]
 },
@@ -296,6 +408,14 @@ window.VOCAB = {
 {
 "en": "It is a crime to [impersonate] a police officer.",
 "he": "זו עבירה להתחזות לשוטר."
+},
+{
+"en": "Someone tried to [impersonate] me online.",
+"he": "מישהו ניסה להתחזות אליי ברשת."
+},
+{
+"en": "Fraudsters often [impersonate] insurance agents.",
+"he": "נוכלים מתחזים לעיתים קרובות לסוכני ביטוח."
 }
 ]
 },
@@ -315,6 +435,14 @@ window.VOCAB = {
 {
 "en": "The gym [subscription] costs 200 shekels a month.",
 "he": "המנוי לחדר הכושר עולה 200 שקלים לחודש."
+},
+{
+"en": "My [subscription] to the newspaper ends in December.",
+"he": "המינוי שלי לעיתון נגמר בדצמבר."
+},
+{
+"en": "We share one music [subscription] for the whole family.",
+"he": "יש לנו מינוי מוזיקה אחד לכל המשפחה."
 }
 ]
 },
@@ -334,6 +462,14 @@ window.VOCAB = {
 {
 "en": "The movie was [interrupted] by a power cut.",
 "he": "הסרט נקטע בגלל הפסקת חשמל."
+},
+{
+"en": "My sleep was [interrupted] by the neighbor's dog.",
+"he": "השינה שלי נקטעה בגלל הכלב של השכנים."
+},
+{
+"en": "The call was [interrupted] because I lost signal.",
+"he": "השיחה נקטעה כי איבדתי קליטה."
 }
 ]
 },
@@ -353,6 +489,14 @@ window.VOCAB = {
 {
 "en": "Sorry to [interrupt], but your taxi is here.",
 "he": "סליחה שאני מפריע, אבל המונית שלך כאן."
+},
+{
+"en": "I'm sorry to [interrupt] your lunch.",
+"he": "סליחה שאני מפריע לך באמצע ארוחת הצהריים."
+},
+{
+"en": "My kids always [interrupt] me when I'm on the phone.",
+"he": "הילדים שלי תמיד מפריעים לי כשאני בטלפון."
 }
 ]
 },
@@ -372,6 +516,14 @@ window.VOCAB = {
 {
 "en": "We decided to [hire] a car for the trip.",
 "he": "החלטנו לשכור רכב לטיול."
+},
+{
+"en": "We plan to [hire] a new financial advisor next month.",
+"he": "אנחנו מתכננים לשכור יועץ פיננסי חדש בחודש הבא."
+},
+{
+"en": "They [hired] a painter to paint the apartment.",
+"he": "הם שכרו צבע כדי לצבוע את הדירה."
 }
 ]
 },
@@ -395,6 +547,14 @@ window.VOCAB = {
 {
 "en": "The horses sleep in the [stable] at night.",
 "he": "הסוסים ישנים באורווה בלילה."
+},
+{
+"en": "I prefer a [stable] job with a good pension.",
+"he": "אני מעדיף עבודה יציבה עם פנסיה טובה."
+},
+{
+"en": "The market was [stable] this week.",
+"he": "השוק היה יציב השבוע."
 }
 ]
 },
@@ -414,6 +574,14 @@ window.VOCAB = {
 {
 "en": "The workers [protest] against the new rules.",
 "he": "העובדים מוחים נגד הכללים החדשים."
+},
+{
+"en": "Parents organized a [protest] against the school closing.",
+"he": "הורים ארגנו מחאה נגד סגירת בית הספר."
+},
+{
+"en": "I want to [protest] this fine; it's not fair.",
+"he": "אני רוצה למחות על הקנס הזה; זה לא הוגן."
 }
 ]
 },
@@ -433,6 +601,14 @@ window.VOCAB = {
 {
 "en": "The waiter was very [rude] to us.",
 "he": "המלצר היה מאוד חצוף אלינו."
+},
+{
+"en": "Don't be [rude] to your sister.",
+"he": "אל תהיה חצוף לאחותך."
+},
+{
+"en": "I'm sorry, I didn't mean to be [rude].",
+"he": "סליחה, לא התכוונתי להיות חצוף."
 }
 ]
 }
@@ -463,6 +639,14 @@ window.VOCAB = {
 {
 "en": "A recent [survey] shows that most people work from home once a week.",
 "he": "סקר שנערך לאחרונה מראה שרוב האנשים עובדים מהבית פעם בשבוע."
+},
+{
+"en": "Please fill out our customer [survey]; it takes two minutes.",
+"he": "בבקשה מלא את סקר הלקוחות שלנו; זה לוקח שתי דקות."
+},
+{
+"en": "The [survey] asked about our saving habits.",
+"he": "הסקר שאל על הרגלי החיסכון שלנו."
 }
 ]
 },
@@ -482,6 +666,14 @@ window.VOCAB = {
 {
 "en": "They used a [drone] to film the wedding from above.",
 "he": "הם השתמשו ברחפן כדי לצלם את החתונה מלמעלה."
+},
+{
+"en": "You need a permit to fly a [drone] near the airport.",
+"he": "צריך היתר כדי להטיס רחפן ליד שדה התעופה."
+},
+{
+"en": "The farmer uses a [drone] to check his fields.",
+"he": "החקלאי משתמש ברחפן כדי לבדוק את השדות שלו."
 }
 ]
 },
@@ -501,6 +693,14 @@ window.VOCAB = {
 {
 "en": "He bought her flowers to [atone] for forgetting her birthday.",
 "he": "הוא קנה לה פרחים כדי לכפר על כך ששכח את יום ההולדת שלה."
+},
+{
+"en": "He tried to [atone] for his mistake by working extra hours.",
+"he": "הוא ניסה לכפר על הטעות שלו בכך שעבד שעות נוספות."
+},
+{
+"en": "There is no way to [atone] for such a big lie.",
+"he": "אין דרך לכפר על שקר כזה גדול."
 }
 ]
 },
@@ -520,6 +720,14 @@ window.VOCAB = {
 {
 "en": "I have [faith] in my team; they will finish on time.",
 "he": "יש לי אמון בצוות שלי; הם יסיימו בזמן."
+},
+{
+"en": "Don't lose [faith]; things will get better.",
+"he": "אל תאבד אמונה; הדברים ישתפרו."
+},
+{
+"en": "My clients put their [faith] in my advice.",
+"he": "הלקוחות שלי נותנים אמון בייעוץ שלי."
 }
 ]
 },
@@ -539,6 +747,14 @@ window.VOCAB = {
 {
 "en": "She reads about her [star sign] every morning.",
 "he": "היא קוראת על המזל שלה כל בוקר."
+},
+{
+"en": "My wife and I have the same [star sign].",
+"he": "לי ולאשתי יש אותו מזל."
+},
+{
+"en": "Do you believe your [star sign] says something about you?",
+"he": "אתה מאמין שהמזל שלך אומר משהו עליך?"
 }
 ]
 },
@@ -558,6 +774,14 @@ window.VOCAB = {
 {
 "en": "My birthday is in April, so my sign is the [Ram] — Aries.",
 "he": "יום ההולדת שלי באפריל, אז המזל שלי הוא טלה (איל)."
+},
+{
+"en": "The [ram] stood on the rock and looked at us.",
+"he": "האיל עמד על הסלע והסתכל עלינו."
+},
+{
+"en": "In the story, Abraham found a [ram] caught in the bushes.",
+"he": "בסיפור, אברהם מצא איל שנאחז בסבך."
 }
 ]
 },
@@ -577,6 +801,14 @@ window.VOCAB = {
 {
 "en": "These shoes give good support to the [ankle].",
 "he": "הנעליים האלה נותנות תמיכה טובה לקרסול."
+},
+{
+"en": "My [ankle] hurts after yesterday's run.",
+"he": "הקרסול שלי כואב אחרי הריצה של אתמול."
+},
+{
+"en": "The water was only up to my [ankles].",
+"he": "המים הגיעו רק עד הקרסוליים שלי."
 }
 ]
 },
@@ -596,6 +828,14 @@ window.VOCAB = {
 {
 "en": "This [stubborn] stain won't come out of my shirt.",
 "he": "הכתם העקשן הזה לא יוצא מהחולצה שלי."
+},
+{
+"en": "My son is [stubborn] like his father.",
+"he": "הבן שלי עקשן כמו אבא שלו."
+},
+{
+"en": "I have a [stubborn] cold that won't go away.",
+"he": "יש לי הצטננות עקשנית שלא עוברת."
 }
 ]
 }
@@ -626,6 +866,14 @@ window.VOCAB = {
 {
 "en": "He [turned] fifty and threw a big party.",
 "he": "הוא מלא חמישים ועשה מסיבה גדולה."
+},
+{
+"en": "When you [turn] 67, you can start getting your pension.",
+"he": "כשמלאות לך 67, אתה יכול להתחיל לקבל פנסיה."
+},
+{
+"en": "My mother [turned] seventy last month.",
+"he": "לאמא שלי מלאו שבעים בחודש שעבר."
 }
 ]
 },
@@ -645,6 +893,14 @@ window.VOCAB = {
 {
 "en": "Love is the main [theme] of the book.",
 "he": "אהבה היא הנושא המרכזי של הספר."
+},
+{
+"en": "The [theme] of this year's conference is saving for retirement.",
+"he": "הנושא של הכנס השנה הוא חיסכון לפרישה."
+},
+{
+"en": "The kids chose a superhero [theme] for the birthday party.",
+"he": "הילדים בחרו נושא של גיבורי על למסיבת יום ההולדת."
 }
 ]
 },
@@ -664,6 +920,14 @@ window.VOCAB = {
 {
 "en": "The company paid a lot for a TV [advertisement].",
 "he": "החברה שילמה הרבה על פרסומת בטלוויזיה."
+},
+{
+"en": "I skip every [ad] on YouTube.",
+"he": "אני מדלג על כל פרסומת ביוטיוב."
+},
+{
+"en": "We put an [advertisement] in the local paper to sell the car.",
+"he": "פרסמנו מודעה בעיתון המקומי כדי למכור את הרכב."
 }
 ]
 },
@@ -683,6 +947,14 @@ window.VOCAB = {
 {
 "en": "There is growing [awareness] of mental health.",
 "he": "יש מודעות הולכת וגוברת לבריאות הנפש."
+},
+{
+"en": "Financial [awareness] should start at a young age.",
+"he": "מודעות פיננסית צריכה להתחיל בגיל צעיר."
+},
+{
+"en": "The doctor talked about [awareness] of heart disease.",
+"he": "הרופא דיבר על מודעות למחלות לב."
 }
 ]
 },
@@ -702,6 +974,14 @@ window.VOCAB = {
 {
 "en": "I wasn't [aware] of the problem until you told me.",
 "he": "לא הייתי מודע לבעיה עד שסיפרת לי."
+},
+{
+"en": "Most people are not [aware] of the fees they pay.",
+"he": "רוב האנשים לא מודעים לעמלות שהם משלמים."
+},
+{
+"en": "I'm [aware] that I need to exercise more.",
+"he": "אני מודע לכך שאני צריך להתאמן יותר."
 }
 ]
 },
@@ -721,6 +1001,14 @@ window.VOCAB = {
 {
 "en": "Every [paper lantern] in the garden was a different color.",
 "he": "כל פנס נייר בגינה היה בצבע אחר."
+},
+{
+"en": "The kids made a [paper lantern] at school.",
+"he": "הילדים הכינו פנס נייר בבית הספר."
+},
+{
+"en": "A red [paper lantern] hung at the restaurant entrance.",
+"he": "פנס נייר אדום היה תלוי בכניסה למסעדה."
 }
 ]
 },
@@ -740,6 +1028,14 @@ window.VOCAB = {
 {
 "en": "The [Statue] of Liberty is in New York.",
 "he": "פסל החירות נמצא בניו יורק."
+},
+{
+"en": "We took a family photo next to the [statue].",
+"he": "צילמנו תמונה משפחתית ליד הפסל."
+},
+{
+"en": "There is a bronze [statue] of a lion in the park.",
+"he": "יש פסל ברונזה של אריה בפארק."
 }
 ]
 },
@@ -759,6 +1055,14 @@ window.VOCAB = {
 {
 "en": "The kids spilled juice on the white [tablecloth].",
 "he": "הילדים שפכו מיץ על המפה הלבנה."
+},
+{
+"en": "My mother uses a special [tablecloth] for the holidays.",
+"he": "אמא שלי משתמשת במפה מיוחדת לחגים."
+},
+{
+"en": "Put the [tablecloth] in the washing machine, please.",
+"he": "שים את המפה במכונת הכביסה, בבקשה."
 }
 ]
 },
@@ -778,6 +1082,14 @@ window.VOCAB = {
 {
 "en": "Stay on the marked [trail] so you don't get lost.",
 "he": "תישאר על השביל המסומן כדי שלא תלך לאיבוד."
+},
+{
+"en": "This [trail] is good for running in the morning.",
+"he": "השביל הזה טוב לריצה בבוקר."
+},
+{
+"en": "We followed the [trail] down to the river.",
+"he": "הלכנו לאורך השביל עד הנהר."
 }
 ]
 },
@@ -797,6 +1109,14 @@ window.VOCAB = {
 {
 "en": "Cut the cake into eight [equal] pieces.",
 "he": "תחתוך את העוגה לשמונה חתיכות שוות."
+},
+{
+"en": "All partners have an [equal] share in the business.",
+"he": "לכל השותפים יש חלק שווה בעסק."
+},
+{
+"en": "One kilo is [equal] to a thousand grams.",
+"he": "קילו אחד שווה לאלף גרם."
 }
 ]
 },
@@ -816,6 +1136,14 @@ window.VOCAB = {
 {
 "en": "Is the expensive phone really [worth it]?",
 "he": "הטלפון היקר באמת שווה את זה?"
+},
+{
+"en": "Saving a little every month is [worth it] in the long run.",
+"he": "לחסוך קצת כל חודש שווה את זה בטווח הארוך."
+},
+{
+"en": "The early workout was hard, but it was [worth it].",
+"he": "האימון המוקדם היה קשה, אבל זה היה שווה את זה."
 }
 ]
 },
@@ -835,6 +1163,14 @@ window.VOCAB = {
 {
 "en": "The doctor checked how well his [kidneys] were working.",
 "he": "הרופא בדק עד כמה הכליות שלו מתפקדות."
+},
+{
+"en": "Too much salt is bad for your [kidneys].",
+"he": "יותר מדי מלח מזיק לכליות."
+},
+{
+"en": "People have two [kidneys], but you can live with one.",
+"he": "לאנשים יש שתי כליות, אבל אפשר לחיות עם אחת."
 }
 ]
 },
@@ -854,6 +1190,14 @@ window.VOCAB = {
 {
 "en": "Many children grew up in [deprivation] after the war.",
 "he": "ילדים רבים גדלו במחסור אחרי המלחמה."
+},
+{
+"en": "Food [deprivation] before a competition is dangerous.",
+"he": "מניעת אוכל לפני תחרות היא מסוכנת."
+},
+{
+"en": "New parents often suffer from sleep [deprivation].",
+"he": "הורים טריים סובלים לעיתים קרובות ממניעת שינה."
 }
 ]
 },
@@ -873,6 +1217,14 @@ window.VOCAB = {
 {
 "en": "The new law would [deprive] workers of their rights.",
 "he": "החוק החדש ישלול מהעובדים את זכויותיהם."
+},
+{
+"en": "Strict diets [deprive] the body of important vitamins.",
+"he": "דיאטות קפדניות מונעות מהגוף ויטמינים חשובים."
+},
+{
+"en": "I don't want to [deprive] my kids of a fun childhood.",
+"he": "אני לא רוצה למנוע מהילדים שלי ילדות כיפית."
 }
 ]
 },
@@ -892,6 +1244,14 @@ window.VOCAB = {
 {
 "en": "Good [collaboration] makes the team stronger.",
 "he": "שיתוף פעולה טוב מחזק את הצוות."
+},
+{
+"en": "This book is a [collaboration] between two writers.",
+"he": "הספר הזה הוא שיתוף פעולה בין שני כותבים."
+},
+{
+"en": "Thanks to our [collaboration], the client got a better deal.",
+"he": "בזכות שיתוף הפעולה שלנו, הלקוח קיבל עסקה טובה יותר."
 }
 ]
 },
@@ -911,6 +1271,14 @@ window.VOCAB = {
 {
 "en": "The museum tells the story of [slavery] in America.",
 "he": "המוזיאון מספר את סיפור העבדות באמריקה."
+},
+{
+"en": "The Passover story is about the end of [slavery] in Egypt.",
+"he": "סיפור פסח עוסק בסוף העבדות במצרים."
+},
+{
+"en": "Modern [slavery] still exists in some parts of the world.",
+"he": "עבדות מודרנית עדיין קיימת בחלקים מסוימים של העולם."
 }
 ]
 }
@@ -941,6 +1309,14 @@ window.VOCAB = {
 {
 "en": "The [auto detail] shop made my old car look new.",
 "he": "מכון הדיטיילינג גרם לרכב הישן שלי להיראות חדש."
+},
+{
+"en": "A full car [detailing] takes about four hours.",
+"he": "דיטיילינג מלא לרכב לוקח בערך ארבע שעות."
+},
+{
+"en": "My neighbor opened an [auto detail] business.",
+"he": "השכן שלי פתח עסק של דיטיילינג לרכב."
 }
 ]
 },
@@ -960,6 +1336,14 @@ window.VOCAB = {
 {
 "en": "She made a lasagna with [minced meat] and cheese.",
 "he": "היא הכינה לזניה עם בשר טחון וגבינה."
+},
+{
+"en": "Buy lean [minced meat] for the burgers.",
+"he": "קנה בשר טחון רזה להמבורגרים."
+},
+{
+"en": "My kids love pasta with [minced meat].",
+"he": "הילדים שלי אוהבים פסטה עם בשר טחון."
 }
 ]
 },
@@ -979,6 +1363,14 @@ window.VOCAB = {
 {
 "en": "He said something very [profound] about life.",
 "he": "הוא אמר משהו מאוד עמוק על החיים."
+},
+{
+"en": "Becoming a father was a [profound] change in my life.",
+"he": "להפוך לאבא היה שינוי עמוק בחיים שלי."
+},
+{
+"en": "The crisis had a [profound] impact on the market.",
+"he": "למשבר הייתה השפעה עמוקה על השוק."
 }
 ]
 },
@@ -998,6 +1390,14 @@ window.VOCAB = {
 {
 "en": "The photographer took [candid] photos of the guests.",
 "he": "הצלם צילם תמונות טבעיות (לא מבוימות) של האורחים."
+},
+{
+"en": "I like my advisor because he is [candid] about the risks.",
+"he": "אני אוהב את היועץ שלי כי הוא כן לגבי הסיכונים."
+},
+{
+"en": "She gave a very [candid] interview about her career.",
+"he": "היא נתנה ראיון כן מאוד על הקריירה שלה."
 }
 ]
 }
@@ -1028,6 +1428,14 @@ window.VOCAB = {
 {
 "en": "Some parents are too [lenient] with their kids.",
 "he": "יש הורים שמקלים מדי עם הילדים שלהם."
+},
+{
+"en": "The judge was [lenient] because it was his first time.",
+"he": "השופט היה מקל כי זו הייתה הפעם הראשונה שלו."
+},
+{
+"en": "My boss is [lenient] about working from home.",
+"he": "הבוס שלי מקל לגבי עבודה מהבית."
 }
 ]
 },
@@ -1047,6 +1455,14 @@ window.VOCAB = {
 {
 "en": "I [submitted] my tax forms online.",
 "he": "הגשתי את טופסי המס שלי באינטרנט."
+},
+{
+"en": "You must [submit] the claim within thirty days.",
+"he": "אתה חייב להגיש את התביעה תוך שלושים יום."
+},
+{
+"en": "My son [submitted] his university application yesterday.",
+"he": "הבן שלי הגיש את הבקשה לאוניברסיטה אתמול."
 }
 ]
 },
@@ -1066,6 +1482,14 @@ window.VOCAB = {
 {
 "en": "We need to [evaluate] the results before we decide.",
 "he": "אנחנו צריכים להעריך את התוצאות לפני שנחליט."
+},
+{
+"en": "My trainer will [assess] my fitness level next week.",
+"he": "המאמן שלי יעריך את רמת הכושר שלי בשבוע הבא."
+},
+{
+"en": "We [evaluate] every investment carefully.",
+"he": "אנחנו מעריכים כל השקעה בזהירות."
 }
 ]
 },
@@ -1085,6 +1509,14 @@ window.VOCAB = {
 {
 "en": "[Excuse] me, where is the train station?",
 "he": "סליחה, איפה תחנת הרכבת?"
+},
+{
+"en": "Being tired is not an [excuse] to skip the gym.",
+"he": "להיות עייף זה לא תירוץ לוותר על חדר הכושר."
+},
+{
+"en": "She made an [excuse] and left the party early.",
+"he": "היא המציאה תירוץ ועזבה את המסיבה מוקדם."
 }
 ]
 },
@@ -1104,6 +1536,14 @@ window.VOCAB = {
 {
 "en": "The weather was cold and [miserable] all week.",
 "he": "מזג האוויר היה קר ומדכא כל השבוע."
+},
+{
+"en": "The kids were [miserable] on the long car ride.",
+"he": "הילדים היו אומללים בנסיעה הארוכה."
+},
+{
+"en": "He looks [miserable] since he lost his job.",
+"he": "הוא נראה אומלל מאז שאיבד את העבודה."
 }
 ]
 }
@@ -1134,6 +1574,14 @@ window.VOCAB = {
 {
 "en": "I heard a [shout] from the street.",
 "he": "שמעתי צעקה מהרחוב."
+},
+{
+"en": "You don't have to [shout]; I can hear you.",
+"he": "אתה לא צריך לצעוק; אני שומע אותך."
+},
+{
+"en": "The fans [shouted] when their team scored.",
+"he": "האוהדים צעקו כשהקבוצה שלהם הבקיעה."
 }
 ]
 },
@@ -1153,6 +1601,14 @@ window.VOCAB = {
 {
 "en": "We heard a loud [scream] in the night.",
 "he": "שמענו צרחה חזקה בלילה."
+},
+{
+"en": "The kids [screamed] with joy on the roller coaster.",
+"he": "הילדים צרחו משמחה ברכבת ההרים."
+},
+{
+"en": "Don't [scream]; it's only a small mouse.",
+"he": "אל תצרח; זה רק עכבר קטן."
 }
 ]
 },
@@ -1172,6 +1628,14 @@ window.VOCAB = {
 {
 "en": "Archaeologists found old coins during the [excavation].",
 "he": "ארכיאולוגים מצאו מטבעות עתיקים במהלך החפירה."
+},
+{
+"en": "The [excavation] made a lot of noise all day.",
+"he": "החפירה עשתה הרבה רעש כל היום."
+},
+{
+"en": "Ancient walls were found during the [excavation] in Jerusalem.",
+"he": "חומות עתיקות נמצאו במהלך החפירה בירושלים."
 }
 ]
 },
@@ -1191,6 +1655,14 @@ window.VOCAB = {
 {
 "en": "My employer pays into my [provident fund] every month.",
 "he": "המעסיק שלי מפריש לקופת הגמל שלי כל חודש."
+},
+{
+"en": "You can withdraw your [provident fund] money after fifteen years.",
+"he": "אפשר למשוך את הכסף מקופת הגמל אחרי חמש עשרה שנה."
+},
+{
+"en": "I moved my [provident fund] to a company with lower fees.",
+"he": "העברתי את קופת הגמל שלי לחברה עם דמי ניהול נמוכים יותר."
 }
 ]
 },
@@ -1210,6 +1682,14 @@ window.VOCAB = {
 {
 "en": "Part of my salary goes to a [compensation fund].",
 "he": "חלק מהמשכורת שלי הולך לקרן פיצויים."
+},
+{
+"en": "It's better to keep the [severance fund] for retirement.",
+"he": "עדיף להשאיר את קרן הפיצויים לפרישה."
+},
+{
+"en": "My employer deposits 8.33 percent into the [compensation fund].",
+"he": "המעסיק שלי מפקיד 8.33 אחוז לקרן הפיצויים."
 }
 ]
 }
@@ -1240,6 +1720,14 @@ window.VOCAB = {
 {
 "en": "German trains are famous for being [punctual].",
 "he": "הרכבות בגרמניה מפורסמות בכך שהן דייקניות."
+},
+{
+"en": "My clients appreciate that I am always [punctual].",
+"he": "הלקוחות שלי מעריכים שאני תמיד דייקן."
+},
+{
+"en": "Try to be [punctual] for your English lesson.",
+"he": "נסה להיות דייקן לשיעור האנגלית שלך."
 }
 ]
 },
@@ -1259,6 +1747,14 @@ window.VOCAB = {
 {
 "en": "Many investors have an [aversion] to risk.",
 "he": "למשקיעים רבים יש רתיעה מסיכון."
+},
+{
+"en": "My son has an [aversion] to vegetables.",
+"he": "לבן שלי יש רתיעה מירקות."
+},
+{
+"en": "She developed an [aversion] to flying after a bad flight.",
+"he": "התפתחה אצלה רתיעה מטיסות אחרי טיסה גרועה."
 }
 ]
 },
@@ -1278,6 +1774,14 @@ window.VOCAB = {
 {
 "en": "There was a long line at the [checkout counter] in the supermarket.",
 "he": "היה תור ארוך בקופה בסופרמרקט."
+},
+{
+"en": "I forgot my bag at the [checkout counter].",
+"he": "שכחתי את התיק שלי בקופה."
+},
+{
+"en": "The [checkout counter] near the door is for small purchases.",
+"he": "הקופה ליד הדלת היא לקניות קטנות."
 }
 ]
 },
@@ -1297,6 +1801,14 @@ window.VOCAB = {
 {
 "en": "University [fees] go up every year.",
 "he": "שכר הלימוד באוניברסיטה עולה כל שנה."
+},
+{
+"en": "Always compare management [fees] before you choose a fund.",
+"he": "תמיד השווה דמי ניהול לפני שאתה בוחר קרן."
+},
+{
+"en": "The lawyer's [fees] were higher than we expected.",
+"he": "שכר הטרחה של עורך הדין היה גבוה ממה שציפינו."
 }
 ]
 }
@@ -1327,6 +1839,14 @@ window.VOCAB = {
 {
 "en": "She is one of the most [powerful] women in the country.",
 "he": "היא אחת הנשים המשפיעות ביותר במדינה."
+},
+{
+"en": "Compound interest is a [powerful] tool for saving.",
+"he": "ריבית דריבית היא כלי רב עוצמה לחיסכון."
+},
+{
+"en": "The storm was so [powerful] that it knocked down trees.",
+"he": "הסערה הייתה כל כך חזקה שהיא הפילה עצים."
 }
 ]
 },
@@ -1346,6 +1866,14 @@ window.VOCAB = {
 {
 "en": "Home [ownership] is a big goal for many young families.",
 "he": "בעלות על בית היא מטרה גדולה למשפחות צעירות רבות."
+},
+{
+"en": "You need proof of [ownership] to insure the car.",
+"he": "צריך הוכחת בעלות כדי לבטח את הרכב."
+},
+{
+"en": "The company changed [ownership] last year.",
+"he": "החברה החליפה בעלות בשנה שעברה."
 }
 ]
 },
@@ -1365,6 +1893,14 @@ window.VOCAB = {
 {
 "en": "Over time, the memory began to [fade].",
 "he": "עם הזמן, הזיכרון התחיל להתעמעם."
+},
+{
+"en": "The pain will [fade] in a few days.",
+"he": "הכאב ידעך בעוד כמה ימים."
+},
+{
+"en": "Don't leave the photos in the sun, or they will [fade].",
+"he": "אל תשאיר את התמונות בשמש, אחרת הן ידהו."
 }
 ]
 },
@@ -1384,6 +1920,14 @@ window.VOCAB = {
 {
 "en": "You need a helmet to ride a [quad bike].",
 "he": "צריך קסדה כדי לנסוע על טרקטורון."
+},
+{
+"en": "My son wants a [quad bike] for his birthday.",
+"he": "הבן שלי רוצה טרקטורון ליום ההולדת."
+},
+{
+"en": "We rented a [quad bike] for two hours in the Negev.",
+"he": "שכרנו טרקטורון לשעתיים בנגב."
 }
 ]
 },
@@ -1403,6 +1947,14 @@ window.VOCAB = {
 {
 "en": "He was driving at 130 [km/h] on the highway.",
 "he": "הוא נסע ב-130 קמ\"ש בכביש המהיר."
+},
+{
+"en": "In the city, you must drive under 50 [km/h].",
+"he": "בעיר חייבים לנסוע מתחת ל-50 קמ\"ש."
+},
+{
+"en": "The wind reached 80 [km/h] last night.",
+"he": "הרוח הגיעה ל-80 קמ\"ש אתמול בלילה."
 }
 ]
 },
@@ -1422,6 +1974,14 @@ window.VOCAB = {
 {
 "en": "People are tired of [corrupt] leaders.",
 "he": "אנשים עייפים ממנהיגים מושחתים."
+},
+{
+"en": "The [corrupt] official was sent to prison.",
+"he": "הפקיד המושחת נשלח לכלא."
+},
+{
+"en": "Money can [corrupt] good people.",
+"he": "כסף יכול להשחית אנשים טובים."
 }
 ]
 },
@@ -1441,6 +2001,14 @@ window.VOCAB = {
 {
 "en": "Farmers often drive a [pickup truck].",
 "he": "חקלאים נוהגים לעתים קרובות בטנדר."
+},
+{
+"en": "We borrowed my brother's [pickup truck] to move the sofa.",
+"he": "שאלנו את הטנדר של אחי כדי להעביר את הספה."
+},
+{
+"en": "Insurance for a [pickup truck] costs more than for a small car.",
+"he": "ביטוח לטנדר עולה יותר מאשר לרכב קטן."
 }
 ]
 },
@@ -1460,6 +2028,14 @@ window.VOCAB = {
 {
 "en": "My son tried to do the [moonwalk] at the wedding.",
 "he": "הבן שלי ניסה לעשות \"מונווק\" בחתונה."
+},
+{
+"en": "My daughter learned the [moonwalk] from a YouTube video.",
+"he": "הבת שלי למדה את הליכת הירח מסרטון ביוטיוב."
+},
+{
+"en": "Everyone laughed when grandpa tried the [moonwalk].",
+"he": "כולם צחקו כשסבא ניסה את הליכת הירח."
 }
 ]
 },
@@ -1479,6 +2055,14 @@ window.VOCAB = {
 {
 "en": "Thousands of people had to [evacuate] their homes because of the fire.",
 "he": "אלפי אנשים נאלצו להתפנות מבתיהם בגלל השריפה."
+},
+{
+"en": "During the fire drill, we had to [evacuate] the office.",
+"he": "בתרגיל האש היינו צריכים לפנות את המשרד."
+},
+{
+"en": "The hotel was [evacuated] because of a gas leak.",
+"he": "המלון פונה בגלל דליפת גז."
 }
 ]
 },
@@ -1498,6 +2082,14 @@ window.VOCAB = {
 {
 "en": "Did you vote in the last [elections]?",
 "he": "הצבעת בבחירות האחרונות?"
+},
+{
+"en": "The [elections] were the main topic of conversation at dinner.",
+"he": "הבחירות היו נושא השיחה העיקרי בארוחת הערב."
+},
+{
+"en": "Many people don't vote in local [elections].",
+"he": "הרבה אנשים לא מצביעים בבחירות המקומיות."
 }
 ]
 },
@@ -1517,6 +2109,14 @@ window.VOCAB = {
 {
 "en": "The opposition said the elections were [rigged].",
 "he": "האופוזיציה אמרה שהבחירות זויפו."
+},
+{
+"en": "The losing team claimed the contest was [rigged].",
+"he": "הקבוצה המפסידה טענה שהתחרות הייתה מכורה."
+},
+{
+"en": "Nobody can prove that the lottery was [rigged].",
+"he": "אף אחד לא יכול להוכיח שההגרלה הייתה מכורה."
 }
 ]
 },
@@ -1536,6 +2136,14 @@ window.VOCAB = {
 {
 "en": "[Intimidation] of voters is against the law.",
 "he": "הפחדת מצביעים היא נגד החוק."
+},
+{
+"en": "The debt collector used [intimidation] to get the money.",
+"he": "גובה החובות השתמש בהפחדה כדי לקבל את הכסף."
+},
+{
+"en": "Schools should not accept any [intimidation] between students.",
+"he": "בתי ספר לא צריכים לקבל שום הפחדה בין תלמידים."
 }
 ]
 },
@@ -1555,6 +2163,14 @@ window.VOCAB = {
 {
 "en": "The Great [Depression] started in 1929.",
 "he": "המשבר הכלכלי הגדול (השפל הגדול) התחיל ב-1929."
+},
+{
+"en": "Exercise can help people who suffer from [depression].",
+"he": "פעילות גופנית יכולה לעזור לאנשים שסובלים מדיכאון."
+},
+{
+"en": "Talking to a professional is the first step out of [depression].",
+"he": "לדבר עם איש מקצוע זה הצעד הראשון ליציאה מדיכאון."
 }
 ]
 },
@@ -1574,6 +2190,14 @@ window.VOCAB = {
 {
 "en": "He receives a [disability] pension from the state.",
 "he": "הוא מקבל קצבת נכות מהמדינה."
+},
+{
+"en": "Good [disability] insurance protects your income.",
+"he": "ביטוח נכות טוב מגן על ההכנסה שלך."
+},
+{
+"en": "After the accident, he has a permanent [disability] in his leg.",
+"he": "אחרי התאונה יש לו נכות קבועה ברגל."
 }
 ]
 },
@@ -1593,6 +2217,14 @@ window.VOCAB = {
 {
 "en": "She works as a teacher for kids with [special needs].",
 "he": "היא עובדת כמורה לילדים עם צרכים מיוחדים."
+},
+{
+"en": "The park has swings for kids with [special needs].",
+"he": "בפארק יש נדנדות לילדים עם צרכים מיוחדים."
+},
+{
+"en": "My neighbor volunteers with adults with [special needs].",
+"he": "השכן שלי מתנדב עם מבוגרים עם צרכים מיוחדים."
 }
 ]
 }
@@ -1623,6 +2255,14 @@ window.VOCAB = {
 {
 "en": "Roads and bridges are part of the [infrastructure].",
 "he": "כבישים וגשרים הם חלק מהתשתית."
+},
+{
+"en": "Our town's [infrastructure] is old and needs repairs.",
+"he": "התשתית של העיר שלנו ישנה וצריכה תיקונים."
+},
+{
+"en": "Good internet [infrastructure] is important for working from home.",
+"he": "תשתית אינטרנט טובה חשובה לעבודה מהבית."
 }
 ]
 },
@@ -1642,6 +2282,14 @@ window.VOCAB = {
 {
 "en": "[Canned goods] can last for years.",
 "he": "שימורים יכולים להחזיק שנים."
+},
+{
+"en": "The supermarket has a sale on [canned goods] this week.",
+"he": "בסופר יש מבצע על שימורים השבוע."
+},
+{
+"en": "We donated [canned goods] to the food bank.",
+"he": "תרמנו שימורים לבנק המזון."
 }
 ]
 },
@@ -1661,6 +2309,14 @@ window.VOCAB = {
 {
 "en": "We grilled the meat over hot [coal].",
 "he": "צלינו את הבשר על גחלי פחם לוהטות."
+},
+{
+"en": "Some old houses were heated with [coal].",
+"he": "חלק מהבתים הישנים חוממו בפחם."
+},
+{
+"en": "The barbecue needs more [coal].",
+"he": "המנגל צריך עוד פחם."
 }
 ]
 },
@@ -1680,6 +2336,14 @@ window.VOCAB = {
 {
 "en": "My cousin works as a [flight attendant] for El Al.",
 "he": "בן הדוד שלי עובד כדייל באל על."
+},
+{
+"en": "Ask the [flight attendant] for an extra blanket.",
+"he": "בקש מהדייל שמיכה נוספת."
+},
+{
+"en": "The [flight attendant] showed us how to use the life jacket.",
+"he": "הדיילת הראתה לנו איך להשתמש בחגורת ההצלה."
 }
 ]
 },
@@ -1699,6 +2363,14 @@ window.VOCAB = {
 {
 "en": "The [electric company] fixed the power line this morning.",
 "he": "חברת החשמל תיקנה את קו החשמל הבוקר."
+},
+{
+"en": "The [electricity company] will cut the power for two hours tomorrow.",
+"he": "חברת החשמל תפסיק את החשמל לשעתיים מחר."
+},
+{
+"en": "I switched to a cheaper [electric company] this year.",
+"he": "עברתי לחברת חשמל זולה יותר השנה."
 }
 ]
 }
@@ -1729,6 +2401,14 @@ window.VOCAB = {
 {
 "en": "I felt [nausea] on the boat.",
 "he": "הרגשתי בחילה בסירה."
+},
+{
+"en": "Pregnant women often feel [nausea] in the morning.",
+"he": "נשים בהריון מרגישות לעיתים קרובות בחילה בבוקר."
+},
+{
+"en": "The long bus ride gave me [nausea].",
+"he": "הנסיעה הארוכה באוטובוס עשתה לי בחילה."
 }
 ]
 },
@@ -1748,6 +2428,14 @@ window.VOCAB = {
 {
 "en": "The smoke made everyone [cough].",
 "he": "העשן גרם לכולם להשתעל."
+},
+{
+"en": "Drink tea with honey for your [cough].",
+"he": "שתה תה עם דבש בשביל השיעול."
+},
+{
+"en": "My son started to [cough] in the middle of the night.",
+"he": "הבן שלי התחיל להשתעל באמצע הלילה."
 }
 ]
 },
@@ -1767,6 +2455,14 @@ window.VOCAB = {
 {
 "en": "What [field] do you work in?",
 "he": "באיזה תחום אתה עובד?"
+},
+{
+"en": "The tech [industry] pays high salaries.",
+"he": "תעשיית ההייטק משלמת משכורות גבוהות."
+},
+{
+"en": "My wife is an expert in her [field].",
+"he": "אשתי מומחית בתחום שלה."
 }
 ]
 },
@@ -1786,6 +2482,14 @@ window.VOCAB = {
 {
 "en": "I invest some of my savings in the [stock market].",
 "he": "אני משקיע חלק מהחסכונות שלי בבורסה."
+},
+{
+"en": "Never put all your savings in the [stock market].",
+"he": "אף פעם אל תשים את כל החסכונות שלך בבורסה."
+},
+{
+"en": "The [stock market] fell after the news.",
+"he": "הבורסה ירדה אחרי החדשות."
 }
 ]
 },
@@ -1805,6 +2509,14 @@ window.VOCAB = {
 {
 "en": "The kids [blew up] balloons for the party.",
 "he": "הילדים ניפחו בלונים למסיבה."
+},
+{
+"en": "My phone battery got so hot I was afraid it would [explode].",
+"he": "הסוללה של הטלפון שלי התחממה כל כך שפחדתי שהיא תתפוצץ."
+},
+{
+"en": "Don't [blow up] at the kids; just talk calmly.",
+"he": "אל תתפוצץ על הילדים; פשוט תדבר ברוגע."
 }
 ]
 },
@@ -1824,6 +2536,14 @@ window.VOCAB = {
 {
 "en": "It is easy to [criticise] others.",
 "he": "קל לבקר אחרים."
+},
+{
+"en": "The new tax got a lot of [criticism].",
+"he": "המס החדש ספג הרבה ביקורת."
+},
+{
+"en": "Please don't [criticise] my cooking in front of guests.",
+"he": "בבקשה אל תבקר את הבישול שלי מול אורחים."
 }
 ]
 },
@@ -1843,6 +2563,14 @@ window.VOCAB = {
 {
 "en": "[Constructive criticism] helps you improve.",
 "he": "ביקורת בונה עוזרת לך להשתפר."
+},
+{
+"en": "My English teacher gives me [constructive criticism] after every lesson.",
+"he": "המורה שלי לאנגלית נותנת לי ביקורת בונה אחרי כל שיעור."
+},
+{
+"en": "I'm open to [constructive criticism] about my presentation.",
+"he": "אני פתוח לביקורת בונה על המצגת שלי."
 }
 ]
 },
@@ -1862,6 +2590,14 @@ window.VOCAB = {
 {
 "en": "We can [subdivide] the big task into smaller steps.",
 "he": "אנחנו יכולים לפצל את המשימה הגדולה לשלבים קטנים יותר."
+},
+{
+"en": "The family decided to [subdivide] the farm between the children.",
+"he": "המשפחה החליטה לחלק את החווה בין הילדים."
+},
+{
+"en": "Each chapter is [subdivided] into short lessons.",
+"he": "כל פרק מחולק לשיעורים קצרים."
 }
 ]
 }
@@ -1892,6 +2628,14 @@ window.VOCAB = {
 {
 "en": "You have to be [diligent] to learn a new language.",
 "he": "צריך להיות שקדן כדי ללמוד שפה חדשה."
+},
+{
+"en": "A [diligent] agent always calls the client back.",
+"he": "סוכן חרוץ תמיד חוזר ללקוח."
+},
+{
+"en": "My son is very [diligent] about his homework.",
+"he": "הבן שלי מאוד חרוץ לגבי שיעורי הבית."
 }
 ]
 },
@@ -1911,6 +2655,14 @@ window.VOCAB = {
 {
 "en": "She [fractured] her leg while skiing.",
 "he": "היא שברה את הרגל בזמן סקי."
+},
+{
+"en": "A small [fracture] can take six weeks to heal.",
+"he": "שבר קטן יכול לקחת שישה שבועות להחלים."
+},
+{
+"en": "He [fractured] his wrist when he fell off his bike.",
+"he": "הוא שבר את פרק כף היד כשנפל מהאופניים."
 }
 ]
 },
@@ -1930,6 +2682,14 @@ window.VOCAB = {
 {
 "en": "Two people were [injured] in the accident.",
 "he": "שני אנשים נפצעו בתאונה."
+},
+{
+"en": "He [injured] his back while carrying boxes.",
+"he": "הוא נפצע בגב כשסחב קרטונים."
+},
+{
+"en": "Bad technique can [injure] your shoulder.",
+"he": "טכניקה לא נכונה יכולה לפצוע את הכתף שלך."
 }
 ]
 },
@@ -1949,6 +2709,14 @@ window.VOCAB = {
 {
 "en": "Warming up helps prevent [injury].",
 "he": "חימום עוזר למנוע פציעה."
+},
+{
+"en": "The insurance covers any [injury] at work.",
+"he": "הביטוח מכסה כל פציעה בעבודה."
+},
+{
+"en": "After the [injury], I had to rest for a month.",
+"he": "אחרי הפציעה הייתי צריך לנוח חודש."
 }
 ]
 },
@@ -1972,6 +2740,14 @@ window.VOCAB = {
 {
 "en": "The horses sleep in the [stable] at night.",
 "he": "הסוסים ישנים באורווה בלילה."
+},
+{
+"en": "I prefer a [stable] job with a good pension.",
+"he": "אני מעדיף עבודה יציבה עם פנסיה טובה."
+},
+{
+"en": "The market was [stable] this week.",
+"he": "השוק היה יציב השבוע."
 }
 ]
 },
@@ -1991,6 +2767,14 @@ window.VOCAB = {
 {
 "en": "The doctors managed to [stabilize] the patient.",
 "he": "הרופאים הצליחו לייצב את המטופל."
+},
+{
+"en": "Interest rates should [stabilize] next year.",
+"he": "הריבית אמורה להתייצב בשנה הבאה."
+},
+{
+"en": "Core exercises help [stabilise] your back.",
+"he": "תרגילי בטן עוזרים לייצב את הגב."
 }
 ]
 },
@@ -2010,6 +2794,14 @@ window.VOCAB = {
 {
 "en": "The dog likes to [chew] on old shoes.",
 "he": "הכלב אוהב ללעוס נעליים ישנות."
+},
+{
+"en": "I [chew] gum when I drive long distances.",
+"he": "אני לועס מסטיק כשאני נוהג למרחקים ארוכים."
+},
+{
+"en": "The steak was hard to [chew].",
+"he": "היה קשה ללעוס את הסטייק."
 }
 ]
 },
@@ -2029,6 +2821,14 @@ window.VOCAB = {
 {
 "en": "I eat two [dates] before my morning run.",
 "he": "אני אוכל שני תמרים לפני ריצת הבוקר שלי."
+},
+{
+"en": "We put [dates] in the cake instead of sugar.",
+"he": "שמנו תמרים בעוגה במקום סוכר."
+},
+{
+"en": "The farmer sells fresh [dates] at the market.",
+"he": "החקלאי מוכר תמרים טריים בשוק."
 }
 ]
 },
@@ -2048,6 +2848,14 @@ window.VOCAB = {
 {
 "en": "Our new house has a small [laundry room] next to the kitchen.",
 "he": "בבית החדש שלנו יש חדר כביסה קטן ליד המטבח."
+},
+{
+"en": "The cat sleeps in the [laundry room] because it is warm.",
+"he": "החתול ישן בחדר הכביסה כי חם שם."
+},
+{
+"en": "We put shelves in the [laundry room] for the cleaning supplies.",
+"he": "שמנו מדפים בחדר הכביסה בשביל חומרי הניקוי."
 }
 ]
 },
@@ -2067,6 +2875,14 @@ window.VOCAB = {
 {
 "en": "Please hang the [laundry] outside to dry.",
 "he": "בבקשה תתלה את הכביסה בחוץ לייבוש."
+},
+{
+"en": "There's a pile of [laundry] on the bed.",
+"he": "יש ערימה של כביסה על המיטה."
+},
+{
+"en": "My son finally learned to do his own [laundry].",
+"he": "הבן שלי סוף סוף למד לעשות כביסה בעצמו."
 }
 ]
 },
@@ -2086,6 +2902,14 @@ window.VOCAB = {
 {
 "en": "Good [damp proofing] protects the walls from mold.",
 "he": "איטום טוב נגד רטיבות מגן על הקירות מפני עובש."
+},
+{
+"en": "The [damp proofing] on our roof needs to be redone.",
+"he": "צריך לעשות מחדש את האיטום מפני רטיבות על הגג שלנו."
+},
+{
+"en": "Does the home insurance cover [damp proofing]?",
+"he": "האם ביטוח הדירה מכסה איטום מפני רטיבות?"
 }
 ]
 },
@@ -2105,6 +2929,14 @@ window.VOCAB = {
 {
 "en": "He built the garden wall [brick] by brick.",
 "he": "הוא בנה את קיר הגינה לבנה אחר לבנה."
+},
+{
+"en": "The new parking lot is all [concrete].",
+"he": "החניון החדש כולו בטון."
+},
+{
+"en": "Our old house was built of red [brick].",
+"he": "הבית הישן שלנו נבנה מלבנים אדומות."
 }
 ]
 }
@@ -2135,6 +2967,14 @@ window.VOCAB = {
 {
 "en": "Water is becoming a precious [commodity].",
 "he": "מים הופכים למצרך יקר ערך."
+},
+{
+"en": "Gold is a [commodity] that many investors buy in a crisis.",
+"he": "זהב הוא מצרך שהרבה משקיעים קונים במשבר."
+},
+{
+"en": "Coffee is one of the most popular [commodities] in the world.",
+"he": "קפה הוא אחד המצרכים הפופולריים בעולם."
 }
 ]
 },
@@ -2154,6 +2994,14 @@ window.VOCAB = {
 {
 "en": "The fund charges a yearly [admin fee].",
 "he": "הקרן גובה דמי ניהול שנתיים."
+},
+{
+"en": "The [admin fee] for this account is very low.",
+"he": "דמי הניהול לחשבון הזה נמוכים מאוד."
+},
+{
+"en": "Ask the agent if there is an [admin fee] before you sign.",
+"he": "שאל את הסוכן אם יש דמי ניהול לפני שאתה חותם."
 }
 ]
 },
@@ -2173,6 +3021,14 @@ window.VOCAB = {
 {
 "en": "Is the [service fee] included in the price?",
 "he": "דמי השירות כלולים במחיר?"
+},
+{
+"en": "The ticket price doesn't include the [service fee].",
+"he": "מחיר הכרטיס לא כולל את דמי השירות."
+},
+{
+"en": "The app charges a small [service fee] for each order.",
+"he": "האפליקציה גובה דמי שירות קטנים על כל הזמנה."
 }
 ]
 },
@@ -2192,6 +3048,14 @@ window.VOCAB = {
 {
 "en": "The hotel has every [amenity] you need: a gym, a spa and free parking.",
 "he": "במלון יש כל שירות שאתה צריך: חדר כושר, ספא וחניה חינם."
+},
+{
+"en": "A parking space is an important [amenity] in the city.",
+"he": "מקום חניה הוא מתקן חשוב בעיר."
+},
+{
+"en": "The new building has great [amenities], like a gym and a lobby.",
+"he": "לבניין החדש יש מתקנים מעולים, כמו חדר כושר ולובי."
 }
 ]
 },
@@ -2211,6 +3075,14 @@ window.VOCAB = {
 {
 "en": "We paid a [non-refundable] deposit for the hall.",
 "he": "שילמנו מקדמה שאינה ניתנת להחזר על האולם."
+},
+{
+"en": "The hotel room was cheaper because it was [non-refundable].",
+"he": "החדר במלון היה זול יותר כי הוא לא ניתן להחזר."
+},
+{
+"en": "Be careful: some insurance fees are [non-refundable].",
+"he": "שים לב: חלק מדמי הביטוח לא ניתנים להחזר."
 }
 ]
 },
@@ -2230,6 +3102,14 @@ window.VOCAB = {
 {
 "en": "The [property tax] in Tel Aviv is quite high.",
 "he": "הארנונה בתל אביב די גבוהה."
+},
+{
+"en": "Retired people can get a discount on [property tax].",
+"he": "פנסיונרים יכולים לקבל הנחה בארנונה."
+},
+{
+"en": "The [property tax] for an office is higher than for a home.",
+"he": "הארנונה למשרד גבוהה יותר מאשר לדירה."
 }
 ]
 },
@@ -2249,6 +3129,14 @@ window.VOCAB = {
 {
 "en": "He asked for [compensation] after the accident.",
 "he": "הוא ביקש פיצוי אחרי התאונה."
+},
+{
+"en": "The insurance company offered fair [compensation] for the damage.",
+"he": "חברת הביטוח הציעה פיצוי הוגן על הנזק."
+},
+{
+"en": "Workers get [compensation] if they are fired without notice.",
+"he": "עובדים מקבלים פיצוי אם מפטרים אותם בלי הודעה מוקדמת."
 }
 ]
 },
@@ -2268,6 +3156,14 @@ window.VOCAB = {
 {
 "en": "I am the head of our [HOA] this year.",
 "he": "אני ראש ועד הבית שלנו השנה."
+},
+{
+"en": "The [homeowner association] meets in the lobby once a month.",
+"he": "ועד הבית נפגש בלובי פעם בחודש."
+},
+{
+"en": "I complained to the [homeowner association] about the broken light.",
+"he": "התלוננתי לוועד הבית על המנורה השבורה."
 }
 ]
 },
@@ -2287,6 +3183,14 @@ window.VOCAB = {
 {
 "en": "The school's [governing body] meets once a month.",
 "he": "הגוף המנהל של בית הספר נפגש פעם בחודש."
+},
+{
+"en": "The pension fund is supervised by a [governing body].",
+"he": "קרן הפנסיה נמצאת בפיקוח של גוף מנהל."
+},
+{
+"en": "The [governing body] approved the new budget.",
+"he": "הגוף המנהל אישר את התקציב החדש."
 }
 ]
 },
@@ -2306,6 +3210,14 @@ window.VOCAB = {
 {
 "en": "The [building maintenance fee] pays for cleaning and the elevator.",
 "he": "דמי התחזוקה של הבניין משלמים על הניקיון והמעלית."
+},
+{
+"en": "The [building maintenance fee] went up because we fixed the roof.",
+"he": "דמי ועד הבית עלו כי תיקנו את הגג."
+},
+{
+"en": "Tenants usually pay the [building maintenance fee], not the owner.",
+"he": "בדרך כלל השוכרים משלמים את דמי ועד הבית, לא הבעלים."
 }
 ]
 },
@@ -2325,6 +3237,14 @@ window.VOCAB = {
 {
 "en": "Young people spend their [disposable income] on travel.",
 "he": "צעירים מוציאים את ההכנסה הפנויה שלהם על טיולים."
+},
+{
+"en": "Part of your [disposable income] should go to savings.",
+"he": "חלק מההכנסה הפנויה שלך צריך ללכת לחיסכון."
+},
+{
+"en": "Our [disposable income] grew after we paid off the car loan.",
+"he": "ההכנסה הפנויה שלנו גדלה אחרי שסיימנו לשלם את הלוואת הרכב."
 }
 ]
 },
@@ -2344,6 +3264,14 @@ window.VOCAB = {
 {
 "en": "The [burnt] smell came from the kitchen.",
 "he": "הריח השרוף הגיע מהמטבח."
+},
+{
+"en": "I [burnt] my finger on the hot pan.",
+"he": "שרפתי את האצבע על המחבת החמה."
+},
+{
+"en": "The rice is a little [burnt] at the bottom.",
+"he": "האורז קצת שרוף בתחתית."
 }
 ]
 },
@@ -2363,6 +3291,14 @@ window.VOCAB = {
 {
 "en": "The [fire damage] was worse than we thought.",
 "he": "נזקי השריפה היו גרועים ממה שחשבנו."
+},
+{
+"en": "The photos show the [fire damage] to the roof.",
+"he": "התמונות מראות את נזקי האש לגג."
+},
+{
+"en": "Make sure your home insurance covers [fire damage].",
+"he": "וודא שביטוח הדירה שלך מכסה נזקי אש."
 }
 ]
 },
@@ -2382,6 +3318,14 @@ window.VOCAB = {
 {
 "en": "The bank called about the mortgage [arrears].",
 "he": "הבנק התקשר בקשר לפיגורים במשכנתא."
+},
+{
+"en": "Pay your [arrears] quickly to avoid extra interest.",
+"he": "שלם את החוב בפיגורים מהר כדי להימנע מריבית נוספת."
+},
+{
+"en": "The tenant left the apartment with two months of [arrears].",
+"he": "השוכר עזב את הדירה עם חוב של חודשיים בפיגורים."
 }
 ]
 },
@@ -2401,6 +3345,14 @@ window.VOCAB = {
 {
 "en": "The city started a [rehabilitation] project for old buildings.",
 "he": "העירייה התחילה פרויקט שיקום לבניינים ישנים."
+},
+{
+"en": "Physical [rehabilitation] after the injury took three months.",
+"he": "השיקום הפיזי אחרי הפציעה לקח שלושה חודשים."
+},
+{
+"en": "The center offers [rehabilitation] for people after a stroke.",
+"he": "המרכז מציע שיקום לאנשים אחרי שבץ."
 }
 ]
 },
@@ -2420,6 +3372,14 @@ window.VOCAB = {
 {
 "en": "This apartment is [suitable] for a family with kids.",
 "he": "הדירה הזאת מתאימה למשפחה עם ילדים."
+},
+{
+"en": "Is this movie [suitable] for young children?",
+"he": "האם הסרט הזה מתאים לילדים קטנים?"
+},
+{
+"en": "Please wear [appropriate] shoes for the hike.",
+"he": "בבקשה תנעלו נעליים מתאימות לטיול."
 }
 ]
 },
@@ -2439,6 +3399,14 @@ window.VOCAB = {
 {
 "en": "Too much sugar can [cause] health problems.",
 "he": "יותר מדי סוכר יכול לגרום לבעיות בריאות."
+},
+{
+"en": "Stress can [cause] back pain.",
+"he": "לחץ יכול לגרום לכאבי גב."
+},
+{
+"en": "The main [cause] of the delay was the weather.",
+"he": "הסיבה העיקרית לעיכוב הייתה מזג האוויר."
 }
 ]
 }
@@ -2469,6 +3437,14 @@ window.VOCAB = {
 {
 "en": "[Oats] are healthy and cheap.",
 "he": "שיבולת שועל בריאה וזולה."
+},
+{
+"en": "I add [oats] to my protein shake.",
+"he": "אני מוסיף שיבולת שועל לשייק החלבון שלי."
+},
+{
+"en": "A bowl of [oatmeal] keeps me full until lunch.",
+"he": "קערת דייסת שיבולת שועל משאירה אותי שבע עד הצהריים."
 }
 ]
 },
@@ -2488,6 +3464,14 @@ window.VOCAB = {
 {
 "en": "A [medical engineer] designs machines for hospitals.",
 "he": "מהנדס רפואי מתכנן מכשירים לבתי חולים."
+},
+{
+"en": "The [medical engineer] fixed the MRI machine.",
+"he": "המהנדס הרפואי תיקן את מכשיר ה-MRI."
+},
+{
+"en": "A [medical engineer] helped design the new heart pump.",
+"he": "מהנדס רפואי עזר לתכנן את משאבת הלב החדשה."
 }
 ]
 },
@@ -2507,6 +3491,14 @@ window.VOCAB = {
 {
 "en": "[Moisture] in the walls can cause mold.",
 "he": "לחות בקירות יכולה לגרום לעובש."
+},
+{
+"en": "The [humidity] makes my hair frizzy.",
+"he": "הלחות עושה לי את השיער מקורזל."
+},
+{
+"en": "Keep the bread away from [moisture].",
+"he": "שמור את הלחם הרחק מלחות."
 }
 ]
 },
@@ -2526,6 +3518,14 @@ window.VOCAB = {
 {
 "en": "Bread goes bad quickly in a [humid] kitchen.",
 "he": "לחם מתקלקל מהר במטבח לח."
+},
+{
+"en": "Running on a [humid] morning is really hard.",
+"he": "לרוץ בבוקר לח זה ממש קשה."
+},
+{
+"en": "The bathroom gets very [humid] after a shower.",
+"he": "חדר האמבטיה נהיה מאוד לח אחרי מקלחת."
 }
 ]
 }
@@ -2556,6 +3556,14 @@ window.VOCAB = {
 {
 "en": "Without a [french drain], the garden floods every winter.",
 "he": "בלי תעלת ניקוז, הגינה מוצפת כל חורף."
+},
+{
+"en": "The contractor said we need a [french drain] along the wall.",
+"he": "הקבלן אמר שאנחנו צריכים נקז לאורך הקיר."
+},
+{
+"en": "The [french drain] is blocked with leaves.",
+"he": "הנקז סתום בעלים."
 }
 ]
 },
@@ -2575,6 +3583,14 @@ window.VOCAB = {
 {
 "en": "You need a permit from the [municipality] to build a pergola.",
 "he": "צריך היתר מהעירייה כדי לבנות פרגולה."
+},
+{
+"en": "The [municipality] collects the garbage twice a week.",
+"he": "העירייה אוספת את הזבל פעמיים בשבוע."
+},
+{
+"en": "I sent an email to the [municipality] about the broken sidewalk.",
+"he": "שלחתי מייל לעירייה על המדרכה השבורה."
 }
 ]
 },
@@ -2594,6 +3610,14 @@ window.VOCAB = {
 {
 "en": "It's important to make an [informed] decision.",
 "he": "חשוב לקבל החלטה מושכלת (מתוך ידיעה)."
+},
+{
+"en": "The agent kept us [informed] during the whole claim process.",
+"he": "הסוכן עדכן אותנו לאורך כל תהליך התביעה."
+},
+{
+"en": "I like to stay [informed] about the economy.",
+"he": "אני אוהב להישאר מעודכן לגבי הכלכלה."
 }
 ]
 },
@@ -2613,6 +3637,14 @@ window.VOCAB = {
 {
 "en": "Social [equity] means everyone gets a fair chance.",
 "he": "צדק חברתי פירושו שכל אחד מקבל הזדמנות הוגנת."
+},
+{
+"en": "The manager believes in [equity] between all employees.",
+"he": "המנהל מאמין בהוגנות בין כל העובדים."
+},
+{
+"en": "[Equity] means giving each person what they need to succeed.",
+"he": "הוגנות פירושה לתת לכל אדם את מה שהוא צריך כדי להצליח."
 }
 ]
 },
@@ -2632,6 +3664,14 @@ window.VOCAB = {
 {
 "en": "As house prices rise, our home [equity] grows.",
 "he": "כשמחירי הדירות עולים, ההון העצמי שלנו בבית גדל."
+},
+{
+"en": "We used our [equity] to buy a second apartment.",
+"he": "השתמשנו בהון העצמי שלנו כדי לקנות דירה שנייה."
+},
+{
+"en": "How much [equity] do you have for the new house?",
+"he": "כמה הון עצמי יש לך לבית החדש?"
 }
 ]
 }
@@ -2662,6 +3702,14 @@ window.VOCAB = {
 {
 "en": "Children under 12 must be [accompanied] by an adult.",
 "he": "ילדים מתחת לגיל 12 חייבים להיות מלווים במבוגר."
+},
+{
+"en": "I [accompanied] my father to the bank.",
+"he": "ליוויתי את אבא שלי לבנק."
+},
+{
+"en": "A guide will [accompany] the group on the tour.",
+"he": "מדריך ילווה את הקבוצה בסיור."
 }
 ]
 },
@@ -2681,6 +3729,14 @@ window.VOCAB = {
 {
 "en": "Trucks [transport] goods from the port to the city.",
 "he": "משאיות מובילות סחורה מהנמל לעיר."
+},
+{
+"en": "How will you [transport] all the boxes?",
+"he": "איך תוביל את כל הקרטונים?"
+},
+{
+"en": "The ambulance [transported] him to the hospital.",
+"he": "האמבולנס הוביל אותו לבית החולים."
 }
 ]
 },
@@ -2700,6 +3756,14 @@ window.VOCAB = {
 {
 "en": "It was a clean [break], so it will heal quickly.",
 "he": "זה היה שבר נקי, אז הוא יחלים מהר."
+},
+{
+"en": "A [break] in the bone needs a cast.",
+"he": "שבר בעצם צריך גבס."
+},
+{
+"en": "The X-ray showed a small [fracture] in his foot.",
+"he": "צילום הרנטגן הראה שבר קטן בכף הרגל שלו."
 }
 ]
 },
@@ -2719,6 +3783,14 @@ window.VOCAB = {
 {
 "en": "Typing all day hurts my [wrist].",
 "he": "הקלדה כל היום מכאיבה לי בשורש כף היד."
+},
+{
+"en": "My [wrist] hurts when I do pushups.",
+"he": "פרק כף היד שלי כואב כשאני עושה שכיבות סמיכה."
+},
+{
+"en": "She wears a bracelet on her right [wrist].",
+"he": "היא עונדת צמיד על פרק כף היד הימני."
 }
 ]
 },
@@ -2738,6 +3810,14 @@ window.VOCAB = {
 {
 "en": "[Wrist straps] help you hold the bar longer.",
 "he": "רצועות לשורש כף היד עוזרות להחזיק את המוט יותר זמן."
+},
+{
+"en": "I forgot my [wrist straps] at home, so I lifted less today.",
+"he": "שכחתי את רצועות שורש כף היד בבית, אז הרמתי פחות היום."
+},
+{
+"en": "The gym sells [wrist straps] at the front desk.",
+"he": "חדר הכושר מוכר רצועות שורש כף יד בדלפק הקבלה."
 }
 ]
 },
@@ -2757,6 +3837,14 @@ window.VOCAB = {
 {
 "en": "The army is known for strict [discipline].",
 "he": "הצבא ידוע במשמעת נוקשה."
+},
+{
+"en": "Saving money every month needs [discipline].",
+"he": "לחסוך כסף כל חודש דורש משמעת."
+},
+{
+"en": "Good [discipline] at home helps kids at school.",
+"he": "משמעת טובה בבית עוזרת לילדים בבית הספר."
 }
 ]
 },
@@ -2776,6 +3864,14 @@ window.VOCAB = {
 {
 "en": "She is a [committed] and loyal employee.",
 "he": "היא עובדת מחויבת ונאמנה."
+},
+{
+"en": "We are [committed] to giving our clients the best service.",
+"he": "אנחנו מחויבים לתת ללקוחות שלנו את השירות הטוב ביותר."
+},
+{
+"en": "He is [committed] to going to the gym four times a week.",
+"he": "הוא מחויב ללכת לחדר הכושר ארבע פעמים בשבוע."
 }
 ]
 },
@@ -2795,6 +3891,14 @@ window.VOCAB = {
 {
 "en": "Thank you for your [commitment] to the team.",
 "he": "תודה על המחויבות שלך לצוות."
+},
+{
+"en": "A mortgage is a [commitment] for many years.",
+"he": "משכנתא היא מחויבות לשנים רבות."
+},
+{
+"en": "Learning English takes time and [commitment].",
+"he": "ללמוד אנגלית דורש זמן ומחויבות."
 }
 ]
 },
@@ -2814,6 +3918,14 @@ window.VOCAB = {
 {
 "en": "The economy is starting to [recover].",
 "he": "הכלכלה מתחילה להתאושש."
+},
+{
+"en": "The market [recovered] quickly after the crisis.",
+"he": "השוק התאושש מהר אחרי המשבר."
+},
+{
+"en": "Sleep helps your muscles [recover] after training.",
+"he": "שינה עוזרת לשרירים שלך להתאושש אחרי אימון."
 }
 ]
 },
@@ -2833,6 +3945,14 @@ window.VOCAB = {
 {
 "en": "The [recovery] after knee surgery can take months.",
 "he": "ההחלמה אחרי ניתוח ברך יכולה לקחת חודשים."
+},
+{
+"en": "Rest is an important part of [recovery].",
+"he": "מנוחה היא חלק חשוב בהחלמה."
+},
+{
+"en": "The doctor is happy with my [recovery].",
+"he": "הרופא מרוצה מההחלמה שלי."
 }
 ]
 },
@@ -2852,6 +3972,14 @@ window.VOCAB = {
 {
 "en": "Scammers look for [gullible] people.",
 "he": "נוכלים מחפשים אנשים פתיים."
+},
+{
+"en": "Don't be [gullible]; banks never ask for your password by phone.",
+"he": "אל תהיה פתי; בנקים אף פעם לא מבקשים את הסיסמה שלך בטלפון."
+},
+{
+"en": "My friend was [gullible] and lost money in a fake investment.",
+"he": "החבר שלי היה פתי והפסיד כסף בהשקעה מזויפת."
 }
 ]
 },
@@ -2871,6 +3999,14 @@ window.VOCAB = {
 {
 "en": "I have no [regrets] about moving to a new city.",
 "he": "אין לי שום חרטה על המעבר לעיר חדשה."
+},
+{
+"en": "You won't [regret] starting your pension savings early.",
+"he": "לא תתחרט שהתחלת לחסוך לפנסיה מוקדם."
+},
+{
+"en": "I [regret] saying that to my brother.",
+"he": "אני מתחרט שאמרתי את זה לאחי."
 }
 ]
 }
@@ -2901,6 +4037,14 @@ window.VOCAB = {
 {
 "en": "Is the [service fee] included in the price?",
 "he": "דמי השירות כלולים במחיר?"
+},
+{
+"en": "The ticket price doesn't include the [service fee].",
+"he": "מחיר הכרטיס לא כולל את דמי השירות."
+},
+{
+"en": "The app charges a small [service fee] for each order.",
+"he": "האפליקציה גובה דמי שירות קטנים על כל הזמנה."
 }
 ]
 },
@@ -2920,6 +4064,14 @@ window.VOCAB = {
 {
 "en": "Cooking at home is a big [saving] every month.",
 "he": "בישול בבית הוא חיסכון גדול כל חודש."
+},
+{
+"en": "We opened a [savings] account for our grandson.",
+"he": "פתחנו חשבון חיסכון לנכד שלנו."
+},
+{
+"en": "Switching to a cheaper phone plan is a nice [saving].",
+"he": "לעבור לתוכנית סלולר זולה יותר זה חיסכון נחמד."
 }
 ]
 },
@@ -2939,6 +4091,14 @@ window.VOCAB = {
 {
 "en": "The bank called about the mortgage [arrears].",
 "he": "הבנק התקשר בקשר לפיגורים במשכנתא."
+},
+{
+"en": "Pay your [arrears] quickly to avoid extra interest.",
+"he": "שלם את החוב בפיגורים מהר כדי להימנע מריבית נוספת."
+},
+{
+"en": "The tenant left the apartment with two months of [arrears].",
+"he": "השוכר עזב את הדירה עם חוב של חודשיים בפיגורים."
 }
 ]
 },
@@ -2958,6 +4118,14 @@ window.VOCAB = {
 {
 "en": "The [debt loan] has a lower interest rate.",
 "he": "להלוואת החוב יש ריבית נמוכה יותר."
+},
+{
+"en": "The [debt loan] helped us combine all our payments into one.",
+"he": "הלוואת החוב עזרה לנו לאחד את כל התשלומים לתשלום אחד."
+},
+{
+"en": "Before taking a [debt loan], check the total cost.",
+"he": "לפני שלוקחים הלוואת חוב, כדאי לבדוק את העלות הכוללת."
 }
 ]
 },
@@ -2977,6 +4145,14 @@ window.VOCAB = {
 {
 "en": "Paying bills on time improves your [credit status].",
 "he": "תשלום חשבונות בזמן משפר את מצב האשראי שלך."
+},
+{
+"en": "A good [credit status] helps you get a better mortgage.",
+"he": "מצב אשראי טוב עוזר לך לקבל משכנתא טובה יותר."
+},
+{
+"en": "You can check your [credit status] online for free.",
+"he": "אפשר לבדוק את מצב האשראי שלך באינטרנט בחינם."
 }
 ]
 },
@@ -2996,6 +4172,14 @@ window.VOCAB = {
 {
 "en": "We can [leverage] our experience to win new clients.",
 "he": "אנחנו יכולים למנף את הניסיון שלנו כדי לזכות בלקוחות חדשים."
+},
+{
+"en": "Too much [leverage] can be dangerous in a falling market.",
+"he": "יותר מדי מינוף יכול להיות מסוכן בשוק יורד."
+},
+{
+"en": "She used her language skills as [leverage] to get the job.",
+"he": "היא השתמשה בכישורי השפה שלה כמנוף כדי לקבל את העבודה."
 }
 ]
 },
@@ -3015,6 +4199,14 @@ window.VOCAB = {
 {
 "en": "The union will [negotiate] with the management.",
 "he": "הוועד ינהל משא ומתן עם ההנהלה."
+},
+{
+"en": "You should always [negotiate] your salary.",
+"he": "תמיד כדאי לנהל משא ומתן על המשכורת שלך."
+},
+{
+"en": "We [negotiated] a lower rent with the landlord.",
+"he": "ניהלנו משא ומתן עם בעל הבית על שכר דירה נמוך יותר."
 }
 ]
 },
@@ -3034,6 +4226,14 @@ window.VOCAB = {
 {
 "en": "[Negotiation] is an important skill in business.",
 "he": "משא ומתן הוא מיומנות חשובה בעסקים."
+},
+{
+"en": "The [negotiation] with the insurance company took a month.",
+"he": "המשא ומתן עם חברת הביטוח לקח חודש."
+},
+{
+"en": "Stay calm during a [negotiation].",
+"he": "תישאר רגוע במהלך משא ומתן."
 }
 ]
 },
@@ -3053,6 +4253,14 @@ window.VOCAB = {
 {
 "en": "My insurance [agent] answered all my questions.",
 "he": "סוכן הביטוח שלי ענה על כל השאלות שלי."
+},
+{
+"en": "The real estate [agent] took a two percent fee.",
+"he": "המתווך לקח עמלה של שני אחוזים."
+},
+{
+"en": "Our mortgage [broker] found us a better interest rate.",
+"he": "יועץ המשכנתאות שלנו מצא לנו ריבית טובה יותר."
 }
 ]
 },
@@ -3072,6 +4280,14 @@ window.VOCAB = {
 {
 "en": "The investment will [mature] in five years.",
 "he": "ההשקעה תגיע למועד הפירעון שלה בעוד חמש שנים."
+},
+{
+"en": "My son became more [mature] after the army.",
+"he": "הבן שלי נהיה יותר בוגר אחרי הצבא."
+},
+{
+"en": "Let's discuss this like [mature] adults.",
+"he": "בוא נדבר על זה כמו מבוגרים בוגרים."
 }
 ]
 },
@@ -3091,6 +4307,14 @@ window.VOCAB = {
 {
 "en": "He is too [immature] to manage a team.",
 "he": "הוא לא בוגר מספיק כדי לנהל צוות."
+},
+{
+"en": "His jokes in the meeting were [immature].",
+"he": "הבדיחות שלו בפגישה היו לא בוגרות."
+},
+{
+"en": "The fruit is still [immature]; wait a few days.",
+"he": "הפרי עדיין לא בשל; חכה כמה ימים."
 }
 ]
 },
@@ -3110,6 +4334,14 @@ window.VOCAB = {
 {
 "en": "The [external] walls need new paint.",
 "he": "הקירות החיצוניים צריכים צבע חדש."
+},
+{
+"en": "The [external] hard drive has all our family photos.",
+"he": "לכונן הקשיח החיצוני יש את כל התמונות המשפחתיות שלנו."
+},
+{
+"en": "An [external] auditor checks the fund every year.",
+"he": "מבקר חיצוני בודק את הקרן כל שנה."
 }
 ]
 },
@@ -3129,6 +4361,14 @@ window.VOCAB = {
 {
 "en": "The doctor checked for [internal] bleeding.",
 "he": "הרופא בדק אם יש דימום פנימי."
+},
+{
+"en": "The company is doing an [internal] investigation.",
+"he": "החברה עורכת חקירה פנימית."
+},
+{
+"en": "We have an [internal] meeting every Sunday.",
+"he": "יש לנו פגישה פנימית כל יום ראשון."
 }
 ]
 },
@@ -3148,6 +4388,14 @@ window.VOCAB = {
 {
 "en": "The new rules were published by the [capital market authorities].",
 "he": "הכללים החדשים פורסמו על ידי רשויות שוק ההון."
+},
+{
+"en": "You can file a complaint with the [capital market authorities].",
+"he": "אפשר להגיש תלונה לרשויות שוק ההון."
+},
+{
+"en": "Every insurance agent needs a license from the [capital market authorities].",
+"he": "כל סוכן ביטוח צריך רישיון מרשויות שוק ההון."
 }
 ]
 },
@@ -3167,6 +4415,14 @@ window.VOCAB = {
 {
 "en": "She works for a big advertising [agency].",
 "he": "היא עובדת בסוכנות פרסום גדולה."
+},
+{
+"en": "Our insurance [agency] has ten employees.",
+"he": "לסוכנות הביטוח שלנו יש עשרה עובדים."
+},
+{
+"en": "The [agency] found a new nanny for us.",
+"he": "הסוכנות מצאה לנו מטפלת חדשה."
 }
 ]
 },
@@ -3186,6 +4442,14 @@ window.VOCAB = {
 {
 "en": "Safety is our first [priority].",
 "he": "הבטיחות היא העדיפות הראשונה שלנו."
+},
+{
+"en": "Paying off the debt should be your first [priority].",
+"he": "לשלם את החוב צריך להיות העדיפות הראשונה שלך."
+},
+{
+"en": "This week, the gym is not a [priority].",
+"he": "השבוע, חדר הכושר הוא לא בעדיפות."
 }
 ]
 }
@@ -3216,6 +4480,14 @@ window.VOCAB = {
 {
 "en": "You need to go through [immigration] at the airport.",
 "he": "צריך לעבור ביקורת הגירה בשדה התעופה."
+},
+{
+"en": "The [immigration] office asked for more documents.",
+"he": "משרד ההגירה ביקש עוד מסמכים."
+},
+{
+"en": "The line at [immigration] took almost an hour.",
+"he": "התור בביקורת הגבולות לקח כמעט שעה."
 }
 ]
 },
@@ -3235,6 +4507,14 @@ window.VOCAB = {
 {
 "en": "Many young people want to [immigrate] to another country.",
 "he": "הרבה צעירים רוצים להגר למדינה אחרת."
+},
+{
+"en": "Her family [immigrated] from Russia when she was five.",
+"he": "המשפחה שלה היגרה מרוסיה כשהייתה בת חמש."
+},
+{
+"en": "It is not easy to [immigrate] without speaking the language.",
+"he": "לא קל להגר בלי לדבר את השפה."
 }
 ]
 },
@@ -3254,6 +4534,14 @@ window.VOCAB = {
 {
 "en": "We may [relocate] abroad for my wife's job.",
 "he": "אולי נעבור לחו\"ל בגלל העבודה של אשתי."
+},
+{
+"en": "The office will [relocate] to a bigger building next year.",
+"he": "המשרד יעבור לבניין גדול יותר בשנה הבאה."
+},
+{
+"en": "We had to [relocate] the kids to a new school.",
+"he": "היינו צריכים להעביר את הילדים לבית ספר חדש."
 }
 ]
 },
@@ -3273,6 +4561,14 @@ window.VOCAB = {
 {
 "en": "The company pays for the [relocation] costs.",
 "he": "החברה משלמת את הוצאות הרילוקיישן."
+},
+{
+"en": "The [relocation] package includes a flight and a hotel.",
+"he": "חבילת המעבר כוללת טיסה ומלון."
+},
+{
+"en": "After the [relocation], it took us months to feel at home.",
+"he": "אחרי המעבר, לקח לנו חודשים להרגיש בבית."
 }
 ]
 },
@@ -3292,6 +4588,14 @@ window.VOCAB = {
 {
 "en": "Be careful, the last [step] is broken.",
 "he": "תיזהר, המדרגה האחרונה שבורה."
+},
+{
+"en": "The next [step] is to sign the contract.",
+"he": "הצעד הבא הוא לחתום על החוזה."
+},
+{
+"en": "I walk ten thousand [steps] every day.",
+"he": "אני הולך עשרת אלפים צעדים כל יום."
 }
 ]
 },
@@ -3311,6 +4615,14 @@ window.VOCAB = {
 {
 "en": "Don't [step] on the wet floor.",
 "he": "אל תדרוך על הרצפה הרטובה."
+},
+{
+"en": "[Step] onto the scale, please.",
+"he": "עלה על המשקל, בבקשה."
+},
+{
+"en": "I [stepped] on a piece of Lego in the dark.",
+"he": "דרכתי על חתיכת לגו בחושך."
 }
 ]
 },
@@ -3330,6 +4642,14 @@ window.VOCAB = {
 {
 "en": "He fell down the [stairs] and hurt his back.",
 "he": "הוא נפל במדרגות ונפגע בגב."
+},
+{
+"en": "We live on the fourth floor, so the [stairs] are a good workout.",
+"he": "אנחנו גרים בקומה הרביעית, אז המדרגות הן אימון טוב."
+},
+{
+"en": "The kids ran up the [stairs] to their room.",
+"he": "הילדים רצו במעלה המדרגות לחדר שלהם."
 }
 ]
 },
@@ -3349,6 +4669,14 @@ window.VOCAB = {
 {
 "en": "I [fried] two eggs for breakfast.",
 "he": "טיגנתי שתי ביצים לארוחת בוקר."
+},
+{
+"en": "My wife [fries] fish every Friday.",
+"he": "אשתי מטגנת דג כל יום שישי."
+},
+{
+"en": "Don't [fry] the potatoes; bake them in the oven.",
+"he": "אל תטגן את תפוחי האדמה; תאפה אותם בתנור."
 }
 ]
 },
@@ -3368,6 +4696,14 @@ window.VOCAB = {
 {
 "en": "We [deep fry] doughnuts for Hanukkah.",
 "he": "אנחנו מטגנים סופגניות בשמן עמוק לחנוכה."
+},
+{
+"en": "It's healthier to bake than to [deep fry].",
+"he": "זה בריא יותר לאפות מאשר לטגן בשמן עמוק."
+},
+{
+"en": "The restaurant [deep fries] the chicken in fresh oil.",
+"he": "המסעדה מטגנת את העוף בשמן עמוק טרי."
 }
 ]
 },
@@ -3387,6 +4723,14 @@ window.VOCAB = {
 {
 "en": "The cook put the plates on the [pass-through window].",
 "he": "הטבח שם את הצלחות על חלון ההגשה."
+},
+{
+"en": "We opened a [pass-through window] between the kitchen and the living room.",
+"he": "פתחנו חלון הגשה בין המטבח לסלון."
+},
+{
+"en": "The coffee shop sells drinks through a [pass-through window].",
+"he": "בית הקפה מוכר משקאות דרך חלון הגשה."
 }
 ]
 },
@@ -3406,6 +4750,14 @@ window.VOCAB = {
 {
 "en": "The apartment has a sunny [breakfast nook] next to the window.",
 "he": "בדירה יש פינת אוכל קטנה ומוארת ליד החלון."
+},
+{
+"en": "The kids do their homework in the [breakfast nook].",
+"he": "הילדים מכינים שיעורי בית בפינת האוכל הקטנה."
+},
+{
+"en": "We want to add a [breakfast nook] when we renovate the kitchen.",
+"he": "אנחנו רוצים להוסיף פינת אוכל קטנה כשנשפץ את המטבח."
 }
 ]
 }
@@ -3436,6 +4788,14 @@ window.VOCAB = {
 {
 "en": "She [glanced] at her watch and left.",
 "he": "היא העיפה מבט בשעון שלה ויצאה."
+},
+{
+"en": "At first [glance], the offer looks good.",
+"he": "במבט ראשון, ההצעה נראית טובה."
+},
+{
+"en": "He [glanced] at the contract and signed it.",
+"he": "הוא העיף מבט בחוזה וחתם עליו."
 }
 ]
 },
@@ -3455,6 +4815,14 @@ window.VOCAB = {
 {
 "en": "The tenant decided to [sue] his landlord.",
 "he": "השוכר החליט לתבוע את בעל הבית שלו."
+},
+{
+"en": "The client wants to [sue] the builder for the damage.",
+"he": "הלקוח רוצה לתבוע את הקבלן על הנזק."
+},
+{
+"en": "She [sued] the airline for losing her bag.",
+"he": "היא תבעה את חברת התעופה על שאיבדה את התיק שלה."
 }
 ]
 },
@@ -3474,6 +4842,14 @@ window.VOCAB = {
 {
 "en": "Many companies [lease] cars for their workers.",
 "he": "חברות רבות חוכרות (עושות ליסינג) רכבים לעובדים שלהן."
+},
+{
+"en": "The [lease] ends in June, so we need to find a new apartment.",
+"he": "החכירה נגמרת ביוני, אז אנחנו צריכים למצוא דירה חדשה."
+},
+{
+"en": "I [lease] my car through the company.",
+"he": "אני לוקח את הרכב שלי בליסינג דרך החברה."
 }
 ]
 },
@@ -3493,6 +4869,14 @@ window.VOCAB = {
 {
 "en": "The old [flooring] in the kitchen needs to be replaced.",
 "he": "צריך להחליף את הריצוף הישן במטבח."
+},
+{
+"en": "The new [flooring] made the apartment look bigger.",
+"he": "הריצוף החדש גרם לדירה להיראות גדולה יותר."
+},
+{
+"en": "Water damaged the [flooring] in the bathroom.",
+"he": "מים הרסו את הריצוף בחדר האמבטיה."
 }
 ]
 },
@@ -3512,6 +4896,14 @@ window.VOCAB = {
 {
 "en": "Hold the pan by the [handle]; it's hot.",
 "he": "תחזיק את המחבת בידית; היא חמה."
+},
+{
+"en": "The [handle] of my suitcase broke at the airport.",
+"he": "הידית של המזוודה שלי נשברה בשדה התעופה."
+},
+{
+"en": "Turn the [handle] to the left to open the window.",
+"he": "סובב את הידית שמאלה כדי לפתוח את החלון."
 }
 ]
 },
@@ -3531,6 +4923,14 @@ window.VOCAB = {
 {
 "en": "Every room in the hotel has an [en-suite bathroom].",
 "he": "בכל חדר במלון יש חדר רחצה צמוד."
+},
+{
+"en": "We are looking for an apartment with an [en-suite bathroom].",
+"he": "אנחנו מחפשים דירה עם חדר רחצה צמוד."
+},
+{
+"en": "The [en-suite bathroom] is small but very nice.",
+"he": "חדר הרחצה הצמוד קטן אבל מאוד נחמד."
 }
 ]
 },
@@ -3550,6 +4950,14 @@ window.VOCAB = {
 {
 "en": "The lab will [analyze] the blood test.",
 "he": "המעבדה תנתח את בדיקת הדם."
+},
+{
+"en": "I [analyze] each client's needs before I offer a policy.",
+"he": "אני מנתח את הצרכים של כל לקוח לפני שאני מציע פוליסה."
+},
+{
+"en": "My coach [analyzed] my running technique on video.",
+"he": "המאמן שלי ניתח את טכניקת הריצה שלי בווידאו."
 }
 ]
 },
@@ -3569,6 +4977,14 @@ window.VOCAB = {
 {
 "en": "Someone [broke in] to my car last night.",
 "he": "מישהו פרץ לרכב שלי אתמול בלילה."
+},
+{
+"en": "Lock the door, or someone might [break in].",
+"he": "נעל את הדלת, אחרת מישהו עלול לפרוץ."
+},
+{
+"en": "They [broke in] while we were on vacation.",
+"he": "הם פרצו בזמן שהיינו בחופשה."
 }
 ]
 },
@@ -3588,6 +5004,14 @@ window.VOCAB = {
 {
 "en": "After the [break-in], we installed an alarm.",
 "he": "אחרי הפריצה, התקנו אזעקה."
+},
+{
+"en": "The insurance paid for the stolen laptop after the [break-in].",
+"he": "הביטוח שילם על הלפטופ שנגנב אחרי הפריצה."
+},
+{
+"en": "Report a [break-in] to the police right away.",
+"he": "דווח על פריצה למשטרה מיד."
 }
 ]
 },
@@ -3607,6 +5031,14 @@ window.VOCAB = {
 {
 "en": "I want to show my [appreciation] for your help.",
 "he": "אני רוצה להביע את הערכתי על העזרה שלך."
+},
+{
+"en": "Real estate usually has good [appreciation] over the years.",
+"he": "לנדל\"ן בדרך כלל יש עליית ערך טובה לאורך השנים."
+},
+{
+"en": "The [appreciation] of the dollar made our trip more expensive.",
+"he": "עליית הערך של הדולר הפכה את הטיול שלנו ליקר יותר."
 }
 ]
 },
@@ -3626,6 +5058,14 @@ window.VOCAB = {
 {
 "en": "The accountant calculated the [depreciation] of our equipment.",
 "he": "רואה החשבון חישב את הפחת של הציוד שלנו."
+},
+{
+"en": "Electronics have high [depreciation].",
+"he": "למוצרי אלקטרוניקה יש ירידת ערך גבוהה."
+},
+{
+"en": "The [depreciation] of the shekel made imports more expensive.",
+"he": "ירידת הערך של השקל ייקרה את היבוא."
 }
 ]
 },
@@ -3645,6 +5085,14 @@ window.VOCAB = {
 {
 "en": "The [kindergarten] is close to our house.",
 "he": "הגן קרוב לבית שלנו."
+},
+{
+"en": "I pick up my grandson from [kindergarten] on Tuesdays.",
+"he": "אני אוסף את הנכד שלי מהגן בימי שלישי."
+},
+{
+"en": "The [kindergarten] teacher sent us photos of the kids.",
+"he": "הגננת שלחה לנו תמונות של הילדים."
 }
 ]
 },
@@ -3664,6 +5112,14 @@ window.VOCAB = {
 {
 "en": "The [market price] of gold went up again.",
 "he": "מחיר השוק של הזהב עלה שוב."
+},
+{
+"en": "The insurance pays the [market price] of the car, not the price you paid.",
+"he": "הביטוח משלם את מחיר השוק של הרכב, לא את המחיר ששילמת."
+},
+{
+"en": "Fish at the port is cheaper than the [market price].",
+"he": "דגים בנמל זולים יותר ממחיר השוק."
 }
 ]
 },
@@ -3683,6 +5139,14 @@ window.VOCAB = {
 {
 "en": "The bank asked about our total [family income].",
 "he": "הבנק שאל על סך ההכנסה המשפחתית שלנו."
+},
+{
+"en": "Rent should not be more than a third of your [family income].",
+"he": "שכר הדירה לא צריך להיות יותר משליש מההכנסה המשפחתית שלך."
+},
+{
+"en": "Our [family income] dropped when my wife was on maternity leave.",
+"he": "ההכנסה המשפחתית שלנו ירדה כשאשתי הייתה בחופשת לידה."
 }
 ]
 }
@@ -3713,6 +5177,14 @@ window.VOCAB = {
 {
 "en": "The bank asked for [life cover] before giving the mortgage.",
 "he": "הבנק ביקש ביטוח חיים לפני שנתן את המשכנתא."
+},
+{
+"en": "Young parents should think about [life cover].",
+"he": "הורים צעירים צריכים לחשוב על ביטוח חיים."
+},
+{
+"en": "The price of [life cover] depends on your age and health.",
+"he": "המחיר של ביטוח חיים תלוי בגיל ובבריאות שלך."
 }
 ]
 },
@@ -3732,6 +5204,14 @@ window.VOCAB = {
 {
 "en": "With [comprehensive cover], damage to your own car is also paid.",
 "he": "עם ביטוח מקיף, גם נזק לרכב שלך משולם."
+},
+{
+"en": "My agent recommended [comprehensive cover] for the new car.",
+"he": "הסוכן שלי המליץ על ביטוח מקיף לרכב החדש."
+},
+{
+"en": "[Comprehensive cover] also pays if your car is stolen.",
+"he": "ביטוח מקיף משלם גם אם הרכב שלך נגנב."
 }
 ]
 },
@@ -3751,6 +5231,14 @@ window.VOCAB = {
 {
 "en": "This policy offers [limited cover] for dental care.",
 "he": "הפוליסה הזאת מציעה כיסוי מוגבל לטיפולי שיניים."
+},
+{
+"en": "Read the policy carefully; it's only [limited cover].",
+"he": "קרא את הפוליסה בעיון; זה רק ביטוח מוגבל."
+},
+{
+"en": "For an old car, [limited cover] is often enough.",
+"he": "לרכב ישן, ביטוח מוגבל לעיתים קרובות מספיק."
 }
 ]
 },
@@ -3770,6 +5258,14 @@ window.VOCAB = {
 {
 "en": "This post is [sponsored], so it's really an ad.",
 "he": "הפוסט הזה ממומן, אז הוא בעצם פרסומת."
+},
+{
+"en": "My son's football team is [sponsored] by a pizza shop.",
+"he": "קבוצת הכדורגל של הבן שלי ממומנת על ידי פיצריה."
+},
+{
+"en": "The trip was [sponsored] by the company.",
+"he": "הטיול מומן על ידי החברה."
 }
 ]
 },
@@ -3789,6 +5285,14 @@ window.VOCAB = {
 {
 "en": "I need to [deposit] this check at the bank.",
 "he": "אני צריך להפקיד את הצ'ק הזה בבנק."
+},
+{
+"en": "We got our [deposit] back when we left the apartment.",
+"he": "קיבלנו את הפיקדון שלנו בחזרה כשעזבנו את הדירה."
+},
+{
+"en": "I [deposit] part of my salary into savings every month.",
+"he": "אני מפקיד חלק מהמשכורת שלי לחיסכון כל חודש."
 }
 ]
 },
@@ -3808,6 +5312,14 @@ window.VOCAB = {
 {
 "en": "The phone was cheap, but every [add on] cost extra.",
 "he": "הטלפון היה זול, אבל כל תוספת עלתה כסף נוסף."
+},
+{
+"en": "Roadside assistance is a cheap [add on] to car insurance.",
+"he": "שירותי דרך הם תוספת זולה לביטוח רכב."
+},
+{
+"en": "Do I need this [add on], or is the basic plan enough?",
+"he": "האם אני צריך את התוספת הזאת, או שהתוכנית הבסיסית מספיקה?"
 }
 ]
 },
@@ -3827,6 +5339,14 @@ window.VOCAB = {
 {
 "en": "Every [donation] helps the children.",
 "he": "כל תרומה עוזרת לילדים."
+},
+{
+"en": "Our company gives a [donation] to charity every year.",
+"he": "החברה שלנו נותנת תרומה לצדקה כל שנה."
+},
+{
+"en": "Thank you for your generous [donation].",
+"he": "תודה על התרומה הנדיבה שלך."
 }
 ]
 },
@@ -3846,6 +5366,14 @@ window.VOCAB = {
 {
 "en": "Smokers pay a higher [premium] for life insurance.",
 "he": "מעשנים משלמים פרמיה גבוהה יותר על ביטוח חיים."
+},
+{
+"en": "You can pay the [premium] monthly or once a year.",
+"he": "אפשר לשלם את הפרמיה כל חודש או פעם בשנה."
+},
+{
+"en": "If you install an alarm, your [premium] will go down.",
+"he": "אם תתקין אזעקה, הפרמיה שלך תרד."
 }
 ]
 },
@@ -3865,6 +5393,14 @@ window.VOCAB = {
 {
 "en": "Don't [exclude] anyone from the game.",
 "he": "אל תוציא אף אחד מהמשחק."
+},
+{
+"en": "The price [excludes] VAT.",
+"he": "המחיר לא כולל מע\"מ."
+},
+{
+"en": "This policy [excludes] extreme sports.",
+"he": "הפוליסה הזאת לא כוללת ספורט אתגרי."
 }
 ]
 },
@@ -3884,6 +5420,14 @@ window.VOCAB = {
 {
 "en": "He asked for [compensation] after the accident.",
 "he": "הוא ביקש פיצוי אחרי התאונה."
+},
+{
+"en": "The insurance company offered fair [compensation] for the damage.",
+"he": "חברת הביטוח הציעה פיצוי הוגן על הנזק."
+},
+{
+"en": "Workers get [compensation] if they are fired without notice.",
+"he": "עובדים מקבלים פיצוי אם מפטרים אותם בלי הודעה מוקדמת."
 }
 ]
 },
@@ -3903,6 +5447,14 @@ window.VOCAB = {
 {
 "en": "The [insurance claim] was approved in two weeks.",
 "he": "תביעת הביטוח אושרה תוך שבועיים."
+},
+{
+"en": "Take photos of the damage before you file an [insurance claim].",
+"he": "צלם את הנזק לפני שאתה מגיש תביעת ביטוח."
+},
+{
+"en": "I help clients with every step of the [insurance claim].",
+"he": "אני עוזר ללקוחות בכל שלב של תביעת הביטוח."
 }
 ]
 },
@@ -3922,6 +5474,14 @@ window.VOCAB = {
 {
 "en": "They rejected my [claim] because the policy had expired.",
 "he": "הם דחו את התביעה שלי כי הפוליסה פגה."
+},
+{
+"en": "The company [claims] the product is safe.",
+"he": "החברה טוענת שהמוצר בטוח."
+},
+{
+"en": "How long does it take to process a [claim]?",
+"he": "כמה זמן לוקח לטפל בתביעה?"
 }
 ]
 },
@@ -3941,6 +5501,14 @@ window.VOCAB = {
 {
 "en": "Third-party [liability] insurance is required by law.",
 "he": "ביטוח צד ג' (חבות כלפי צד שלישי) הוא חובה לפי החוק."
+},
+{
+"en": "The driver admitted [liability] for the accident.",
+"he": "הנהג הודה באחריות לתאונה."
+},
+{
+"en": "Business owners need [liability] insurance.",
+"he": "בעלי עסקים צריכים ביטוח אחריות."
 }
 ]
 },
@@ -3960,6 +5528,14 @@ window.VOCAB = {
 {
 "en": "The [renewal] of my passport took three weeks.",
 "he": "חידוש הדרכון שלי לקח שלושה שבועות."
+},
+{
+"en": "Check the price before the automatic [renewal].",
+"he": "בדוק את המחיר לפני החידוש האוטומטי."
+},
+{
+"en": "The gym sent me a [renewal] reminder.",
+"he": "חדר הכושר שלח לי תזכורת לחידוש."
 }
 ]
 },
@@ -3979,6 +5555,14 @@ window.VOCAB = {
 {
 "en": "We decided not to [renew] the contract.",
 "he": "החלטנו לא לחדש את החוזה."
+},
+{
+"en": "I need to [renew] my passport before the trip.",
+"he": "אני צריך לחדש את הדרכון לפני הטיול."
+},
+{
+"en": "The client [renewed] his home insurance for another year.",
+"he": "הלקוח חידש את ביטוח הדירה שלו לשנה נוספת."
 }
 ]
 }
@@ -4009,6 +5593,14 @@ window.VOCAB = {
 {
 "en": "I had a [stressful] day at work.",
 "he": "היה לי יום מלחיץ בעבודה."
+},
+{
+"en": "The end of the year is always [stressful] at the office.",
+"he": "סוף השנה תמיד מלחיץ במשרד."
+},
+{
+"en": "Driving in Tel Aviv is [stressful].",
+"he": "לנהוג בתל אביב זה מלחיץ."
 }
 ]
 },
@@ -4028,6 +5620,14 @@ window.VOCAB = {
 {
 "en": "Mornings with three kids are always [chaotic].",
 "he": "בקרים עם שלושה ילדים הם תמיד כאוטיים."
+},
+{
+"en": "The kitchen was [chaotic] after the party.",
+"he": "המטבח היה כאוטי אחרי המסיבה."
+},
+{
+"en": "Traffic was [chaotic] because of the rain.",
+"he": "התנועה הייתה כאוטית בגלל הגשם."
 }
 ]
 },
@@ -4047,6 +5647,14 @@ window.VOCAB = {
 {
 "en": "Can I make an [appointment] for next week?",
 "he": "אפשר לקבוע פגישה לשבוע הבא?"
+},
+{
+"en": "I have three client [appointments] tomorrow.",
+"he": "יש לי מחר שלוש פגישות עם לקוחות."
+},
+{
+"en": "I'm sorry, I need to cancel my [appointment].",
+"he": "סליחה, אני צריך לבטל את הפגישה שלי."
 }
 ]
 },
@@ -4066,6 +5674,14 @@ window.VOCAB = {
 {
 "en": "Let's [schedule] a meeting for Monday.",
 "he": "בוא נקבע פגישה ליום שני."
+},
+{
+"en": "The train is running behind [schedule].",
+"he": "הרכבת מאחרת לפי לוח הזמנים."
+},
+{
+"en": "I [scheduled] my English lesson for Thursday evening.",
+"he": "קבעתי את שיעור האנגלית שלי ליום חמישי בערב."
 }
 ]
 },
@@ -4085,6 +5701,14 @@ window.VOCAB = {
 {
 "en": "In a marriage, you have to [compromise] sometimes.",
 "he": "בנישואים צריך להתפשר לפעמים."
+},
+{
+"en": "The final price was a [compromise] between both sides.",
+"he": "המחיר הסופי היה פשרה בין שני הצדדים."
+},
+{
+"en": "We [compromised]: pizza tonight, salad tomorrow.",
+"he": "הגענו לפשרה: פיצה הערב, סלט מחר."
 }
 ]
 },
@@ -4104,6 +5728,14 @@ window.VOCAB = {
 {
 "en": "The workers [demand] a higher salary.",
 "he": "העובדים דורשים משכורת גבוהה יותר."
+},
+{
+"en": "[Demand] for electric cars is growing.",
+"he": "הביקוש למכוניות חשמליות גדל."
+},
+{
+"en": "The client [demanded] a full refund.",
+"he": "הלקוח דרש החזר מלא."
 }
 ]
 },
@@ -4123,6 +5755,14 @@ window.VOCAB = {
 {
 "en": "I'm trying to break the [habit] of checking my phone at night.",
 "he": "אני מנסה להיגמל מההרגל לבדוק את הטלפון בלילה."
+},
+{
+"en": "Saving ten percent of your salary should become a [habit].",
+"he": "לחסוך עשרה אחוז מהמשכורת צריך להפוך להרגל."
+},
+{
+"en": "Going to the gym in the morning is now a [habit] for me.",
+"he": "ללכת לחדר הכושר בבוקר הפך אצלי להרגל."
 }
 ]
 },
@@ -4142,6 +5782,14 @@ window.VOCAB = {
 {
 "en": "The teacher [emphasised] the correct pronunciation.",
 "he": "המורה הדגישה את ההגייה הנכונה."
+},
+{
+"en": "My advisor always [emphasises] the long term.",
+"he": "היועץ שלי תמיד מדגיש את הטווח הארוך."
+},
+{
+"en": "Let me [emphasise] one thing: read before you sign.",
+"he": "תן לי להדגיש דבר אחד: לקרוא לפני שחותמים."
 }
 ]
 },
@@ -4161,6 +5809,14 @@ window.VOCAB = {
 {
 "en": "The [emphasis] in this word is on the first syllable.",
 "he": "הדגש במילה הזאת הוא על ההברה הראשונה."
+},
+{
+"en": "The coach puts [emphasis] on good technique.",
+"he": "המאמן שם דגש על טכניקה טובה."
+},
+{
+"en": "Put the [emphasis] on the second syllable: \"ho-TEL\".",
+"he": "שים את הדגש על ההברה השנייה: \"ho-TEL\"."
 }
 ]
 }
@@ -4191,6 +5847,14 @@ window.VOCAB = {
 {
 "en": "A [shared hobby] is a great way to make friends.",
 "he": "תחביב משותף הוא דרך מצוינת להכיר חברים."
+},
+{
+"en": "Hiking is a [shared hobby] in our family.",
+"he": "טיולים הם תחביב משותף במשפחה שלנו."
+},
+{
+"en": "My son and I found a [shared hobby]: fishing.",
+"he": "אני והבן שלי מצאנו תחביב משותף: דיג."
 }
 ]
 },
@@ -4210,6 +5874,14 @@ window.VOCAB = {
 {
 "en": "[Public transport] in London is excellent.",
 "he": "התחבורה הציבורית בלונדון מצוינת."
+},
+{
+"en": "[Public transport] is cheaper than parking in the city.",
+"he": "תחבורה ציבורית זולה יותר מחניה בעיר."
+},
+{
+"en": "There is no [public transport] on Saturday in our town.",
+"he": "אין תחבורה ציבורית בשבת בעיר שלנו."
 }
 ]
 },
@@ -4229,6 +5901,14 @@ window.VOCAB = {
 {
 "en": "[Mixed breed] dogs are often very healthy.",
 "he": "כלבים מגזע מעורב הם לעתים קרובות בריאים מאוד."
+},
+{
+"en": "The [mixed breed] puppy is very friendly.",
+"he": "הגור מגזע מעורב מאוד ידידותי."
+},
+{
+"en": "We adopted a [mixed breed] cat last year.",
+"he": "אימצנו חתול מגזע מעורב בשנה שעברה."
 }
 ]
 },
@@ -4248,6 +5928,14 @@ window.VOCAB = {
 {
 "en": "[Pure breed] dogs can be very expensive.",
 "he": "כלבים גזעיים יכולים להיות מאוד יקרים."
+},
+{
+"en": "A [pure breed] dog usually comes with papers.",
+"he": "כלב מגזע טהור בדרך כלל מגיע עם תעודות."
+},
+{
+"en": "She shows her [pure breed] cats at competitions.",
+"he": "היא מציגה את החתולים שלה מגזע טהור בתחרויות."
 }
 ]
 },
@@ -4267,6 +5955,14 @@ window.VOCAB = {
 {
 "en": "The apartment has a big [balcony] with a sea view.",
 "he": "לדירה יש מרפסת גדולה עם נוף לים."
+},
+{
+"en": "I water the plants on the [balcony] every evening.",
+"he": "אני משקה את הצמחים במרפסת כל ערב."
+},
+{
+"en": "An apartment with a [balcony] costs more.",
+"he": "דירה עם מרפסת עולה יותר."
 }
 ]
 },
@@ -4286,6 +5982,14 @@ window.VOCAB = {
 {
 "en": "She works in [sales] for a tech company.",
 "he": "היא עובדת במכירות בחברת הייטק."
+},
+{
+"en": "The [sales] team meets every Monday morning.",
+"he": "צוות המכירות נפגש כל יום שני בבוקר."
+},
+{
+"en": "Online [sales] grow every year.",
+"he": "המכירות באינטרנט גדלות כל שנה."
 }
 ]
 },
@@ -4305,6 +6009,14 @@ window.VOCAB = {
 {
 "en": "He is an [independent] insurance agent.",
 "he": "הוא סוכן ביטוח עצמאי."
+},
+{
+"en": "I became [independent] after ten years as an employee.",
+"he": "הפכתי לעצמאי אחרי עשר שנים כשכיר."
+},
+{
+"en": "[Independent] workers must save for their own pension.",
+"he": "עובדים עצמאיים חייבים לחסוך לפנסיה בעצמם."
 }
 ]
 },
@@ -4324,6 +6036,14 @@ window.VOCAB = {
 {
 "en": "I bought a new [domain] for my website.",
 "he": "קניתי דומיין חדש לאתר שלי."
+},
+{
+"en": "Cooking is my wife's [domain]; I just wash the dishes.",
+"he": "בישול זה התחום של אשתי; אני רק שוטף את הכלים."
+},
+{
+"en": "Pensions and insurance are my [domain].",
+"he": "פנסיה וביטוח הם התחום שלי."
 }
 ]
 }
@@ -4463,6 +6183,130 @@ window.VOCAB = {
 "I am managing the sales team every year."
 ],
 "why": "תפקיד קבוע ← הווה פשוט. הווה מתמשך לא מתאים לדבר שקורה כל שנה."
+},
+{
+"q": "My wife ___ at a bank.",
+"a": [
+"works",
+"is work",
+"work"
+],
+"why": "עובדה קבועה ← הווה פשוט, ועם she מוסיפים s."
+},
+{
+"q": "Look! It ___ outside.",
+"a": [
+"is raining",
+"rains",
+"rain"
+],
+"why": "Look! – קורה ממש עכשיו ← הווה מתמשך."
+},
+{
+"q": "I ___ coffee every morning before work.",
+"a": [
+"drink",
+"am drinking",
+"drinks"
+],
+"why": "הרגל (every morning) ← הווה פשוט."
+},
+{
+"q": "This month we ___ a new pension product.",
+"a": [
+"are launching",
+"launches",
+"launch"
+],
+"why": "משהו זמני (this month) ← הווה מתמשך."
+},
+{
+"q": "She ___ the answer to your question.",
+"a": [
+"knows",
+"is knowing",
+"know"
+],
+"why": "know – פועל מצב, לא בא עם ing. עם she מוסיפים s."
+},
+{
+"q": "The kids ___ TV at the moment.",
+"a": [
+"are watching",
+"watch",
+"is watching"
+],
+"why": "at the moment ← הווה מתמשך. the kids = they ← are."
+},
+{
+"q": "___ your manager usually answer emails quickly?",
+"a": [
+"Does",
+"Do",
+"Is"
+],
+"why": "שאלה על הרגל עם he/she ← Does."
+},
+{
+"q": "We ___ work on Saturdays.",
+"a": [
+"don't",
+"doesn't",
+"aren't"
+],
+"why": "שלילה בהווה פשוט עם we ← don't."
+},
+{
+"q": "He ___ to lose weight these days.",
+"a": [
+"is trying",
+"tries",
+"try"
+],
+"why": "these days – מצב זמני ← הווה מתמשך."
+},
+{
+"q": "The office ___ at 9 a.m.",
+"a": [
+"opens",
+"is opening",
+"open"
+],
+"why": "לוח זמנים קבוע ← הווה פשוט, ועם it מוסיפים s."
+},
+{
+"q": "I ___ this new car. It's great!",
+"a": [
+"love",
+"am loving",
+"loves"
+],
+"why": "love – פועל מצב, בדרך כלל בלי ing."
+},
+{
+"q": "Why ___ you smiling?",
+"a": [
+"are",
+"do",
+"is"
+],
+"why": "smiling = ing ← הווה מתמשך, עם you ← are."
+},
+{
+"q": "",
+"a": [
+"She is having a meeting right now.",
+"She has a meeting right now every day."
+],
+"why": "right now ← הווה מתמשך. right now ו-every day לא הולכים יחד."
+},
+{
+"q": "",
+"a": [
+"My brother lives in Haifa.",
+"My brother is live in Haifa."
+],
+"why": "לא שמים is לפני פועל רגיל בהווה פשוט ← lives."
 }
 ],
 "blocks": [
@@ -4687,6 +6531,120 @@ window.VOCAB = {
 "He didn't understood the question."
 ],
 "why": "אחרי didn't – understand, ולא understood."
+},
+{
+"q": "I didn't ___ my keys this morning.",
+"a": [
+"find",
+"found",
+"finds"
+],
+"why": "אחרי didn't – צורת בסיס: find."
+},
+{
+"q": "The client didn't ___ the papers.",
+"a": [
+"bring",
+"brought",
+"brings"
+],
+"why": "אחרי didn't – צורת בסיס: bring (לא brought)."
+},
+{
+"q": "We didn't ___ dinner last night.",
+"a": [
+"eat",
+"ate",
+"eaten"
+],
+"why": "אחרי didn't – צורת בסיס: eat."
+},
+{
+"q": "Did you ___ well last night?",
+"a": [
+"sleep",
+"slept",
+"sleeps"
+],
+"why": "בשאלה עם Did – צורת בסיס: sleep."
+},
+{
+"q": "He didn't ___ the deadline.",
+"a": [
+"miss",
+"missed",
+"misses"
+],
+"why": "אחרי didn't לא מוסיפים ed: miss."
+},
+{
+"q": "She ___ the report yesterday.",
+"a": [
+"wrote",
+"write",
+"didn't wrote"
+],
+"why": "משפט חיובי בעבר ← wrote."
+},
+{
+"q": "They didn't ___ me about the change.",
+"a": [
+"tell",
+"told",
+"tells"
+],
+"why": "אחרי didn't – tell (לא told)."
+},
+{
+"q": "Did your son ___ his homework?",
+"a": [
+"do",
+"did",
+"does"
+],
+"why": "בשאלה עם Did – צורת בסיס: do."
+},
+{
+"q": "I didn't ___ the train this morning.",
+"a": [
+"take",
+"took",
+"taken"
+],
+"why": "אחרי didn't – צורת בסיס: take."
+},
+{
+"q": "We ___ the deal last week.",
+"a": [
+"closed",
+"close",
+"didn't closed"
+],
+"why": "משפט חיובי בעבר ← closed."
+},
+{
+"q": "",
+"a": [
+"I didn't see the email.",
+"I didn't saw the email."
+],
+"why": "אחרי didn't – see, ולא saw."
+},
+{
+"q": "",
+"a": [
+"Did she call you back?",
+"Did she called you back?"
+],
+"why": "אחרי Did – call, בלי ed."
+},
+{
+"q": "",
+"a": [
+"We didn't have time.",
+"We didn't had time."
+],
+"why": "אחרי didn't – have, ולא had."
 }
 ],
 "blocks": [
@@ -4810,6 +6768,112 @@ window.VOCAB = {
 "Whole my files are on the computer."
 ],
 "why": "הרבה קבצים ← All my files."
+},
+{
+"q": "I cleaned the ___ house on Friday.",
+"a": [
+"whole",
+"all",
+"all of"
+],
+"why": "בית אחד שלם ← the whole house."
+},
+{
+"q": "___ the employees got a bonus.",
+"a": [
+"All",
+"The whole",
+"Whole"
+],
+"why": "הרבה עובדים (רבים) ← All the employees."
+},
+{
+"q": "She talked during the ___ meeting.",
+"a": [
+"whole",
+"all",
+"all of"
+],
+"why": "פגישה אחת מההתחלה עד הסוף ← the whole meeting."
+},
+{
+"q": "___ my friends play football.",
+"a": [
+"All",
+"Whole",
+"The whole"
+],
+"why": "הרבה חברים ← All my friends."
+},
+{
+"q": "It rained the ___ week.",
+"a": [
+"whole",
+"all",
+"all of"
+],
+"why": "שבוע אחד שלם ← the whole week."
+},
+{
+"q": "I paid ___ the bills yesterday.",
+"a": [
+"all",
+"whole",
+"the whole"
+],
+"why": "כמה חשבונות (רבים) ← all the bills."
+},
+{
+"q": "The ___ team worked late.",
+"a": [
+"whole",
+"all",
+"all of"
+],
+"why": "צוות אחד שלם ← the whole team."
+},
+{
+"q": "___ the policies are in this folder.",
+"a": [
+"All",
+"Whole",
+"The whole"
+],
+"why": "הרבה פוליסות ← All the policies."
+},
+{
+"q": "He told me the ___ story.",
+"a": [
+"whole",
+"all",
+"all of"
+],
+"why": "סיפור אחד, מההתחלה עד הסוף ← the whole story."
+},
+{
+"q": "___ the windows in the house are open.",
+"a": [
+"All",
+"Whole",
+"The whole"
+],
+"why": "הרבה חלונות ← All the windows."
+},
+{
+"q": "",
+"a": [
+"I spent the whole morning at the gym.",
+"I spent the all morning at the gym."
+],
+"why": "הסדר הנכון: the whole + שם עצם ביחיד."
+},
+{
+"q": "",
+"a": [
+"All the children are sleeping.",
+"Whole the children are sleeping."
+],
+"why": "הרבה ילדים ← All the children."
 }
 ],
 "blocks": [
@@ -4907,6 +6971,110 @@ window.VOCAB = {
 "We very appreciate your help."
 ],
 "why": "appreciate הוא פועל ← really appreciate."
+},
+{
+"q": "This apartment is ___ expensive.",
+"a": [
+"very",
+"very much",
+"much"
+],
+"why": "לפני שם תואר (expensive) ← very."
+},
+{
+"q": "I ___ hope you feel better.",
+"a": [
+"really",
+"very",
+"very much"
+],
+"why": "לפני פועל (hope) ← really."
+},
+{
+"q": "She ___ loves her job.",
+"a": [
+"really",
+"very",
+"much"
+],
+"why": "לפני פועל (loves) ← really."
+},
+{
+"q": "The gym is ___ busy today.",
+"a": [
+"very",
+"very much",
+"much"
+],
+"why": "לפני שם תואר (busy) ← very (גם really מתאים, אבל לא very much)."
+},
+{
+"q": "We ___ enjoyed the trip.",
+"a": [
+"really",
+"very",
+"much"
+],
+"why": "לפני פועל (enjoyed) ← really."
+},
+{
+"q": "He drives ___ fast.",
+"a": [
+"very",
+"very much",
+"much"
+],
+"why": "לפני תואר הפועל (fast) ← very."
+},
+{
+"q": "I ___ don't understand this form.",
+"a": [
+"really",
+"very",
+"much"
+],
+"why": "לפני פועל (don't understand) ← really."
+},
+{
+"q": "Thanks ___ much for your help!",
+"a": [
+"very",
+"really",
+"so very"
+],
+"why": "Thanks very much – ביטוי קבוע."
+},
+{
+"q": "",
+"a": [
+"I really miss my family.",
+"I very miss my family."
+],
+"why": "miss הוא פועל ← really miss."
+},
+{
+"q": "",
+"a": [
+"The coffee is very hot.",
+"The coffee very is hot."
+],
+"why": "very בא לפני שם התואר: very hot."
+},
+{
+"q": "",
+"a": [
+"My kids really love pizza.",
+"My kids very love pizza."
+],
+"why": "love הוא פועל ← really love."
+},
+{
+"q": "",
+"a": [
+"He really wants a new car.",
+"He very wants a new car."
+],
+"why": "want הוא פועל ← really wants."
 }
 ],
 "blocks": [
@@ -5062,6 +7230,120 @@ window.VOCAB = {
 "I want go to the gym."
 ],
 "why": "want הוא לא פועל מודאלי – אחריו כן צריך to: want to go."
+},
+{
+"q": "You can ___ me tomorrow.",
+"a": [
+"call",
+"to call",
+"calls"
+],
+"why": "אחרי can – בלי to."
+},
+{
+"q": "We must ___ the report by Friday.",
+"a": [
+"finish",
+"to finish",
+"finishing"
+],
+"why": "אחרי must – צורת בסיס."
+},
+{
+"q": "She should ___ more water.",
+"a": [
+"drink",
+"to drink",
+"drinks"
+],
+"why": "אחרי should – בלי to ובלי s."
+},
+{
+"q": "It might ___ later.",
+"a": [
+"rain",
+"to rain",
+"rains"
+],
+"why": "אחרי might – צורת בסיס."
+},
+{
+"q": "Could you ___ me with this form?",
+"a": [
+"help",
+"to help",
+"helping"
+],
+"why": "אחרי could – בלי to."
+},
+{
+"q": "I would ___ to visit London.",
+"a": [
+"love",
+"to love",
+"loving"
+],
+"why": "אחרי would – צורת בסיס: would love."
+},
+{
+"q": "He ___ drive a truck.",
+"a": [
+"can",
+"cans",
+"can to"
+],
+"why": "can לא מקבל s, ואחריו אין to."
+},
+{
+"q": "You may ___ now.",
+"a": [
+"leave",
+"to leave",
+"leaving"
+],
+"why": "אחרי may – בלי to."
+},
+{
+"q": "We need ___ the client today.",
+"a": [
+"to call",
+"call",
+"calling"
+],
+"why": "need הוא לא פועל מודאלי ← need to call."
+},
+{
+"q": "They should ___ their insurance policy.",
+"a": [
+"check",
+"to check",
+"checks"
+],
+"why": "אחרי should – צורת בסיס."
+},
+{
+"q": "",
+"a": [
+"You must wear a seatbelt.",
+"You must to wear a seatbelt."
+],
+"why": "אחרי must – בלי to."
+},
+{
+"q": "",
+"a": [
+"I can swim very well.",
+"I can to swim very well."
+],
+"why": "אחרי can – בלי to."
+},
+{
+"q": "",
+"a": [
+"She would like a coffee.",
+"She would to like a coffee."
+],
+"why": "אחרי would – בלי to."
 }
 ],
 "blocks": [
@@ -5219,6 +7501,121 @@ window.VOCAB = {
 "He runs fastly."
 ],
 "why": "fast לא מקבל ly – he runs fast."
+},
+{
+"q": "He is a ___ worker.",
+"a": [
+"hard",
+"hardly",
+"hardy"
+],
+"why": "מתאר את worker ← hard (שם תואר)."
+},
+{
+"q": "Please speak ___.",
+"a": [
+"slowly",
+"slow",
+"slowy"
+],
+"why": "מתאר איך לדבר (פועל) ← slowly."
+},
+{
+"q": "The test was ___.",
+"a": [
+"easy",
+"easily",
+"easyly"
+],
+"why": "מתאר את the test (שם עצם) ← easy."
+},
+{
+"q": "She passed the test ___.",
+"a": [
+"easily",
+"easy",
+"easyly"
+],
+"why": "מתאר איך עברה (פועל) ← easily."
+},
+{
+"q": "My son plays the guitar ___.",
+"a": [
+"well",
+"good",
+"goodly"
+],
+"why": "מתאר את הפועל plays ← well."
+},
+{
+"q": "This is a ___ apartment.",
+"a": [
+"lovely",
+"lovelily",
+"love"
+],
+"why": "lovely נגמר ב-ly אבל הוא שם תואר – מתאר את apartment."
+},
+{
+"q": "I get up ___ every day.",
+"a": [
+"early",
+"earlyly",
+"earlier"
+],
+"why": "early הוא גם Adverb, בלי תוספת ly."
+},
+{
+"q": "He answered the question ___.",
+"a": [
+"correctly",
+"correct",
+"corectly"
+],
+"why": "מתאר איך ענה (פועל) ← correctly."
+},
+{
+"q": "The weather is ___ today.",
+"a": [
+"beautiful",
+"beautifully",
+"beauty"
+],
+"why": "מתאר את the weather (שם עצם) ← beautiful."
+},
+{
+"q": "We pay the rent ___.",
+"a": [
+"monthly",
+"month",
+"monthy"
+],
+"why": "monthly = כל חודש."
+},
+{
+"q": "She is a ___ person.",
+"a": [
+"quiet",
+"quietly",
+"quite"
+],
+"why": "מתאר את person ← quiet (quite = די, מילה אחרת)."
+},
+{
+"q": "",
+"a": [
+"He drives very fast.",
+"He drives very fastly."
+],
+"why": "fast נשאר בלי ly."
+},
+{
+"q": "",
+"a": [
+"You did a good job.",
+"You did a well job."
+],
+"why": "לפני שם עצם (job) ← good."
 }
 ],
 "blocks": [
@@ -5534,6 +7931,121 @@ window.VOCAB = {
 "Does he has a pension plan?"
 ],
 "why": "אחרי does – have, ולא has."
+},
+{
+"q": "___ they live near you?",
+"a": [
+"Do",
+"Does",
+"Are"
+],
+"why": "they ← Do."
+},
+{
+"q": "___ your son like football?",
+"a": [
+"Does",
+"Do",
+"Is"
+],
+"why": "your son = he ← Does."
+},
+{
+"q": "She ___ have a car.",
+"a": [
+"doesn't",
+"don't",
+"isn't"
+],
+"why": "שלילה עם she ← doesn't + have."
+},
+{
+"q": "I ___ a meeting at 10.",
+"a": [
+"have",
+"has",
+"am have"
+],
+"why": "I ← have."
+},
+{
+"q": "My boss ___ a new office.",
+"a": [
+"has",
+"have",
+"haves"
+],
+"why": "my boss = he/she ← has."
+},
+{
+"q": "What time ___ you usually have breakfast?",
+"a": [
+"do",
+"does",
+"are"
+],
+"why": "you ← do."
+},
+{
+"q": "___ it rain a lot in Tel Aviv?",
+"a": [
+"Does",
+"Do",
+"Is"
+],
+"why": "it ← Does."
+},
+{
+"q": "Does he ___ English?",
+"a": [
+"speak",
+"speaks",
+"speaking"
+],
+"why": "אחרי does – הפועל בלי s."
+},
+{
+"q": "We ___ dinner together every Friday.",
+"a": [
+"have",
+"has",
+"do"
+],
+"why": "have dinner – ביטוי קבוע, עם we ← have."
+},
+{
+"q": "He ___ his homework after school.",
+"a": [
+"does",
+"do",
+"makes"
+],
+"why": "do homework = להכין שיעורי בית. עם he ← does."
+},
+{
+"q": "They ___ eat sugar.",
+"a": [
+"don't",
+"doesn't",
+"aren't"
+],
+"why": "שלילה עם they ← don't."
+},
+{
+"q": "",
+"a": [
+"Do you have any questions?",
+"Does you have any questions?"
+],
+"why": "you ← Do."
+},
+{
+"q": "",
+"a": [
+"She has two brothers.",
+"She have two brothers."
+],
+"why": "she ← has."
 }
 ],
 "blocks": [
@@ -5812,6 +8324,111 @@ window.VOCAB = {
 "My wife will to cook dinner tonight."
 ],
 "why": "will + verb, בלי to."
+},
+{
+"q": "I will ___ the email tonight.",
+"a": [
+"send",
+"to send",
+"sends"
+],
+"why": "אחרי will – צורת בסיס, בלי to."
+},
+{
+"q": "He will ___ late today.",
+"a": [
+"be",
+"to be",
+"is"
+],
+"why": "אחרי will – be (לא is)."
+},
+{
+"q": "We will ___ you next week.",
+"a": [
+"visit",
+"to visit",
+"visits"
+],
+"why": "will + verb, בלי to."
+},
+{
+"q": "I want ___ a new phone.",
+"a": [
+"to buy",
+"buy",
+"buying"
+],
+"why": "want – צריך to: want to buy."
+},
+{
+"q": "The meeting will ___ at 3.",
+"a": [
+"start",
+"to start",
+"starts"
+],
+"why": "אחרי will – בלי s ובלי to."
+},
+{
+"q": "She ___ call you tomorrow.",
+"a": [
+"will",
+"will to",
+"wills"
+],
+"why": "will לא משתנה ואין אחריו to."
+},
+{
+"q": "I need ___ more.",
+"a": [
+"to sleep",
+"sleep",
+"sleeping"
+],
+"why": "need – צריך to."
+},
+{
+"q": "They will ___ the house in May.",
+"a": [
+"sell",
+"to sell",
+"sold"
+],
+"why": "will + צורת בסיס: will sell."
+},
+{
+"q": "I will ___ harder next time.",
+"a": [
+"try",
+"to try",
+"tried"
+],
+"why": "will + צורת בסיס."
+},
+{
+"q": "",
+"a": [
+"It will be sunny tomorrow.",
+"It will to be sunny tomorrow."
+],
+"why": "אחרי will – בלי to."
+},
+{
+"q": "",
+"a": [
+"I will pay you back on Sunday.",
+"I will to pay you back on Sunday."
+],
+"why": "will + verb, בלי to."
+},
+{
+"q": "",
+"a": [
+"We need to talk.",
+"We need talk."
+],
+"why": "need – כן צריך to."
 }
 ],
 "blocks": [
@@ -5983,6 +8600,129 @@ window.VOCAB = {
 "We watched TV when the lights were going out."
 ],
 "why": "הפעולה הארוכה ← were watching, הפעולה שקטעה ← went out."
+},
+{
+"q": "She ___ a book when I came in.",
+"a": [
+"was reading",
+"read",
+"were reading"
+],
+"why": "פעולה ארוכה שנקטעה ← was + ing. עם she ← was."
+},
+{
+"q": "We ___ to Eilat last summer.",
+"a": [
+"went",
+"were go",
+"was went"
+],
+"why": "עבר פשוט – פועל אחד: went."
+},
+{
+"q": "I ___ a teacher many years ago.",
+"a": [
+"was",
+"were",
+"was be"
+],
+"why": "I בעבר ← was."
+},
+{
+"q": "They ___ football when it started to rain.",
+"a": [
+"were playing",
+"played",
+"was playing"
+],
+"why": "פעולה ארוכה שנקטעה ← were + ing."
+},
+{
+"q": "He ___ me yesterday.",
+"a": [
+"called",
+"was called",
+"was call"
+],
+"why": "עבר פשוט – לא שמים was לפני פועל בעבר."
+},
+{
+"q": "While I was cooking, the phone ___.",
+"a": [
+"rang",
+"was ring",
+"ringed"
+],
+"why": "הפעולה הקצרה שקטעה ← עבר פשוט: rang."
+},
+{
+"q": "You ___ very tired last night.",
+"a": [
+"were",
+"was",
+"are"
+],
+"why": "you בעבר ← were."
+},
+{
+"q": "I ___ in the garden at 6 p.m. yesterday.",
+"a": [
+"was working",
+"worked was",
+"were working"
+],
+"why": "באמצע פעולה בזמן מסוים בעבר ← was + ing."
+},
+{
+"q": "My kids ___ breakfast when I left.",
+"a": [
+"were eating",
+"was eating",
+"ate were"
+],
+"why": "פעולה ארוכה, they ← were + ing."
+},
+{
+"q": "I ___ the movie last night.",
+"a": [
+"watched",
+"was watched",
+"watch"
+],
+"why": "עבר פשוט: watched."
+},
+{
+"q": "What ___ you do last weekend?",
+"a": [
+"did",
+"were",
+"was"
+],
+"why": "שאלה בעבר פשוט ← did + do."
+},
+{
+"q": "",
+"a": [
+"I was driving when you called.",
+"I drove when you were calling."
+],
+"why": "הפעולה הארוכה ← was driving, הקצרה ← called."
+},
+{
+"q": "",
+"a": [
+"She wanted a new phone.",
+"She was wanted a new phone."
+],
+"why": "לא שמים was וגם פועל בעבר."
+},
+{
+"q": "",
+"a": [
+"They were at home.",
+"They was at home."
+],
+"why": "they ← were."
 }
 ],
 "blocks": [

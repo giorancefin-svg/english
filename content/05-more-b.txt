@@ -1,0 +1,421 @@
+#! Extra sentences (2 more per word) for variety — added 17-11-2026. Part B.
+
+## pickup-truck
+EN: We borrowed my brother's [pickup truck] to move the sofa.
+HE: שאלנו את הטנדר של אחי כדי להעביר את הספה.
+EN: Insurance for a [pickup truck] costs more than for a small car.
+HE: ביטוח לטנדר עולה יותר מאשר לרכב קטן.
+
+## moonwalk
+EN: My daughter learned the [moonwalk] from a YouTube video.
+HE: הבת שלי למדה את הליכת הירח מסרטון ביוטיוב.
+EN: Everyone laughed when grandpa tried the [moonwalk].
+HE: כולם צחקו כשסבא ניסה את הליכת הירח.
+
+## evacuate
+EN: During the fire drill, we had to [evacuate] the office.
+HE: בתרגיל האש היינו צריכים לפנות את המשרד.
+EN: The hotel was [evacuated] because of a gas leak.
+HE: המלון פונה בגלל דליפת גז.
+
+## elections
+EN: The [elections] were the main topic of conversation at dinner.
+HE: הבחירות היו נושא השיחה העיקרי בארוחת הערב.
+EN: Many people don't vote in local [elections].
+HE: הרבה אנשים לא מצביעים בבחירות המקומיות.
+
+## rigged
+EN: The losing team claimed the contest was [rigged].
+HE: הקבוצה המפסידה טענה שהתחרות הייתה מכורה.
+EN: Nobody can prove that the lottery was [rigged].
+HE: אף אחד לא יכול להוכיח שההגרלה הייתה מכורה.
+
+## intimidation
+EN: The debt collector used [intimidation] to get the money.
+HE: גובה החובות השתמש בהפחדה כדי לקבל את הכסף.
+EN: Schools should not accept any [intimidation] between students.
+HE: בתי ספר לא צריכים לקבל שום הפחדה בין תלמידים.
+
+## depression
+EN: Exercise can help people who suffer from [depression].
+HE: פעילות גופנית יכולה לעזור לאנשים שסובלים מדיכאון.
+EN: Talking to a professional is the first step out of [depression].
+HE: לדבר עם איש מקצוע זה הצעד הראשון ליציאה מדיכאון.
+
+## disability
+EN: Good [disability] insurance protects your income.
+HE: ביטוח נכות טוב מגן על ההכנסה שלך.
+EN: After the accident, he has a permanent [disability] in his leg.
+HE: אחרי התאונה יש לו נכות קבועה ברגל.
+
+## special-needs
+EN: The park has swings for kids with [special needs].
+HE: בפארק יש נדנדות לילדים עם צרכים מיוחדים.
+EN: My neighbor volunteers with adults with [special needs].
+HE: השכן שלי מתנדב עם מבוגרים עם צרכים מיוחדים.
+
+## infrastructure
+EN: Our town's [infrastructure] is old and needs repairs.
+HE: התשתית של העיר שלנו ישנה וצריכה תיקונים.
+EN: Good internet [infrastructure] is important for working from home.
+HE: תשתית אינטרנט טובה חשובה לעבודה מהבית.
+
+## canned-goods
+EN: The supermarket has a sale on [canned goods] this week.
+HE: בסופר יש מבצע על שימורים השבוע.
+EN: We donated [canned goods] to the food bank.
+HE: תרמנו שימורים לבנק המזון.
+
+## coal
+EN: Some old houses were heated with [coal].
+HE: חלק מהבתים הישנים חוממו בפחם.
+EN: The barbecue needs more [coal].
+HE: המנגל צריך עוד פחם.
+
+## flight-attendant
+EN: Ask the [flight attendant] for an extra blanket.
+HE: בקש מהדייל שמיכה נוספת.
+EN: The [flight attendant] showed us how to use the life jacket.
+HE: הדיילת הראתה לנו איך להשתמש בחגורת ההצלה.
+
+## electric-electricity-company
+EN: The [electricity company] will cut the power for two hours tomorrow.
+HE: חברת החשמל תפסיק את החשמל לשעתיים מחר.
+EN: I switched to a cheaper [electric company] this year.
+HE: עברתי לחברת חשמל זולה יותר השנה.
+
+## nausea
+EN: Pregnant women often feel [nausea] in the morning.
+HE: נשים בהריון מרגישות לעיתים קרובות בחילה בבוקר.
+EN: The long bus ride gave me [nausea].
+HE: הנסיעה הארוכה באוטובוס עשתה לי בחילה.
+
+## cough
+EN: Drink tea with honey for your [cough].
+HE: שתה תה עם דבש בשביל השיעול.
+EN: My son started to [cough] in the middle of the night.
+HE: הבן שלי התחיל להשתעל באמצע הלילה.
+
+## industry-field
+EN: The tech [industry] pays high salaries.
+HE: תעשיית ההייטק משלמת משכורות גבוהות.
+EN: My wife is an expert in her [field].
+HE: אשתי מומחית בתחום שלה.
+
+## stock-market
+EN: Never put all your savings in the [stock market].
+HE: אף פעם אל תשים את כל החסכונות שלך בבורסה.
+EN: The [stock market] fell after the news.
+HE: הבורסה ירדה אחרי החדשות.
+
+## blow-up-explode
+EN: My phone battery got so hot I was afraid it would [explode].
+HE: הסוללה של הטלפון שלי התחממה כל כך שפחדתי שהיא תתפוצץ.
+EN: Don't [blow up] at the kids; just talk calmly.
+HE: אל תתפוצץ על הילדים; פשוט תדבר ברוגע.
+
+## criticism-criticise
+EN: The new tax got a lot of [criticism].
+HE: המס החדש ספג הרבה ביקורת.
+EN: Please don't [criticise] my cooking in front of guests.
+HE: בבקשה אל תבקר את הבישול שלי מול אורחים.
+
+## constructive-criticism
+EN: My English teacher gives me [constructive criticism] after every lesson.
+HE: המורה שלי לאנגלית נותנת לי ביקורת בונה אחרי כל שיעור.
+EN: I'm open to [constructive criticism] about my presentation.
+HE: אני פתוח לביקורת בונה על המצגת שלי.
+
+## subdivide
+EN: The family decided to [subdivide] the farm between the children.
+HE: המשפחה החליטה לחלק את החווה בין הילדים.
+EN: Each chapter is [subdivided] into short lessons.
+HE: כל פרק מחולק לשיעורים קצרים.
+
+## diligent
+EN: A [diligent] agent always calls the client back.
+HE: סוכן חרוץ תמיד חוזר ללקוח.
+EN: My son is very [diligent] about his homework.
+HE: הבן שלי מאוד חרוץ לגבי שיעורי הבית.
+
+## fracture
+EN: A small [fracture] can take six weeks to heal.
+HE: שבר קטן יכול לקחת שישה שבועות להחלים.
+EN: He [fractured] his wrist when he fell off his bike.
+HE: הוא שבר את פרק כף היד כשנפל מהאופניים.
+
+## injure
+EN: He [injured] his back while carrying boxes.
+HE: הוא נפצע בגב כשסחב קרטונים.
+EN: Bad technique can [injure] your shoulder.
+HE: טכניקה לא נכונה יכולה לפצוע את הכתף שלך.
+
+## injury
+EN: The insurance covers any [injury] at work.
+HE: הביטוח מכסה כל פציעה בעבודה.
+EN: After the [injury], I had to rest for a month.
+HE: אחרי הפציעה הייתי צריך לנוח חודש.
+
+## stabilise-stabilize
+EN: Interest rates should [stabilize] next year.
+HE: הריבית אמורה להתייצב בשנה הבאה.
+EN: Core exercises help [stabilise] your back.
+HE: תרגילי בטן עוזרים לייצב את הגב.
+
+## chew
+EN: I [chew] gum when I drive long distances.
+HE: אני לועס מסטיק כשאני נוהג למרחקים ארוכים.
+EN: The steak was hard to [chew].
+HE: היה קשה ללעוס את הסטייק.
+
+## dates
+EN: We put [dates] in the cake instead of sugar.
+HE: שמנו תמרים בעוגה במקום סוכר.
+EN: The farmer sells fresh [dates] at the market.
+HE: החקלאי מוכר תמרים טריים בשוק.
+
+## laundry-room
+EN: The cat sleeps in the [laundry room] because it is warm.
+HE: החתול ישן בחדר הכביסה כי חם שם.
+EN: We put shelves in the [laundry room] for the cleaning supplies.
+HE: שמנו מדפים בחדר הכביסה בשביל חומרי הניקוי.
+
+## laundry
+EN: There's a pile of [laundry] on the bed.
+HE: יש ערימה של כביסה על המיטה.
+EN: My son finally learned to do his own [laundry].
+HE: הבן שלי סוף סוף למד לעשות כביסה בעצמו.
+
+## damp-proofing
+EN: The [damp proofing] on our roof needs to be redone.
+HE: צריך לעשות מחדש את האיטום מפני רטיבות על הגג שלנו.
+EN: Does the home insurance cover [damp proofing]?
+HE: האם ביטוח הדירה מכסה איטום מפני רטיבות?
+
+## concrete-brick
+EN: The new parking lot is all [concrete].
+HE: החניון החדש כולו בטון.
+EN: Our old house was built of red [brick].
+HE: הבית הישן שלנו נבנה מלבנים אדומות.
+
+## commodity
+EN: Gold is a [commodity] that many investors buy in a crisis.
+HE: זהב הוא מצרך שהרבה משקיעים קונים במשבר.
+EN: Coffee is one of the most popular [commodities] in the world.
+HE: קפה הוא אחד המצרכים הפופולריים בעולם.
+
+## admin-fee
+EN: The [admin fee] for this account is very low.
+HE: דמי הניהול לחשבון הזה נמוכים מאוד.
+EN: Ask the agent if there is an [admin fee] before you sign.
+HE: שאל את הסוכן אם יש דמי ניהול לפני שאתה חותם.
+
+## service-fee
+EN: The ticket price doesn't include the [service fee].
+HE: מחיר הכרטיס לא כולל את דמי השירות.
+EN: The app charges a small [service fee] for each order.
+HE: האפליקציה גובה דמי שירות קטנים על כל הזמנה.
+
+## amenity
+EN: A parking space is an important [amenity] in the city.
+HE: מקום חניה הוא מתקן חשוב בעיר.
+EN: The new building has great [amenities], like a gym and a lobby.
+HE: לבניין החדש יש מתקנים מעולים, כמו חדר כושר ולובי.
+
+## non-refundable
+EN: The hotel room was cheaper because it was [non-refundable].
+HE: החדר במלון היה זול יותר כי הוא לא ניתן להחזר.
+EN: Be careful: some insurance fees are [non-refundable].
+HE: שים לב: חלק מדמי הביטוח לא ניתנים להחזר.
+
+## property-tax
+EN: Retired people can get a discount on [property tax].
+HE: פנסיונרים יכולים לקבל הנחה בארנונה.
+EN: The [property tax] for an office is higher than for a home.
+HE: הארנונה למשרד גבוהה יותר מאשר לדירה.
+
+## compensation
+EN: The insurance company offered fair [compensation] for the damage.
+HE: חברת הביטוח הציעה פיצוי הוגן על הנזק.
+EN: Workers get [compensation] if they are fired without notice.
+HE: עובדים מקבלים פיצוי אם מפטרים אותם בלי הודעה מוקדמת.
+
+## homeowner-association
+EN: The [homeowner association] meets in the lobby once a month.
+HE: ועד הבית נפגש בלובי פעם בחודש.
+EN: I complained to the [homeowner association] about the broken light.
+HE: התלוננתי לוועד הבית על המנורה השבורה.
+
+## governing-body
+EN: The pension fund is supervised by a [governing body].
+HE: קרן הפנסיה נמצאת בפיקוח של גוף מנהל.
+EN: The [governing body] approved the new budget.
+HE: הגוף המנהל אישר את התקציב החדש.
+
+## building-maintenance-fee
+EN: The [building maintenance fee] went up because we fixed the roof.
+HE: דמי ועד הבית עלו כי תיקנו את הגג.
+EN: Tenants usually pay the [building maintenance fee], not the owner.
+HE: בדרך כלל השוכרים משלמים את דמי ועד הבית, לא הבעלים.
+
+## disposable-income
+EN: Part of your [disposable income] should go to savings.
+HE: חלק מההכנסה הפנויה שלך צריך ללכת לחיסכון.
+EN: Our [disposable income] grew after we paid off the car loan.
+HE: ההכנסה הפנויה שלנו גדלה אחרי שסיימנו לשלם את הלוואת הרכב.
+
+## burnt
+EN: I [burnt] my finger on the hot pan.
+HE: שרפתי את האצבע על המחבת החמה.
+EN: The rice is a little [burnt] at the bottom.
+HE: האורז קצת שרוף בתחתית.
+
+## fire-damage
+EN: The photos show the [fire damage] to the roof.
+HE: התמונות מראות את נזקי האש לגג.
+EN: Make sure your home insurance covers [fire damage].
+HE: וודא שביטוח הדירה שלך מכסה נזקי אש.
+
+## arrears
+EN: Pay your [arrears] quickly to avoid extra interest.
+HE: שלם את החוב בפיגורים מהר כדי להימנע מריבית נוספת.
+EN: The tenant left the apartment with two months of [arrears].
+HE: השוכר עזב את הדירה עם חוב של חודשיים בפיגורים.
+
+## rehabilitation
+EN: Physical [rehabilitation] after the injury took three months.
+HE: השיקום הפיזי אחרי הפציעה לקח שלושה חודשים.
+EN: The center offers [rehabilitation] for people after a stroke.
+HE: המרכז מציע שיקום לאנשים אחרי שבץ.
+
+## appropriate-suitable
+EN: Is this movie [suitable] for young children?
+HE: האם הסרט הזה מתאים לילדים קטנים?
+EN: Please wear [appropriate] shoes for the hike.
+HE: בבקשה תנעלו נעליים מתאימות לטיול.
+
+## cause
+EN: Stress can [cause] back pain.
+HE: לחץ יכול לגרום לכאבי גב.
+EN: The main [cause] of the delay was the weather.
+HE: הסיבה העיקרית לעיכוב הייתה מזג האוויר.
+
+## oatmeal-oats
+EN: I add [oats] to my protein shake.
+HE: אני מוסיף שיבולת שועל לשייק החלבון שלי.
+EN: A bowl of [oatmeal] keeps me full until lunch.
+HE: קערת דייסת שיבולת שועל משאירה אותי שבע עד הצהריים.
+
+## medical-engineer
+EN: The [medical engineer] fixed the MRI machine.
+HE: המהנדס הרפואי תיקן את מכשיר ה-MRI.
+EN: A [medical engineer] helped design the new heart pump.
+HE: מהנדס רפואי עזר לתכנן את משאבת הלב החדשה.
+
+## humidity-moisture
+EN: The [humidity] makes my hair frizzy.
+HE: הלחות עושה לי את השיער מקורזל.
+EN: Keep the bread away from [moisture].
+HE: שמור את הלחם הרחק מלחות.
+
+## humid
+EN: Running on a [humid] morning is really hard.
+HE: לרוץ בבוקר לח זה ממש קשה.
+EN: The bathroom gets very [humid] after a shower.
+HE: חדר האמבטיה נהיה מאוד לח אחרי מקלחת.
+
+## french-drain
+EN: The contractor said we need a [french drain] along the wall.
+HE: הקבלן אמר שאנחנו צריכים נקז לאורך הקיר.
+EN: The [french drain] is blocked with leaves.
+HE: הנקז סתום בעלים.
+
+## municipality
+EN: The [municipality] collects the garbage twice a week.
+HE: העירייה אוספת את הזבל פעמיים בשבוע.
+EN: I sent an email to the [municipality] about the broken sidewalk.
+HE: שלחתי מייל לעירייה על המדרכה השבורה.
+
+## informed
+EN: The agent kept us [informed] during the whole claim process.
+HE: הסוכן עדכן אותנו לאורך כל תהליך התביעה.
+EN: I like to stay [informed] about the economy.
+HE: אני אוהב להישאר מעודכן לגבי הכלכלה.
+
+## equity-fairness
+EN: The manager believes in [equity] between all employees.
+HE: המנהל מאמין בהוגנות בין כל העובדים.
+EN: [Equity] means giving each person what they need to succeed.
+HE: הוגנות פירושה לתת לכל אדם את מה שהוא צריך כדי להצליח.
+
+## equity-financial-housing
+EN: We used our [equity] to buy a second apartment.
+HE: השתמשנו בהון העצמי שלנו כדי לקנות דירה שנייה.
+EN: How much [equity] do you have for the new house?
+HE: כמה הון עצמי יש לך לבית החדש?
+
+## accompany
+EN: I [accompanied] my father to the bank.
+HE: ליוויתי את אבא שלי לבנק.
+EN: A guide will [accompany] the group on the tour.
+HE: מדריך ילווה את הקבוצה בסיור.
+
+## transport
+EN: How will you [transport] all the boxes?
+HE: איך תוביל את כל הקרטונים?
+EN: The ambulance [transported] him to the hospital.
+HE: האמבולנס הוביל אותו לבית החולים.
+
+## fracture-break
+EN: A [break] in the bone needs a cast.
+HE: שבר בעצם צריך גבס.
+EN: The X-ray showed a small [fracture] in his foot.
+HE: צילום הרנטגן הראה שבר קטן בכף הרגל שלו.
+
+## wrist
+EN: My [wrist] hurts when I do pushups.
+HE: פרק כף היד שלי כואב כשאני עושה שכיבות סמיכה.
+EN: She wears a bracelet on her right [wrist].
+HE: היא עונדת צמיד על פרק כף היד הימני.
+
+## wrist-straps
+EN: I forgot my [wrist straps] at home, so I lifted less today.
+HE: שכחתי את רצועות שורש כף היד בבית, אז הרמתי פחות היום.
+EN: The gym sells [wrist straps] at the front desk.
+HE: חדר הכושר מוכר רצועות שורש כף יד בדלפק הקבלה.
+
+## discipline
+EN: Saving money every month needs [discipline].
+HE: לחסוך כסף כל חודש דורש משמעת.
+EN: Good [discipline] at home helps kids at school.
+HE: משמעת טובה בבית עוזרת לילדים בבית הספר.
+
+## committed
+EN: We are [committed] to giving our clients the best service.
+HE: אנחנו מחויבים לתת ללקוחות שלנו את השירות הטוב ביותר.
+EN: He is [committed] to going to the gym four times a week.
+HE: הוא מחויב ללכת לחדר הכושר ארבע פעמים בשבוע.
+
+## commitment
+EN: A mortgage is a [commitment] for many years.
+HE: משכנתא היא מחויבות לשנים רבות.
+EN: Learning English takes time and [commitment].
+HE: ללמוד אנגלית דורש זמן ומחויבות.
+
+## recover
+EN: The market [recovered] quickly after the crisis.
+HE: השוק התאושש מהר אחרי המשבר.
+EN: Sleep helps your muscles [recover] after training.
+HE: שינה עוזרת לשרירים שלך להתאושש אחרי אימון.
+
+## recovery
+EN: Rest is an important part of [recovery].
+HE: מנוחה היא חלק חשוב בהחלמה.
+EN: The doctor is happy with my [recovery].
+HE: הרופא מרוצה מההחלמה שלי.
+
+## gullible
+EN: Don't be [gullible]; banks never ask for your password by phone.
+HE: אל תהיה פתי; בנקים אף פעם לא מבקשים את הסיסמה שלך בטלפון.
+EN: My friend was [gullible] and lost money in a fake investment.
+HE: החבר שלי היה פתי והפסיד כסף בהשקעה מזויפת.

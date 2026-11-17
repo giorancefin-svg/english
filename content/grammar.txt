@@ -392,3 +392,454 @@ WHY: was כאן הוא הפועל היחיד – אין פועל נוסף.
 
 A: We were watching TV when the lights went out. | We watched TV when the lights were going out.
 WHY: הפעולה הארוכה ← were watching, הפעולה שקטעה ← went out.
+
+#! ---------------- more exercises (added 17-11-2026 for variety) ----------------
+
+## file present simple & progresive
+Q: My wife ___ at a bank.
+A: works | is work | work
+WHY: עובדה קבועה ← הווה פשוט, ועם she מוסיפים s.
+
+Q: Look! It ___ outside.
+A: is raining | rains | rain
+WHY: Look! – קורה ממש עכשיו ← הווה מתמשך.
+
+Q: I ___ coffee every morning before work.
+A: drink | am drinking | drinks
+WHY: הרגל (every morning) ← הווה פשוט.
+
+Q: This month we ___ a new pension product.
+A: are launching | launches | launch
+WHY: משהו זמני (this month) ← הווה מתמשך.
+
+Q: She ___ the answer to your question.
+A: knows | is knowing | know
+WHY: know – פועל מצב, לא בא עם ing. עם she מוסיפים s.
+
+Q: The kids ___ TV at the moment.
+A: are watching | watch | is watching
+WHY: at the moment ← הווה מתמשך. the kids = they ← are.
+
+Q: ___ your manager usually answer emails quickly?
+A: Does | Do | Is
+WHY: שאלה על הרגל עם he/she ← Does.
+
+Q: We ___ work on Saturdays.
+A: don't | doesn't | aren't
+WHY: שלילה בהווה פשוט עם we ← don't.
+
+Q: He ___ to lose weight these days.
+A: is trying | tries | try
+WHY: these days – מצב זמני ← הווה מתמשך.
+
+Q: The office ___ at 9 a.m.
+A: opens | is opening | open
+WHY: לוח זמנים קבוע ← הווה פשוט, ועם it מוסיפים s.
+
+Q: I ___ this new car. It's great!
+A: love | am loving | loves
+WHY: love – פועל מצב, בדרך כלל בלי ing.
+
+Q: Why ___ you smiling?
+A: are | do | is
+WHY: smiling = ing ← הווה מתמשך, עם you ← are.
+
+A: She is having a meeting right now. | She has a meeting right now every day.
+WHY: right now ← הווה מתמשך. right now ו-every day לא הולכים יחד.
+
+A: My brother lives in Haifa. | My brother is live in Haifa.
+WHY: לא שמים is לפני פועל רגיל בהווה פשוט ← lives.
+
+## file 1
+Q: I didn't ___ my keys this morning.
+A: find | found | finds
+WHY: אחרי didn't – צורת בסיס: find.
+
+Q: The client didn't ___ the papers.
+A: bring | brought | brings
+WHY: אחרי didn't – צורת בסיס: bring (לא brought).
+
+Q: We didn't ___ dinner last night.
+A: eat | ate | eaten
+WHY: אחרי didn't – צורת בסיס: eat.
+
+Q: Did you ___ well last night?
+A: sleep | slept | sleeps
+WHY: בשאלה עם Did – צורת בסיס: sleep.
+
+Q: He didn't ___ the deadline.
+A: miss | missed | misses
+WHY: אחרי didn't לא מוסיפים ed: miss.
+
+Q: She ___ the report yesterday.
+A: wrote | write | didn't wrote
+WHY: משפט חיובי בעבר ← wrote.
+
+Q: They didn't ___ me about the change.
+A: tell | told | tells
+WHY: אחרי didn't – tell (לא told).
+
+Q: Did your son ___ his homework?
+A: do | did | does
+WHY: בשאלה עם Did – צורת בסיס: do.
+
+Q: I didn't ___ the train this morning.
+A: take | took | taken
+WHY: אחרי didn't – צורת בסיס: take.
+
+Q: We ___ the deal last week.
+A: closed | close | didn't closed
+WHY: משפט חיובי בעבר ← closed.
+
+A: I didn't see the email. | I didn't saw the email.
+WHY: אחרי didn't – see, ולא saw.
+
+A: Did she call you back? | Did she called you back?
+WHY: אחרי Did – call, בלי ed.
+
+A: We didn't have time. | We didn't had time.
+WHY: אחרי didn't – have, ולא had.
+
+## file 2
+Q: I cleaned the ___ house on Friday.
+A: whole | all | all of
+WHY: בית אחד שלם ← the whole house.
+
+Q: ___ the employees got a bonus.
+A: All | The whole | Whole
+WHY: הרבה עובדים (רבים) ← All the employees.
+
+Q: She talked during the ___ meeting.
+A: whole | all | all of
+WHY: פגישה אחת מההתחלה עד הסוף ← the whole meeting.
+
+Q: ___ my friends play football.
+A: All | Whole | The whole
+WHY: הרבה חברים ← All my friends.
+
+Q: It rained the ___ week.
+A: whole | all | all of
+WHY: שבוע אחד שלם ← the whole week.
+
+Q: I paid ___ the bills yesterday.
+A: all | whole | the whole
+WHY: כמה חשבונות (רבים) ← all the bills.
+
+Q: The ___ team worked late.
+A: whole | all | all of
+WHY: צוות אחד שלם ← the whole team.
+
+Q: ___ the policies are in this folder.
+A: All | Whole | The whole
+WHY: הרבה פוליסות ← All the policies.
+
+Q: He told me the ___ story.
+A: whole | all | all of
+WHY: סיפור אחד, מההתחלה עד הסוף ← the whole story.
+
+Q: ___ the windows in the house are open.
+A: All | Whole | The whole
+WHY: הרבה חלונות ← All the windows.
+
+A: I spent the whole morning at the gym. | I spent the all morning at the gym.
+WHY: הסדר הנכון: the whole + שם עצם ביחיד.
+
+A: All the children are sleeping. | Whole the children are sleeping.
+WHY: הרבה ילדים ← All the children.
+
+## file 3
+Q: This apartment is ___ expensive.
+A: very | very much | much
+WHY: לפני שם תואר (expensive) ← very.
+
+Q: I ___ hope you feel better.
+A: really | very | very much
+WHY: לפני פועל (hope) ← really.
+
+Q: She ___ loves her job.
+A: really | very | much
+WHY: לפני פועל (loves) ← really.
+
+Q: The gym is ___ busy today.
+A: very | very much | much
+WHY: לפני שם תואר (busy) ← very (גם really מתאים, אבל לא very much).
+
+Q: We ___ enjoyed the trip.
+A: really | very | much
+WHY: לפני פועל (enjoyed) ← really.
+
+Q: He drives ___ fast.
+A: very | very much | much
+WHY: לפני תואר הפועל (fast) ← very.
+
+Q: I ___ don't understand this form.
+A: really | very | much
+WHY: לפני פועל (don't understand) ← really.
+
+Q: Thanks ___ much for your help!
+A: very | really | so very
+WHY: Thanks very much – ביטוי קבוע.
+
+A: I really miss my family. | I very miss my family.
+WHY: miss הוא פועל ← really miss.
+
+A: The coffee is very hot. | The coffee very is hot.
+WHY: very בא לפני שם התואר: very hot.
+
+A: My kids really love pizza. | My kids very love pizza.
+WHY: love הוא פועל ← really love.
+
+A: He really wants a new car. | He very wants a new car.
+WHY: want הוא פועל ← really wants.
+
+## file 4
+Q: You can ___ me tomorrow.
+A: call | to call | calls
+WHY: אחרי can – בלי to.
+
+Q: We must ___ the report by Friday.
+A: finish | to finish | finishing
+WHY: אחרי must – צורת בסיס.
+
+Q: She should ___ more water.
+A: drink | to drink | drinks
+WHY: אחרי should – בלי to ובלי s.
+
+Q: It might ___ later.
+A: rain | to rain | rains
+WHY: אחרי might – צורת בסיס.
+
+Q: Could you ___ me with this form?
+A: help | to help | helping
+WHY: אחרי could – בלי to.
+
+Q: I would ___ to visit London.
+A: love | to love | loving
+WHY: אחרי would – צורת בסיס: would love.
+
+Q: He ___ drive a truck.
+A: can | cans | can to
+WHY: can לא מקבל s, ואחריו אין to.
+
+Q: You may ___ now.
+A: leave | to leave | leaving
+WHY: אחרי may – בלי to.
+
+Q: We need ___ the client today.
+A: to call | call | calling
+WHY: need הוא לא פועל מודאלי ← need to call.
+
+Q: They should ___ their insurance policy.
+A: check | to check | checks
+WHY: אחרי should – צורת בסיס.
+
+A: You must wear a seatbelt. | You must to wear a seatbelt.
+WHY: אחרי must – בלי to.
+
+A: I can swim very well. | I can to swim very well.
+WHY: אחרי can – בלי to.
+
+A: She would like a coffee. | She would to like a coffee.
+WHY: אחרי would – בלי to.
+
+## file 5
+Q: He is a ___ worker.
+A: hard | hardly | hardy
+WHY: מתאר את worker ← hard (שם תואר).
+
+Q: Please speak ___.
+A: slowly | slow | slowy
+WHY: מתאר איך לדבר (פועל) ← slowly.
+
+Q: The test was ___.
+A: easy | easily | easyly
+WHY: מתאר את the test (שם עצם) ← easy.
+
+Q: She passed the test ___.
+A: easily | easy | easyly
+WHY: מתאר איך עברה (פועל) ← easily.
+
+Q: My son plays the guitar ___.
+A: well | good | goodly
+WHY: מתאר את הפועל plays ← well.
+
+Q: This is a ___ apartment.
+A: lovely | lovelily | love
+WHY: lovely נגמר ב-ly אבל הוא שם תואר – מתאר את apartment.
+
+Q: I get up ___ every day.
+A: early | earlyly | earlier
+WHY: early הוא גם Adverb, בלי תוספת ly.
+
+Q: He answered the question ___.
+A: correctly | correct | corectly
+WHY: מתאר איך ענה (פועל) ← correctly.
+
+Q: The weather is ___ today.
+A: beautiful | beautifully | beauty
+WHY: מתאר את the weather (שם עצם) ← beautiful.
+
+Q: We pay the rent ___.
+A: monthly | month | monthy
+WHY: monthly = כל חודש.
+
+Q: She is a ___ person.
+A: quiet | quietly | quite
+WHY: מתאר את person ← quiet (quite = די, מילה אחרת).
+
+A: He drives very fast. | He drives very fastly.
+WHY: fast נשאר בלי ly.
+
+A: You did a good job. | You did a well job.
+WHY: לפני שם עצם (job) ← good.
+
+## file 6
+Q: ___ they live near you?
+A: Do | Does | Are
+WHY: they ← Do.
+
+Q: ___ your son like football?
+A: Does | Do | Is
+WHY: your son = he ← Does.
+
+Q: She ___ have a car.
+A: doesn't | don't | isn't
+WHY: שלילה עם she ← doesn't + have.
+
+Q: I ___ a meeting at 10.
+A: have | has | am have
+WHY: I ← have.
+
+Q: My boss ___ a new office.
+A: has | have | haves
+WHY: my boss = he/she ← has.
+
+Q: What time ___ you usually have breakfast?
+A: do | does | are
+WHY: you ← do.
+
+Q: ___ it rain a lot in Tel Aviv?
+A: Does | Do | Is
+WHY: it ← Does.
+
+Q: Does he ___ English?
+A: speak | speaks | speaking
+WHY: אחרי does – הפועל בלי s.
+
+Q: We ___ dinner together every Friday.
+A: have | has | do
+WHY: have dinner – ביטוי קבוע, עם we ← have.
+
+Q: He ___ his homework after school.
+A: does | do | makes
+WHY: do homework = להכין שיעורי בית. עם he ← does.
+
+Q: They ___ eat sugar.
+A: don't | doesn't | aren't
+WHY: שלילה עם they ← don't.
+
+A: Do you have any questions? | Does you have any questions?
+WHY: you ← Do.
+
+A: She has two brothers. | She have two brothers.
+WHY: she ← has.
+
+## file Giora Bar (7)
+Q: I will ___ the email tonight.
+A: send | to send | sends
+WHY: אחרי will – צורת בסיס, בלי to.
+
+Q: He will ___ late today.
+A: be | to be | is
+WHY: אחרי will – be (לא is).
+
+Q: We will ___ you next week.
+A: visit | to visit | visits
+WHY: will + verb, בלי to.
+
+Q: I want ___ a new phone.
+A: to buy | buy | buying
+WHY: want – צריך to: want to buy.
+
+Q: The meeting will ___ at 3.
+A: start | to start | starts
+WHY: אחרי will – בלי s ובלי to.
+
+Q: She ___ call you tomorrow.
+A: will | will to | wills
+WHY: will לא משתנה ואין אחריו to.
+
+Q: I need ___ more.
+A: to sleep | sleep | sleeping
+WHY: need – צריך to.
+
+Q: They will ___ the house in May.
+A: sell | to sell | sold
+WHY: will + צורת בסיס: will sell.
+
+Q: I will ___ harder next time.
+A: try | to try | tried
+WHY: will + צורת בסיס.
+
+A: It will be sunny tomorrow. | It will to be sunny tomorrow.
+WHY: אחרי will – בלי to.
+
+A: I will pay you back on Sunday. | I will to pay you back on Sunday.
+WHY: will + verb, בלי to.
+
+A: We need to talk. | We need talk.
+WHY: need – כן צריך to.
+
+## file Giora Bar (8)
+Q: She ___ a book when I came in.
+A: was reading | read | were reading
+WHY: פעולה ארוכה שנקטעה ← was + ing. עם she ← was.
+
+Q: We ___ to Eilat last summer.
+A: went | were go | was went
+WHY: עבר פשוט – פועל אחד: went.
+
+Q: I ___ a teacher many years ago.
+A: was | were | was be
+WHY: I בעבר ← was.
+
+Q: They ___ football when it started to rain.
+A: were playing | played | was playing
+WHY: פעולה ארוכה שנקטעה ← were + ing.
+
+Q: He ___ me yesterday.
+A: called | was called | was call
+WHY: עבר פשוט – לא שמים was לפני פועל בעבר.
+
+Q: While I was cooking, the phone ___.
+A: rang | was ring | ringed
+WHY: הפעולה הקצרה שקטעה ← עבר פשוט: rang.
+
+Q: You ___ very tired last night.
+A: were | was | are
+WHY: you בעבר ← were.
+
+Q: I ___ in the garden at 6 p.m. yesterday.
+A: was working | worked was | were working
+WHY: באמצע פעולה בזמן מסוים בעבר ← was + ing.
+
+Q: My kids ___ breakfast when I left.
+A: were eating | was eating | ate were
+WHY: פעולה ארוכה, they ← were + ing.
+
+Q: I ___ the movie last night.
+A: watched | was watched | watch
+WHY: עבר פשוט: watched.
+
+Q: What ___ you do last weekend?
+A: did | were | was
+WHY: שאלה בעבר פשוט ← did + do.
+
+A: I was driving when you called. | I drove when you were calling.
+WHY: הפעולה הארוכה ← was driving, הקצרה ← called.
+
+A: She wanted a new phone. | She was wanted a new phone.
+WHY: לא שמים was וגם פועל בעבר.
+
+A: They were at home. | They was at home.
+WHY: they ← were.

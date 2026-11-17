@@ -1,0 +1,421 @@
+#! Extra sentences (2 more per word) for variety — added 17-11-2026. Part A.
+
+## anomaly
+EN: The system flagged an [anomaly] in the client's pension report.
+HE: המערכת סימנה חריגה בדוח הפנסיה של הלקוח.
+EN: One cold day in August is just an [anomaly].
+HE: יום קר אחד באוגוסט הוא סתם חריגה.
+
+## anatomy
+EN: Knowing basic [anatomy] helps you train without injuries.
+HE: הכרת אנטומיה בסיסית עוזרת להתאמן בלי פציעות.
+EN: My daughter has an [anatomy] test tomorrow.
+HE: לבת שלי יש מחר מבחן באנטומיה.
+
+## hiccup
+EN: Drink some water to stop the [hiccups].
+HE: שתה קצת מים כדי לעצור את השיהוקים.
+EN: Apart from one [hiccup] with the flight, the trip was perfect.
+HE: חוץ משיהוק קטן עם הטיסה, הטיול היה מושלם.
+
+## pullup
+EN: My goal is to do twenty [pullups] by the summer.
+HE: המטרה שלי היא לעשות עשרים עליות מתח עד הקיץ.
+EN: There is a [pullup] bar in the park near our house.
+HE: יש מתח בפארק ליד הבית שלנו.
+
+## incline
+EN: Walking on an [incline] burns more calories.
+HE: הליכה בשיפוע שורפת יותר קלוריות.
+EN: The road has a sharp [incline] before the village.
+HE: לכביש יש שיפוע חד לפני הכפר.
+
+## weights
+EN: My trainer told me to use lighter [weights] at first.
+HE: המאמן שלי אמר לי להשתמש קודם במשקולות קלות יותר.
+EN: We keep a few [weights] at home for quick workouts.
+HE: אנחנו מחזיקים כמה משקולות בבית לאימונים קצרים.
+
+## lean
+EN: Chicken breast is a [lean] source of protein.
+HE: חזה עוף הוא מקור רזה לחלבון.
+EN: You can [lean] on me when things are hard.
+HE: אתה יכול להישען עליי כשקשה.
+
+## strict
+EN: The bank has [strict] rules about loans.
+HE: לבנק יש כללים קפדניים לגבי הלוואות.
+EN: My parents were [strict] about bedtime.
+HE: ההורים שלי היו קפדנים לגבי שעת השינה.
+
+## knot
+EN: Stretching after the gym helps prevent a [knot] in the muscle.
+HE: מתיחות אחרי חדר הכושר עוזרות למנוע קשר בשריר.
+EN: I woke up with a [knot] in my lower back.
+HE: התעוררתי עם קשר בשריר בגב התחתון.
+
+## residential
+EN: Most of the new buildings in our city are [residential].
+HE: רוב הבניינים החדשים בעיר שלנו הם למגורים.
+EN: The insurance for a [residential] property is cheaper than for an office.
+HE: הביטוח לנכס למגורים זול יותר מאשר למשרד.
+
+## quantity
+EN: Check the [quantity] before you sign the delivery form.
+HE: בדוק את הכמות לפני שאתה חותם על טופס המשלוח.
+EN: My wife always cooks a huge [quantity] of food on Fridays.
+HE: אשתי תמיד מבשלת כמות ענקית של אוכל בימי שישי.
+
+## turnover
+EN: Our agency's [turnover] grew by 15 percent this year.
+HE: המחזור של הסוכנות שלנו גדל ב-15 אחוז השנה.
+EN: The shop has a fast [turnover] of products.
+HE: לחנות יש מחזור מהיר של מוצרים.
+
+## headache
+EN: Too much coffee gives me a [headache].
+HE: יותר מדי קפה עושה לי כאב ראש.
+EN: Changing pension funds can be a [headache] without good advice.
+HE: מעבר בין קרנות פנסיה יכול להיות כאב ראש בלי ייעוץ טוב.
+
+## deceive
+EN: The fake website was built to [deceive] customers.
+HE: האתר המזויף נבנה כדי לרמות לקוחות.
+EN: He [deceived] his partner about the money.
+HE: הוא רימה את השותף שלו לגבי הכסף.
+
+## impersonate
+EN: Someone tried to [impersonate] me online.
+HE: מישהו ניסה להתחזות אליי ברשת.
+EN: Fraudsters often [impersonate] insurance agents.
+HE: נוכלים מתחזים לעיתים קרובות לסוכני ביטוח.
+
+## subscription
+EN: My [subscription] to the newspaper ends in December.
+HE: המינוי שלי לעיתון נגמר בדצמבר.
+EN: We share one music [subscription] for the whole family.
+HE: יש לנו מינוי מוזיקה אחד לכל המשפחה.
+
+## interrupted
+EN: My sleep was [interrupted] by the neighbor's dog.
+HE: השינה שלי נקטעה בגלל הכלב של השכנים.
+EN: The call was [interrupted] because I lost signal.
+HE: השיחה נקטעה כי איבדתי קליטה.
+
+## interrupt
+EN: I'm sorry to [interrupt] your lunch.
+HE: סליחה שאני מפריע לך באמצע ארוחת הצהריים.
+EN: My kids always [interrupt] me when I'm on the phone.
+HE: הילדים שלי תמיד מפריעים לי כשאני בטלפון.
+
+## hire
+EN: We plan to [hire] a new financial advisor next month.
+HE: אנחנו מתכננים לשכור יועץ פיננסי חדש בחודש הבא.
+EN: They [hired] a painter to paint the apartment.
+HE: הם שכרו צבע כדי לצבוע את הדירה.
+
+## stable
+EN: I prefer a [stable] job with a good pension.
+HE: אני מעדיף עבודה יציבה עם פנסיה טובה.
+EN: The market was [stable] this week.
+HE: השוק היה יציב השבוע.
+
+## protest
+EN: Parents organized a [protest] against the school closing.
+HE: הורים ארגנו מחאה נגד סגירת בית הספר.
+EN: I want to [protest] this fine; it's not fair.
+HE: אני רוצה למחות על הקנס הזה; זה לא הוגן.
+
+## rude
+EN: Don't be [rude] to your sister.
+HE: אל תהיה חצוף לאחותך.
+EN: I'm sorry, I didn't mean to be [rude].
+HE: סליחה, לא התכוונתי להיות חצוף.
+
+## survey
+EN: Please fill out our customer [survey]; it takes two minutes.
+HE: בבקשה מלא את סקר הלקוחות שלנו; זה לוקח שתי דקות.
+EN: The [survey] asked about our saving habits.
+HE: הסקר שאל על הרגלי החיסכון שלנו.
+
+## drone
+EN: You need a permit to fly a [drone] near the airport.
+HE: צריך היתר כדי להטיס רחפן ליד שדה התעופה.
+EN: The farmer uses a [drone] to check his fields.
+HE: החקלאי משתמש ברחפן כדי לבדוק את השדות שלו.
+
+## atone
+EN: He tried to [atone] for his mistake by working extra hours.
+HE: הוא ניסה לכפר על הטעות שלו בכך שעבד שעות נוספות.
+EN: There is no way to [atone] for such a big lie.
+HE: אין דרך לכפר על שקר כזה גדול.
+
+## faith
+EN: Don't lose [faith]; things will get better.
+HE: אל תאבד אמונה; הדברים ישתפרו.
+EN: My clients put their [faith] in my advice.
+HE: הלקוחות שלי נותנים אמון בייעוץ שלי.
+
+## star-sign
+EN: My wife and I have the same [star sign].
+HE: לי ולאשתי יש אותו מזל.
+EN: Do you believe your [star sign] says something about you?
+HE: אתה מאמין שהמזל שלך אומר משהו עליך?
+
+## ram
+EN: The [ram] stood on the rock and looked at us.
+HE: האיל עמד על הסלע והסתכל עלינו.
+EN: In the story, Abraham found a [ram] caught in the bushes.
+HE: בסיפור, אברהם מצא איל שנאחז בסבך.
+
+## ankle
+EN: My [ankle] hurts after yesterday's run.
+HE: הקרסול שלי כואב אחרי הריצה של אתמול.
+EN: The water was only up to my [ankles].
+HE: המים הגיעו רק עד הקרסוליים שלי.
+
+## stubborn
+EN: My son is [stubborn] like his father.
+HE: הבן שלי עקשן כמו אבא שלו.
+EN: I have a [stubborn] cold that won't go away.
+HE: יש לי הצטננות עקשנית שלא עוברת.
+
+## turn
+EN: When you [turn] 67, you can start getting your pension.
+HE: כשמלאות לך 67, אתה יכול להתחיל לקבל פנסיה.
+EN: My mother [turned] seventy last month.
+HE: לאמא שלי מלאו שבעים בחודש שעבר.
+
+## theme
+EN: The [theme] of this year's conference is saving for retirement.
+HE: הנושא של הכנס השנה הוא חיסכון לפרישה.
+EN: The kids chose a superhero [theme] for the birthday party.
+HE: הילדים בחרו נושא של גיבורי על למסיבת יום ההולדת.
+
+## advertisement-ad
+EN: I skip every [ad] on YouTube.
+HE: אני מדלג על כל פרסומת ביוטיוב.
+EN: We put an [advertisement] in the local paper to sell the car.
+HE: פרסמנו מודעה בעיתון המקומי כדי למכור את הרכב.
+
+## awareness
+EN: Financial [awareness] should start at a young age.
+HE: מודעות פיננסית צריכה להתחיל בגיל צעיר.
+EN: The doctor talked about [awareness] of heart disease.
+HE: הרופא דיבר על מודעות למחלות לב.
+
+## aware
+EN: Most people are not [aware] of the fees they pay.
+HE: רוב האנשים לא מודעים לעמלות שהם משלמים.
+EN: I'm [aware] that I need to exercise more.
+HE: אני מודע לכך שאני צריך להתאמן יותר.
+
+## paper-lantern
+EN: The kids made a [paper lantern] at school.
+HE: הילדים הכינו פנס נייר בבית הספר.
+EN: A red [paper lantern] hung at the restaurant entrance.
+HE: פנס נייר אדום היה תלוי בכניסה למסעדה.
+
+## statue
+EN: We took a family photo next to the [statue].
+HE: צילמנו תמונה משפחתית ליד הפסל.
+EN: There is a bronze [statue] of a lion in the park.
+HE: יש פסל ברונזה של אריה בפארק.
+
+## tablecloth
+EN: My mother uses a special [tablecloth] for the holidays.
+HE: אמא שלי משתמשת במפה מיוחדת לחגים.
+EN: Put the [tablecloth] in the washing machine, please.
+HE: שים את המפה במכונת הכביסה, בבקשה.
+
+## trail
+EN: This [trail] is good for running in the morning.
+HE: השביל הזה טוב לריצה בבוקר.
+EN: We followed the [trail] down to the river.
+HE: הלכנו לאורך השביל עד הנהר.
+
+## equal
+EN: All partners have an [equal] share in the business.
+HE: לכל השותפים יש חלק שווה בעסק.
+EN: One kilo is [equal] to a thousand grams.
+HE: קילו אחד שווה לאלף גרם.
+
+## worth-it
+EN: Saving a little every month is [worth it] in the long run.
+HE: לחסוך קצת כל חודש שווה את זה בטווח הארוך.
+EN: The early workout was hard, but it was [worth it].
+HE: האימון המוקדם היה קשה, אבל זה היה שווה את זה.
+
+## kidneys
+EN: Too much salt is bad for your [kidneys].
+HE: יותר מדי מלח מזיק לכליות.
+EN: People have two [kidneys], but you can live with one.
+HE: לאנשים יש שתי כליות, אבל אפשר לחיות עם אחת.
+
+## deprivation
+EN: Food [deprivation] before a competition is dangerous.
+HE: מניעת אוכל לפני תחרות היא מסוכנת.
+EN: New parents often suffer from sleep [deprivation].
+HE: הורים טריים סובלים לעיתים קרובות ממניעת שינה.
+
+## deprive
+EN: Strict diets [deprive] the body of important vitamins.
+HE: דיאטות קפדניות מונעות מהגוף ויטמינים חשובים.
+EN: I don't want to [deprive] my kids of a fun childhood.
+HE: אני לא רוצה למנוע מהילדים שלי ילדות כיפית.
+
+## collaboration
+EN: This book is a [collaboration] between two writers.
+HE: הספר הזה הוא שיתוף פעולה בין שני כותבים.
+EN: Thanks to our [collaboration], the client got a better deal.
+HE: בזכות שיתוף הפעולה שלנו, הלקוח קיבל עסקה טובה יותר.
+
+## slavery
+EN: The Passover story is about the end of [slavery] in Egypt.
+HE: סיפור פסח עוסק בסוף העבדות במצרים.
+EN: Modern [slavery] still exists in some parts of the world.
+HE: עבדות מודרנית עדיין קיימת בחלקים מסוימים של העולם.
+
+## auto-detail-detailing
+EN: A full car [detailing] takes about four hours.
+HE: דיטיילינג מלא לרכב לוקח בערך ארבע שעות.
+EN: My neighbor opened an [auto detail] business.
+HE: השכן שלי פתח עסק של דיטיילינג לרכב.
+
+## mince-meat-minced-meat
+EN: Buy lean [minced meat] for the burgers.
+HE: קנה בשר טחון רזה להמבורגרים.
+EN: My kids love pasta with [minced meat].
+HE: הילדים שלי אוהבים פסטה עם בשר טחון.
+
+## profound
+EN: Becoming a father was a [profound] change in my life.
+HE: להפוך לאבא היה שינוי עמוק בחיים שלי.
+EN: The crisis had a [profound] impact on the market.
+HE: למשבר הייתה השפעה עמוקה על השוק.
+
+## candid
+EN: I like my advisor because he is [candid] about the risks.
+HE: אני אוהב את היועץ שלי כי הוא כן לגבי הסיכונים.
+EN: She gave a very [candid] interview about her career.
+HE: היא נתנה ראיון כן מאוד על הקריירה שלה.
+
+## lenient
+EN: The judge was [lenient] because it was his first time.
+HE: השופט היה מקל כי זו הייתה הפעם הראשונה שלו.
+EN: My boss is [lenient] about working from home.
+HE: הבוס שלי מקל לגבי עבודה מהבית.
+
+## submit
+EN: You must [submit] the claim within thirty days.
+HE: אתה חייב להגיש את התביעה תוך שלושים יום.
+EN: My son [submitted] his university application yesterday.
+HE: הבן שלי הגיש את הבקשה לאוניברסיטה אתמול.
+
+## evaluate-assess
+EN: My trainer will [assess] my fitness level next week.
+HE: המאמן שלי יעריך את רמת הכושר שלי בשבוע הבא.
+EN: We [evaluate] every investment carefully.
+HE: אנחנו מעריכים כל השקעה בזהירות.
+
+## excuse
+EN: Being tired is not an [excuse] to skip the gym.
+HE: להיות עייף זה לא תירוץ לוותר על חדר הכושר.
+EN: She made an [excuse] and left the party early.
+HE: היא המציאה תירוץ ועזבה את המסיבה מוקדם.
+
+## miserable
+EN: The kids were [miserable] on the long car ride.
+HE: הילדים היו אומללים בנסיעה הארוכה.
+EN: He looks [miserable] since he lost his job.
+HE: הוא נראה אומלל מאז שאיבד את העבודה.
+
+## shout
+EN: You don't have to [shout]; I can hear you.
+HE: אתה לא צריך לצעוק; אני שומע אותך.
+EN: The fans [shouted] when their team scored.
+HE: האוהדים צעקו כשהקבוצה שלהם הבקיעה.
+
+## scream
+EN: The kids [screamed] with joy on the roller coaster.
+HE: הילדים צרחו משמחה ברכבת ההרים.
+EN: Don't [scream]; it's only a small mouse.
+HE: אל תצרח; זה רק עכבר קטן.
+
+## excavation
+EN: The [excavation] made a lot of noise all day.
+HE: החפירה עשתה הרבה רעש כל היום.
+EN: Ancient walls were found during the [excavation] in Jerusalem.
+HE: חומות עתיקות נמצאו במהלך החפירה בירושלים.
+
+## provident-fund
+EN: You can withdraw your [provident fund] money after fifteen years.
+HE: אפשר למשוך את הכסף מקופת הגמל אחרי חמש עשרה שנה.
+EN: I moved my [provident fund] to a company with lower fees.
+HE: העברתי את קופת הגמל שלי לחברה עם דמי ניהול נמוכים יותר.
+
+## compensation-severance-fund
+EN: It's better to keep the [severance fund] for retirement.
+HE: עדיף להשאיר את קרן הפיצויים לפרישה.
+EN: My employer deposits 8.33 percent into the [compensation fund].
+HE: המעסיק שלי מפקיד 8.33 אחוז לקרן הפיצויים.
+
+## punctual
+EN: My clients appreciate that I am always [punctual].
+HE: הלקוחות שלי מעריכים שאני תמיד דייקן.
+EN: Try to be [punctual] for your English lesson.
+HE: נסה להיות דייקן לשיעור האנגלית שלך.
+
+## aversion
+EN: My son has an [aversion] to vegetables.
+HE: לבן שלי יש רתיעה מירקות.
+EN: She developed an [aversion] to flying after a bad flight.
+HE: התפתחה אצלה רתיעה מטיסות אחרי טיסה גרועה.
+
+## checkout-counter
+EN: I forgot my bag at the [checkout counter].
+HE: שכחתי את התיק שלי בקופה.
+EN: The [checkout counter] near the door is for small purchases.
+HE: הקופה ליד הדלת היא לקניות קטנות.
+
+## fees
+EN: Always compare management [fees] before you choose a fund.
+HE: תמיד השווה דמי ניהול לפני שאתה בוחר קרן.
+EN: The lawyer's [fees] were higher than we expected.
+HE: שכר הטרחה של עורך הדין היה גבוה ממה שציפינו.
+
+## powerful
+EN: Compound interest is a [powerful] tool for saving.
+HE: ריבית דריבית היא כלי רב עוצמה לחיסכון.
+EN: The storm was so [powerful] that it knocked down trees.
+HE: הסערה הייתה כל כך חזקה שהיא הפילה עצים.
+
+## ownership
+EN: You need proof of [ownership] to insure the car.
+HE: צריך הוכחת בעלות כדי לבטח את הרכב.
+EN: The company changed [ownership] last year.
+HE: החברה החליפה בעלות בשנה שעברה.
+
+## fade
+EN: The pain will [fade] in a few days.
+HE: הכאב ידעך בעוד כמה ימים.
+EN: Don't leave the photos in the sun, or they will [fade].
+HE: אל תשאיר את התמונות בשמש, אחרת הן ידהו.
+
+## quad-bike
+EN: My son wants a [quad bike] for his birthday.
+HE: הבן שלי רוצה טרקטורון ליום ההולדת.
+EN: We rented a [quad bike] for two hours in the Negev.
+HE: שכרנו טרקטורון לשעתיים בנגב.
+
+## km-h
+EN: In the city, you must drive under 50 [km/h].
+HE: בעיר חייבים לנסוע מתחת ל-50 קמ"ש.
+EN: The wind reached 80 [km/h] last night.
+HE: הרוח הגיעה ל-80 קמ"ש אתמול בלילה.
+
+## corrupt
+EN: The [corrupt] official was sent to prison.
+HE: הפקיד המושחת נשלח לכלא.
+EN: Money can [corrupt] good people.
+HE: כסף יכול להשחית אנשים טובים.

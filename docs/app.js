@@ -59,6 +59,24 @@
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const pick = a => a[Math.floor(Math.random() * a.length)];
+  // variety: remember when each sentence / paragraph / grammar question was last shown,
+  // and always prefer the ones not seen for the longest time
+  const seen = LS.get('seen', {});
+  const seenKey = k => String(k).slice(0, 90);
+  const seenAt = k => seen[seenKey(k)] || 0;
+  function markSeen(k) {
+    seen[seenKey(k)] = Date.now();
+    const ks = Object.keys(seen);
+    if (ks.length > 4000) ks.sort((a, b) => seen[a] - seen[b]).slice(0, ks.length - 3000).forEach(x => delete seen[x]);
+    LS.set('seen', seen);
+  }
+  function freshPick(arr, keyOf = x => x.en) {
+    const best = Math.min(...arr.map(x => seenAt(keyOf(x))));
+    const it = pick(arr.filter(x => seenAt(keyOf(x)) === best));
+    markSeen(keyOf(it));
+    return it;
+  }
+  const freshOrder = (arr, keyOf) => shuffle(arr).sort((a, b) => seenAt(keyOf(a)) - seenAt(keyOf(b)));
   const plain = s => String(s).replace(/\[([^\]]+)\]/g, '$1');
   const norm = s => String(s).toLowerCase().replace(/[’‘`]/g, "'").replace(/[^a-z0-9']/g, '');
   function lev(a, b) {
@@ -353,7 +371,7 @@
   const EX = {};
 
   EX.flash = (el, w, record, next) => {
-    const s = w.s && w.s.length ? pick(w.s) : null;
+    const s = w.s && w.s.length ? freshPick(w.s) : null;
     el.innerHTML = `
       <div class="card flash" id="fc">
         ${wordHead(w)}
@@ -438,7 +456,7 @@
     });
   };
 
-  function pickSentence(w) { return w.s && w.s.length ? pick(w.s) : { en: `[${w.en}]`, he: w.he }; }
+  function pickSentence(w) { return w.s && w.s.length ? freshPick(w.s) : { en: `[${w.en}]`, he: w.he }; }
   const answerOf = s => { const m = s.en.match(/\[([^\]]+)\]/); return m ? m[1] : ''; };
 
   EX.sentence = (el, w, record, next) => {
@@ -583,9 +601,9 @@
     const s = settings.scope;
     const chosen = chosenLessons();
     const inScope = lessons.filter(l => (s === 'custom' && chosen.indexOf(l) >= 0) || (s === 'newest' && l === LESSONS[0]) || (s === 'last3' && LESSONS.indexOf(l) < 3));
-    let lesson = lessonDate ? lessons.find(l => l.date === lessonDate) : pick(inScope.length ? inScope : lessons);
+    let lesson = lessonDate ? lessons.find(l => l.date === lessonDate) : freshPick(inScope.length ? inScope : lessons, l => 'lesson ' + l.date);
     if (!lesson) { view.innerHTML = `<div class="card">${L('אין עדיין פסקאות.', 'No paragraphs yet.')}</div>`; return; }
-    const para = pick(lesson.p);
+    const para = freshPick(lesson.p);
     const targets = [];
     para.en.replace(/\[([^\]]+)\]/g, (_, a) => { targets.push(a); return _; });
     let n = 0;
@@ -851,13 +869,16 @@
   function grammarRound(topics) {
     const all = [];
     topics.forEach(g => g.qs.forEach(q => all.push({ g, q })));
-    const items = shuffle(all).slice(0, topics.length > 1 ? Math.max(settings.round, 10) : all.length);
+    // the questions not seen for the longest time, 10 per round (or the round size for mixed practice)
+    const gKey = x => 'g ' + x.q.q + ' | ' + x.q.a[0];
+    const items = shuffle(freshOrder(all, gKey).slice(0, topics.length > 1 ? Math.max(settings.round, 10) : 10));
     const first = items.length, per = {};
     let i = 0, score = 0;
     screen(topics.length > 1 ? L('תרגול מעורב', 'Mixed practice') : topics[0].title);
     const next = () => {
       if (i >= items.length) return grammarResults(topics, score, first, per);
       const { g, q } = items[i];
+      if (i < first) markSeen(gKey(items[i]));
       const correct = q.a[0];
       const opts = shuffle(q.a);
       const counter = i < first

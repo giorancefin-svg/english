@@ -1,0 +1,427 @@
+#! Extra sentences (2 more per word) for variety — added 17-11-2026. Part C.
+
+## regret
+EN: You won't [regret] starting your pension savings early.
+HE: לא תתחרט שהתחלת לחסוך לפנסיה מוקדם.
+EN: I [regret] saying that to my brother.
+HE: אני מתחרט שאמרתי את זה לאחי.
+
+## saving
+EN: We opened a [savings] account for our grandson.
+HE: פתחנו חשבון חיסכון לנכד שלנו.
+EN: Switching to a cheaper phone plan is a nice [saving].
+HE: לעבור לתוכנית סלולר זולה יותר זה חיסכון נחמד.
+
+## debt-loan
+EN: The [debt loan] helped us combine all our payments into one.
+HE: הלוואת החוב עזרה לנו לאחד את כל התשלומים לתשלום אחד.
+EN: Before taking a [debt loan], check the total cost.
+HE: לפני שלוקחים הלוואת חוב, כדאי לבדוק את העלות הכוללת.
+
+## credit-status
+EN: A good [credit status] helps you get a better mortgage.
+HE: מצב אשראי טוב עוזר לך לקבל משכנתא טובה יותר.
+EN: You can check your [credit status] online for free.
+HE: אפשר לבדוק את מצב האשראי שלך באינטרנט בחינם.
+
+## leverage
+EN: Too much [leverage] can be dangerous in a falling market.
+HE: יותר מדי מינוף יכול להיות מסוכן בשוק יורד.
+EN: She used her language skills as [leverage] to get the job.
+HE: היא השתמשה בכישורי השפה שלה כמנוף כדי לקבל את העבודה.
+
+## negotiate
+EN: You should always [negotiate] your salary.
+HE: תמיד כדאי לנהל משא ומתן על המשכורת שלך.
+EN: We [negotiated] a lower rent with the landlord.
+HE: ניהלנו משא ומתן עם בעל הבית על שכר דירה נמוך יותר.
+
+## negotiation
+EN: The [negotiation] with the insurance company took a month.
+HE: המשא ומתן עם חברת הביטוח לקח חודש.
+EN: Stay calm during a [negotiation].
+HE: תישאר רגוע במהלך משא ומתן.
+
+## broker-agent
+EN: The real estate [agent] took a two percent fee.
+HE: המתווך לקח עמלה של שני אחוזים.
+EN: Our mortgage [broker] found us a better interest rate.
+HE: יועץ המשכנתאות שלנו מצא לנו ריבית טובה יותר.
+
+## mature
+EN: My son became more [mature] after the army.
+HE: הבן שלי נהיה יותר בוגר אחרי הצבא.
+EN: Let's discuss this like [mature] adults.
+HE: בוא נדבר על זה כמו מבוגרים בוגרים.
+
+## immature
+EN: His jokes in the meeting were [immature].
+HE: הבדיחות שלו בפגישה היו לא בוגרות.
+EN: The fruit is still [immature]; wait a few days.
+HE: הפרי עדיין לא בשל; חכה כמה ימים.
+
+## external
+EN: The [external] hard drive has all our family photos.
+HE: לכונן הקשיח החיצוני יש את כל התמונות המשפחתיות שלנו.
+EN: An [external] auditor checks the fund every year.
+HE: מבקר חיצוני בודק את הקרן כל שנה.
+
+## internal
+EN: The company is doing an [internal] investigation.
+HE: החברה עורכת חקירה פנימית.
+EN: We have an [internal] meeting every Sunday.
+HE: יש לנו פגישה פנימית כל יום ראשון.
+
+## capital-market-authorities
+EN: You can file a complaint with the [capital market authorities].
+HE: אפשר להגיש תלונה לרשויות שוק ההון.
+EN: Every insurance agent needs a license from the [capital market authorities].
+HE: כל סוכן ביטוח צריך רישיון מרשויות שוק ההון.
+
+## agency
+EN: Our insurance [agency] has ten employees.
+HE: לסוכנות הביטוח שלנו יש עשרה עובדים.
+EN: The [agency] found a new nanny for us.
+HE: הסוכנות מצאה לנו מטפלת חדשה.
+
+## priority
+EN: Paying off the debt should be your first [priority].
+HE: לשלם את החוב צריך להיות העדיפות הראשונה שלך.
+EN: This week, the gym is not a [priority].
+HE: השבוע, חדר הכושר הוא לא בעדיפות.
+
+## immigration
+EN: The [immigration] office asked for more documents.
+HE: משרד ההגירה ביקש עוד מסמכים.
+EN: The line at [immigration] took almost an hour.
+HE: התור בביקורת הגבולות לקח כמעט שעה.
+
+## immigrate
+EN: Her family [immigrated] from Russia when she was five.
+HE: המשפחה שלה היגרה מרוסיה כשהייתה בת חמש.
+EN: It is not easy to [immigrate] without speaking the language.
+HE: לא קל להגר בלי לדבר את השפה.
+
+## relocate
+EN: The office will [relocate] to a bigger building next year.
+HE: המשרד יעבור לבניין גדול יותר בשנה הבאה.
+EN: We had to [relocate] the kids to a new school.
+HE: היינו צריכים להעביר את הילדים לבית ספר חדש.
+
+## relocation
+EN: The [relocation] package includes a flight and a hotel.
+HE: חבילת המעבר כוללת טיסה ומלון.
+EN: After the [relocation], it took us months to feel at home.
+HE: אחרי המעבר, לקח לנו חודשים להרגיש בבית.
+
+## step-n
+EN: The next [step] is to sign the contract.
+HE: הצעד הבא הוא לחתום על החוזה.
+EN: I walk ten thousand [steps] every day.
+HE: אני הולך עשרת אלפים צעדים כל יום.
+
+## step-v
+EN: [Step] onto the scale, please.
+HE: עלה על המשקל, בבקשה.
+EN: I [stepped] on a piece of Lego in the dark.
+HE: דרכתי על חתיכת לגו בחושך.
+
+## stairs
+EN: We live on the fourth floor, so the [stairs] are a good workout.
+HE: אנחנו גרים בקומה הרביעית, אז המדרגות הן אימון טוב.
+EN: The kids ran up the [stairs] to their room.
+HE: הילדים רצו במעלה המדרגות לחדר שלהם.
+
+## fry
+EN: My wife [fries] fish every Friday.
+HE: אשתי מטגנת דג כל יום שישי.
+EN: Don't [fry] the potatoes; bake them in the oven.
+HE: אל תטגן את תפוחי האדמה; תאפה אותם בתנור.
+
+## deep-fry
+EN: It's healthier to bake than to [deep fry].
+HE: זה בריא יותר לאפות מאשר לטגן בשמן עמוק.
+EN: The restaurant [deep fries] the chicken in fresh oil.
+HE: המסעדה מטגנת את העוף בשמן עמוק טרי.
+
+## pass-through-window
+EN: We opened a [pass-through window] between the kitchen and the living room.
+HE: פתחנו חלון הגשה בין המטבח לסלון.
+EN: The coffee shop sells drinks through a [pass-through window].
+HE: בית הקפה מוכר משקאות דרך חלון הגשה.
+
+## breakfast-nook
+EN: The kids do their homework in the [breakfast nook].
+HE: הילדים מכינים שיעורי בית בפינת האוכל הקטנה.
+EN: We want to add a [breakfast nook] when we renovate the kitchen.
+HE: אנחנו רוצים להוסיף פינת אוכל קטנה כשנשפץ את המטבח.
+
+## glance
+EN: At first [glance], the offer looks good.
+HE: במבט ראשון, ההצעה נראית טובה.
+EN: He [glanced] at the contract and signed it.
+HE: הוא העיף מבט בחוזה וחתם עליו.
+
+## sue
+EN: The client wants to [sue] the builder for the damage.
+HE: הלקוח רוצה לתבוע את הקבלן על הנזק.
+EN: She [sued] the airline for losing her bag.
+HE: היא תבעה את חברת התעופה על שאיבדה את התיק שלה.
+
+## lease
+EN: The [lease] ends in June, so we need to find a new apartment.
+HE: החכירה נגמרת ביוני, אז אנחנו צריכים למצוא דירה חדשה.
+EN: I [lease] my car through the company.
+HE: אני לוקח את הרכב שלי בליסינג דרך החברה.
+
+## flooring
+EN: The new [flooring] made the apartment look bigger.
+HE: הריצוף החדש גרם לדירה להיראות גדולה יותר.
+EN: Water damaged the [flooring] in the bathroom.
+HE: מים הרסו את הריצוף בחדר האמבטיה.
+
+## handle
+EN: The [handle] of my suitcase broke at the airport.
+HE: הידית של המזוודה שלי נשברה בשדה התעופה.
+EN: Turn the [handle] to the left to open the window.
+HE: סובב את הידית שמאלה כדי לפתוח את החלון.
+
+## en-suite-bathroom
+EN: We are looking for an apartment with an [en-suite bathroom].
+HE: אנחנו מחפשים דירה עם חדר רחצה צמוד.
+EN: The [en-suite bathroom] is small but very nice.
+HE: חדר הרחצה הצמוד קטן אבל מאוד נחמד.
+
+## analyze
+EN: I [analyze] each client's needs before I offer a policy.
+HE: אני מנתח את הצרכים של כל לקוח לפני שאני מציע פוליסה.
+EN: My coach [analyzed] my running technique on video.
+HE: המאמן שלי ניתח את טכניקת הריצה שלי בווידאו.
+
+## break-in-v
+EN: Lock the door, or someone might [break in].
+HE: נעל את הדלת, אחרת מישהו עלול לפרוץ.
+EN: They [broke in] while we were on vacation.
+HE: הם פרצו בזמן שהיינו בחופשה.
+
+## break-in-n
+EN: The insurance paid for the stolen laptop after the [break-in].
+HE: הביטוח שילם על הלפטופ שנגנב אחרי הפריצה.
+EN: Report a [break-in] to the police right away.
+HE: דווח על פריצה למשטרה מיד.
+
+## appreciation
+EN: Real estate usually has good [appreciation] over the years.
+HE: לנדל"ן בדרך כלל יש עליית ערך טובה לאורך השנים.
+EN: The [appreciation] of the dollar made our trip more expensive.
+HE: עליית הערך של הדולר הפכה את הטיול שלנו ליקר יותר.
+
+## depreciation
+EN: Electronics have high [depreciation].
+HE: למוצרי אלקטרוניקה יש ירידת ערך גבוהה.
+EN: The [depreciation] of the shekel made imports more expensive.
+HE: ירידת הערך של השקל ייקרה את היבוא.
+
+## kindergarten
+EN: I pick up my grandson from [kindergarten] on Tuesdays.
+HE: אני אוסף את הנכד שלי מהגן בימי שלישי.
+EN: The [kindergarten] teacher sent us photos of the kids.
+HE: הגננת שלחה לנו תמונות של הילדים.
+
+## market-price
+EN: The insurance pays the [market price] of the car, not the price you paid.
+HE: הביטוח משלם את מחיר השוק של הרכב, לא את המחיר ששילמת.
+EN: Fish at the port is cheaper than the [market price].
+HE: דגים בנמל זולים יותר ממחיר השוק.
+
+## family-income
+EN: Rent should not be more than a third of your [family income].
+HE: שכר הדירה לא צריך להיות יותר משליש מההכנסה המשפחתית שלך.
+EN: Our [family income] dropped when my wife was on maternity leave.
+HE: ההכנסה המשפחתית שלנו ירדה כשאשתי הייתה בחופשת לידה.
+
+## life-cover
+EN: Young parents should think about [life cover].
+HE: הורים צעירים צריכים לחשוב על ביטוח חיים.
+EN: The price of [life cover] depends on your age and health.
+HE: המחיר של ביטוח חיים תלוי בגיל ובבריאות שלך.
+
+## comprehensive-cover
+EN: My agent recommended [comprehensive cover] for the new car.
+HE: הסוכן שלי המליץ על ביטוח מקיף לרכב החדש.
+EN: [Comprehensive cover] also pays if your car is stolen.
+HE: ביטוח מקיף משלם גם אם הרכב שלך נגנב.
+
+## limited-cover
+EN: Read the policy carefully; it's only [limited cover].
+HE: קרא את הפוליסה בעיון; זה רק ביטוח מוגבל.
+EN: For an old car, [limited cover] is often enough.
+HE: לרכב ישן, ביטוח מוגבל לעיתים קרובות מספיק.
+
+## sponsored
+EN: My son's football team is [sponsored] by a pizza shop.
+HE: קבוצת הכדורגל של הבן שלי ממומנת על ידי פיצריה.
+EN: The trip was [sponsored] by the company.
+HE: הטיול מומן על ידי החברה.
+
+## deposit
+EN: We got our [deposit] back when we left the apartment.
+HE: קיבלנו את הפיקדון שלנו בחזרה כשעזבנו את הדירה.
+EN: I [deposit] part of my salary into savings every month.
+HE: אני מפקיד חלק מהמשכורת שלי לחיסכון כל חודש.
+
+## add-on
+EN: Roadside assistance is a cheap [add on] to car insurance.
+HE: שירותי דרך הם תוספת זולה לביטוח רכב.
+EN: Do I need this [add on], or is the basic plan enough?
+HE: האם אני צריך את התוספת הזאת, או שהתוכנית הבסיסית מספיקה?
+
+## donation
+EN: Our company gives a [donation] to charity every year.
+HE: החברה שלנו נותנת תרומה לצדקה כל שנה.
+EN: Thank you for your generous [donation].
+HE: תודה על התרומה הנדיבה שלך.
+
+## premium
+EN: You can pay the [premium] monthly or once a year.
+HE: אפשר לשלם את הפרמיה כל חודש או פעם בשנה.
+EN: If you install an alarm, your [premium] will go down.
+HE: אם תתקין אזעקה, הפרמיה שלך תרד.
+
+## exclude
+EN: The price [excludes] VAT.
+HE: המחיר לא כולל מע"מ.
+EN: This policy [excludes] extreme sports.
+HE: הפוליסה הזאת לא כוללת ספורט אתגרי.
+
+## insurance-claim
+EN: Take photos of the damage before you file an [insurance claim].
+HE: צלם את הנזק לפני שאתה מגיש תביעת ביטוח.
+EN: I help clients with every step of the [insurance claim].
+HE: אני עוזר ללקוחות בכל שלב של תביעת הביטוח.
+
+## claim
+EN: The company [claims] the product is safe.
+HE: החברה טוענת שהמוצר בטוח.
+EN: How long does it take to process a [claim]?
+HE: כמה זמן לוקח לטפל בתביעה?
+
+## liability
+EN: The driver admitted [liability] for the accident.
+HE: הנהג הודה באחריות לתאונה.
+EN: Business owners need [liability] insurance.
+HE: בעלי עסקים צריכים ביטוח אחריות.
+
+## renewal
+EN: Check the price before the automatic [renewal].
+HE: בדוק את המחיר לפני החידוש האוטומטי.
+EN: The gym sent me a [renewal] reminder.
+HE: חדר הכושר שלח לי תזכורת לחידוש.
+
+## renew
+EN: I need to [renew] my passport before the trip.
+HE: אני צריך לחדש את הדרכון לפני הטיול.
+EN: The client [renewed] his home insurance for another year.
+HE: הלקוח חידש את ביטוח הדירה שלו לשנה נוספת.
+
+## stressful
+EN: The end of the year is always [stressful] at the office.
+HE: סוף השנה תמיד מלחיץ במשרד.
+EN: Driving in Tel Aviv is [stressful].
+HE: לנהוג בתל אביב זה מלחיץ.
+
+## chaotic
+EN: The kitchen was [chaotic] after the party.
+HE: המטבח היה כאוטי אחרי המסיבה.
+EN: Traffic was [chaotic] because of the rain.
+HE: התנועה הייתה כאוטית בגלל הגשם.
+
+## appointment
+EN: I have three client [appointments] tomorrow.
+HE: יש לי מחר שלוש פגישות עם לקוחות.
+EN: I'm sorry, I need to cancel my [appointment].
+HE: סליחה, אני צריך לבטל את הפגישה שלי.
+
+## schedule
+EN: The train is running behind [schedule].
+HE: הרכבת מאחרת לפי לוח הזמנים.
+EN: I [scheduled] my English lesson for Thursday evening.
+HE: קבעתי את שיעור האנגלית שלי ליום חמישי בערב.
+
+## compromise
+EN: The final price was a [compromise] between both sides.
+HE: המחיר הסופי היה פשרה בין שני הצדדים.
+EN: We [compromised]: pizza tonight, salad tomorrow.
+HE: הגענו לפשרה: פיצה הערב, סלט מחר.
+
+## demand
+EN: [Demand] for electric cars is growing.
+HE: הביקוש למכוניות חשמליות גדל.
+EN: The client [demanded] a full refund.
+HE: הלקוח דרש החזר מלא.
+
+## habit
+EN: Saving ten percent of your salary should become a [habit].
+HE: לחסוך עשרה אחוז מהמשכורת צריך להפוך להרגל.
+EN: Going to the gym in the morning is now a [habit] for me.
+HE: ללכת לחדר הכושר בבוקר הפך אצלי להרגל.
+
+## emphasise
+EN: My advisor always [emphasises] the long term.
+HE: היועץ שלי תמיד מדגיש את הטווח הארוך.
+EN: Let me [emphasise] one thing: read before you sign.
+HE: תן לי להדגיש דבר אחד: לקרוא לפני שחותמים.
+
+## emphasis
+EN: The coach puts [emphasis] on good technique.
+HE: המאמן שם דגש על טכניקה טובה.
+EN: Put the [emphasis] on the second syllable: "ho-TEL".
+HE: שים את הדגש על ההברה השנייה: "ho-TEL".
+
+## shared-hobby
+EN: Hiking is a [shared hobby] in our family.
+HE: טיולים הם תחביב משותף במשפחה שלנו.
+EN: My son and I found a [shared hobby]: fishing.
+HE: אני והבן שלי מצאנו תחביב משותף: דיג.
+
+## public-transport
+EN: [Public transport] is cheaper than parking in the city.
+HE: תחבורה ציבורית זולה יותר מחניה בעיר.
+EN: There is no [public transport] on Saturday in our town.
+HE: אין תחבורה ציבורית בשבת בעיר שלנו.
+
+## mixed-breed
+EN: The [mixed breed] puppy is very friendly.
+HE: הגור מגזע מעורב מאוד ידידותי.
+EN: We adopted a [mixed breed] cat last year.
+HE: אימצנו חתול מגזע מעורב בשנה שעברה.
+
+## pure-breed
+EN: A [pure breed] dog usually comes with papers.
+HE: כלב מגזע טהור בדרך כלל מגיע עם תעודות.
+EN: She shows her [pure breed] cats at competitions.
+HE: היא מציגה את החתולים שלה מגזע טהור בתחרויות.
+
+## balcony
+EN: I water the plants on the [balcony] every evening.
+HE: אני משקה את הצמחים במרפסת כל ערב.
+EN: An apartment with a [balcony] costs more.
+HE: דירה עם מרפסת עולה יותר.
+
+## sales
+EN: The [sales] team meets every Monday morning.
+HE: צוות המכירות נפגש כל יום שני בבוקר.
+EN: Online [sales] grow every year.
+HE: המכירות באינטרנט גדלות כל שנה.
+
+## independent
+EN: I became [independent] after ten years as an employee.
+HE: הפכתי לעצמאי אחרי עשר שנים כשכיר.
+EN: [Independent] workers must save for their own pension.
+HE: עובדים עצמאיים חייבים לחסוך לפנסיה בעצמם.
+
+## domain
+EN: Cooking is my wife's [domain]; I just wash the dishes.
+HE: בישול זה התחום של אשתי; אני רק שוטף את הכלים.
+EN: Pensions and insurance are my [domain].
+HE: פנסיה וביטוח הם התחום שלי.
