@@ -821,7 +821,7 @@
   // the tutor's tables, shown as one card per row (readable on a phone)
   const hasHe = t => /[֐-׿]/.test(t);
   // Hebrew text with English pieces inside: isolate each English run so punctuation stays in place
-  const heMix = t => String(t).split(/([A-Za-z][A-Za-z0-9 '’.,!?+\/-]*[A-Za-z0-9'’?!])/).map((p, i) => i % 2 ? `<bdi dir="ltr">${esc(p)}</bdi>` : esc(p)).join('');
+  const heMix = t => String(t).split(/([A-Za-z][A-Za-z0-9 '’.,:!?+\/-]*[A-Za-z0-9'’?!])/).map((p, i) => i % 2 ? `<bdi dir="ltr">${esc(p)}</bdi>` : esc(p)).join('');
   const cellHtml = t => esc(t).replace(/\n/g, '<br>');
   const isBadH = h => /incorrect|❌|wrong/i.test(h || '');
   const isOkH = h => !isBadH(h) && /correct|✅|✔/i.test(h || '');
@@ -866,7 +866,7 @@
         ${g.he ? `<div class="he tips-h">${heMix(g.he)}</div>` : ''}
         ${g.tips.length ? `<div class="muted" style="margin-top:8px">💡 ${L('בקצרה', 'In short (Hebrew)')}</div><ul class="he">${g.tips.map(t => `<li>${heMix(t)}</li>`).join('')}</ul>` : ''}
       </div>` : ''}
-      <div class="lesson-h">📄 ${L('מהקובץ של המורה', "From the tutor's file")}</div>
+      <div class="lesson-h">${g.src === 'claude' ? `🤖 ${L('הסבר מלא', 'Full explanation')}` : `📄 ${L('מהקובץ של המורה', "From the tutor's file")}`}</div>
       ${blocksHtml(g.blocks)}
       ${g.qs.length ? `<button class="btn" id="gPractice">✏️ ${L('תרגל את הנושא', 'Practice this topic')} (${g.qs.length})</button>` : ''}`;
     const gp = $('#gPractice'); if (gp) gp.onclick = () => grammarRound([g]);

@@ -1,5 +1,5 @@
 // Offline cache. tools/build.py bumps VERSION whenever the words change.
-const VERSION = 'v1795428685';
+const VERSION = 'v1795429103';
 const CACHE = 'giora-english-' + VERSION;
 const FILES = ['./', 'index.html', 'style.css', 'app.js', 'data.js', 'manifest.json',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];

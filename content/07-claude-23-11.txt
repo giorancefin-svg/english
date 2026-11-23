@@ -1,0 +1,125 @@
+#! Claude lesson 23-11-2026 — words about plans and the future (fits will / going to).
+
+## plan
+EN: What are your [plans] for the weekend?
+HE: מה התוכניות שלך לסוף השבוע?
+EN: I'm going to [plan] our summer trip this week.
+HE: אני הולך לתכנן את הטיול שלנו בקיץ השבוע.
+EN: Every client needs a good financial [plan].
+HE: כל לקוח צריך תוכנית פיננסית טובה.
+EN: Everything went according to [plan].
+HE: הכול הלך לפי התוכנית.
+
+## deadline
+EN: The [deadline] for the report is Thursday.
+HE: המועד האחרון לדוח הוא יום חמישי.
+EN: I always finish my work before the [deadline].
+HE: אני תמיד מסיים את העבודה שלי לפני המועד האחרון.
+EN: We missed the [deadline] by one day.
+HE: פספסנו את המועד האחרון ביום אחד.
+EN: Can you give me a [deadline] for this project?
+HE: אתה יכול לתת לי מועד אחרון לפרויקט הזה?
+
+## probably
+EN: It will [probably] rain tomorrow.
+HE: כנראה ירד גשם מחר.
+EN: I'll [probably] be late, there is a lot of traffic.
+HE: אני כנראה אאחר, יש הרבה פקקים.
+EN: She is [probably] at the gym right now.
+HE: היא כנראה בחדר הכושר עכשיו.
+EN: The client [probably] didn't read the email.
+HE: הלקוח כנראה לא קרא את המייל.
+
+## definitely
+EN: I will [definitely] call you tomorrow.
+HE: אני בהחלט אתקשר אליך מחר.
+EN: This is [definitely] the best plan for you.
+HE: זו בהחלט התוכנית הכי טובה בשבילך.
+EN: We are [definitely] going to the beach on Saturday.
+HE: אנחנו בוודאות הולכים לים בשבת.
+EN: "Are you coming?" "[Definitely]!"
+HE: "אתה בא?" "בטח!"
+
+## look-forward-to
+EN: I'm [looking forward to] the holiday.
+HE: אני מחכה לחופשה בקוצר רוח.
+EN: We [look forward to] working with you.
+HE: אנחנו מצפים לעבוד איתך.
+EN: The kids are [looking forward to] the trip.
+HE: הילדים מחכים לטיול בקוצר רוח.
+EN: I [look forward to] hearing from you.
+HE: אני מחכה לשמוע ממך.
+
+## expect
+EN: I [expect] the meeting to be short.
+HE: אני מצפה שהפגישה תהיה קצרה.
+EN: We [expect] a lot of new clients this year.
+HE: אנחנו מצפים להרבה לקוחות חדשים השנה.
+EN: I didn't [expect] to see you here!
+HE: לא ציפיתי לראות אותך כאן!
+EN: What do you [expect] from your pension fund?
+HE: מה אתה מצפה מקרן הפנסיה שלך?
+
+## decide
+EN: I've [decided] to learn English every day.
+HE: החלטתי ללמוד אנגלית כל יום.
+EN: We need to [decide] by Friday.
+HE: אנחנו צריכים להחליט עד יום שישי.
+EN: Take your time, you don't have to [decide] now.
+HE: קח את הזמן, אתה לא חייב להחליט עכשיו.
+EN: She [decided] to change her insurance company.
+HE: היא החליטה להחליף את חברת הביטוח שלה.
+
+## promise
+EN: I [promise] I'll be on time.
+HE: אני מבטיח שאגיע בזמן.
+EN: He always keeps his [promises].
+HE: הוא תמיד מקיים את ההבטחות שלו.
+EN: I [promised] my son we will go to the park.
+HE: הבטחתי לבן שלי שנלך לפארק.
+EN: Don't [promise] the client something you can't do.
+HE: אל תבטיח ללקוח משהו שאתה לא יכול לעשות.
+
+## in-advance
+EN: Please book the table [in advance].
+HE: בבקשה תזמין את השולחן מראש.
+EN: Thanks [in advance] for your help.
+HE: תודה מראש על העזרה.
+EN: It's better to plan your pension years [in advance].
+HE: עדיף לתכנן את הפנסיה שנים מראש.
+EN: We paid for the hotel [in advance].
+HE: שילמנו על המלון מראש.
+
+## retire
+EN: My father [retired] at the age of sixty-seven.
+HE: אבא שלי יצא לפנסיה בגיל שישים ושבע.
+EN: When are you going to [retire]?
+HE: מתי אתה מתכוון לצאת לפנסיה?
+EN: If you save now, you can [retire] early.
+HE: אם תחסוך עכשיו, תוכל לצאת לפנסיה מוקדם.
+EN: She wants to travel the world after she [retires].
+HE: היא רוצה לטייל בעולם אחרי שתצא לפנסיה.
+
+## save-up
+EN: We are [saving up] for a new car.
+HE: אנחנו חוסכים לרכב חדש.
+EN: I [saved up] for two years to buy this.
+HE: חסכתי שנתיים כדי לקנות את זה.
+EN: It's a good idea to [save up] for your kids.
+HE: זה רעיון טוב לחסוך בשביל הילדים.
+EN: How much do you need to [save up] for the trip?
+HE: כמה אתה צריך לחסוך לטיול?
+
+## postpone
+EN: Can we [postpone] the meeting to next week?
+HE: אפשר לדחות את הפגישה לשבוע הבא?
+EN: The game was [postponed] because of the rain.
+HE: המשחק נדחה בגלל הגשם.
+EN: Don't [postpone] your pension decisions.
+HE: אל תדחה את ההחלטות שלך לגבי הפנסיה.
+EN: I had to [postpone] my workout to the evening.
+HE: הייתי צריך לדחות את האימון לערב.
+
+## lesson 23-11-2026
+EN: Next year is going to be a big year for me. I've [decided] to [save up] for a family trip to London, and I'm already [looking forward to] it. My partner and I are going to book the flights [in advance], because it's cheaper. At work, I [expect] a busy year with many new clients. I always tell them: don't [postpone] your pension [plans] – it's never too early to think about the day you [retire]. I [promise] myself to speak English every week, and I will [definitely] meet every [deadline]. It will [probably] be hard sometimes, but I'm ready.
+HE: השנה הבאה הולכת להיות שנה גדולה בשבילי. החלטתי לחסוך לטיול משפחתי ללונדון, ואני כבר מחכה לזה בקוצר רוח. בת הזוג שלי ואני הולכים להזמין את הטיסות מראש, כי זה זול יותר. בעבודה אני מצפה לשנה עמוסה עם הרבה לקוחות חדשים. אני תמיד אומר להם: אל תדחו את תוכניות הפנסיה שלכם – אף פעם לא מוקדם מדי לחשוב על היום שבו תצאו לפנסיה. אני מבטיח לעצמי לדבר אנגלית כל שבוע, ואני בהחלט אעמוד בכל מועד אחרון. זה כנראה יהיה קשה לפעמים, אבל אני מוכן.

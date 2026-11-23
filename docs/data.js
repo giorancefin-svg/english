@@ -1,6 +1,343 @@
 window.VOCAB = {
 "lessons": [
 {
+"date": "23-11-2026",
+"words": [
+{
+"id": "plan",
+"en": "plan",
+"note": "",
+"full": "plan",
+"he": "תָּכְנִית",
+"heFull": "תָּכְנִית / לְתַכְנֵן",
+"ph": "plan",
+"s": [
+{
+"en": "What are your [plans] for the weekend?",
+"he": "מה התוכניות שלך לסוף השבוע?"
+},
+{
+"en": "I'm going to [plan] our summer trip this week.",
+"he": "אני הולך לתכנן את הטיול שלנו בקיץ השבוע."
+},
+{
+"en": "Every client needs a good financial [plan].",
+"he": "כל לקוח צריך תוכנית פיננסית טובה."
+},
+{
+"en": "Everything went according to [plan].",
+"he": "הכול הלך לפי התוכנית."
+}
+]
+},
+{
+"id": "deadline",
+"en": "deadline",
+"note": "",
+"full": "deadline",
+"he": "מוֹעֵד אַחֲרוֹן",
+"heFull": "מוֹעֵד אַחֲרוֹן / דֶּדְלַיין",
+"ph": "ded-lyn",
+"s": [
+{
+"en": "The [deadline] for the report is Thursday.",
+"he": "המועד האחרון לדוח הוא יום חמישי."
+},
+{
+"en": "I always finish my work before the [deadline].",
+"he": "אני תמיד מסיים את העבודה שלי לפני המועד האחרון."
+},
+{
+"en": "We missed the [deadline] by one day.",
+"he": "פספסנו את המועד האחרון ביום אחד."
+},
+{
+"en": "Can you give me a [deadline] for this project?",
+"he": "אתה יכול לתת לי מועד אחרון לפרויקט הזה?"
+}
+]
+},
+{
+"id": "probably",
+"en": "probably",
+"note": "",
+"full": "probably",
+"he": "כַּנִּרְאֶה",
+"heFull": "כַּנִּרְאֶה / כְּנִרְאֶה",
+"ph": "prob-uh-blee",
+"s": [
+{
+"en": "It will [probably] rain tomorrow.",
+"he": "כנראה ירד גשם מחר."
+},
+{
+"en": "I'll [probably] be late, there is a lot of traffic.",
+"he": "אני כנראה אאחר, יש הרבה פקקים."
+},
+{
+"en": "She is [probably] at the gym right now.",
+"he": "היא כנראה בחדר הכושר עכשיו."
+},
+{
+"en": "The client [probably] didn't read the email.",
+"he": "הלקוח כנראה לא קרא את המייל."
+}
+]
+},
+{
+"id": "definitely",
+"en": "definitely",
+"note": "",
+"full": "definitely",
+"he": "בְּהֶחְלֵט",
+"heFull": "בְּהֶחְלֵט / בְּוַדַּאי",
+"ph": "def-i-nit-lee",
+"s": [
+{
+"en": "I will [definitely] call you tomorrow.",
+"he": "אני בהחלט אתקשר אליך מחר."
+},
+{
+"en": "This is [definitely] the best plan for you.",
+"he": "זו בהחלט התוכנית הכי טובה בשבילך."
+},
+{
+"en": "We are [definitely] going to the beach on Saturday.",
+"he": "אנחנו בוודאות הולכים לים בשבת."
+},
+{
+"en": "\"Are you coming?\" \"[Definitely]!\"",
+"he": "\"אתה בא?\" \"בטח!\""
+}
+]
+},
+{
+"id": "look-forward-to",
+"en": "look forward to",
+"note": "",
+"full": "look forward to",
+"he": "לְצַפּוֹת בְּקֹצֶר רוּחַ לְ...",
+"heFull": "לְצַפּוֹת בְּקֹצֶר רוּחַ לְ...",
+"ph": "luk for-werd too",
+"s": [
+{
+"en": "I'm [looking forward to] the holiday.",
+"he": "אני מחכה לחופשה בקוצר רוח."
+},
+{
+"en": "We [look forward to] working with you.",
+"he": "אנחנו מצפים לעבוד איתך."
+},
+{
+"en": "The kids are [looking forward to] the trip.",
+"he": "הילדים מחכים לטיול בקוצר רוח."
+},
+{
+"en": "I [look forward to] hearing from you.",
+"he": "אני מחכה לשמוע ממך."
+}
+]
+},
+{
+"id": "expect",
+"en": "expect",
+"note": "",
+"full": "expect",
+"he": "לְצַפּוֹת",
+"heFull": "לְצַפּוֹת (שֶׁמַּשֶּׁהוּ יִקְרֶה)",
+"ph": "ik-spekt",
+"s": [
+{
+"en": "I [expect] the meeting to be short.",
+"he": "אני מצפה שהפגישה תהיה קצרה."
+},
+{
+"en": "We [expect] a lot of new clients this year.",
+"he": "אנחנו מצפים להרבה לקוחות חדשים השנה."
+},
+{
+"en": "I didn't [expect] to see you here!",
+"he": "לא ציפיתי לראות אותך כאן!"
+},
+{
+"en": "What do you [expect] from your pension fund?",
+"he": "מה אתה מצפה מקרן הפנסיה שלך?"
+}
+]
+},
+{
+"id": "decide",
+"en": "decide",
+"note": "",
+"full": "decide",
+"he": "לְהַחְלִיט",
+"heFull": "לְהַחְלִיט",
+"ph": "di-syd",
+"s": [
+{
+"en": "I've [decided] to learn English every day.",
+"he": "החלטתי ללמוד אנגלית כל יום."
+},
+{
+"en": "We need to [decide] by Friday.",
+"he": "אנחנו צריכים להחליט עד יום שישי."
+},
+{
+"en": "Take your time, you don't have to [decide] now.",
+"he": "קח את הזמן, אתה לא חייב להחליט עכשיו."
+},
+{
+"en": "She [decided] to change her insurance company.",
+"he": "היא החליטה להחליף את חברת הביטוח שלה."
+}
+]
+},
+{
+"id": "promise",
+"en": "promise",
+"note": "",
+"full": "promise",
+"he": "לְהַבְטִיחַ",
+"heFull": "לְהַבְטִיחַ / הַבְטָחָה",
+"ph": "prom-is",
+"s": [
+{
+"en": "I [promise] I'll be on time.",
+"he": "אני מבטיח שאגיע בזמן."
+},
+{
+"en": "He always keeps his [promises].",
+"he": "הוא תמיד מקיים את ההבטחות שלו."
+},
+{
+"en": "I [promised] my son we will go to the park.",
+"he": "הבטחתי לבן שלי שנלך לפארק."
+},
+{
+"en": "Don't [promise] the client something you can't do.",
+"he": "אל תבטיח ללקוח משהו שאתה לא יכול לעשות."
+}
+]
+},
+{
+"id": "in-advance",
+"en": "in advance",
+"note": "",
+"full": "in advance",
+"he": "מֵרֹאשׁ",
+"heFull": "מֵרֹאשׁ",
+"ph": "in uhd-vans",
+"s": [
+{
+"en": "Please book the table [in advance].",
+"he": "בבקשה תזמין את השולחן מראש."
+},
+{
+"en": "Thanks [in advance] for your help.",
+"he": "תודה מראש על העזרה."
+},
+{
+"en": "It's better to plan your pension years [in advance].",
+"he": "עדיף לתכנן את הפנסיה שנים מראש."
+},
+{
+"en": "We paid for the hotel [in advance].",
+"he": "שילמנו על המלון מראש."
+}
+]
+},
+{
+"id": "retire",
+"en": "retire",
+"note": "",
+"full": "retire",
+"he": "לָצֵאת לַפֶּנְסְיָה",
+"heFull": "לָצֵאת לַפֶּנְסְיָה",
+"ph": "ri-tyr",
+"s": [
+{
+"en": "My father [retired] at the age of sixty-seven.",
+"he": "אבא שלי יצא לפנסיה בגיל שישים ושבע."
+},
+{
+"en": "When are you going to [retire]?",
+"he": "מתי אתה מתכוון לצאת לפנסיה?"
+},
+{
+"en": "If you save now, you can [retire] early.",
+"he": "אם תחסוך עכשיו, תוכל לצאת לפנסיה מוקדם."
+},
+{
+"en": "She wants to travel the world after she [retires].",
+"he": "היא רוצה לטייל בעולם אחרי שתצא לפנסיה."
+}
+]
+},
+{
+"id": "save-up",
+"en": "save up",
+"note": "",
+"full": "save up",
+"he": "לַחְסֹךְ",
+"heFull": "לַחְסֹךְ (לְמַטָּרָה)",
+"ph": "sayv up",
+"s": [
+{
+"en": "We are [saving up] for a new car.",
+"he": "אנחנו חוסכים לרכב חדש."
+},
+{
+"en": "I [saved up] for two years to buy this.",
+"he": "חסכתי שנתיים כדי לקנות את זה."
+},
+{
+"en": "It's a good idea to [save up] for your kids.",
+"he": "זה רעיון טוב לחסוך בשביל הילדים."
+},
+{
+"en": "How much do you need to [save up] for the trip?",
+"he": "כמה אתה צריך לחסוך לטיול?"
+}
+]
+},
+{
+"id": "postpone",
+"en": "postpone",
+"note": "",
+"full": "postpone",
+"he": "לִדְחוֹת",
+"heFull": "לִדְחוֹת (לְמוֹעֵד מְאֻחָר)",
+"ph": "pohst-pohn",
+"s": [
+{
+"en": "Can we [postpone] the meeting to next week?",
+"he": "אפשר לדחות את הפגישה לשבוע הבא?"
+},
+{
+"en": "The game was [postponed] because of the rain.",
+"he": "המשחק נדחה בגלל הגשם."
+},
+{
+"en": "Don't [postpone] your pension decisions.",
+"he": "אל תדחה את ההחלטות שלך לגבי הפנסיה."
+},
+{
+"en": "I had to [postpone] my workout to the evening.",
+"he": "הייתי צריך לדחות את האימון לערב."
+}
+]
+}
+],
+"src": "claude",
+"topic": "future forms",
+"p": [
+{
+"en": "Next year is going to be a big year for me. I've [decided] to [save up] for a family trip to London, and I'm already [looking forward to] it. My partner and I are going to book the flights [in advance], because it's cheaper. At work, I [expect] a busy year with many new clients. I always tell them: don't [postpone] your pension [plans] – it's never too early to think about the day you [retire]. I [promise] myself to speak English every week, and I will [definitely] meet every [deadline]. It will [probably] be hard sometimes, but I'm ready.",
+"he": "השנה הבאה הולכת להיות שנה גדולה בשבילי. החלטתי לחסוך לטיול משפחתי ללונדון, ואני כבר מחכה לזה בקוצר רוח. בת הזוג שלי ואני הולכים להזמין את הטיסות מראש, כי זה זול יותר. בעבודה אני מצפה לשנה עמוסה עם הרבה לקוחות חדשים. אני תמיד אומר להם: אל תדחו את תוכניות הפנסיה שלכם – אף פעם לא מוקדם מדי לחשוב על היום שבו תצאו לפנסיה. אני מבטיח לעצמי לדבר אנגלית כל שבוע, ואני בהחלט אעמוד בכל מועד אחרון. זה כנראה יהיה קשה לפעמים, אבל אני מוכן."
+}
+]
+},
+{
 "date": "17-11-2026",
 "words": [
 {
@@ -9703,6 +10040,324 @@ window.VOCAB = {
 "worked"
 ]
 ]
+}
+],
+"src": "claude"
+},
+{
+"id": "future-forms",
+"file": "future forms",
+"title": "will or going to",
+"he": "עתיד: will או going to",
+"tips": [
+"going to = תוכנית שכבר החלטת עליה לפני שמדברים: I'm going to visit my parents on Saturday",
+"will = החלטה של הרגע, הבטחה או הצעה לעזור: OK, I'll answer the phone",
+"תחזית לפי סימן שרואים עכשיו ← going to: Look at the clouds, it's going to rain",
+"תחזית לפי מה שאתה חושב ← will: I think it will rain tomorrow",
+"פגישה שכבר נקבעה ← Present Progressive: I'm meeting a client at 10"
+],
+"qs": [
+{
+"q": "\"The phone is ringing.\" \"OK, I ___ answer it.\"",
+"a": [
+"will",
+"am going to",
+"answering"
+],
+"why": "החלטה של הרגע ← will."
+},
+{
+"q": "I ___ visit my parents on Saturday. I bought the train tickets yesterday.",
+"a": [
+"am going to",
+"will",
+"going to"
+],
+"why": "תוכנית שכבר החלטת עליה (קנית כרטיסים) ← going to."
+},
+{
+"q": "Look at those black clouds! It ___ rain.",
+"a": [
+"is going to",
+"will to",
+"goes to"
+],
+"why": "רואים סימן עכשיו (עננים) ← going to."
+},
+{
+"q": "I think the dollar ___ go up next year.",
+"a": [
+"will",
+"is going",
+"goes"
+],
+"why": "תחזית לפי מה שאתה חושב (I think) ← will."
+},
+{
+"q": "I promise I ___ be late again.",
+"a": [
+"won't",
+"am not going",
+"don't"
+],
+"why": "הבטחה ← will / won't."
+},
+{
+"q": "She ___ going to buy a new car.",
+"a": [
+"is",
+"are",
+"will"
+],
+"why": "she ← is going to."
+},
+{
+"q": "___ you going to come to the meeting?",
+"a": [
+"Are",
+"Will",
+"Do"
+],
+"why": "שאלה עם going to ← Are you going to…?"
+},
+{
+"q": "\"This bag is very heavy.\" \"I ___ help you.\"",
+"a": [
+"will",
+"am going to",
+"helping"
+],
+"why": "הצעה לעזור, החלטה של הרגע ← will."
+},
+{
+"q": "We ___ to move to a new apartment next year. We've already signed.",
+"a": [
+"are going",
+"will",
+"go"
+],
+"why": "תוכנית קיימת ← are going to (+ move)."
+},
+{
+"q": "I will ___ you the documents tomorrow.",
+"a": [
+"send",
+"to send",
+"sending"
+],
+"why": "אחרי will – פועל בלי to."
+},
+{
+"q": "He will ___ be at the office on Monday.",
+"a": [
+"probably",
+"to probably",
+"probable"
+],
+"why": "probably בא אחרי will: will probably."
+},
+{
+"q": "I'm ___ a client at 10 tomorrow – it's in my calendar.",
+"a": [
+"meeting",
+"meet",
+"will meeting"
+],
+"why": "פגישה שנקבעה עם שעה ← Present Progressive: I'm meeting."
+},
+{
+"q": "Be careful! You ___ fall!",
+"a": [
+"are going to",
+"will to",
+"go to"
+],
+"why": "רואים שזה עומד לקרות עכשיו ← going to."
+},
+{
+"q": "\"What are your plans for tonight?\" \"I ___ watch the game.\"",
+"a": [
+"am going to",
+"will to",
+"will going to"
+],
+"why": "שואלים על תוכניות ← going to."
+},
+{
+"q": "\"I forgot my wallet!\" \"Don't worry, I ___ pay for lunch.\"",
+"a": [
+"will",
+"am going to",
+"paying"
+],
+"why": "החלטה של הרגע ← will."
+},
+{
+"q": "They aren't going ___ sign the contract.",
+"a": [
+"to",
+"will",
+"for"
+],
+"why": "going to + פועל – לא לשכוח את to."
+},
+{
+"q": "Maybe I ___ go to the gym later. I'm not sure.",
+"a": [
+"will",
+"am going",
+"going to"
+],
+"why": "החלטה לא סגורה, \"maybe\" ← will."
+},
+{
+"q": "I'm sure you ___ enjoy the trip.",
+"a": [
+"will",
+"are going",
+"to"
+],
+"why": "I'm sure + תחזית אישית ← will."
+},
+{
+"q": "My sister is pregnant. She ___ have a baby in May.",
+"a": [
+"is going to",
+"will to",
+"goes to"
+],
+"why": "יש סימן ברור עכשיו ← going to."
+},
+{
+"q": "Don't worry, everything ___ OK.",
+"a": [
+"will be",
+"will",
+"is going"
+],
+"why": "will + be. בלי be המשפט חסר פועל."
+},
+{
+"q": "I have ___ to London twice, and next year I'm going to go again.",
+"a": [
+"been",
+"gone",
+"went"
+],
+"why": "חזרה על נושא קודם: ניסיון בחיים ← have been (Present Perfect)."
+},
+{
+"q": "Yesterday I ___ that I'm going to save up for a car.",
+"a": [
+"decided",
+"decide",
+"have decided"
+],
+"why": "חזרה: yesterday ← Past Simple."
+}
+],
+"blocks": [
+{
+"h": "The form"
+},
+{
+"head": [
+"Form",
+"Structure",
+"Example"
+],
+"rows": [
+[
+"will",
+"will + verb (no \"to\")",
+"I will call you. / I'll call you."
+],
+[
+"will – negative",
+"won't + verb",
+"I won't be late."
+],
+[
+"going to",
+"am / is / are + going to + verb",
+"She is going to buy a car."
+],
+[
+"going to – negative",
+"am / is / are + not + going to + verb",
+"We aren't going to move."
+],
+[
+"going to – question",
+"Am / Is / Are + subject + going to + verb?",
+"Are you going to come?"
+]
+]
+},
+{
+"h": "When do we use each one?"
+},
+{
+"head": [
+"Situation",
+"Use",
+"Example"
+],
+"rows": [
+[
+"A plan you made before",
+"going to",
+"I'm going to study tonight. (I decided this morning)"
+],
+[
+"A decision now, while speaking",
+"will",
+"\"It's cold.\" \"I'll close the window.\""
+],
+[
+"A promise",
+"will",
+"I promise I'll help you."
+],
+[
+"An offer to help",
+"will",
+"I'll carry your bag."
+],
+[
+"A prediction from what you see now",
+"going to",
+"Be careful! You're going to fall."
+],
+[
+"A prediction from what you think",
+"will",
+"I think the market will go up."
+],
+[
+"An arrangement with a time and place",
+"Present Progressive",
+"I'm meeting the client at 10."
+]
+]
+},
+{
+"h": "Useful words with will"
+},
+{
+"p": "I think … will · I'm sure … will · probably · definitely · maybe"
+},
+{
+"li": "I think it will be a good year."
+},
+{
+"li": "She will probably call you later."
+},
+{
+"li": "I'll definitely be there."
+},
+{
+"li": "Probably and definitely come after will: will probably, will definitely."
 }
 ],
 "src": "claude"

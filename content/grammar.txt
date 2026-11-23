@@ -964,3 +964,123 @@ WHY: V3 של write ← written.
 
 A: Have you ever been to Eilat? | Did you ever been to Eilat?
 WHY: ניסיון בחיים ← Have you ever + V3.
+
+## file future forms
+SOURCE: claude
+TITLE: will or going to
+HE: עתיד: will או going to
+TIP: going to = תוכנית שכבר החלטת עליה לפני שמדברים: I'm going to visit my parents on Saturday
+TIP: will = החלטה של הרגע, הבטחה או הצעה לעזור: OK, I'll answer the phone
+TIP: תחזית לפי סימן שרואים עכשיו ← going to: Look at the clouds, it's going to rain
+TIP: תחזית לפי מה שאתה חושב ← will: I think it will rain tomorrow
+TIP: פגישה שכבר נקבעה ← Present Progressive: I'm meeting a client at 10
+H: The form
+T: Form | Structure | Example
+T: will | will + verb (no "to") | I will call you. / I'll call you.
+T: will – negative | won't + verb | I won't be late.
+T: going to | am / is / are + going to + verb | She is going to buy a car.
+T: going to – negative | am / is / are + not + going to + verb | We aren't going to move.
+T: going to – question | Am / Is / Are + subject + going to + verb? | Are you going to come?
+H: When do we use each one?
+T: Situation | Use | Example
+T: A plan you made before | going to | I'm going to study tonight. (I decided this morning)
+T: A decision now, while speaking | will | "It's cold." "I'll close the window."
+T: A promise | will | I promise I'll help you.
+T: An offer to help | will | I'll carry your bag.
+T: A prediction from what you see now | going to | Be careful! You're going to fall.
+T: A prediction from what you think | will | I think the market will go up.
+T: An arrangement with a time and place | Present Progressive | I'm meeting the client at 10.
+H: Useful words with will
+P: I think … will · I'm sure … will · probably · definitely · maybe
+LI: I think it will be a good year.
+LI: She will probably call you later.
+LI: I'll definitely be there.
+LI: Probably and definitely come after will: will probably, will definitely.
+
+Q: "The phone is ringing." "OK, I ___ answer it."
+A: will | am going to | answering
+WHY: החלטה של הרגע ← will.
+
+Q: I ___ visit my parents on Saturday. I bought the train tickets yesterday.
+A: am going to | will | going to
+WHY: תוכנית שכבר החלטת עליה (קנית כרטיסים) ← going to.
+
+Q: Look at those black clouds! It ___ rain.
+A: is going to | will to | goes to
+WHY: רואים סימן עכשיו (עננים) ← going to.
+
+Q: I think the dollar ___ go up next year.
+A: will | is going | goes
+WHY: תחזית לפי מה שאתה חושב (I think) ← will.
+
+Q: I promise I ___ be late again.
+A: won't | am not going | don't
+WHY: הבטחה ← will / won't.
+
+Q: She ___ going to buy a new car.
+A: is | are | will
+WHY: she ← is going to.
+
+Q: ___ you going to come to the meeting?
+A: Are | Will | Do
+WHY: שאלה עם going to ← Are you going to…?
+
+Q: "This bag is very heavy." "I ___ help you."
+A: will | am going to | helping
+WHY: הצעה לעזור, החלטה של הרגע ← will.
+
+Q: We ___ to move to a new apartment next year. We've already signed.
+A: are going | will | go
+WHY: תוכנית קיימת ← are going to (+ move).
+
+Q: I will ___ you the documents tomorrow.
+A: send | to send | sending
+WHY: אחרי will – פועל בלי to.
+
+Q: He will ___ be at the office on Monday.
+A: probably | to probably | probable
+WHY: probably בא אחרי will: will probably.
+
+Q: I'm ___ a client at 10 tomorrow – it's in my calendar.
+A: meeting | meet | will meeting
+WHY: פגישה שנקבעה עם שעה ← Present Progressive: I'm meeting.
+
+Q: Be careful! You ___ fall!
+A: are going to | will to | go to
+WHY: רואים שזה עומד לקרות עכשיו ← going to.
+
+Q: "What are your plans for tonight?" "I ___ watch the game."
+A: am going to | will to | will going to
+WHY: שואלים על תוכניות ← going to.
+
+Q: "I forgot my wallet!" "Don't worry, I ___ pay for lunch."
+A: will | am going to | paying
+WHY: החלטה של הרגע ← will.
+
+Q: They aren't going ___ sign the contract.
+A: to | will | for
+WHY: going to + פועל – לא לשכוח את to.
+
+Q: Maybe I ___ go to the gym later. I'm not sure.
+A: will | am going | going to
+WHY: החלטה לא סגורה, "maybe" ← will.
+
+Q: I'm sure you ___ enjoy the trip.
+A: will | are going | to
+WHY: I'm sure + תחזית אישית ← will.
+
+Q: My sister is pregnant. She ___ have a baby in May.
+A: is going to | will to | goes to
+WHY: יש סימן ברור עכשיו ← going to.
+
+Q: Don't worry, everything ___ OK.
+A: will be | will | is going
+WHY: will + be. בלי be המשפט חסר פועל.
+
+Q: I have ___ to London twice, and next year I'm going to go again.
+A: been | gone | went
+WHY: חזרה על נושא קודם: ניסיון בחיים ← have been (Present Perfect).
+
+Q: Yesterday I ___ that I'm going to save up for a car.
+A: decided | decide | have decided
+WHY: חזרה: yesterday ← Past Simple.
