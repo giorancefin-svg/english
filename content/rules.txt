@@ -1,0 +1,147 @@
+#! Summary of all grammar rules (app: 🧩 tab → "📋 Summary of all rules", and docs/rules.pdf).
+#! "## <grammar topic key> | <english title> | <hebrew title>" in learning-path order. Lines:
+#!   R: rule (Hebrew)   EX: English example(s) – use ✓ / ✗   N: subtlety / trap (Hebrew)
+#! "## tips | <english> | <hebrew>" = the general section at the end (not linked to a topic).
+#! When a new grammar topic is added, add its block here too (build.py lists topics missing from this file).
+
+## present simple & progresive | Present Simple & Present Progressive | הווה פשוט והווה מתמשך
+R: הווה פשוט – עובדות, הרגלים ושגרה. מילים שמרמזות: always, usually, often, every day.
+EX: I always drink coffee. · We review KPIs every quarter.
+R: הווה מתמשך – am / is / are + פועל עם ing. למה שקורה עכשיו, למצב זמני ולשינויים.
+EX: I'm drinking coffee now. · We're reviewing KPIs this week.
+R: עם he / she / it מוסיפים s לפועל. עם I / you / we / they – בלי s.
+EX: He works. · She eats. · They work.
+N: תפקיד קבוע = הווה פשוט, משהו זמני = הווה מתמשך.
+EX: I manage the department. · I'm managing a new team this month.
+N: פעלי מצב כמעט אף פעם לא באים עם ing: know, like, want, believe, own
+EX: ✓ I know the process. · ✗ I'm knowing the process.
+N: always + ing = משהו שחוזר ומעצבן.
+EX: He's always interrupting meetings.
+
+## 6 | do / does and have / has | do / does ו-have / has
+R: שאלה ושלילה בהווה פשוט: do / don't, ועם he / she / it – does / doesn't.
+EX: Do you like coffee? · Does she play tennis? · He doesn't eat meat.
+N: אחרי does / doesn't הפועל חוזר לצורת בסיס – בלי s.
+EX: ✓ Does she play? · ✗ Does she plays? · ✓ He doesn't work. · ✗ He doesn't works.
+R: have = יש לי. עם he / she / it אומרים has.
+EX: We have a car. · She has two cats.
+N: אחרי does / doesn't חוזרים ל-have, לא has.
+EX: ✓ Does he have a car? · ✗ Does he has a car?
+N: do / have יכולים להיות גם הפועל עצמו, לא רק פועל עזר.
+EX: I do yoga. · She does her homework. · I have lunch at noon. · She has a shower.
+
+## Giora Bar (8) | Past Simple & Past Progressive | עבר פשוט ועבר מתמשך
+R: עבר פשוט – משהו שקרה ונגמר בעבר, או הרגל מהעבר. פועל אחד בעבר.
+EX: I worked yesterday. · I ate breakfast.
+R: עבר מתמשך – was / were + פועל עם ing. פעולה ארוכה, טוב לסיפורים.
+EX: I was working yesterday at 7.
+R: am / is → was. are → were.
+EX: I was a student. · They were at home.
+N: אסור was וגם פועל בעבר יחד – או was + ing, או פועל בעבר לבד.
+EX: ✗ I was wanted to go. · ✓ I wanted to go. · ✓ I was working.
+N: פעולה ארוכה שנקטעה: was / were + ing, ואז when + עבר פשוט.
+EX: I was eating breakfast when my mom called.
+N: שני משפטים נפרדים בלי when = שני אירועים שלא קשורים.
+EX: I ate breakfast. My mom called me.
+
+## 1 | didn't + base verb | עבר בשלילה: didn't + פועל בסיס
+R: בשלילה בעבר משתמשים ב-didn't, ואחריו הפועל בצורת בסיס. didn't כבר מסמן שזה עבר.
+EX: ✓ I didn't know. · ✗ I didn't knew. · ✓ She didn't go. · ✗ She didn't went.
+R: אותו כלל בשאלה: Did + פועל בסיס.
+EX: ✓ Did you call him? · ✗ Did you called him?
+N: במשפט חיובי – צורת העבר הרגילה.
+EX: I went. · I knew. · I called.
+
+## 4 | No "to" after modal verbs | בלי to אחרי can / should / must
+R: אחרי can, could, should, must, will, would, may, might – פועל בסיס, בלי to.
+EX: ✓ I can help you. · ✗ I can to help you. · ✓ You should call the client.
+N: גם עם he / she לא מוסיפים s – לא לפועל המודאלי ולא לפועל שאחריו.
+EX: ✓ She can swim. · ✗ She cans swim. · ✗ She can swims.
+N: שלילה: can't, shouldn't, mustn't, won't + פועל בסיס.
+EX: You shouldn't wait. · I can't come.
+
+## Giora Bar (7) | will + verb (no "to") | אחרי will – פועל בלי to
+R: עתיד עם will: נושא + will + פועל בסיס.
+EX: ✓ I will call you. · ✗ I will to call you. · ✓ They will arrive tomorrow.
+N: עם פעלים רגילים כמו want / need / like – כן צריך to. רק אחרי will ומודאליים – בלי.
+EX: I want to go. · I need to work. · I will go.
+N: אחרי will בא be, לא is / am / are.
+EX: ✓ He will be late. · ✗ He will is late.
+
+## 5 | Adjectives vs Adverbs | שם תואר ותואר הפועל
+R: Adjective מתאר שם עצם (אדם, דבר, מקום). עונה על: איזה? מה סוג?
+EX: a happy child · a beautiful house · She is careful.
+R: Adverb מתאר פועל (איך עושים), ולרוב נגמר ב-ly.
+EX: She sings beautifully. · He drives carefully. · He runs quickly.
+N: good הוא שם תואר; תואר הפועל שלו הוא well.
+EX: ✓ He plays well. · ✗ He plays good. · ✓ He is a good player.
+N: fast, hard, early, late – אותה מילה גם כתואר הפועל, בלי ly.
+EX: ✓ He works hard. · ✗ He works hardly. · ✓ She drives fast.
+N: יש מילים שנגמרות ב-ly והן שמות תואר: friendly, lovely, lonely, costly, likely, elderly, daily, weekly, monthly.
+EX: a friendly agent · a costly mistake · a weekly meeting
+N: אחרי be / feel / look / seem בא שם תואר.
+EX: ✓ I feel good. · ✓ You look tired.
+
+## 3 | very vs really | very או really
+R: very = מאוד. רק לפני שם תואר או תואר הפועל.
+EX: She is very tired. · He drives very carefully.
+R: really = ממש / באמת. אפשר לפני שם תואר, וגם לפני פועל.
+EX: She is really tired. · I really like it.
+N: לפני פועל – רק really, אף פעם לא very.
+EX: ✓ I really enjoy the class. · ✗ I very enjoy the class. · ✗ I very like it.
+
+## 2 | all vs whole | all או whole
+R: all – הרבה דברים או אנשים יחד.
+EX: All the houses are sold. · All my clients called today.
+R: whole – דבר אחד שלם, מההתחלה עד הסוף.
+EX: I worked the whole day. · He bought the whole building.
+N: הסדר שונה: all the ... לעומת the whole ...
+EX: ✓ all my clients · ✓ the whole day · ✓ all day · ✗ the all day · ✗ whole the day
+
+## present perfect | Present Perfect (I have done) | הווה מושלם – have / has + V3
+R: have / has + צורה שלישית של הפועל, V3.
+EX: I have finished the report. · She has called the client.
+R: מתי: ניסיון בחיים בלי זמן מדויק, משהו שהתחיל בעבר ונמשך עד היום, ותוצאה שמורגשת עכשיו.
+EX: I have visited Paris twice. · I have worked here since 2015. · I have lost my keys.
+N: עם זמן מדויק בעבר – רק עבר פשוט: yesterday, last year, in 2020
+EX: ✓ I went to London last year. · ✗ I have gone to London last year.
+N: מילים שבאות הרבה עם Present Perfect: ever, never, already, yet, just, so far, since, for.
+EX: Have you ever been to New York? · I haven't finished yet. · I have already paid.
+N: yet – בשלילה ובשאלה, בסוף המשפט. already – במשפט חיובי, לפני ה-V3.
+N: since + נקודת זמן, for + משך זמן.
+EX: since 2015 · since Monday · for ten years · for two hours
+N: been = היית ושבת. gone = הלך ועוד שם.
+EX: She has been to Paris. · She has gone to Paris (she is there now).
+N: V3 חשובים: be–been, go–gone, do–done, see–seen, take–taken, write–written, eat–eaten, buy–bought, make–made.
+
+## future forms | will or going to | עתיד: will או going to
+R: going to – תוכנית שכבר החלטת עליה לפני שמדברים. am / is / are + going to + פועל.
+EX: I'm going to visit my parents on Saturday. · She is going to buy a car.
+R: will – החלטה של הרגע, הבטחה, הצעה לעזור, ומה שאתה חושב שיקרה.
+EX: OK, I'll answer the phone. · I promise I'll be on time. · I think it will rain.
+N: תחזית לפי סימן שרואים עכשיו – going to.
+EX: Look at the clouds, it's going to rain. · Be careful, you're going to fall!
+N: פגישה שכבר נקבעה עם שעה ומקום – הרבה פעמים הווה מתמשך.
+EX: I'm meeting a client at 10 tomorrow.
+N: probably / definitely באים אחרי will.
+EX: ✓ He will probably call. · ✓ I'll definitely be there.
+N: ב-going to לא לשכוח את to ואת am / is / are.
+EX: ✓ We are going to move. · ✗ We going to move. · ✗ We are going move.
+
+## tips | The most common mistakes – quick check | הטעויות הנפוצות – בדיקה מהירה
+N: he / she / it בהווה – s בסוף הפועל.
+EX: ✓ He works. · ✗ He work.
+N: אחרי does / didn't / can / will / should – פועל בסיס בלי s, בלי ed ובלי to.
+EX: ✓ Does he know? · ✓ I didn't see. · ✓ I can help. · ✓ I will call.
+N: was / were + ing, או פועל בעבר – לא שניהם יחד.
+EX: ✓ I was working. · ✓ I worked. · ✗ I was worked.
+N: זמן מדויק בעבר = עבר פשוט, לא Present Perfect.
+EX: ✓ I saw him yesterday. · ✗ I have seen him yesterday.
+N: לפני פועל – really, לא very.
+EX: ✓ I really like it.
+N: good = שם תואר, well = איך עושים.
+EX: ✓ You speak English well.
+N: the whole + דבר אחד, all + הרבה דברים.
+EX: ✓ the whole building · ✓ all the buildings
+N: תוכנית = going to. החלטה עכשיו = will.
+EX: I'm going to study tonight. · Wait, I'll help you.

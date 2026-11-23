@@ -1,8 +1,8 @@
 // Offline cache. tools/build.py bumps VERSION whenever the words change.
-const VERSION = 'v1795429103';
+const VERSION = 'v1795431011';
 const CACHE = 'giora-english-' + VERSION;
 const FILES = ['./', 'index.html', 'style.css', 'app.js', 'data.js', 'manifest.json',
-  'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
+  'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'rules.pdf'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES.map(f => new Request(f, { cache: 'reload' })))).then(() => self.skipWaiting()));

@@ -6,6 +6,7 @@ Usage (from the project folder):
 Prints which words are still missing example sentences / which lessons
 are missing a paragraph, so they can be written in content/sentences.txt.
 """
+import html
 import json
 import re
 import sys
@@ -19,6 +20,7 @@ CONTENT = ROOT / "content"  # every *.txt here holds sentences (except grammar.t
 GRAMMAR = CONTENT / "grammar.txt"  # titles, Hebrew tips and exercises for the grammar/tips files
 CLAUDE_LESSONS = CONTENT / "claude-lessons.txt"  # weekly lessons written by Claude (no tutor)
 ROADMAP = CONTENT / "roadmap.txt"  # learning path stages + level test
+RULES = CONTENT / "rules.txt"  # summary of all grammar rules (app page + docs/rules.pdf)
 OUT = ROOT / "docs" / "data.js"
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -154,7 +156,7 @@ def read_sentences():
     key, kind = None, None
     lines = []
     for f in sorted(CONTENT.glob("*.txt")):
-        if f in (GRAMMAR, CLAUDE_LESSONS, ROADMAP):
+        if f in (GRAMMAR, CLAUDE_LESSONS, ROADMAP, RULES):
             continue
         lines += f.read_text(encoding="utf8").splitlines()
     for line in lines:
@@ -319,6 +321,80 @@ def read_roadmap():
     return {"stages": stages, "test": test}
 
 
+def read_rules():
+    """content/rules.txt: "## <topic key> | <english> | <hebrew>", then R: / EX: / N: lines."""
+    out = []
+    if not RULES.exists():
+        return out
+    for line in RULES.read_text(encoding="utf8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#!"):
+            continue
+        if line.startswith("## "):
+            parts = [x.strip() for x in line[3:].split("|")]
+            out.append({"key": parts[0], "title": parts[1], "he": parts[2] if len(parts) > 2 else "", "items": []})
+        elif out and re.match(r"^(R|EX|N):", line):
+            t, x = line.split(":", 1)
+            out[-1]["items"].append({"t": t, "x": x.strip()})
+    return out
+
+
+def he_mix(t):
+    """Hebrew text with English runs wrapped in LTR <bdi> (same as heMix in app.js)."""
+    parts = re.split(r"([A-Za-z][A-Za-z0-9 '’.,:!?+/-]*[A-Za-z0-9'’?!])", t)
+    return "".join(f'<bdi dir="ltr">{html.escape(p)}</bdi>' if i % 2 else html.escape(p) for i, p in enumerate(parts))
+
+
+def ex_html(x):
+    parts = []
+    for p in x.split(" · "):
+        cls = "ok" if p.startswith("✓") else "bad" if p.startswith("✗") else ""
+        parts.append(f'<span class="{cls}">{html.escape(p)}</span>')
+    return " <i>·</i> ".join(parts)
+
+
+def write_rules_pdf(rules):
+    """docs/rules.html (print layout) -> docs/rules.pdf with headless Chrome/Edge, only when rules.txt changed."""
+    pdf = ROOT / "docs" / "rules.pdf"
+    if not rules or (pdf.exists() and pdf.stat().st_mtime >= RULES.stat().st_mtime):
+        return
+    secs = []
+    for i, r in enumerate(rules):
+        rows = []
+        for it in r["items"]:
+            if it["t"] == "EX":
+                rows.append(f'<div class="ex">{ex_html(it["x"])}</div>')
+            else:
+                cls = "rule" if it["t"] == "R" else "note"
+                ico = "📌" if it["t"] == "R" else "⚠️"
+                rows.append(f'<div class="{cls}">{ico} {he_mix(it["x"])}</div>')
+        num = "" if r["key"] == "tips" else f"{i + 1}. "
+        secs.append(f'<section><h2><bdi>{num}{html.escape(r["title"])}</bdi></h2><div class="he-t">{html.escape(r["he"])}</div>{"".join(rows)}</section>')
+    doc = f"""<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><title>English rules</title><style>
+@page {{ size: A4; margin: 14mm 13mm; }}
+body {{ font-family: Arial, 'Segoe UI', sans-serif; color: #1d2733; font-size: 12.5px; line-height: 1.5; }}
+h1 {{ font-size: 22px; margin: 0 0 2px; color: #2b5d8f; }} .sub {{ color: #6b7785; margin-bottom: 12px; }}
+section {{ border: 1px solid #d7e0ea; border-radius: 10px; padding: 8px 12px 10px; margin-bottom: 10px; break-inside: avoid; }}
+h2 {{ font-size: 16px; margin: 0; color: #2b5d8f; direction: ltr; text-align: right; }}
+.he-t {{ color: #6b7785; margin-bottom: 4px; }}
+.rule {{ font-weight: bold; margin-top: 6px; }} .note {{ margin-top: 6px; }}
+.ex {{ direction: ltr; text-align: left; background: #f1f5f9; border-radius: 6px; padding: 3px 8px; margin-top: 3px; }}
+.ex .ok {{ color: #1d8a4f; }} .ex .bad {{ color: #c0392b; text-decoration: line-through; }} .ex i {{ color: #aab4c0; font-style: normal; }}
+</style></head><body><h1>סיכום חוקי הדקדוק</h1><div class="sub">📌 חוק · ⚠️ דקות / מלכודת · <span style="color:#1d8a4f">✓ נכון</span> · <span style="color:#c0392b">✗ לא נכון</span></div>
+{"".join(secs)}</body></html>"""
+    page = ROOT / "docs" / "rules.html"
+    page.write_text(doc, encoding="utf8")
+    import subprocess
+    for exe in (r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+                r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"):
+        if Path(exe).exists():
+            subprocess.run([exe, "--headless", "--disable-gpu", "--no-pdf-header-footer",
+                            f"--print-to-pdf={pdf}", page.as_uri()], capture_output=True, timeout=120)
+            break
+    page.unlink()
+    print("Rules PDF:", "written" if pdf.exists() else "FAILED (no Chrome/Edge?)")
+
+
 def main():
     lessons = read_docx() + read_claude_lessons()
     lessons.sort(key=lambda l: date_key(l["date"]), reverse=True)  # newest first (stable)
@@ -335,7 +411,8 @@ def main():
         lesson["p"] = paras.get(lesson["date"], [])
     grammar, g_missing = read_grammar()
     roadmap = read_roadmap()
-    data = {"lessons": lessons, "grammar": grammar, "roadmap": roadmap}
+    rules = read_rules()
+    data = {"lessons": lessons, "grammar": grammar, "roadmap": roadmap, "rules": rules}
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text("window.VOCAB = " + json.dumps(data, ensure_ascii=False, indent=0) + ";\n",
                    encoding="utf8")
@@ -351,6 +428,9 @@ def main():
     upcoming = [i["key"] for st in roadmap["stages"] for i in st["items"] if i["key"] not in keys]
     print(f"Roadmap: {len(roadmap['stages'])} stages, level test {len(roadmap['test'])} questions; "
           f"next topics not written yet: {', '.join(upcoming[:3])}")
+    r_keys = {r["key"] for r in rules}
+    print(f"Grammar topics missing from content/rules.txt: {', '.join(g['file'] for g in grammar if g['file'] not in r_keys) or 'none'}")
+    write_rules_pdf(rules)
     unknown = [k for k in sent if k not in seen]
     if unknown:
         print("Sentence ids not found in the Word file:", ", ".join(unknown))

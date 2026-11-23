@@ -17,6 +17,9 @@ Hosted free on GitHub Pages from the `docs/` folder. UI is Hebrew (RTL); content
 - `content/claude-lessons.txt` — weekly lessons written by Claude (the private lessons ended 11-2026):
   `## new lesson dd-mm-yyyy`, `TOPIC:` grammar key, `WORD: en | he | pronunciation`. Marked 🤖 in the app.
   Grammar topics without a Word file live in grammar.txt with `SOURCE: claude` and `H:/P:/LI:/T:` lines (T: = table row).
+- `content/rules.txt` — one-page summary of every grammar rule (R: rule, N: subtlety, EX: examples with ✓/✗), in path order.
+  Shown in the app (🧩 → 📋) and built into `docs/rules.pdf` by build.py (headless Chrome). Every grammar topic needs a block;
+  build.py lists topics missing from it.
 - `content/roadmap.txt` — the learning path (stages A2→B2, ITEM = grammar topic key) and the level test (A2/B1/B2).
 - App tabs: 📚 words · 🧩 grammar · 🗣 speaking (in-app speech drills + copyable tutor prompt for the Claude app) · 🧭 path.
 - `docs/` — the app: `index.html`, `app.js` (all logic, vanilla JS), `style.css`, `sw.js`, `manifest.json`, `icons/`.
@@ -39,4 +42,5 @@ Hosted free on GitHub Pages from the `docs/` folder. UI is Hebrew (RTL); content
 3. New `content/NN-claude-<dd-mm>.txt`: 4 sentences per word + a `## lesson <date>` paragraph using most of the words.
 4. Grammar topic in `content/grammar.txt`: `## file <key>`, `SOURCE: claude`, TITLE, HE, 3–4 TIPs, explanation
    (H:/T:/P: lines, tables with examples), ~20 exercises with WHY. Mix in earlier topics' traps sometimes.
-5. Build until nothing is missing, check in the preview, commit and push.
+5. Add the topic's block to `content/rules.txt` (rules, subtleties, ✓/✗ examples).
+6. Build until nothing is missing, check in the preview, commit and push.

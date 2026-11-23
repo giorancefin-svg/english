@@ -803,7 +803,9 @@
 
   function grammarHome() {
     view.innerHTML = tabsHtml() + `
-      <div class="card"><div class="row"><span class="muted">${L('כללים וטיפים מהמורה — הסבר קצר ותרגול לכל נושא', 'Rules and tips from the tutor — a short explanation and practice for each topic')}</span><span class="spacer"></span>${langBtnHtml()}</div></div>
+      <div class="card"><div class="row"><span class="muted">${L('כללים וטיפים — הסבר קצר ותרגול לכל נושא', 'Rules and tips — a short explanation and practice for each topic')}</span><span class="spacer"></span>${langBtnHtml()}</div>
+        ${RULES.length ? `<div class="btn-row" style="margin-top:10px"><button class="btn" id="gRules">📋 ${L('סיכום כל החוקים', 'All rules summary')}</button>
+          <a class="btn secondary" href="rules.pdf" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;text-decoration:none">📄 PDF</a></div>` : ''}</div>
       ${GRAMMAR.length ? GRAMMAR.map((g, k) => { const p = gprog[g.id]; return `
         <div class="card topic">
           <div class="topic-h"><span class="num">${k + 1}</span><div class="txt"><div class="t"><bdi>${esc(g.title)}</bdi></div>${g.he ? `<div class="muted">${esc(g.he)}</div>` : ''}</div></div>
@@ -816,6 +818,33 @@
     view.querySelectorAll('[data-learn]').forEach(b => b.onclick = () => topicScreen(GRAMMAR[+b.dataset.learn]));
     view.querySelectorAll('[data-gq]').forEach(b => b.onclick = () => grammarRound([GRAMMAR[+b.dataset.gq]]));
     const ga = $('#gAll'); if (ga) ga.onclick = () => grammarRound(GRAMMAR);
+    const gr = $('#gRules'); if (gr) gr.onclick = rulesScreen;
+  }
+
+  // one page with every rule, subtlety and example (content/rules.txt)
+  const RULES = (window.VOCAB && VOCAB.rules) || [];
+  function rulesScreen() {
+    screen(L('סיכום כל החוקים', 'All rules summary'));
+    let n = 0;
+    view.innerHTML = `<div class="card muted">📌 ${L('חוק', 'rule')} · ⚠️ ${L('דקות / מלכודת', 'subtlety / trap')} · <span class="w-ok">✓</span> ${L('נכון', 'correct')} · <span class="w-bad">✗</span> ${L('לא נכון', 'wrong')} · 🔊 ${L('שמיעת הדוגמאות הנכונות', 'hear the correct examples')}</div>` +
+      RULES.map(r => {
+        const g = topicByKey(r.key);
+        return `<div class="card rules">
+          <div class="t"><bdi>${r.key === 'tips' ? '' : ++n + '. '}${esc(r.title)}</bdi></div><div class="muted">${heMix(r.he)}</div>
+          ${r.items.map(it => {
+            if (it.t !== 'EX') return `<div class="${it.t === 'R' ? 'r-rule' : 'r-note'}">${it.t === 'R' ? '📌' : '⚠️'} ${heMix(it.x)}</div>`;
+            const parts = it.x.split(' · ');
+            const good = parts.filter(p => !p.startsWith('✗')).map(p => p.replace(/^✓\s*/, '')).join(' ');
+            return `<div class="r-ex"><button class="say" data-say="${esc(good)}">🔊</button><span>${parts.map(p =>
+              `<span class="${p.startsWith('✓') ? 'w-ok' : p.startsWith('✗') ? 'r-bad' : ''}">${esc(p)}</span>`).join(' <i>·</i> ')}</span></div>`;
+          }).join('')}
+          ${g ? `<div class="btn-row" style="margin-top:10px"><button class="btn secondary" data-rl="${esc(g.id)}">📖 ${L('הסבר מלא', 'Full explanation')}</button><button class="btn" data-rq="${esc(g.id)}">✏️ ${L('תרגול', 'Practice')}</button></div>` : ''}
+        </div>`;
+      }).join('');
+    bindSay();
+    const byId = id => GRAMMAR.find(x => x.id === id);
+    view.querySelectorAll('[data-rl]').forEach(b => b.onclick = () => topicScreen(byId(b.dataset.rl)));
+    view.querySelectorAll('[data-rq]').forEach(b => b.onclick = () => grammarRound([byId(b.dataset.rq)]));
   }
 
   // the tutor's tables, shown as one card per row (readable on a phone)

@@ -10785,5 +10785,563 @@ window.VOCAB = {
 "why": "תנאי על העבר ← would have + V3."
 }
 ]
+},
+"rules": [
+{
+"key": "present simple & progresive",
+"title": "Present Simple & Present Progressive",
+"he": "הווה פשוט והווה מתמשך",
+"items": [
+{
+"t": "R",
+"x": "הווה פשוט – עובדות, הרגלים ושגרה. מילים שמרמזות: always, usually, often, every day."
+},
+{
+"t": "EX",
+"x": "I always drink coffee. · We review KPIs every quarter."
+},
+{
+"t": "R",
+"x": "הווה מתמשך – am / is / are + פועל עם ing. למה שקורה עכשיו, למצב זמני ולשינויים."
+},
+{
+"t": "EX",
+"x": "I'm drinking coffee now. · We're reviewing KPIs this week."
+},
+{
+"t": "R",
+"x": "עם he / she / it מוסיפים s לפועל. עם I / you / we / they – בלי s."
+},
+{
+"t": "EX",
+"x": "He works. · She eats. · They work."
+},
+{
+"t": "N",
+"x": "תפקיד קבוע = הווה פשוט, משהו זמני = הווה מתמשך."
+},
+{
+"t": "EX",
+"x": "I manage the department. · I'm managing a new team this month."
+},
+{
+"t": "N",
+"x": "פעלי מצב כמעט אף פעם לא באים עם ing: know, like, want, believe, own"
+},
+{
+"t": "EX",
+"x": "✓ I know the process. · ✗ I'm knowing the process."
+},
+{
+"t": "N",
+"x": "always + ing = משהו שחוזר ומעצבן."
+},
+{
+"t": "EX",
+"x": "He's always interrupting meetings."
 }
+]
+},
+{
+"key": "6",
+"title": "do / does and have / has",
+"he": "do / does ו-have / has",
+"items": [
+{
+"t": "R",
+"x": "שאלה ושלילה בהווה פשוט: do / don't, ועם he / she / it – does / doesn't."
+},
+{
+"t": "EX",
+"x": "Do you like coffee? · Does she play tennis? · He doesn't eat meat."
+},
+{
+"t": "N",
+"x": "אחרי does / doesn't הפועל חוזר לצורת בסיס – בלי s."
+},
+{
+"t": "EX",
+"x": "✓ Does she play? · ✗ Does she plays? · ✓ He doesn't work. · ✗ He doesn't works."
+},
+{
+"t": "R",
+"x": "have = יש לי. עם he / she / it אומרים has."
+},
+{
+"t": "EX",
+"x": "We have a car. · She has two cats."
+},
+{
+"t": "N",
+"x": "אחרי does / doesn't חוזרים ל-have, לא has."
+},
+{
+"t": "EX",
+"x": "✓ Does he have a car? · ✗ Does he has a car?"
+},
+{
+"t": "N",
+"x": "do / have יכולים להיות גם הפועל עצמו, לא רק פועל עזר."
+},
+{
+"t": "EX",
+"x": "I do yoga. · She does her homework. · I have lunch at noon. · She has a shower."
+}
+]
+},
+{
+"key": "Giora Bar (8)",
+"title": "Past Simple & Past Progressive",
+"he": "עבר פשוט ועבר מתמשך",
+"items": [
+{
+"t": "R",
+"x": "עבר פשוט – משהו שקרה ונגמר בעבר, או הרגל מהעבר. פועל אחד בעבר."
+},
+{
+"t": "EX",
+"x": "I worked yesterday. · I ate breakfast."
+},
+{
+"t": "R",
+"x": "עבר מתמשך – was / were + פועל עם ing. פעולה ארוכה, טוב לסיפורים."
+},
+{
+"t": "EX",
+"x": "I was working yesterday at 7."
+},
+{
+"t": "R",
+"x": "am / is → was. are → were."
+},
+{
+"t": "EX",
+"x": "I was a student. · They were at home."
+},
+{
+"t": "N",
+"x": "אסור was וגם פועל בעבר יחד – או was + ing, או פועל בעבר לבד."
+},
+{
+"t": "EX",
+"x": "✗ I was wanted to go. · ✓ I wanted to go. · ✓ I was working."
+},
+{
+"t": "N",
+"x": "פעולה ארוכה שנקטעה: was / were + ing, ואז when + עבר פשוט."
+},
+{
+"t": "EX",
+"x": "I was eating breakfast when my mom called."
+},
+{
+"t": "N",
+"x": "שני משפטים נפרדים בלי when = שני אירועים שלא קשורים."
+},
+{
+"t": "EX",
+"x": "I ate breakfast. My mom called me."
+}
+]
+},
+{
+"key": "1",
+"title": "didn't + base verb",
+"he": "עבר בשלילה: didn't + פועל בסיס",
+"items": [
+{
+"t": "R",
+"x": "בשלילה בעבר משתמשים ב-didn't, ואחריו הפועל בצורת בסיס. didn't כבר מסמן שזה עבר."
+},
+{
+"t": "EX",
+"x": "✓ I didn't know. · ✗ I didn't knew. · ✓ She didn't go. · ✗ She didn't went."
+},
+{
+"t": "R",
+"x": "אותו כלל בשאלה: Did + פועל בסיס."
+},
+{
+"t": "EX",
+"x": "✓ Did you call him? · ✗ Did you called him?"
+},
+{
+"t": "N",
+"x": "במשפט חיובי – צורת העבר הרגילה."
+},
+{
+"t": "EX",
+"x": "I went. · I knew. · I called."
+}
+]
+},
+{
+"key": "4",
+"title": "No \"to\" after modal verbs",
+"he": "בלי to אחרי can / should / must",
+"items": [
+{
+"t": "R",
+"x": "אחרי can, could, should, must, will, would, may, might – פועל בסיס, בלי to."
+},
+{
+"t": "EX",
+"x": "✓ I can help you. · ✗ I can to help you. · ✓ You should call the client."
+},
+{
+"t": "N",
+"x": "גם עם he / she לא מוסיפים s – לא לפועל המודאלי ולא לפועל שאחריו."
+},
+{
+"t": "EX",
+"x": "✓ She can swim. · ✗ She cans swim. · ✗ She can swims."
+},
+{
+"t": "N",
+"x": "שלילה: can't, shouldn't, mustn't, won't + פועל בסיס."
+},
+{
+"t": "EX",
+"x": "You shouldn't wait. · I can't come."
+}
+]
+},
+{
+"key": "Giora Bar (7)",
+"title": "will + verb (no \"to\")",
+"he": "אחרי will – פועל בלי to",
+"items": [
+{
+"t": "R",
+"x": "עתיד עם will: נושא + will + פועל בסיס."
+},
+{
+"t": "EX",
+"x": "✓ I will call you. · ✗ I will to call you. · ✓ They will arrive tomorrow."
+},
+{
+"t": "N",
+"x": "עם פעלים רגילים כמו want / need / like – כן צריך to. רק אחרי will ומודאליים – בלי."
+},
+{
+"t": "EX",
+"x": "I want to go. · I need to work. · I will go."
+},
+{
+"t": "N",
+"x": "אחרי will בא be, לא is / am / are."
+},
+{
+"t": "EX",
+"x": "✓ He will be late. · ✗ He will is late."
+}
+]
+},
+{
+"key": "5",
+"title": "Adjectives vs Adverbs",
+"he": "שם תואר ותואר הפועל",
+"items": [
+{
+"t": "R",
+"x": "Adjective מתאר שם עצם (אדם, דבר, מקום). עונה על: איזה? מה סוג?"
+},
+{
+"t": "EX",
+"x": "a happy child · a beautiful house · She is careful."
+},
+{
+"t": "R",
+"x": "Adverb מתאר פועל (איך עושים), ולרוב נגמר ב-ly."
+},
+{
+"t": "EX",
+"x": "She sings beautifully. · He drives carefully. · He runs quickly."
+},
+{
+"t": "N",
+"x": "good הוא שם תואר; תואר הפועל שלו הוא well."
+},
+{
+"t": "EX",
+"x": "✓ He plays well. · ✗ He plays good. · ✓ He is a good player."
+},
+{
+"t": "N",
+"x": "fast, hard, early, late – אותה מילה גם כתואר הפועל, בלי ly."
+},
+{
+"t": "EX",
+"x": "✓ He works hard. · ✗ He works hardly. · ✓ She drives fast."
+},
+{
+"t": "N",
+"x": "יש מילים שנגמרות ב-ly והן שמות תואר: friendly, lovely, lonely, costly, likely, elderly, daily, weekly, monthly."
+},
+{
+"t": "EX",
+"x": "a friendly agent · a costly mistake · a weekly meeting"
+},
+{
+"t": "N",
+"x": "אחרי be / feel / look / seem בא שם תואר."
+},
+{
+"t": "EX",
+"x": "✓ I feel good. · ✓ You look tired."
+}
+]
+},
+{
+"key": "3",
+"title": "very vs really",
+"he": "very או really",
+"items": [
+{
+"t": "R",
+"x": "very = מאוד. רק לפני שם תואר או תואר הפועל."
+},
+{
+"t": "EX",
+"x": "She is very tired. · He drives very carefully."
+},
+{
+"t": "R",
+"x": "really = ממש / באמת. אפשר לפני שם תואר, וגם לפני פועל."
+},
+{
+"t": "EX",
+"x": "She is really tired. · I really like it."
+},
+{
+"t": "N",
+"x": "לפני פועל – רק really, אף פעם לא very."
+},
+{
+"t": "EX",
+"x": "✓ I really enjoy the class. · ✗ I very enjoy the class. · ✗ I very like it."
+}
+]
+},
+{
+"key": "2",
+"title": "all vs whole",
+"he": "all או whole",
+"items": [
+{
+"t": "R",
+"x": "all – הרבה דברים או אנשים יחד."
+},
+{
+"t": "EX",
+"x": "All the houses are sold. · All my clients called today."
+},
+{
+"t": "R",
+"x": "whole – דבר אחד שלם, מההתחלה עד הסוף."
+},
+{
+"t": "EX",
+"x": "I worked the whole day. · He bought the whole building."
+},
+{
+"t": "N",
+"x": "הסדר שונה: all the ... לעומת the whole ..."
+},
+{
+"t": "EX",
+"x": "✓ all my clients · ✓ the whole day · ✓ all day · ✗ the all day · ✗ whole the day"
+}
+]
+},
+{
+"key": "present perfect",
+"title": "Present Perfect (I have done)",
+"he": "הווה מושלם – have / has + V3",
+"items": [
+{
+"t": "R",
+"x": "have / has + צורה שלישית של הפועל, V3."
+},
+{
+"t": "EX",
+"x": "I have finished the report. · She has called the client."
+},
+{
+"t": "R",
+"x": "מתי: ניסיון בחיים בלי זמן מדויק, משהו שהתחיל בעבר ונמשך עד היום, ותוצאה שמורגשת עכשיו."
+},
+{
+"t": "EX",
+"x": "I have visited Paris twice. · I have worked here since 2015. · I have lost my keys."
+},
+{
+"t": "N",
+"x": "עם זמן מדויק בעבר – רק עבר פשוט: yesterday, last year, in 2020"
+},
+{
+"t": "EX",
+"x": "✓ I went to London last year. · ✗ I have gone to London last year."
+},
+{
+"t": "N",
+"x": "מילים שבאות הרבה עם Present Perfect: ever, never, already, yet, just, so far, since, for."
+},
+{
+"t": "EX",
+"x": "Have you ever been to New York? · I haven't finished yet. · I have already paid."
+},
+{
+"t": "N",
+"x": "yet – בשלילה ובשאלה, בסוף המשפט. already – במשפט חיובי, לפני ה-V3."
+},
+{
+"t": "N",
+"x": "since + נקודת זמן, for + משך זמן."
+},
+{
+"t": "EX",
+"x": "since 2015 · since Monday · for ten years · for two hours"
+},
+{
+"t": "N",
+"x": "been = היית ושבת. gone = הלך ועוד שם."
+},
+{
+"t": "EX",
+"x": "She has been to Paris. · She has gone to Paris (she is there now)."
+},
+{
+"t": "N",
+"x": "V3 חשובים: be–been, go–gone, do–done, see–seen, take–taken, write–written, eat–eaten, buy–bought, make–made."
+}
+]
+},
+{
+"key": "future forms",
+"title": "will or going to",
+"he": "עתיד: will או going to",
+"items": [
+{
+"t": "R",
+"x": "going to – תוכנית שכבר החלטת עליה לפני שמדברים. am / is / are + going to + פועל."
+},
+{
+"t": "EX",
+"x": "I'm going to visit my parents on Saturday. · She is going to buy a car."
+},
+{
+"t": "R",
+"x": "will – החלטה של הרגע, הבטחה, הצעה לעזור, ומה שאתה חושב שיקרה."
+},
+{
+"t": "EX",
+"x": "OK, I'll answer the phone. · I promise I'll be on time. · I think it will rain."
+},
+{
+"t": "N",
+"x": "תחזית לפי סימן שרואים עכשיו – going to."
+},
+{
+"t": "EX",
+"x": "Look at the clouds, it's going to rain. · Be careful, you're going to fall!"
+},
+{
+"t": "N",
+"x": "פגישה שכבר נקבעה עם שעה ומקום – הרבה פעמים הווה מתמשך."
+},
+{
+"t": "EX",
+"x": "I'm meeting a client at 10 tomorrow."
+},
+{
+"t": "N",
+"x": "probably / definitely באים אחרי will."
+},
+{
+"t": "EX",
+"x": "✓ He will probably call. · ✓ I'll definitely be there."
+},
+{
+"t": "N",
+"x": "ב-going to לא לשכוח את to ואת am / is / are."
+},
+{
+"t": "EX",
+"x": "✓ We are going to move. · ✗ We going to move. · ✗ We are going move."
+}
+]
+},
+{
+"key": "tips",
+"title": "The most common mistakes – quick check",
+"he": "הטעויות הנפוצות – בדיקה מהירה",
+"items": [
+{
+"t": "N",
+"x": "he / she / it בהווה – s בסוף הפועל."
+},
+{
+"t": "EX",
+"x": "✓ He works. · ✗ He work."
+},
+{
+"t": "N",
+"x": "אחרי does / didn't / can / will / should – פועל בסיס בלי s, בלי ed ובלי to."
+},
+{
+"t": "EX",
+"x": "✓ Does he know? · ✓ I didn't see. · ✓ I can help. · ✓ I will call."
+},
+{
+"t": "N",
+"x": "was / were + ing, או פועל בעבר – לא שניהם יחד."
+},
+{
+"t": "EX",
+"x": "✓ I was working. · ✓ I worked. · ✗ I was worked."
+},
+{
+"t": "N",
+"x": "זמן מדויק בעבר = עבר פשוט, לא Present Perfect."
+},
+{
+"t": "EX",
+"x": "✓ I saw him yesterday. · ✗ I have seen him yesterday."
+},
+{
+"t": "N",
+"x": "לפני פועל – really, לא very."
+},
+{
+"t": "EX",
+"x": "✓ I really like it."
+},
+{
+"t": "N",
+"x": "good = שם תואר, well = איך עושים."
+},
+{
+"t": "EX",
+"x": "✓ You speak English well."
+},
+{
+"t": "N",
+"x": "the whole + דבר אחד, all + הרבה דברים."
+},
+{
+"t": "EX",
+"x": "✓ the whole building · ✓ all the buildings"
+},
+{
+"t": "N",
+"x": "תוכנית = going to. החלטה עכשיו = will."
+},
+{
+"t": "EX",
+"x": "I'm going to study tonight. · Wait, I'll help you."
+}
+]
+}
+]
 };
