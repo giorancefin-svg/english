@@ -1158,6 +1158,7 @@
         <div class="muted" style="margin-top:4px">${lv
           ? L(`תוצאה אחרונה: ${lv.level} (${new Date(lv.date).toLocaleDateString('he-IL')}). כדאי לחזור על המבחן כל חודש-חודשיים.`, `Last result: ${lv.level} (${new Date(lv.date).toLocaleDateString('en-GB')}). Retake it every month or two.`)
           : L(`${ROAD.test.length} שאלות, בערך 5 דקות. המבחן יראה מאיזה שלב להתחיל.`, `${ROAD.test.length} questions, about 5 minutes. It shows which stage to start from.`)}</div>
+        ${lv && lv.miss && lv.miss.length ? `<button class="btn secondary" id="lvMiss">❌ ${L(`הטעויות שלי במבחן (${lv.miss.length})`, `My test mistakes (${lv.miss.length})`)}</button>` : ''}
         <button class="btn" id="lvTest">${lv ? L('עשה שוב את המבחן', 'Take the test again') : L('התחל מבחן רמה', 'Start the level test')}</button>
       </div>
       ${ROAD.stages.map(st => `
@@ -1177,15 +1178,16 @@
       <div class="card muted">✅ ${L('תרגלת (70% ומעלה)', 'Practiced (70%+)')} · 📖 ${L('זמין לתרגול', 'Ready to practice')} · ⭐ ${L('הבא בתור', 'Next')} · 🔒 ${L('בהמשך', 'Later')}</div>`;
     bindTabs();
     $('#lvTest').onclick = levelTest;
+    if ($('#lvMiss')) $('#lvMiss').onclick = levelMistakes;
     view.querySelectorAll('[data-topic]').forEach(b => b.onclick = () => topicScreen(GRAMMAR.find(g => g.id === b.dataset.topic)));
   }
   function levelTest() {
     const items = ROAD.test.slice();
     let i = 0;
-    const res = {};
+    const res = {}, miss = [];
     screen(L('מבחן רמה', 'Level test'));
     const next = () => {
-      if (i >= items.length) return levelResult(res);
+      if (i >= items.length) return levelResult(res, miss);
       const q = items[i], correct = q.a[0], opts = shuffle(q.a);
       view.innerHTML = `<div class="counter"><span>${L(`שאלה <b>${i + 1}</b> מתוך <b>${items.length}</b>`, `Question <b>${i + 1}</b> of <b>${items.length}</b>`)}</span></div>
         <div class="progress"><i style="width:${(i / items.length) * 100}%"></i></div>
@@ -1195,7 +1197,9 @@
       const answer = b => {
         const r = res[q.level] || (res[q.level] = { ok: 0, total: 0 });
         r.total++;
-        if (b && opts[+b.dataset.k] === correct) r.ok++;
+        const you = b ? opts[+b.dataset.k] : null;
+        if (you === correct) r.ok++;
+        else miss.push({ level: q.level, q: q.q, a: correct, you, why: q.why });
         i++; next(); // no feedback during the test – results at the end
       };
       view.querySelectorAll('.opt').forEach(b => b.onclick = () => answer(b));
@@ -1203,16 +1207,38 @@
     };
     next();
   }
-  function levelResult(res) {
+  function mistakesHtml(miss) {
+    if (!miss || !miss.length) return `<div class="card"><b>🏆 ${L('אין טעויות – כל התשובות נכונות!', 'No mistakes – every answer was right!')}</b></div>`;
+    return `<div class="lesson-h">❌ ${L(`איפה טעית (${miss.length})`, `Your mistakes (${miss.length})`)}</div>` + miss.map(m => {
+      const full = m.q.replace('___', m.a);
+      return `<div class="card miss">
+        <div class="row"><span class="tag">${esc(m.level)}</span><span class="spacer"></span><button class="say" data-say="${esc(full)}">🔊</button></div>
+        <div class="sentence en" style="font-size:18px">${esc(m.q).replace('___', `<span class="blank ok">${esc(m.a)}</span>`)}</div>
+        <div class="muted" style="margin-top:6px">${L('ענית', 'You answered')}: ${m.you ? `<b class="w-bad"><bdi dir="ltr">${esc(m.you)}</bdi></b>` : L('🤷 לא יודע', "🤷 I don't know")} · ${L('נכון', 'Correct')}: <b class="w-ok"><bdi dir="ltr">${esc(m.a)}</bdi></b></div>
+        ${m.why ? `<div class="why">💡 ${heMix(m.why)}</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+  function bindSay() { view.querySelectorAll('[data-say]').forEach(b => b.onclick = e => { e.stopPropagation(); speak(b.dataset.say); }); }
+  function levelMistakes() {
+    const lv = LS.get('level', null);
+    screen(L('הטעויות במבחן הרמה', 'Level test mistakes'));
+    view.innerHTML = mistakesHtml(lv && lv.miss) + `<button class="btn" id="toPath">🧭 ${L('למסלול שלי', 'To my path')}</button>`;
+    bindSay();
+    $('#toPath').onclick = home;
+  }
+  function levelResult(res, miss) {
     const pass = lv => res[lv] && res[lv].ok / res[lv].total >= 0.6;
     const level = !pass('A2') ? 'A1–A2' : !pass('B1') ? 'A2' : !pass('B2') ? 'B1' : 'B2';
     const stage = { 'A1–A2': 1, A2: 1, B1: 2, B2: 3 }[level];
-    LS.set('level', { level, date: Date.now(), res });
+    LS.set('level', { level, date: Date.now(), res, miss });
     view.innerHTML = `<div class="card result"><div class="muted">${L('הרמה שלך כרגע', 'Your level now')}</div><div class="score">${level}</div>
         <div style="font-size:17px">${L(`מומלץ להתמקד בשלב ${stage} במסלול`, `Focus on stage ${stage} of the path`)}</div></div>
       <div class="card">${['A2', 'B1', 'B2'].map(lv => res[lv] ? `<div class="row" style="padding:6px 0"><b>${lv}</b><span class="spacer"></span>${res[lv].ok}/${res[lv].total}</div>` : '').join('')}</div>
       <div class="card muted">${L('A2 = בסיסי · B1 = מסתדר בשיחה יומיומית · B2 = מדבר בחופשיות על רוב הנושאים. המבחן קצר – הוא נותן כיוון, לא ציון מדויק.', 'A2 = basic · B1 = everyday conversation · B2 = speaks freely on most topics. A short test – a direction, not an exact grade.')}</div>
+      ${mistakesHtml(miss)}
       <button class="btn" id="toPath">🧭 ${L('למסלול שלי', 'To my path')}</button>`;
+    bindSay();
     $('#toPath').onclick = home;
   }
 

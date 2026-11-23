@@ -214,3 +214,8 @@ main { padding: 14px; max-width: 640px; margin: 0 auto; }
 .road-item.soon { opacity: .55; }
 .road-item.next .txt > div:first-child { font-weight: 800; color: var(--brand); }
 .level-badge { background: var(--brand); color: #fff; border-radius: 999px; padding: 3px 12px; font-weight: 800; }
+
+/* level test mistakes */
+.miss .tag { background: var(--brand-2); color: var(--brand); border-radius: 999px; padding: 2px 10px; font-weight: 800; font-size: 13px; }
+.miss .say { border: 0; background: transparent; font-size: 20px; }
+.why { margin-top: 8px; padding: 10px 12px; border-radius: 10px; background: var(--brand-2); font-size: 15.5px; line-height: 1.5; }
